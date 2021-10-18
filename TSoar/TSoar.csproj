@@ -1,0 +1,1871 @@
+﻿<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="..\packages\Microsoft.Net.Compilers.2.10.0\build\Microsoft.Net.Compilers.props" Condition="Exists('..\packages\Microsoft.Net.Compilers.2.10.0\build\Microsoft.Net.Compilers.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9A5B3CA1-44AB-4119-950B-4DF7FDE53F70}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TSoar</RootNamespace>
+    <AssemblyName>TSoar</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort>44361</IISExpressSSLPort>
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>
+    </DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>
+    </DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AjaxControlToolkit, Version=18.1.1.0, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL">
+      <HintPath>..\packages\AjaxControlToolkit.18.1.1\lib\net40\AjaxControlToolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="Dapper, Version=1.60.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Dapper.1.60.1\lib\net451\Dapper.dll</HintPath>
+    </Reference>
+    <Reference Include="DevDefined.OAuth, Version=1.0.0.0, Culture=neutral, PublicKeyToken=a3261f5b4697e67d, processorArchitecture=MSIL">
+      <HintPath>..\packages\DevDefined.OAuth.0.2\lib\DevDefined.OAuth.dll</HintPath>
+    </Reference>
+    <Reference Include="Intuit.Ipp.Core, Version=7.5.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\IppDotNetSdkForQuickBooksApiV3.7.5.0\lib\Intuit.Ipp.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Intuit.Ipp.Data, Version=7.5.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\IppDotNetSdkForQuickBooksApiV3.7.5.0\lib\Intuit.Ipp.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Intuit.Ipp.DataService, Version=7.5.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\IppDotNetSdkForQuickBooksApiV3.7.5.0\lib\Intuit.Ipp.DataService.dll</HintPath>
+    </Reference>
+    <Reference Include="Intuit.Ipp.Diagnostics, Version=7.5.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\IppDotNetSdkForQuickBooksApiV3.7.5.0\lib\Intuit.Ipp.Diagnostics.dll</HintPath>
+    </Reference>
+    <Reference Include="Intuit.Ipp.EntitlementService, Version=7.5.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\IppDotNetSdkForQuickBooksApiV3.7.5.0\lib\Intuit.Ipp.EntitlementService.dll</HintPath>
+    </Reference>
+    <Reference Include="Intuit.Ipp.Exception, Version=7.5.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\IppDotNetSdkForQuickBooksApiV3.7.5.0\lib\Intuit.Ipp.Exception.dll</HintPath>
+    </Reference>
+    <Reference Include="Intuit.Ipp.GlobalTaxService, Version=7.5.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\IppDotNetSdkForQuickBooksApiV3.7.5.0\lib\Intuit.Ipp.GlobalTaxService.dll</HintPath>
+    </Reference>
+    <Reference Include="Intuit.Ipp.LinqExtender, Version=7.5.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\IppDotNetSdkForQuickBooksApiV3.7.5.0\lib\Intuit.Ipp.LinqExtender.dll</HintPath>
+    </Reference>
+    <Reference Include="Intuit.Ipp.OAuth2PlatformClient, Version=7.5.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\IppDotNetSdkForQuickBooksApiV3.7.5.0\lib\Intuit.Ipp.OAuth2PlatformClient.dll</HintPath>
+    </Reference>
+    <Reference Include="Intuit.Ipp.PlatformService, Version=7.5.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\IppDotNetSdkForQuickBooksApiV3.7.5.0\lib\Intuit.Ipp.PlatformService.dll</HintPath>
+    </Reference>
+    <Reference Include="Intuit.Ipp.QueryFilter, Version=7.5.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\IppDotNetSdkForQuickBooksApiV3.7.5.0\lib\Intuit.Ipp.QueryFilter.dll</HintPath>
+    </Reference>
+    <Reference Include="Intuit.Ipp.ReportService, Version=7.5.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\IppDotNetSdkForQuickBooksApiV3.7.5.0\lib\Intuit.Ipp.ReportService.dll</HintPath>
+    </Reference>
+    <Reference Include="Intuit.Ipp.Retry, Version=7.5.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\IppDotNetSdkForQuickBooksApiV3.7.5.0\lib\Intuit.Ipp.Retry.dll</HintPath>
+    </Reference>
+    <Reference Include="Intuit.Ipp.Security, Version=7.5.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\IppDotNetSdkForQuickBooksApiV3.7.5.0\lib\Intuit.Ipp.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="Intuit.Ipp.Utility, Version=7.5.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\IppDotNetSdkForQuickBooksApiV3.7.5.0\lib\Intuit.Ipp.Utility.dll</HintPath>
+    </Reference>
+    <Reference Include="Intuit.Ipp.WebHooksService, Version=7.5.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\IppDotNetSdkForQuickBooksApiV3.7.5.0\lib\Intuit.Ipp.WebHooksService.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=2.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.IO.Compression" />
+    <Reference Include="System.Runtime.Caching" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Web.DataVisualization" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Accounting\Accounting.aspx" />
+    <Content Include="Accounting\AdminFin\ChrtOActs.aspx" />
+    <Content Include="Accounting\AdminFin\Connect2QBO.aspx" />
+    <Content Include="Accounting\AdminFin\QBO_Customers.aspx" />
+    <Content Include="Accounting\FinDetails\ExpVendAP\Expenses.aspx" />
+    <Content Include="Accounting\FinDetails\ExpVendAP\ExpFilter.aspx" />
+    <Content Include="Accounting\FinDetails\ExpVendAP\ExpVendAP.aspx" />
+    <Content Include="Accounting\FinDetails\ExpVendAP\Vendors.aspx" />
+    <Content Include="Accounting\FinDetails\FilterSortAttFiles.aspx" />
+    <Content Include="Accounting\FinDetails\SalesAR\FlyActInvoice.aspx" />
+    <Content Include="Accounting\FinDetails\SalesAR\Members.aspx" />
+    <Content Include="Accounting\FinDetails\SalesAR\MinFlyChrg.aspx" />
+    <Content Include="Accounting\FinDetails\SalesAR\Rates.aspx" />
+    <Content Include="Accounting\FinDetails\SalesAR\Sales.aspx" />
+    <Content Include="Accounting\FinDetails\SalesAR\SalesAR.aspx" />
+    <Content Include="AdminPages\DBMaint\Bridge_UserRoles_Settings.aspx" />
+    <Content Include="AdminPages\DBMaint\DBIntegrity.aspx" />
+    <Content Include="AdminPages\DBMaint\DBMaint.aspx" />
+    <Content Include="AdminPages\Security\CreateUserWizardWithRoles.aspx" />
+    <Content Include="AdminPages\Security\EditUsers.aspx" />
+    <Content Include="AdminPages\Security\ManageRoles.aspx" />
+    <Content Include="AdminPages\Security\ResetPwd.aspx" />
+    <Content Include="AdminPages\Security\Security.aspx" />
+    <Content Include="AdminPages\Security\UsersAndRoles.aspx" />
+    <Content Include="AdminPages\web.config" />
+    <Content Include="Board\Board.aspx" />
+    <Content Include="Board\Docs\Completed\CompletedDocs.aspx" />
+    <Content Include="Board\Docs\Working\WorkingDocs.aspx" />
+    <Content Include="ClubMembership\CMS_PeopleEquipRolesTypes.aspx" />
+    <Content Include="CSS\images\cloudsWLogo.jpg" />
+    <Content Include="DB\SQL\bTNPF_CheckDupOp.sql" />
+    <Content Include="DB\SQL\iTNPF_ClosestOpInTime.sql" />
+    <Content Include="DB\SQL\sfOpsSchedInitDate.sql" />
+    <Content Include="DB\SQL\sf_AccountsFlatList.sql" />
+    <Content Include="DB\SQL\sf_EqCompList.sql" />
+    <Content Include="DB\SQL\sf_ExpenseJournal.sql" />
+    <Content Include="DB\SQL\sf_ExpenseQuery.sql" />
+    <Content Include="DB\SQL\sf_RewardsJournal.sql" />
+    <Content Include="DB\SQL\spCheck4MFCOverlap.sql" />
+    <Content Include="DB\SQL\spCheck4PeopleFromToOverlaps.sql" />
+    <Content Include="DB\SQL\spDDL_ChargeCodes.sql" />
+    <Content Include="DB\SQL\spFiltOps.sql" />
+    <Content Include="DB\SQL\spFiltOpsDistinct.sql" />
+    <Content Include="DB\SQL\spFlyOpsFromInvoice.sql" />
+    <Content Include="DB\SQL\spForeignKeyRefs.sql" />
+    <Content Include="DB\SQL\spForeinKeyRefs.sql" />
+    <Content Include="DB\SQL\spGenMFCs.sql" />
+    <Content Include="DB\SQL\spGetMFCPars.sql" />
+    <Content Include="DB\SQL\spInvoiceDetails.sql" />
+    <Content Include="DB\SQL\spInvoiceSummaries.sql" />
+    <Content Include="DB\SQL\spInvoiceTotal.sql" />
+    <Content Include="DB\SQL\spMembCatFromFlyChg.sql" />
+    <Content Include="DB\SQL\spMemberDisplayNames.sql" />
+    <Content Include="DB\SQL\spMemberDisplayNamesInv.sql" />
+    <Content Include="DB\SQL\spOperHours.sql" />
+    <Content Include="DB\SQL\spRemoveMFCs.sql" />
+    <Content Include="DB\SQL\spSelectRate.sql" />
+    <Content Include="DB\SQL\spSettingsCheck.sql" />
+    <Content Include="DB\SQL\sp_EquipRolesTypes.sql" />
+    <Content Include="DB\SQL\sp_EquipTypes4Role.sql" />
+    <Content Include="DB\SQL\sp_FlightLogRows.sql" />
+    <Content Include="DB\SQL\sp_ManageSettings.sql" />
+    <Content Include="DB\SQL\sp_PeopleEqRoTy.sql" />
+    <Content Include="DB\SQL\sp_PeopleWhoCanTow.sql" />
+    <Content Include="DB\SQL\sp_StatsRptByGlider.sql" />
+    <Content Include="DB\SQL\sp_StatsRptByPilot.sql" />
+    <Content Include="DB\SQL\TEEq_CleanUp.sql" />
+    <Content Include="DB\SQL\TEEq_DataSetup.sql" />
+    <Content Include="DB\SQL\tfEqCumData.sql" />
+    <Content Include="DB\SQL\tf_EqStatList.sql" />
+    <Content Include="DB\SQL\TNPF_Aviator2bCharged.sql" />
+    <Content Include="DB\SQL\TNPF_EligibleRewardMembers.sql" />
+    <Content Include="DB\SQL\TNPF_FltOPsSched.sql" />
+    <Content Include="DB\SQL\TNPF_IsInstructor.sql" />
+    <Content Include="DB\SQL\TNPF_LinkBeginEnd.sql" />
+    <Content Include="DB\SQL\TNPF_MRewards2.sql" />
+    <Content Include="DB\SQL\TNPF_OperCycles.sql" />
+    <Content Include="DB\SQL\TNPF_OperDist.sql" />
+    <Content Include="DB\SQL\tnp_ID_from_UniqueFld.sql" />
+    <Content Include="Developer\Debug\DebugControl.aspx" />
+    <Content Include="Developer\PathRoot.aspx" />
+    <Content Include="Developer\SWHistoryInclude.html" />
+    <Content Include="Developer\SWLab\AjaxPractice.aspx" />
+    <Content Include="Developer\SWLab\APTSettings.aspx" />
+    <Content Include="Developer\SWLab\TimeAndDate.aspx" />
+    <Content Include="Developer\ThrowException.aspx" />
+    <Content Include="Emergency.aspx" />
+    <Content Include="Equipment\Bridge_EqRoleLaunchMeth.aspx" />
+    <Content Include="Equipment\EqComponents.aspx" />
+    <Content Include="Accounting\AdminFin\AdminFin.aspx" />
+    <Content Include="Accounting\AdminFin\AuditTrail.aspx" />
+    <Content Include="Accounting\AdminFin\Banking.aspx" />
+    <Content Include="Board\Finance\Finance.aspx" />
+    <Content Include="Accounting\FinDetails\FinDetails.aspx" />
+    <Content Include="Accounting\FinDetails\ExpVendAP\XactExpense.aspx" />
+    <Content Include="Accounting\FinReports\FinReports.aspx" />
+    <Content Include="Accounting\AdminFin\EditCoA.aspx" />
+    <Content Include="Accounting\AdminFin\Subledgers.aspx" />
+    <Content Include="Board\Operations\Operations.aspx" />
+    <Content Include="Board\Operations\OpsScheduleMaint.aspx" />
+    <Content Include="clouds.jpg" />
+    <Content Include="ClubMembership\CMS_ContactEdit.aspx" />
+    <Content Include="ClubMembership\CMS_Contacts.aspx" />
+    <Content Include="ClubMembership\web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Developer\BrowserProperties.aspx" />
+    <Content Include="Developer\DBProperties.aspx" />
+    <Content Include="Developer\Developer.aspx" />
+    <Content Include="Developer\SWLab\SWLab.aspx" />
+    <Content Include="Developer\SWLab\TextBoxResearch.aspx" />
+    <Content Include="Equipment\EquipAging\EqAgingActionItems.aspx" />
+    <Content Include="Equipment\EquipAging\EqAgingIntro.aspx" />
+    <Content Include="Equipment\EquipAging\EqAgingItems.aspx" />
+    <Content Include="Equipment\EquipAging\EqAgingOperDat.aspx" />
+    <Content Include="Equipment\EquipAging\EqAgingParSets.aspx" />
+    <Content Include="Equipment\EquipAging\OpsCalendars.aspx" />
+    <Content Include="Equipment\EquipmentList.aspx" />
+    <Content Include="Equipment\Equipmt.aspx" />
+    <Content Include="Equipment\EquipRolesTypes.aspx" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Historian\web.config" />
+    <Content Include="i\BlueButton.jpg" />
+    <Content Include="i\Cancel.jpg" />
+    <Content Include="i\CarouselShow\1945_DeHavilland_Canada_DH-98_Mosquito_FBMK26.jpg" />
+    <Content Include="i\CarouselShow\1969_Aerovodochody_L-29_DELFIN.jpg" />
+    <Content Include="i\CarouselShow\4-engineAC_Landing_SettingSun.jpg" />
+    <Content Include="i\CarouselShow\707WorldAirways.jpg" />
+    <Content Include="i\CarouselShow\737BahamasAir.jpg" />
+    <Content Include="i\CarouselShow\747-400_VirginAtlanticLanding.jpg" />
+    <Content Include="i\CarouselShow\A-4SkyHawk.jpg" />
+    <Content Include="i\CarouselShow\A330.jpg" />
+    <Content Include="i\CarouselShow\Abrams_P-1_Explorer.jpg" />
+    <Content Include="i\CarouselShow\AirAlgerieB747.jpg" />
+    <Content Include="i\CarouselShow\Airbus-321_NEO.jpg" />
+    <Content Include="i\CarouselShow\AirbusPelikan2RescueHelicopter.jpg" />
+    <Content Include="i\CarouselShow\AirFrance747WithEscorts.jpg" />
+    <Content Include="i\CarouselShow\AirFranceComet.jpg" />
+    <Content Include="i\CarouselShow\AirFranceConcorde.jpg" />
+    <Content Include="i\CarouselShow\An-2.jpg" />
+    <Content Include="i\CarouselShow\An-225.jpg" />
+    <Content Include="i\CarouselShow\ATR_42-600_ApproachConfig.jpg" />
+    <Content Include="i\CarouselShow\B-17.jpg" />
+    <Content Include="i\CarouselShow\B-17FromAboveLeft.jpg" />
+    <Content Include="i\CarouselShow\B-2_Bomber.jpg" />
+    <Content Include="i\CarouselShow\B1B.jpg" />
+    <Content Include="i\CarouselShow\B727_Landing_FromBehind.jpg" />
+    <Content Include="i\CarouselShow\B747-300VarigOverRioDeJaneiro1996.jpg" />
+    <Content Include="i\CarouselShow\B747-400_Quantas.jpg" />
+    <Content Include="i\CarouselShow\B747SP_SyrianAir.jpg" />
+    <Content Include="i\CarouselShow\B787_Hainan.jpg" />
+    <Content Include="i\CarouselShow\Bell_X-1_NASADryden.jpg" />
+    <Content Include="i\CarouselShow\Boeing_C-97.jpg" />
+    <Content Include="i\CarouselShow\Boeing_CH-47_Chinook.jpg" />
+    <Content Include="i\CarouselShow\Bombardier_Q400.jpg" />
+    <Content Include="i\CarouselShow\BraniffConvair440.jpg" />
+    <Content Include="i\CarouselShow\C-54_BerlinAirLiftCandyDropRecreation.png" />
+    <Content Include="i\CarouselShow\Carvair_ATL-98_BAF .jpg" />
+    <Content Include="i\CarouselShow\CessnaA185E_1972.jpg" />
+    <Content Include="i\CarouselShow\CessnaCaravan.jpg" />
+    <Content Include="i\CarouselShow\CessnaCitationCJ1.jpg" />
+    <Content Include="i\CarouselShow\Cessna_210_Centurion.jpg" />
+    <Content Include="i\CarouselShow\CH-47_Chinook.jpg" />
+    <Content Include="i\CarouselShow\ChampionTwin.jpg" />
+    <Content Include="i\CarouselShow\CirrusDesignSF50.jpg" />
+    <Content Include="i\CarouselShow\CityBirdB767-300_Approach.jpg" />
+    <Content Include="i\CarouselShow\CN747-400.jpg" />
+    <Content Include="i\CarouselShow\Comet-TheFirstJetAirliner.jpg" />
+    <Content Include="i\CarouselShow\ConcordeBA_ApproachFromBelow.jpg" />
+    <Content Include="i\CarouselShow\ConcordeOverNewYork.jpg" />
+    <Content Include="i\CarouselShow\Continental_DC-10_Landing.jpg" />
+    <Content Include="i\CarouselShow\Convair880JapanAirlines.jpg" />
+    <Content Include="i\CarouselShow\Convair_C-131_1950.jpg" />
+    <Content Include="i\CarouselShow\DassaultFalcon900.jpg" />
+    <Content Include="i\CarouselShow\DC-10ApproachVortices.jpg" />
+    <Content Include="i\CarouselShow\deHavillandDH-86ExpressE.2.jpg" />
+    <Content Include="i\CarouselShow\DornierDo328.jpg" />
+    <Content Include="i\CarouselShow\Douglas_C-47A_Skytrain.jpg" />
+    <Content Include="i\CarouselShow\Douglas_DC-3MidContinent.jpg" />
+    <Content Include="i\CarouselShow\Douglas_DC-4.jpg" />
+    <Content Include="i\CarouselShow\Eastern_L-1011.jpg" />
+    <Content Include="i\CarouselShow\Erickson_Air-Crane_S-64.jpg" />
+    <Content Include="i\CarouselShow\EuroFighter2000.jpg" />
+    <Content Include="i\CarouselShow\F-14.jpg" />
+    <Content Include="i\CarouselShow\F-18SuperconicShocksVisualization.jpg" />
+    <Content Include="i\CarouselShow\F-86A_Sabre.jpg" />
+    <Content Include="i\CarouselShow\F-86s_USAF.jpg" />
+    <Content Include="i\CarouselShow\F100.jpg" />
+    <Content Include="i\CarouselShow\F111.jpg" />
+    <Content Include="i\CarouselShow\F6F_Hellcat.jpg" />
+    <Content Include="i\CarouselShow\F86_Sabre.jpg" />
+    <Content Include="i\CarouselShow\F8F_Bearcat.jpg" />
+    <Content Include="i\CarouselShow\fat_albert_airplane_blue_5.jpg" />
+    <Content Include="i\CarouselShow\Five_F106%27s.jpg" />
+    <Content Include="i\CarouselShow\Floatplane.jpg" />
+    <Content Include="i\CarouselShow\FlyingTigersB747-200F.jpg" />
+    <Content Include="i\CarouselShow\FourConcordesBritishAirways.jpg" />
+    <Content Include="i\CarouselShow\FourContrails.jpg" />
+    <Content Include="i\CarouselShow\GliderFiberglassSinglePlace.jpg" />
+    <Content Include="i\CarouselShow\GliderOnApproach.jpg" />
+    <Content Include="i\CarouselShow\GliderReadyForTakeoff.jpg" />
+    <Content Include="i\CarouselShow\GulfstreamG500TestConfig.jpg" />
+    <Content Include="i\CarouselShow\GulfstreamJetLanding.jpg" />
+    <Content Include="i\CarouselShow\Gulfstream_G-650.jpg" />
+    <Content Include="i\CarouselShow\HindenburgOverManhattan.jpg" />
+    <Content Include="i\CarouselShow\HindenburgOverRecifeBrazil1936.jpg" />
+    <Content Include="i\CarouselShow\HornetCarrierTakeoff.jpg" />
+    <Content Include="i\CarouselShow\KLM747Landing.jpg" />
+    <Content Include="i\CarouselShow\Laker_DC-10-30Landing.jpg" />
+    <Content Include="i\CarouselShow\Lockheed_L188.jpg" />
+    <Content Include="i\CarouselShow\LTV_A-7E_Corsair_II.jpg" />
+    <Content Include="i\CarouselShow\MD-11_TakeoffCenturionCargo.jpg" />
+    <Content Include="i\CarouselShow\ME-163.jpg" />
+    <Content Include="i\CarouselShow\military_aircraft_formation_fighters.jpg" />
+    <Content Include="i\CarouselShow\NAL_Lockheed_Constellation.jpg" />
+    <Content Include="i\CarouselShow\NavyTwins.jpg" />
+    <Content Include="i\CarouselShow\NorthWestStratoCruiser.jpg" />
+    <Content Include="i\CarouselShow\P-51.jpg" />
+    <Content Include="i\CarouselShow\PanAmB747SPTakeoff.jpg" />
+    <Content Include="i\CarouselShow\PanAmClipper.jpg" />
+    <Content Include="i\CarouselShow\PanAmerican_B377_StratoCruiser.jpg" />
+    <Content Include="i\CarouselShow\PiperCherokee6.jpg" />
+    <Content Include="i\CarouselShow\PiperCubSandbank.jpg" />
+    <Content Include="i\CarouselShow\Piper_J-3_Cub_FBEGU.jpg" />
+    <Content Include="i\CarouselShow\Piper_M500.jpg" />
+    <Content Include="i\CarouselShow\PitCairnPA-18_1932.jpg" />
+    <Content Include="i\CarouselShow\PrimaryGlider.jpg" />
+    <Content Include="i\CarouselShow\Primitive.jpg" />
+    <Content Include="i\CarouselShow\PW-6U.jpeg" />
+    <Content Include="i\CarouselShow\RCAF-CC-115_Buffalo.jpg" />
+    <Content Include="i\CarouselShow\RescueHelicopterLuftforsvaret.jpg" />
+    <Content Include="i\CarouselShow\Shorts-360.jpg" />
+    <Content Include="i\CarouselShow\Short_Empire_Boat.jpg" />
+    <Content Include="i\CarouselShow\Short_Sunderland.jpg" />
+    <Content Include="i\CarouselShow\SierraPacificCV580.jpg" />
+    <Content Include="i\CarouselShow\Sikorsky_S-40%281931%29.jpg" />
+    <Content Include="i\CarouselShow\SpaceShuttleCarrier.jpg" />
+    <Content Include="i\CarouselShow\SpaceShuttleDiscovery.jpg" />
+    <Content Include="i\CarouselShow\Spitfire.jpg" />
+    <Content Include="i\CarouselShow\StoutAmphibian.jpg" />
+    <Content Include="i\CarouselShow\SukhoiSuperjet100.jpg" />
+    <Content Include="i\CarouselShow\SwissairDC-10.jpg" />
+    <Content Include="i\CarouselShow\TAME_B727_2T3.jpg" />
+    <Content Include="i\CarouselShow\ThreeGliders.jpg" />
+    <Content Include="i\CarouselShow\ThreeSpitfires.jpg" />
+    <Content Include="i\CarouselShow\TigerMoth.jpg" />
+    <Content Include="i\CarouselShow\TransAeroB747-200_TO.jpg" />
+    <Content Include="i\CarouselShow\TransamericaL100-30Hercules.jpg" />
+    <Content Include="i\CarouselShow\TransCaribbean_DC-8.jpg" />
+    <Content Include="i\CarouselShow\Tupolev_Tu-144LL.jpg" />
+    <Content Include="i\CarouselShow\TWA_DC-2.jpg" />
+    <Content Include="i\CarouselShow\TWA_Lockheed_Electra_Junior_12A.jpg" />
+    <Content Include="i\CarouselShow\TwoFighters.jpg" />
+    <Content Include="i\CarouselShow\TwoSpitFires.jpg" />
+    <Content Include="i\CarouselShow\two_av_8b_harrier.jpg" />
+    <Content Include="i\CarouselShow\UltraLight.jpg" />
+    <Content Include="i\CarouselShow\UnitedDC-6%28Chicago_Midway%29.jpg" />
+    <Content Include="i\CarouselShow\United_DC-7.jpg" />
+    <Content Include="i\CarouselShow\USAFTwins.jpg" />
+    <Content Include="i\CarouselShow\UTAir_Helicopter_MI-26T.jpg" />
+    <Content Include="i\CarouselShow\Uzbekistan_A310_Approach.jpg" />
+    <Content Include="i\CarouselShow\Varig_MD-11.jpg" />
+    <Content Include="i\CarouselShow\Vought V-173 Flying Pancake.jpg" />
+    <Content Include="i\CarouselShow\WagnerBlimp.jpg" />
+    <Content Include="i\CarouselShow\Western_DC-6B.jpg" />
+    <Content Include="i\CarouselShow\WienLockheedConstellation.jpg" />
+    <Content Include="i\CarouselShow\WrightBrothersAeroplane.jpg" />
+    <Content Include="i\CarouselShow\XB-49.jpg" />
+    <Content Include="i\CarouselShow\XB-70.jpg" />
+    <Content Include="i\CarouselShow\Xiamen_787-900_Landing.jpg" />
+    <Content Include="i\CarouselShow\Yak-52_4inFormation.jpg" />
+    <Content Include="i\clouds.jpg" />
+    <Content Include="i\EquipAging_Concepts.jpg" />
+    <Content Include="i\Fleet\Blanik_3_a.jpg" />
+    <Content Include="i\Fleet\N157AJ.jpg" />
+    <Content Include="i\Fleet\N333TM.jpg" />
+    <Content Include="i\Fleet\N766PW.jpg" />
+    <Content Include="i\GrayButton.jpg" />
+    <Content Include="i\GreenButton.jpg" />
+    <Content Include="i\HomeShow\i00209_000000000055.jpg" />
+    <Content Include="i\HomeShow\i00215_000000000055.jpg" />
+    <Content Include="i\HomeShow\i00234_000000000057.jpg" />
+    <Content Include="i\HomeShow\i00235_000000000057.jpg" />
+    <Content Include="i\HomeShow\i00270_000000000055.jpg" />
+    <Content Include="i\PSSA_Logo.jpg" />
+    <Content Include="i\RedButton.jpg" />
+    <Content Include="i\Update.jpg" />
+    <Content Include="i\YellowAddButton.jpg" />
+    <Content Include="MemberPages\ChangePassword.aspx" />
+    <Content Include="MemberPages\EquipMaintStat\EqMaintStatus.aspx" />
+    <Content Include="MemberPages\EquipMaintStat\EqMemberPages.aspx" />
+    <Content Include="MemberPages\EquipMaintStat\EqOperStatCompact.aspx" />
+    <Content Include="MemberPages\EquipMaintStat\EqOperStatus.aspx" />
+    <Content Include="MemberPages\EquipMaintStat\EqOpStat.aspx" />
+    <Content Include="MemberPages\FieldManager\FieldMgr.aspx" />
+    <Content Include="MemberPages\Fin\EquitySharesReport.aspx" />
+    <Content Include="MemberPages\Fin\MaintenanceReserves.aspx" />
+    <Content Include="MemberPages\Fin\MemberFinStat.aspx" />
+    <Content Include="MemberPages\ManageSettings\ManageSettings.aspx" />
+    <Content Include="MemberPages\MRewards\MRewards.aspx" />
+    <Content Include="MemberPages\MRewards\RewardRules.aspx" />
+    <Content Include="MemberPages\MyMembership\MyMembership.aspx" />
+    <Content Include="MemberPages\OpsScheduleSignup\OpsSchedSigSMALL.aspx" />
+    <Content Include="MemberPages\OpsScheduleSignup\OpsScheduleSignup.aspx" />
+    <Content Include="MemberPages\Roster\ClubRoster.aspx" />
+    <Content Include="MemberPages\Stats\AdvStatsFilter.aspx" />
+    <Content Include="MemberPages\Stats\ClubStats.aspx" />
+    <Content Include="MemberPages\Stats\Statistics.aspx" />
+    <Content Include="MemberPages\Stats\StatsReports.aspx" />
+    <Content Include="MemberPages\Stats\StdStatsFilter.aspx" />
+    <Content Include="MemberPages\TowPilots\TowPilots.aspx" />
+    <Content Include="MemberPages\TrainInstruct\TrainInstruct.aspx" />
+    <Content Include="MemberPages\web.config" />
+    <Content Include="MemberPages\Stats\web.config" />
+    <Content Include="Board\web.config" />
+    <Content Include="Board\Finance\web.config" />
+    <Content Include="Accounting\FinReports\web.config" />
+    <Content Include="Board\Docs\web.config" />
+    <Content Include="Board\Docs\Completed\web.config" />
+    <Content Include="Board\Docs\Working\web.config" />
+    <Content Include="Accounting\FinDetails\web.config" />
+    <Content Include="Equipment\web.config" />
+    <Content Include="Board\Operations\web.config" />
+    <Content Include="DB\TNPV_PeopleContacts.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>TNPV_PeopleContacts.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="MemberPages\MyMembership\MyMembership.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>MyMembership.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="DB\Statist.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>Statist.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="DB\sf_Accounting.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>sf_Accounting.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Accounting\web.config" />
+    <Content Include="Accounting\AdminFin\web.config" />
+    <Content Include="Developer\web.config" />
+    <Content Include="MemberPages\MRewards\web.config" />
+    <Content Include="AdminPages\DBMaint\DataIntegrity.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>DataIntegrity.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Accounting\FinDetails\SalesAR\FlyActInvoice.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>FlyActInvoice.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Equipment\Equipment.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>Equipment.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="ClubMembership\ClubMembership.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>ClubMembership.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="MemberPages\ManageSettings\ManageSettings.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>ManageSettings1.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="i\FlightlogLegalSize.pdf" />
+    <Content Include="DB\AccountProfile.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>AccountProfile.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Operations\OpsSched.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>OpsSched.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Operations\web.config" />
+    <Content Include="mOpsSched.Master" />
+    <Content Include="Developer\Debug\DebugControl.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>DebugControl.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </Content>
+    <None Include="packages.config" />
+    <None Include="Properties\PublishProfiles\CustomProfile.pubxml" />
+    <Content Include="AdminPages\Administrators.aspx" />
+    <Content Include="ClubMembership\ClubMembership.aspx" />
+    <Content Include="ClubMembership\CMS_BasicList.aspx" />
+    <Content Include="ClubMembership\CMS_ClubFromTo.aspx" />
+    <Content Include="ClubMembership\CMS_EquiShJournal.aspx" />
+    <Content Include="ClubMembership\CMS_Offices.aspx" />
+    <Content Include="ClubMembership\CMS_Qualifs.aspx" />
+    <Content Include="ClubMembership\CMS_SSA_FromTo.aspx" />
+    <Content Include="CSS\bootstrap-theme.min.css" />
+    <Content Include="CSS\bootstrap.min.css" />
+    <Content Include="CSS\Site.css" />
+    <Content Include="DB\SQL\GetPunct4DType.sql" />
+    <Content Include="DB\SQL\SoarMultiList_SCUD.sql" />
+    <Content Include="DB\SQL\SoarSingleList_SCUD.sql" />
+    <Content Include="DB\SQL\TNPF_GetSetting.sql" />
+    <Content Include="ErrorPages\Resp2Err.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="Historian\Historian.aspx" />
+    <Content Include="i\GenericLogo.jpg" />
+    <Content Include="i\HomeShow\i00210_000000000055.jpg" />
+    <Content Include="i\HomeShow\i00220_000000000056.jpg" />
+    <Content Include="i\HomeShow\i00230_000000000057.jpg" />
+    <Content Include="i\HomeShow\i00240_000000000058.jpg" />
+    <Content Include="i\HomeShow\i00250_000000000059.jpg" />
+    <Content Include="i\HomeShow\i00260_000000000060.jpg" />
+    <Content Include="Login.aspx" />
+    <Content Include="MemberPages\Members.aspx" />
+    <Content Include="MigrationLevelDevIntProd.txt" />
+    <Content Include="Operations\Operations.aspx" />
+    <Content Include="Operations\OpsSchedDates.aspx" />
+    <Content Include="Operations\OpsSchedule.aspx" />
+    <Content Include="PublicPages\About.aspx" />
+    <Content Include="PublicPages\AcceptUsePol.aspx" />
+    <Content Include="PublicPages\ByLawsOpsRules.aspx" />
+    <Content Include="PublicPages\CarouselShow.aspx" />
+    <Content Include="PublicPages\ClubHistory.aspx" />
+    <Content Include="PublicPages\Contact.aspx" />
+    <Content Include="PublicPages\Directions.aspx" />
+    <Content Include="PublicPages\Fleet\Fleet.aspx" />
+    <Content Include="PublicPages\GiftCerts.aspx" />
+    <Content Include="PublicPages\LiabilityWaiver.aspx" />
+    <Content Include="PublicPages\PrivacyPolicy.aspx" />
+    <Content Include="PublicPages\Public.aspx" />
+    <Content Include="PublicPages\RateSheet.aspx" />
+    <Content Include="PublicPages\Schedule.aspx" />
+    <Content Include="PublicPages\SoaringResources.aspx" />
+    <Content Include="PwdRecov.aspx" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="PublicPages\operations.pdf" />
+    <Content Include="PublicPages\bylaws.pdf" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Content Include="PublicPages\waiver.pdf" />
+    <Content Include="PublicPages\Fleet\L-23_SN_917914_Flight_Manual.pdf" />
+    <Content Include="PublicPages\Fleet\PW-5_FlightManual.pdf" />
+    <Content Include="PublicPages\Fleet\PW6UFlightManual.pdf" />
+    <None Include="Scripts\jquery-3.1.1.intellisense.js" />
+    <Content Include="Scripts\jquery-3.1.1.js" />
+    <Content Include="Scripts\jquery-3.1.1.min.js" />
+    <Content Include="Scripts\jquery-3.1.1.slim.js" />
+    <Content Include="Scripts\jquery-3.1.1.slim.min.js" />
+    <Content Include="Scripts\luxon.min.js" />
+    <Content Include="Scripts\modernizr-2.8.3.js" />
+    <Content Include="Scripts\respond.js" />
+    <Content Include="Scripts\respond.matchmedia.addListener.js" />
+    <Content Include="Scripts\respond.matchmedia.addListener.min.js" />
+    <Content Include="Scripts\respond.min.js" />
+    <Content Include="Scripts\WebForms\DetailsView.js" />
+    <Content Include="Scripts\WebForms\Focus.js" />
+    <Content Include="Scripts\WebForms\GridView.js" />
+    <Content Include="Scripts\WebForms\Menu.js" />
+    <Content Include="Scripts\WebForms\MenuStandards.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjax.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxApplicationServices.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxComponentModel.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxCore.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxGlobalization.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxHistory.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxNetwork.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxSerialization.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxTimer.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxWebForms.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxWebServices.js" />
+    <Content Include="Scripts\WebForms\SmartNav.js" />
+    <Content Include="Scripts\WebForms\TreeView.js" />
+    <Content Include="Scripts\WebForms\WebForms.js" />
+    <Content Include="Scripts\WebForms\WebParts.js" />
+    <Content Include="Scripts\WebForms\WebUIValidation.js" />
+    <Content Include="mTSoar.Master" />
+    <Content Include="Scripts\jquery-3.1.1.min.map" />
+    <Content Include="Scripts\jquery-3.1.1.slim.min.map" />
+    <Content Include="Statistician\BulkImport.aspx" />
+    <Content Include="Statistician\FlightLogInput.aspx" />
+    <Content Include="Statistician\FlightLogPost.aspx" />
+    <Content Include="Statistician\FlightLogRows.aspx" />
+    <Content Include="Statistician\Statistician.aspx" />
+    <Content Include="Statistician\TIRewards1Member.aspx" />
+    <Content Include="Statistician\TIRewardsEdit.aspx" />
+    <Content Include="Statistician\TIRewardsFilter.aspx" />
+    <Content Include="Statistician\TrackFlyingCharges.aspx" />
+    <Content Include="Statistician\web.config" />
+    <Content Include="TestEngineer\web.config" />
+    <Content Include="TestEngineer\TE_Equipment\TEEq.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>TEEq.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Statistician\StatistDailyFlightLog.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>StatistDailyFlightLog.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </Content>
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <Content Include="Statistician\OpsDataInput.aspx" />
+    <Content Include="TestEngineer\TestEngineer.aspx" />
+    <Content Include="TestEngineer\TE_Equipment\TEEq_DataSetup.aspx" />
+    <Content Include="TestEngineer\TE_Equipment\TE_Equipment.aspx" />
+    <Content Include="UnderConstruction.aspx" />
+    <Content Include="Web.sitemap">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Default.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Accounting\Accounting.aspx.cs">
+      <DependentUpon>Accounting.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Accounting\Accounting.aspx.designer.cs">
+      <DependentUpon>Accounting.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Accounting\AdminFin\ChrtOActs.aspx.cs">
+      <DependentUpon>ChrtOActs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Accounting\AdminFin\ChrtOActs.aspx.designer.cs">
+      <DependentUpon>ChrtOActs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Accounting\AdminFin\Connect2QBO.aspx.cs">
+      <DependentUpon>Connect2QBO.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Accounting\AdminFin\Connect2QBO.aspx.designer.cs">
+      <DependentUpon>Connect2QBO.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Accounting\AdminFin\QBO_Customers.aspx.cs">
+      <DependentUpon>QBO_Customers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Accounting\AdminFin\QBO_Customers.aspx.designer.cs">
+      <DependentUpon>QBO_Customers.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Accounting\FinDetails\ExpVendAP\Expenses.aspx.cs">
+      <DependentUpon>Expenses.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Accounting\FinDetails\ExpVendAP\Expenses.aspx.designer.cs">
+      <DependentUpon>Expenses.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Accounting\FinDetails\ExpVendAP\ExpFilter.aspx.cs">
+      <DependentUpon>ExpFilter.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Accounting\FinDetails\ExpVendAP\ExpFilter.aspx.designer.cs">
+      <DependentUpon>ExpFilter.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Accounting\FinDetails\ExpVendAP\ExpVendAP.aspx.cs">
+      <DependentUpon>ExpVendAP.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Accounting\FinDetails\ExpVendAP\ExpVendAP.aspx.designer.cs">
+      <DependentUpon>ExpVendAP.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Accounting\FinDetails\ExpVendAP\Vendors.aspx.cs">
+      <DependentUpon>Vendors.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Accounting\FinDetails\ExpVendAP\Vendors.aspx.designer.cs">
+      <DependentUpon>Vendors.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Accounting\FinDetails\FilterSortAttFiles.aspx.cs">
+      <DependentUpon>FilterSortAttFiles.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Accounting\FinDetails\FilterSortAttFiles.aspx.designer.cs">
+      <DependentUpon>FilterSortAttFiles.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Accounting\FinDetails\SalesAR\FlyActInvoice.aspx.cs">
+      <DependentUpon>FlyActInvoice.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Accounting\FinDetails\SalesAR\FlyActInvoice.aspx.designer.cs">
+      <DependentUpon>FlyActInvoice.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Accounting\FinDetails\SalesAR\FlyActInvoice.cs">
+      <DependentUpon>FlyActInvoice.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="Accounting\FinDetails\SalesAR\FlyActInvoice.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FlyActInvoice.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="Accounting\FinDetails\SalesAR\Members.aspx.cs">
+      <DependentUpon>Members.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Accounting\FinDetails\SalesAR\Members.aspx.designer.cs">
+      <DependentUpon>Members.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Accounting\FinDetails\SalesAR\MinFlyChrg.aspx.cs">
+      <DependentUpon>MinFlyChrg.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Accounting\FinDetails\SalesAR\MinFlyChrg.aspx.designer.cs">
+      <DependentUpon>MinFlyChrg.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Accounting\FinDetails\SalesAR\Rates.aspx.cs">
+      <DependentUpon>Rates.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Accounting\FinDetails\SalesAR\Rates.aspx.designer.cs">
+      <DependentUpon>Rates.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Accounting\FinDetails\SalesAR\Sales.aspx.cs">
+      <DependentUpon>Sales.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Accounting\FinDetails\SalesAR\Sales.aspx.designer.cs">
+      <DependentUpon>Sales.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Accounting\FinDetails\SalesAR\SalesAR.aspx.cs">
+      <DependentUpon>SalesAR.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Accounting\FinDetails\SalesAR\SalesAR.aspx.designer.cs">
+      <DependentUpon>SalesAR.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Accounting\XactEng.cs" />
+    <Compile Include="AdminPages\Administrators.aspx.cs">
+      <DependentUpon>Administrators.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminPages\Administrators.aspx.designer.cs">
+      <DependentUpon>Administrators.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminPages\DBMaint\Bridge_UserRoles_Settings.aspx.cs">
+      <DependentUpon>Bridge_UserRoles_Settings.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminPages\DBMaint\Bridge_UserRoles_Settings.aspx.designer.cs">
+      <DependentUpon>Bridge_UserRoles_Settings.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminPages\DBMaint\DBIntegrity.aspx.cs">
+      <DependentUpon>DBIntegrity.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminPages\DBMaint\DBIntegrity.aspx.designer.cs">
+      <DependentUpon>DBIntegrity.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminPages\DBMaint\DBMaint.aspx.cs">
+      <DependentUpon>DBMaint.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminPages\DBMaint\DBMaint.aspx.designer.cs">
+      <DependentUpon>DBMaint.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminPages\Security\CreateUserWizardWithRoles.aspx.cs">
+      <DependentUpon>CreateUserWizardWithRoles.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminPages\Security\CreateUserWizardWithRoles.aspx.designer.cs">
+      <DependentUpon>CreateUserWizardWithRoles.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminPages\Security\EditUsers.aspx.cs">
+      <DependentUpon>EditUsers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminPages\Security\EditUsers.aspx.designer.cs">
+      <DependentUpon>EditUsers.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminPages\Security\ManageRoles.aspx.cs">
+      <DependentUpon>ManageRoles.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminPages\Security\ManageRoles.aspx.designer.cs">
+      <DependentUpon>ManageRoles.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminPages\Security\ResetPwd.aspx.cs">
+      <DependentUpon>ResetPwd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminPages\Security\ResetPwd.aspx.designer.cs">
+      <DependentUpon>ResetPwd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminPages\Security\Security.aspx.cs">
+      <DependentUpon>Security.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminPages\Security\Security.aspx.designer.cs">
+      <DependentUpon>Security.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminPages\Security\UsersAndRoles.aspx.cs">
+      <DependentUpon>UsersAndRoles.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminPages\Security\UsersAndRoles.aspx.designer.cs">
+      <DependentUpon>UsersAndRoles.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ActivityLog.cs" />
+    <Compile Include="Board\Board.aspx.cs">
+      <DependentUpon>Board.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Board\Board.aspx.designer.cs">
+      <DependentUpon>Board.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Board\Docs\Completed\CompletedDocs.aspx.cs">
+      <DependentUpon>CompletedDocs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Board\Docs\Completed\CompletedDocs.aspx.designer.cs">
+      <DependentUpon>CompletedDocs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Board\Docs\Working\WorkingDocs.aspx.cs">
+      <DependentUpon>WorkingDocs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Board\Docs\Working\WorkingDocs.aspx.designer.cs">
+      <DependentUpon>WorkingDocs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ClubMembership\ClubMembership.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ClubMembership.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="ClubMembership\CMS_PeopleEquipRolesTypes.aspx.cs">
+      <DependentUpon>CMS_PeopleEquipRolesTypes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ClubMembership\CMS_PeopleEquipRolesTypes.aspx.designer.cs">
+      <DependentUpon>CMS_PeopleEquipRolesTypes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Common\Time_Date.cs" />
+    <Compile Include="DB\AccountProfile.designer.cs">
+      <DependentUpon>AccountProfile.dbml</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Developer\Debug\DebugControl.aspx.cs">
+      <DependentUpon>DebugControl.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Developer\Debug\DebugControl.aspx.designer.cs">
+      <DependentUpon>DebugControl.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Developer\Debug\DebugControl.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DebugControl.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="Developer\PathRoot.aspx.cs">
+      <DependentUpon>PathRoot.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Developer\PathRoot.aspx.designer.cs">
+      <DependentUpon>PathRoot.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Developer\SWLab\AjaxPractice.aspx.cs">
+      <DependentUpon>AjaxPractice.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Developer\SWLab\AjaxPractice.aspx.designer.cs">
+      <DependentUpon>AjaxPractice.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Developer\SWLab\APTSettings.aspx.cs">
+      <DependentUpon>APTSettings.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Developer\SWLab\APTSettings.aspx.designer.cs">
+      <DependentUpon>APTSettings.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Developer\SWLab\TimeAndDate.aspx.cs">
+      <DependentUpon>TimeAndDate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Developer\SWLab\TimeAndDate.aspx.designer.cs">
+      <DependentUpon>TimeAndDate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Developer\ThrowException.aspx.cs">
+      <DependentUpon>ThrowException.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Developer\ThrowException.aspx.designer.cs">
+      <DependentUpon>ThrowException.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Emergency.aspx.cs">
+      <DependentUpon>Emergency.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Emergency.aspx.designer.cs">
+      <DependentUpon>Emergency.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Equipment\Bridge_EqRoleLaunchMeth.aspx.cs">
+      <DependentUpon>Bridge_EqRoleLaunchMeth.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Equipment\Bridge_EqRoleLaunchMeth.aspx.designer.cs">
+      <DependentUpon>Bridge_EqRoleLaunchMeth.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Equipment\EqComponents.aspx.cs">
+      <DependentUpon>EqComponents.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Equipment\EqComponents.aspx.designer.cs">
+      <DependentUpon>EqComponents.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Equipment\EqSupport.cs" />
+    <Compile Include="Accounting\AdminFin\AdminFin.aspx.cs">
+      <DependentUpon>AdminFin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Accounting\AdminFin\AdminFin.aspx.designer.cs">
+      <DependentUpon>AdminFin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Accounting\AdminFin\AuditTrail.aspx.cs">
+      <DependentUpon>AuditTrail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Accounting\AdminFin\AuditTrail.aspx.designer.cs">
+      <DependentUpon>AuditTrail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Accounting\AdminFin\Banking.aspx.cs">
+      <DependentUpon>Banking.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Accounting\AdminFin\Banking.aspx.designer.cs">
+      <DependentUpon>Banking.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Accounting\AssistLi.cs" />
+    <Compile Include="Board\Finance\Finance.aspx.cs">
+      <DependentUpon>Finance.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Board\Finance\Finance.aspx.designer.cs">
+      <DependentUpon>Finance.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Accounting\FinDetails\FinDetails.aspx.cs">
+      <DependentUpon>FinDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Accounting\FinDetails\FinDetails.aspx.designer.cs">
+      <DependentUpon>FinDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Accounting\FinDetails\ExpVendAP\XactExpense.aspx.cs">
+      <DependentUpon>XactExpense.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Accounting\FinDetails\ExpVendAP\XactExpense.aspx.designer.cs">
+      <DependentUpon>XactExpense.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Accounting\FinReports\FinReports.aspx.cs">
+      <DependentUpon>FinReports.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Accounting\FinReports\FinReports.aspx.designer.cs">
+      <DependentUpon>FinReports.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Accounting\AdminFin\EditCoA.aspx.cs">
+      <DependentUpon>EditCoA.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Accounting\AdminFin\EditCoA.aspx.designer.cs">
+      <DependentUpon>EditCoA.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Accounting\AdminFin\Subledgers.aspx.cs">
+      <DependentUpon>Subledgers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Accounting\AdminFin\Subledgers.aspx.designer.cs">
+      <DependentUpon>Subledgers.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Board\Operations\Operations.aspx.cs">
+      <DependentUpon>Operations.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Board\Operations\Operations.aspx.designer.cs">
+      <DependentUpon>Operations.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Board\Operations\OpsScheduleMaint.aspx.cs">
+      <DependentUpon>OpsScheduleMaint.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Board\Operations\OpsScheduleMaint.aspx.designer.cs">
+      <DependentUpon>OpsScheduleMaint.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ClubMembership\ClubMembership.aspx.cs">
+      <DependentUpon>ClubMembership.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ClubMembership\ClubMembership.aspx.designer.cs">
+      <DependentUpon>ClubMembership.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ClubMembership\CMS_BasicList.aspx.cs">
+      <DependentUpon>CMS_BasicList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ClubMembership\CMS_BasicList.aspx.designer.cs">
+      <DependentUpon>CMS_BasicList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ClubMembership\CMS_ClubFromTo.aspx.cs">
+      <DependentUpon>CMS_ClubFromTo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ClubMembership\CMS_ClubFromTo.aspx.designer.cs">
+      <DependentUpon>CMS_ClubFromTo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ClubMembership\CMS_ContactEdit.aspx.cs">
+      <DependentUpon>CMS_ContactEdit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ClubMembership\CMS_ContactEdit.aspx.designer.cs">
+      <DependentUpon>CMS_ContactEdit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ClubMembership\CMS_Contacts.aspx.cs">
+      <DependentUpon>CMS_Contacts.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ClubMembership\CMS_Contacts.aspx.designer.cs">
+      <DependentUpon>CMS_Contacts.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ClubMembership\CMS_EquiShJournal.aspx.cs">
+      <DependentUpon>CMS_EquiShJournal.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ClubMembership\CMS_EquiShJournal.aspx.designer.cs">
+      <DependentUpon>CMS_EquiShJournal.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ClubMembership\CMS_Offices.aspx.cs">
+      <DependentUpon>CMS_Offices.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ClubMembership\CMS_Offices.aspx.designer.cs">
+      <DependentUpon>CMS_Offices.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ClubMembership\CMS_Qualifs.aspx.cs">
+      <DependentUpon>CMS_Qualifs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ClubMembership\CMS_Qualifs.aspx.designer.cs">
+      <DependentUpon>CMS_Qualifs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ClubMembership\CMS_SSA_FromTo.aspx.cs">
+      <DependentUpon>CMS_SSA_FromTo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ClubMembership\CMS_SSA_FromTo.aspx.designer.cs">
+      <DependentUpon>CMS_SSA_FromTo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminPages\DBMaint\DataIntegrity.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataIntegrity.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="Common\CustFmt.cs" />
+    <Compile Include="DB\SCUD_Multi.cs" />
+    <Compile Include="DB\SCUD_single.cs" />
+    <Compile Include="DB\sf_Accounting.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>sf_Accounting.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DB\Statist.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Statist.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DB\TNPV_PeopleContacts.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TNPV_PeopleContacts.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Developer\BrowserProperties.aspx.cs">
+      <DependentUpon>BrowserProperties.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Developer\BrowserProperties.aspx.designer.cs">
+      <DependentUpon>BrowserProperties.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Developer\DBProperties.aspx.cs">
+      <DependentUpon>DBProperties.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Developer\DBProperties.aspx.designer.cs">
+      <DependentUpon>DBProperties.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Developer\Developer.aspx.cs">
+      <DependentUpon>Developer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Developer\Developer.aspx.designer.cs">
+      <DependentUpon>Developer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Developer\SWLab\SWLab.aspx.cs">
+      <DependentUpon>SWLab.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Developer\SWLab\SWLab.aspx.designer.cs">
+      <DependentUpon>SWLab.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Developer\SWLab\TextBoxResearch.aspx.cs">
+      <DependentUpon>TextBoxResearch.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Developer\SWLab\TextBoxResearch.aspx.designer.cs">
+      <DependentUpon>TextBoxResearch.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Entities\NameListEntities\Account.cs" />
+    <Compile Include="Entities\NameListEntities\Budget.cs" />
+    <Compile Include="Entities\NameListEntities\Class.cs" />
+    <Compile Include="Entities\NameListEntities\Customer.cs" />
+    <Compile Include="Entities\NameListEntities\Department.cs" />
+    <Compile Include="Entities\NameListEntities\Employee.cs" />
+    <Compile Include="Entities\NameListEntities\Item.cs" />
+    <Compile Include="Entities\NameListEntities\JournalCode.cs" />
+    <Compile Include="Entities\NameListEntities\PaymentMethod.cs" />
+    <Compile Include="Entities\NameListEntities\TaxAgency.cs" />
+    <Compile Include="Entities\NameListEntities\TaxCode.cs" />
+    <Compile Include="Entities\NameListEntities\TaxRate.cs" />
+    <Compile Include="Entities\NameListEntities\TaxService.cs" />
+    <Compile Include="Entities\NameListEntities\Term.cs" />
+    <Compile Include="Entities\NameListEntities\Vendor.cs" />
+    <Compile Include="Entities\Reports\ReportGeneralLedger.cs" />
+    <Compile Include="Entities\Supporting Entities\Attachable.cs" />
+    <Compile Include="Entities\Supporting Entities\CompanyCurrency.cs" />
+    <Compile Include="Entities\Supporting Entities\CompanyInfo.cs" />
+    <Compile Include="Entities\Supporting Entities\ExchangeRate.cs" />
+    <Compile Include="Entities\Supporting Entities\Preferences.cs" />
+    <Compile Include="Entities\TransactionEntities\Bill.cs" />
+    <Compile Include="Entities\TransactionEntities\BillPayment.cs" />
+    <Compile Include="Entities\TransactionEntities\CreditMemo.cs" />
+    <Compile Include="Entities\TransactionEntities\Deposit.cs" />
+    <Compile Include="Entities\TransactionEntities\Estimate.cs" />
+    <Compile Include="Entities\TransactionEntities\Invoice.cs" />
+    <Compile Include="Entities\TransactionEntities\JournalEntry.cs" />
+    <Compile Include="Entities\TransactionEntities\Payment.cs" />
+    <Compile Include="Entities\TransactionEntities\Purchase.cs" />
+    <Compile Include="Entities\TransactionEntities\PurchaseOrder.cs" />
+    <Compile Include="Entities\TransactionEntities\RefundReceipt.cs" />
+    <Compile Include="Entities\TransactionEntities\SalesReceipt.cs" />
+    <Compile Include="Entities\TransactionEntities\TimeActivity.cs" />
+    <Compile Include="Entities\TransactionEntities\Transfer.cs" />
+    <Compile Include="Entities\TransactionEntities\VendorCredit.cs" />
+    <Compile Include="Equipment\EquipAging\EqAgingActionItems.aspx.cs">
+      <DependentUpon>EqAgingActionItems.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Equipment\EquipAging\EqAgingActionItems.aspx.designer.cs">
+      <DependentUpon>EqAgingActionItems.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Equipment\EquipAging\EqAgingIntro.aspx.cs">
+      <DependentUpon>EqAgingIntro.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Equipment\EquipAging\EqAgingIntro.aspx.designer.cs">
+      <DependentUpon>EqAgingIntro.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Equipment\EquipAging\EqAgingItems.aspx.cs">
+      <DependentUpon>EqAgingItems.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Equipment\EquipAging\EqAgingItems.aspx.designer.cs">
+      <DependentUpon>EqAgingItems.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Equipment\EquipAging\EqAgingOperDat.aspx.cs">
+      <DependentUpon>EqAgingOperDat.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Equipment\EquipAging\EqAgingOperDat.aspx.designer.cs">
+      <DependentUpon>EqAgingOperDat.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Equipment\EquipAging\EqAgingParSets.aspx.cs">
+      <DependentUpon>EqAgingParSets.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Equipment\EquipAging\EqAgingParSets.aspx.designer.cs">
+      <DependentUpon>EqAgingParSets.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Equipment\EquipAging\OpsCalendars.aspx.cs">
+      <DependentUpon>OpsCalendars.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Equipment\EquipAging\OpsCalendars.aspx.designer.cs">
+      <DependentUpon>OpsCalendars.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Equipment\Equipment.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Equipment.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="Equipment\EquipmentList.aspx.cs">
+      <DependentUpon>EquipmentList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Equipment\EquipmentList.aspx.designer.cs">
+      <DependentUpon>EquipmentList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Equipment\Equipmt.aspx.cs">
+      <DependentUpon>Equipmt.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Equipment\Equipmt.aspx.designer.cs">
+      <DependentUpon>Equipmt.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Equipment\EquipRolesTypes.aspx.cs">
+      <DependentUpon>EquipRolesTypes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Equipment\EquipRolesTypes.aspx.designer.cs">
+      <DependentUpon>EquipRolesTypes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ErrorPages\Resp2Err.aspx.cs">
+      <DependentUpon>Resp2Err.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ErrorPages\Resp2Err.aspx.designer.cs">
+      <DependentUpon>Resp2Err.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Helper\Helper.cs" />
+    <Compile Include="Helper\QBOHelper.cs" />
+    <Compile Include="Historian\Historian.aspx.cs">
+      <DependentUpon>Historian.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Historian\Historian.aspx.designer.cs">
+      <DependentUpon>Historian.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MemberPages\ChangePassword.aspx.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MemberPages\ChangePassword.aspx.designer.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MemberPages\EquipMaintStat\EqMaintStatus.aspx.cs">
+      <DependentUpon>EqMaintStatus.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MemberPages\EquipMaintStat\EqMaintStatus.aspx.designer.cs">
+      <DependentUpon>EqMaintStatus.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MemberPages\EquipMaintStat\EqMemberPages.aspx.cs">
+      <DependentUpon>EqMemberPages.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MemberPages\EquipMaintStat\EqMemberPages.aspx.designer.cs">
+      <DependentUpon>EqMemberPages.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MemberPages\EquipMaintStat\EqOperStatCompact.aspx.cs">
+      <DependentUpon>EqOperStatCompact.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MemberPages\EquipMaintStat\EqOperStatCompact.aspx.designer.cs">
+      <DependentUpon>EqOperStatCompact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MemberPages\EquipMaintStat\EqOperStatus.aspx.cs">
+      <DependentUpon>EqOperStatus.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MemberPages\EquipMaintStat\EqOperStatus.aspx.designer.cs">
+      <DependentUpon>EqOperStatus.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MemberPages\EquipMaintStat\EqOpStat.aspx.cs">
+      <DependentUpon>EqOpStat.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MemberPages\EquipMaintStat\EqOpStat.aspx.designer.cs">
+      <DependentUpon>EqOpStat.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MemberPages\FieldManager\FieldMgr.aspx.cs">
+      <DependentUpon>FieldMgr.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MemberPages\FieldManager\FieldMgr.aspx.designer.cs">
+      <DependentUpon>FieldMgr.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MemberPages\Fin\EquitySharesReport.aspx.cs">
+      <DependentUpon>EquitySharesReport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MemberPages\Fin\EquitySharesReport.aspx.designer.cs">
+      <DependentUpon>EquitySharesReport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MemberPages\Fin\MaintenanceReserves.aspx.cs">
+      <DependentUpon>MaintenanceReserves.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MemberPages\Fin\MaintenanceReserves.aspx.designer.cs">
+      <DependentUpon>MaintenanceReserves.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MemberPages\Fin\MemberFinStat.aspx.cs">
+      <DependentUpon>MemberFinStat.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MemberPages\Fin\MemberFinStat.aspx.designer.cs">
+      <DependentUpon>MemberFinStat.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MemberPages\ManageSettings\ManageSettings.aspx.cs">
+      <DependentUpon>ManageSettings.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MemberPages\ManageSettings\ManageSettings.aspx.designer.cs">
+      <DependentUpon>ManageSettings.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MemberPages\ManageSettings\ManageSettings1.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ManageSettings.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="MemberPages\Members.aspx.cs">
+      <DependentUpon>Members.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MemberPages\Members.aspx.designer.cs">
+      <DependentUpon>Members.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MemberPages\MRewards\MRewards.aspx.cs">
+      <DependentUpon>MRewards.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MemberPages\MRewards\MRewards.aspx.designer.cs">
+      <DependentUpon>MRewards.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MemberPages\MRewards\RewardRules.aspx.cs">
+      <DependentUpon>RewardRules.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MemberPages\MRewards\RewardRules.aspx.designer.cs">
+      <DependentUpon>RewardRules.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MemberPages\MyMembership\MyMembership.aspx.cs">
+      <DependentUpon>MyMembership.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MemberPages\MyMembership\MyMembership.aspx.designer.cs">
+      <DependentUpon>MyMembership.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MemberPages\MyMembership\MyMembership.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MyMembership.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="MemberPages\OpsScheduleSignup\OpsSchedSigSMALL.aspx.cs">
+      <DependentUpon>OpsSchedSigSMALL.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MemberPages\OpsScheduleSignup\OpsSchedSigSMALL.aspx.designer.cs">
+      <DependentUpon>OpsSchedSigSMALL.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MemberPages\OpsScheduleSignup\OpsScheduleSignup.aspx.cs">
+      <DependentUpon>OpsScheduleSignup.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MemberPages\OpsScheduleSignup\OpsScheduleSignup.aspx.designer.cs">
+      <DependentUpon>OpsScheduleSignup.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MemberPages\Roster\ClubRoster.aspx.cs">
+      <DependentUpon>ClubRoster.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MemberPages\Roster\ClubRoster.aspx.designer.cs">
+      <DependentUpon>ClubRoster.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DB\AccountProfile.cs" />
+    <Compile Include="MemberPages\Stats\AdvStatsFilter.aspx.cs">
+      <DependentUpon>AdvStatsFilter.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MemberPages\Stats\AdvStatsFilter.aspx.designer.cs">
+      <DependentUpon>AdvStatsFilter.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MemberPages\Stats\ClubStats.aspx.cs">
+      <DependentUpon>ClubStats.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MemberPages\Stats\ClubStats.aspx.designer.cs">
+      <DependentUpon>ClubStats.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MemberPages\Stats\Statistics.aspx.cs">
+      <DependentUpon>Statistics.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MemberPages\Stats\Statistics.aspx.designer.cs">
+      <DependentUpon>Statistics.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MemberPages\Stats\StatsReports.aspx.cs">
+      <DependentUpon>StatsReports.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MemberPages\Stats\StatsReports.aspx.designer.cs">
+      <DependentUpon>StatsReports.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MemberPages\Stats\StdStatsFilter.aspx.cs">
+      <DependentUpon>StdStatsFilter.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MemberPages\Stats\StdStatsFilter.aspx.designer.cs">
+      <DependentUpon>StdStatsFilter.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MemberPages\TowPilots\TowPilots.aspx.cs">
+      <DependentUpon>TowPilots.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MemberPages\TowPilots\TowPilots.aspx.designer.cs">
+      <DependentUpon>TowPilots.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MemberPages\TrainInstruct\TrainInstruct.aspx.cs">
+      <DependentUpon>TrainInstruct.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MemberPages\TrainInstruct\TrainInstruct.aspx.designer.cs">
+      <DependentUpon>TrainInstruct.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="mOpsSched.Master.cs">
+      <DependentUpon>mOpsSched.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="mOpsSched.Master.designer.cs">
+      <DependentUpon>mOpsSched.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Operations\Operations.aspx.cs">
+      <DependentUpon>Operations.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Operations\Operations.aspx.designer.cs">
+      <DependentUpon>Operations.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Operations\OpsSched.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>OpsSched.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="Operations\OpsSchedDates.aspx.cs">
+      <DependentUpon>OpsSchedDates.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Operations\OpsSchedDates.aspx.designer.cs">
+      <DependentUpon>OpsSchedDates.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Operations\OpsSchedule.aspx.cs">
+      <DependentUpon>OpsSchedule.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Operations\OpsSchedule.aspx.designer.cs">
+      <DependentUpon>OpsSchedule.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="PublicPages\About.aspx.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PublicPages\About.aspx.designer.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PublicPages\AcceptUsePol.aspx.cs">
+      <DependentUpon>AcceptUsePol.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PublicPages\AcceptUsePol.aspx.designer.cs">
+      <DependentUpon>AcceptUsePol.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PublicPages\ByLawsOpsRules.aspx.cs">
+      <DependentUpon>ByLawsOpsRules.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PublicPages\ByLawsOpsRules.aspx.designer.cs">
+      <DependentUpon>ByLawsOpsRules.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PublicPages\CarouselShow.aspx.cs">
+      <DependentUpon>CarouselShow.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PublicPages\CarouselShow.aspx.designer.cs">
+      <DependentUpon>CarouselShow.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PublicPages\ClubHistory.aspx.cs">
+      <DependentUpon>ClubHistory.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PublicPages\ClubHistory.aspx.designer.cs">
+      <DependentUpon>ClubHistory.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PublicPages\Contact.aspx.cs">
+      <DependentUpon>Contact.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PublicPages\Contact.aspx.designer.cs">
+      <DependentUpon>Contact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PublicPages\Directions.aspx.cs">
+      <DependentUpon>Directions.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PublicPages\Directions.aspx.designer.cs">
+      <DependentUpon>Directions.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PublicPages\Fleet\Fleet.aspx.cs">
+      <DependentUpon>Fleet.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PublicPages\Fleet\Fleet.aspx.designer.cs">
+      <DependentUpon>Fleet.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PublicPages\GiftCerts.aspx.cs">
+      <DependentUpon>GiftCerts.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PublicPages\GiftCerts.aspx.designer.cs">
+      <DependentUpon>GiftCerts.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PublicPages\LiabilityWaiver.aspx.cs">
+      <DependentUpon>LiabilityWaiver.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PublicPages\LiabilityWaiver.aspx.designer.cs">
+      <DependentUpon>LiabilityWaiver.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PublicPages\PrivacyPolicy.aspx.cs">
+      <DependentUpon>PrivacyPolicy.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PublicPages\PrivacyPolicy.aspx.designer.cs">
+      <DependentUpon>PrivacyPolicy.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PublicPages\Public.aspx.cs">
+      <DependentUpon>Public.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PublicPages\Public.aspx.designer.cs">
+      <DependentUpon>Public.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PublicPages\RateSheet.aspx.cs">
+      <DependentUpon>RateSheet.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PublicPages\RateSheet.aspx.designer.cs">
+      <DependentUpon>RateSheet.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PublicPages\Schedule.aspx.cs">
+      <DependentUpon>Schedule.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PublicPages\Schedule.aspx.designer.cs">
+      <DependentUpon>Schedule.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PublicPages\SoaringResources.aspx.cs">
+      <DependentUpon>SoaringResources.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PublicPages\SoaringResources.aspx.designer.cs">
+      <DependentUpon>SoaringResources.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PwdRecov.aspx.cs">
+      <DependentUpon>PwdRecov.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PwdRecov.aspx.designer.cs">
+      <DependentUpon>PwdRecov.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="mTSoar.Master.cs">
+      <DependentUpon>mTSoar.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="mTSoar.Master.designer.cs">
+      <DependentUpon>mTSoar.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Statistician\BulkImport.aspx.cs">
+      <DependentUpon>BulkImport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Statistician\BulkImport.aspx.designer.cs">
+      <DependentUpon>BulkImport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Statistician\FlightLogInput.aspx.cs">
+      <DependentUpon>FlightLogInput.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Statistician\FlightLogInput.aspx.designer.cs">
+      <DependentUpon>FlightLogInput.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Statistician\FlightLogPost.aspx.cs">
+      <DependentUpon>FlightLogPost.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Statistician\FlightLogPost.aspx.designer.cs">
+      <DependentUpon>FlightLogPost.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Statistician\FlightLogPosting.cs" />
+    <Compile Include="Statistician\FlightLogRows.aspx.cs">
+      <DependentUpon>FlightLogRows.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Statistician\FlightLogRows.aspx.designer.cs">
+      <DependentUpon>FlightLogRows.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Statistician\OpsDataInput.aspx.cs">
+      <DependentUpon>OpsDataInput.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Statistician\OpsDataInput.aspx.designer.cs">
+      <DependentUpon>OpsDataInput.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Statistician\StatistDailyFlightLog.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>StatistDailyFlightLog.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="Statistician\Statistician.aspx.cs">
+      <DependentUpon>Statistician.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Statistician\Statistician.aspx.designer.cs">
+      <DependentUpon>Statistician.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Statistician\StatisticianwFilters.cs" />
+    <Compile Include="Statistician\TIRewards1Member.aspx.cs">
+      <DependentUpon>TIRewards1Member.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Statistician\TIRewards1Member.aspx.designer.cs">
+      <DependentUpon>TIRewards1Member.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Statistician\TIRewardsEdit.aspx.cs">
+      <DependentUpon>TIRewardsEdit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Statistician\TIRewardsEdit.aspx.designer.cs">
+      <DependentUpon>TIRewardsEdit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Statistician\TIRewardsFilter.aspx.cs">
+      <DependentUpon>TIRewardsFilter.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Statistician\TIRewardsFilter.aspx.designer.cs">
+      <DependentUpon>TIRewardsFilter.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Statistician\TrackFlyingCharges.aspx.cs">
+      <DependentUpon>TrackFlyingCharges.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Statistician\TrackFlyingCharges.aspx.designer.cs">
+      <DependentUpon>TrackFlyingCharges.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TestEngineer\TestEngineer.aspx.cs">
+      <DependentUpon>TestEngineer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TestEngineer\TestEngineer.aspx.designer.cs">
+      <DependentUpon>TestEngineer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TestEngineer\TE_Equipment\TEEq.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TEEq.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="TestEngineer\TE_Equipment\TEEq_DataSetup.aspx.cs">
+      <DependentUpon>TEEq_DataSetup.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TestEngineer\TE_Equipment\TEEq_DataSetup.aspx.designer.cs">
+      <DependentUpon>TEEq_DataSetup.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TestEngineer\TE_Equipment\TE_Equipment.aspx.cs">
+      <DependentUpon>TE_Equipment.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TestEngineer\TE_Equipment\TE_Equipment.aspx.designer.cs">
+      <DependentUpon>TE_Equipment.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UnderConstruction.aspx.cs">
+      <DependentUpon>UnderConstruction.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UnderConstruction.aspx.designer.cs">
+      <DependentUpon>UnderConstruction.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="AppData\ActionItems\" />
+    <Folder Include="AppData\DebugLogs\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DB\TNPV_PeopleContacts.dbml.layout">
+      <DependentUpon>TNPV_PeopleContacts.dbml</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="MemberPages\MyMembership\MyMembership.dbml.layout">
+      <DependentUpon>MyMembership.dbml</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DB\Statist.dbml.layout">
+      <DependentUpon>Statist.dbml</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DB\sf_Accounting.dbml.layout">
+      <DependentUpon>sf_Accounting.dbml</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="AdminPages\DBMaint\DataIntegrity.dbml.layout">
+      <DependentUpon>DataIntegrity.dbml</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Accounting\FinDetails\SalesAR\FlyActInvoice.dbml.layout">
+      <DependentUpon>FlyActInvoice.dbml</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Equipment\Equipment.dbml.layout">
+      <DependentUpon>Equipment.dbml</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="TestEngineer\TE_Equipment\TEEq.dbml.layout">
+      <DependentUpon>TEEq.dbml</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Statistician\StatistDailyFlightLog.dbml.layout">
+      <DependentUpon>StatistDailyFlightLog.dbml</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClubMembership\ClubMembership.dbml.layout">
+      <DependentUpon>ClubMembership.dbml</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="MemberPages\ManageSettings\ManageSettings.dbml.layout">
+      <DependentUpon>ManageSettings.dbml</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DB\AccountProfile.dbml.layout">
+      <DependentUpon>AccountProfile.dbml</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Operations\OpsSched.dbml.layout">
+      <DependentUpon>OpsSched.dbml</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Developer\Debug\DebugControl.dbml.layout">
+      <DependentUpon>DebugControl.dbml</DependentUpon>
+    </None>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>64291</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>https://localhost:44361/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.Net.Compilers.2.10.0\build\Microsoft.Net.Compilers.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Net.Compilers.2.10.0\build\Microsoft.Net.Compilers.props'))" />
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

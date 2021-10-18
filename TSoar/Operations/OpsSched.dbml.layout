@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="OpsSched">
+  <DataContextMoniker Name="/OpsSchedDataContext" />
+  <nestedChildShapes>
+    <classShape Id="5aca89f6-cfbc-4148-9db4-50cb1ec97958" absoluteBounds="0.75, 2.125, 2, 3.8862125651041666">
+      <DataClassMoniker Name="/OpsSchedDataContext/PEOPLE" />
+      <nestedChildShapes>
+        <elementListCompartment Id="fcd597de-3cb5-4b4a-a480-bc2a3eceed43" absoluteBounds="0.765, 2.585, 1.9700000000000002, 3.3262125651041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="f3aa4fea-1063-486e-8e8e-e638ee59aaaa" absoluteBounds="6.625, 5.25, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/OpsSchedDataContext/FSCATEG" />
+      <nestedChildShapes>
+        <elementListCompartment Id="0fd604ef-9fed-44b1-858a-4c2cf8bbda7c" absoluteBounds="6.64, 5.71, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="bdf8b005-3b1d-4ca2-baec-0c1c712a8972" absoluteBounds="6.875, 1.875, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/OpsSchedDataContext/FSDATE" />
+      <nestedChildShapes>
+        <elementListCompartment Id="8ea11706-5df2-44dc-9010-d01279a0698c" absoluteBounds="6.89, 2.335, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="9c1fa3f1-7ff6-42e7-9b7b-ec4e5b64122d" absoluteBounds="3.625, 3, 2, 2.3478011067708335">
+      <DataClassMoniker Name="/OpsSchedDataContext/FSSIGNUP" />
+      <nestedChildShapes>
+        <elementListCompartment Id="7e6255b8-7f3a-4b77-9ff6-47a09e29924d" absoluteBounds="3.64, 3.46, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(6.625 : 6.18434945833333); (4.625 : 6.18434945833333); (4.625 : 5.34780110677083)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/OpsSchedDataContext/FSCATEG/FSCATEG_FSSIGNUP" />
+      <nodes>
+        <classShapeMoniker Id="f3aa4fea-1063-486e-8e8e-e638ee59aaaa" />
+        <classShapeMoniker Id="9c1fa3f1-7ff6-42e7-9b7b-ec4e5b64122d" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(6.875 : 3.22679768880208); (5.625 : 3.22679768880208)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/OpsSchedDataContext/FSDATE/FSDATE_FSSIGNUP" />
+      <nodes>
+        <classShapeMoniker Id="bdf8b005-3b1d-4ca2-baec-0c1c712a8972" />
+        <classShapeMoniker Id="9c1fa3f1-7ff6-42e7-9b7b-ec4e5b64122d" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 4.17390055338542); (3.625 : 4.17390055338542)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/OpsSchedDataContext/PEOPLE/PEOPLE_FSSIGNUP" />
+      <nodes>
+        <classShapeMoniker Id="5aca89f6-cfbc-4148-9db4-50cb1ec97958" />
+        <classShapeMoniker Id="9c1fa3f1-7ff6-42e7-9b7b-ec4e5b64122d" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

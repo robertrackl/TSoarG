@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="Statist">
+  <DataContextMoniker Name="/StatistDataContext" />
+  <nestedChildShapes>
+    <classShape Id="746fe92b-6325-46b8-b244-2fd99d442086" absoluteBounds="0.875, 2.875, 2, 2.7324039713541666">
+      <DataClassMoniker Name="/StatistDataContext/AVIATOR" />
+      <nestedChildShapes>
+        <elementListCompartment Id="e7af558e-bd35-42ef-a037-ba1acc748dbb" absoluteBounds="0.89, 3.335, 1.9700000000000002, 2.1724039713541665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="1145498d-4619-4c28-aae5-d2dc3161eebc" absoluteBounds="4, 3, 2, 2.3478011067708335">
+      <DataClassMoniker Name="/StatistDataContext/OPDETAIL" />
+      <nestedChildShapes>
+        <elementListCompartment Id="5ed9f049-ffcc-4d14-9429-99f2cda7dfae" absoluteBounds="4.015, 3.46, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(4 : 4.17390055338542); (2.875 : 4.17390055338542)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/StatistDataContext/OPDETAIL/OPDETAIL_AVIATOR" />
+      <nodes>
+        <classShapeMoniker Id="1145498d-4619-4c28-aae5-d2dc3161eebc" />
+        <classShapeMoniker Id="746fe92b-6325-46b8-b244-2fd99d442086" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="2c5277c7-f6f0-45a5-9c87-3b764f937661" absoluteBounds="7.125, 3, 2, 2.9247054036458331">
+      <DataClassMoniker Name="/StatistDataContext/OPERATION" />
+      <nestedChildShapes>
+        <elementListCompartment Id="f2aed85f-96f5-4dff-af22-1142b60c0a4b" absoluteBounds="7.14, 3.46, 1.9700000000000002, 2.364705403645833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(7.125 : 4.17390055338542); (6 : 4.17390055338542)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/StatistDataContext/OPERATION/OPERATION_OPDETAIL" />
+      <nodes>
+        <classShapeMoniker Id="2c5277c7-f6f0-45a5-9c87-3b764f937661" />
+        <classShapeMoniker Id="1145498d-4619-4c28-aae5-d2dc3161eebc" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="8a428c34-e2d2-4a0b-9939-d43baffc70f5" absoluteBounds="2.5, 0.5, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/StatistDataContext/DIAGNOSTIC" />
+      <nestedChildShapes>
+        <elementListCompartment Id="8b459c29-0de3-47bb-af2f-7eb3b2a86ef5" absoluteBounds="2.515, 0.96, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

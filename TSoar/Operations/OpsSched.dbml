@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="SoarDB" Class="OpsSchedDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=R43640;Initial Catalog=SoarDB;Persist Security Info=False;User ID=SoarNP" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="SoarDBConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.PEOPLE" Member="PEOPLEs">
+    <Type Name="PEOPLE">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="PiTRecordEntered" Type="System.DateTime" DbType="DateTime2 NOT NULL" CanBeNull="false" />
+      <Column Name="iRecordEnteredBy" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="sTitle" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="sFirstName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="sMiddleName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="sLastName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="sSuffix" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="sDisplayName" Type="System.String" DbType="NVarChar(55) NOT NULL" CanBeNull="false" />
+      <Column Name="sNotes" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="DateOfBirth" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="sUserName" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="sIdQBO" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="iFA_branch_code" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="iFA_debtor_no" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="DAcceptedAUP" Type="System.DateTimeOffset" DbType="DateTimeOffset NOT NULL" CanBeNull="false" />
+      <Association Name="PEOPLE_FSSIGNUP" Member="FSSIGNUPs" ThisKey="ID" OtherKey="iPerson" Type="FSSIGNUP" />
+    </Type>
+  </Table>
+  <Table Name="dbo.FSCATEGS" Member="FSCATEGs">
+    <Type Name="FSCATEG">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="sCateg" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="cKind" Type="System.Char" DbType="NChar(1) NOT NULL" CanBeNull="false" />
+      <Column Name="iOrder" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="sNotes" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Association Name="FSCATEG_FSSIGNUP" Member="FSSIGNUPs" ThisKey="ID" OtherKey="iCateg" Type="FSSIGNUP" />
+    </Type>
+  </Table>
+  <Table Name="dbo.FSDATES" Member="FSDATEs">
+    <Type Name="FSDATE">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Date" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="bEnabled" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="sNote" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Association Name="FSDATE_FSSIGNUP" Member="FSSIGNUPs" ThisKey="ID" OtherKey="iDate" Type="FSSIGNUP" />
+    </Type>
+  </Table>
+  <Table Name="dbo.FSSIGNUPS" Member="FSSIGNUPs">
+    <Type Name="FSSIGNUP">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="DEntered" Type="System.DateTimeOffset" DbType="DateTimeOffset NOT NULL" CanBeNull="false" />
+      <Column Name="DModified" Type="System.DateTimeOffset" DbType="DateTimeOffset NOT NULL" CanBeNull="false" />
+      <Column Name="iDate" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="iCateg" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="iPerson" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="sRemarks" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="sNameInSchedule" Type="System.String" DbType="NVarChar(55)" CanBeNull="true" />
+      <Association Name="FSCATEG_FSSIGNUP" Member="FSCATEG" ThisKey="iCateg" OtherKey="ID" Type="FSCATEG" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+      <Association Name="FSDATE_FSSIGNUP" Member="FSDATE" ThisKey="iDate" OtherKey="ID" Type="FSDATE" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+      <Association Name="PEOPLE_FSSIGNUP" Member="PEOPLE" ThisKey="iPerson" OtherKey="ID" Type="PEOPLE" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+    </Type>
+  </Table>
+  <Function Name="dbo.sfOpsSchedInitDate" Method="sfOpsSchedInitDate" IsComposable="true">
+    <ElementType Name="sfOpsSchedInitDateResult">
+      <Column Name="iDate" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Dresult" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+    </ElementType>
+  </Function>
+</Database>

@@ -1,0 +1,312 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 22.5, 19.625" name="FlyActInvoice">
+  <DataContextMoniker Name="/FlyActInvoiceDataContext" />
+  <nestedChildShapes>
+    <classShape Id="0e86a08b-ff0e-4b58-9cc9-736731d9e685" absoluteBounds="11.5, 11.375, 2, 2.9247054036458331">
+      <DataClassMoniker Name="/FlyActInvoiceDataContext/OPERATION" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b9bcce8b-88df-4426-99b0-ad303e636680" absoluteBounds="11.515, 11.835, 1.9700000000000002, 2.364705403645833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="2174b599-01b8-44a1-b938-30dd029cd726" absoluteBounds="16.75, 13.375, 2, 1.1939925130208333">
+      <DataClassMoniker Name="/FlyActInvoiceDataContext/LAUNCHMETHOD" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d3092709-096d-4b0c-8b4b-7312f4fcb93f" absoluteBounds="16.765, 13.835, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(16.75 : 13.8373527018229); (13.5 : 13.8373527018229)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/FlyActInvoiceDataContext/LAUNCHMETHOD/LAUNCHMETHOD_OPERATION" />
+      <nodes>
+        <classShapeMoniker Id="2174b599-01b8-44a1-b938-30dd029cd726" />
+        <classShapeMoniker Id="0e86a08b-ff0e-4b58-9cc9-736731d9e685" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="05f58b65-3fff-421b-80fa-8fe8c9969d64" absoluteBounds="11.875, 8, 2, 2.3478011067708335">
+      <DataClassMoniker Name="/FlyActInvoiceDataContext/OPDETAIL" />
+      <nestedChildShapes>
+        <elementListCompartment Id="1a59e2c6-a693-4772-bf36-607cdd53dfda" absoluteBounds="11.89, 8.46, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(12.6875 : 11.375); (12.6875 : 10.3478011067708)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/FlyActInvoiceDataContext/OPERATION/OPERATION_OPDETAIL" />
+      <nodes>
+        <classShapeMoniker Id="0e86a08b-ff0e-4b58-9cc9-736731d9e685" />
+        <classShapeMoniker Id="05f58b65-3fff-421b-80fa-8fe8c9969d64" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="69fdba3c-4b2e-4e56-b561-465f5f2a9b32" absoluteBounds="14.5, 7.75, 2, 2.5401025390625">
+      <DataClassMoniker Name="/FlyActInvoiceDataContext/EQUIPMENT" />
+      <nestedChildShapes>
+        <elementListCompartment Id="2d37e7ee-411d-4061-bcd9-b8aae02744ab" absoluteBounds="14.515, 8.21, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(14.5 : 9.14505126953125); (13.875 : 9.14505126953125)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/FlyActInvoiceDataContext/EQUIPMENT/EQUIPMENT_OPDETAIL" />
+      <nodes>
+        <classShapeMoniker Id="69fdba3c-4b2e-4e56-b561-465f5f2a9b32" />
+        <classShapeMoniker Id="05f58b65-3fff-421b-80fa-8fe8c9969d64" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="0269a05b-3424-409c-854f-5ca5e0e30bb6" absoluteBounds="17.125, 8.25, 2, 1.1939925130208333">
+      <DataClassMoniker Name="/FlyActInvoiceDataContext/EQUIPTYPE" />
+      <nestedChildShapes>
+        <elementListCompartment Id="1b8f4d1a-43da-4be4-a63e-6e13bf683296" absoluteBounds="17.14, 8.71, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(17.125 : 8.84699625651042); (16.5 : 8.84699625651042)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/FlyActInvoiceDataContext/EQUIPTYPE/EQUIPTYPE_EQUIPMENT" />
+      <nodes>
+        <classShapeMoniker Id="0269a05b-3424-409c-854f-5ca5e0e30bb6" />
+        <classShapeMoniker Id="69fdba3c-4b2e-4e56-b561-465f5f2a9b32" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="3cffed89-cb8b-4868-8449-a925b0e89bcf" absoluteBounds="16.75, 11.25, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/FlyActInvoiceDataContext/EQUIPMENTROLE" />
+      <nestedChildShapes>
+        <elementListCompartment Id="2d03ed56-f05c-491a-97a5-7157e1b6697c" absoluteBounds="16.765, 11.71, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(16.75 : 11.28125); (13.71875 : 11.28125); (13.71875 : 10.3478011067708)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/FlyActInvoiceDataContext/EQUIPMENTROLE/EQUIPMENTROLE_OPDETAIL" />
+      <nodes>
+        <classShapeMoniker Id="3cffed89-cb8b-4868-8449-a925b0e89bcf" />
+        <classShapeMoniker Id="05f58b65-3fff-421b-80fa-8fe8c9969d64" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="a190e844-15a0-4927-9137-35e5d83d9101" absoluteBounds="4.375, 14.5, 2, 1.9631982421875">
+      <DataClassMoniker Name="/FlyActInvoiceDataContext/LOCATION" />
+      <nestedChildShapes>
+        <elementListCompartment Id="8da25861-228c-4d06-a12b-dc495a6575e9" absoluteBounds="4.39, 14.96, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(6.375 : 14.84375); (11.9791666666667 : 14.84375 : JumpStart); (12.1458333333333 : 14.84375 : JumpEnd); (13.09375 : 14.84375); (13.09375 : 14.2997054036458)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/FlyActInvoiceDataContext/LOCATION/LOCATION_OPERATION" />
+      <nodes>
+        <classShapeMoniker Id="a190e844-15a0-4927-9137-35e5d83d9101" />
+        <classShapeMoniker Id="0e86a08b-ff0e-4b58-9cc9-736731d9e685" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="215e6c7d-2880-4ec6-bf87-b54b27093099" absoluteBounds="9.5, 8, 2, 2.7324039713541666">
+      <DataClassMoniker Name="/FlyActInvoiceDataContext/AVIATOR" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d72cd5d2-09f6-4a33-a2b3-c30eb16c2937" absoluteBounds="9.515, 8.46, 1.9700000000000002, 2.1724039713541665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(11.875 : 9.17390055338542); (11.5 : 9.17390055338542)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/FlyActInvoiceDataContext/OPDETAIL/OPDETAIL_AVIATOR" />
+      <nodes>
+        <classShapeMoniker Id="05f58b65-3fff-421b-80fa-8fe8c9969d64" />
+        <classShapeMoniker Id="215e6c7d-2880-4ec6-bf87-b54b27093099" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="6308a2ba-87f5-4bc5-8a8f-440c43ffec64" absoluteBounds="19.75, 13.625, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/FlyActInvoiceDataContext/CHARGECODESINRATE" />
+      <nestedChildShapes>
+        <elementListCompartment Id="608d50fe-5a0a-4612-b7e3-4667f2073b5c" absoluteBounds="19.765, 14.085, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="9a60e4dc-2fa6-4318-88bd-fa0ba85f4d82" absoluteBounds="10.625, 15.25, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/FlyActInvoiceDataContext/CHARGECODE" />
+      <nestedChildShapes>
+        <elementListCompartment Id="bf4caca7-93e6-492c-8218-60775b725202" absoluteBounds="10.64, 15.71, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(12.0625 : 15.25); (12.0625 : 14.2997054036458)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/FlyActInvoiceDataContext/CHARGECODE/CHARGECODE_OPERATION" />
+      <nodes>
+        <classShapeMoniker Id="9a60e4dc-2fa6-4318-88bd-fa0ba85f4d82" />
+        <classShapeMoniker Id="0e86a08b-ff0e-4b58-9cc9-736731d9e685" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(12.625 : 16.1354484049479); (20.75 : 16.1354484049479); (20.75 : 15.2035953776042)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/FlyActInvoiceDataContext/CHARGECODE/CHARGECODE_CHARGECODESINRATE" />
+      <nodes>
+        <classShapeMoniker Id="9a60e4dc-2fa6-4318-88bd-fa0ba85f4d82" />
+        <classShapeMoniker Id="6308a2ba-87f5-4bc5-8a8f-440c43ffec64" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(11.3305298715445 : 17.0208968098958); (11.3305298715445 : 17.2708968098958); (11.9334925155248 : 17.2708968098958); (11.9334925155248 : 17.0208968098958)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/FlyActInvoiceDataContext/CHARGECODE/CHARGECODE_CHARGECODE" />
+      <nodes>
+        <classShapeMoniker Id="9a60e4dc-2fa6-4318-88bd-fa0ba85f4d82" />
+        <classShapeMoniker Id="9a60e4dc-2fa6-4318-88bd-fa0ba85f4d82" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="ec6b06d6-dc9d-4a66-9450-d6274e66c459" absoluteBounds="11.125, 4.75, 2, 2.5401025390625">
+      <DataClassMoniker Name="/FlyActInvoiceDataContext/SFV_InvoiceDetail" />
+      <nestedChildShapes>
+        <elementListCompartment Id="2d2b7710-de9a-4dd6-b1b8-14b38fba9b40" absoluteBounds="11.14, 5.21, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="fde17008-59a4-44aa-b0f8-7c2a335c0f54" absoluteBounds="1, 7.625, 2, 3.3093082682291666">
+      <DataClassMoniker Name="/FlyActInvoiceDataContext/PEOPLE" />
+      <nestedChildShapes>
+        <elementListCompartment Id="888b917d-cd3c-4dd5-96cc-4f09ffcf98f1" absoluteBounds="1.0150000000000001, 8.085, 1.9700000000000002, 2.7493082682291665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(3 : 9.36620198567708); (9.5 : 9.36620198567708)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/FlyActInvoiceDataContext/PEOPLE/PEOPLE_AVIATOR" />
+      <nodes>
+        <classShapeMoniker Id="fde17008-59a4-44aa-b0f8-7c2a335c0f54" />
+        <classShapeMoniker Id="215e6c7d-2880-4ec6-bf87-b54b27093099" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="6b2ff5f2-30aa-43d3-9e9a-10a64b73ff89" absoluteBounds="7.75, 5.125, 2, 1.1939925130208333">
+      <DataClassMoniker Name="/FlyActInvoiceDataContext/AVIATORROLE" />
+      <nestedChildShapes>
+        <elementListCompartment Id="db24ff12-ed54-49a9-b8b0-101a054f84bc" absoluteBounds="7.7650000000000006, 5.585, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(8.5937475 : 6.31899251302083); (8.5937475 : 8.65184849283854); (9.5 : 8.65184849283854)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/FlyActInvoiceDataContext/AVIATORROLE/AVIATORROLE_AVIATOR" />
+      <nodes>
+        <classShapeMoniker Id="6b2ff5f2-30aa-43d3-9e9a-10a64b73ff89" />
+        <classShapeMoniker Id="215e6c7d-2880-4ec6-bf87-b54b27093099" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="ecfa8f09-517a-49fa-9104-0d6e3a3d933a" absoluteBounds="1.625, 15.125, 2, 2.3478011067708335">
+      <DataClassMoniker Name="/FlyActInvoiceDataContext/PEOPLEQUALIFIC" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a7e24351-c664-456a-b68a-605c498967a2" absoluteBounds="1.6400000000000001, 15.585, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.78125 : 10.9343082682292); (2.78125 : 15.125)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/FlyActInvoiceDataContext/PEOPLE/PEOPLE_PEOPLEQUALIFIC" />
+      <nodes>
+        <classShapeMoniker Id="fde17008-59a4-44aa-b0f8-7c2a335c0f54" />
+        <classShapeMoniker Id="ecfa8f09-517a-49fa-9104-0d6e3a3d933a" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="a56b823b-8660-43f2-a710-5b1d74a48fec" absoluteBounds="1.5, 18.125, 2, 1.1939925130208333">
+      <DataClassMoniker Name="/FlyActInvoiceDataContext/CERTIFICATION" />
+      <nestedChildShapes>
+        <elementListCompartment Id="aad30f2e-df6f-4cb9-9b06-bad2351e4c08" absoluteBounds="1.5150000000000001, 18.585, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.5625 : 18.125); (2.5625 : 17.4728011067708)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/FlyActInvoiceDataContext/CERTIFICATION/CERTIFICATION_PEOPLEQUALIFIC" />
+      <nodes>
+        <classShapeMoniker Id="a56b823b-8660-43f2-a710-5b1d74a48fec" />
+        <classShapeMoniker Id="ecfa8f09-517a-49fa-9104-0d6e3a3d933a" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="50eb2d38-fd0c-4839-a527-3090962458ad" absoluteBounds="8.25, 2.375, 2, 1.1939925130208333">
+      <DataClassMoniker Name="/FlyActInvoiceDataContext/QBO_ITEMNAME" />
+      <nestedChildShapes>
+        <elementListCompartment Id="781b9c36-a1aa-41ba-99ae-cf7de8bb38f7" absoluteBounds="8.265, 2.835, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="8dd0b979-01c0-4ced-bf30-fe70ed116365" absoluteBounds="0.875, 1.125, 2, 2.3478011067708335">
+      <DataClassMoniker Name="/FlyActInvoiceDataContext/INVLINE" />
+      <nestedChildShapes>
+        <elementListCompartment Id="7da2a2e2-3698-47f3-9ceb-78a575c3fd61" absoluteBounds="0.89, 1.585, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(8.25 : 2.92390055338542); (2.875 : 2.92390055338542)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/FlyActInvoiceDataContext/QBO_ITEMNAME/QBO_ITEMNAME_INVLINE" />
+      <nodes>
+        <classShapeMoniker Id="50eb2d38-fd0c-4839-a527-3090962458ad" />
+        <classShapeMoniker Id="8dd0b979-01c0-4ced-bf30-fe70ed116365" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="89fb9ec7-fb66-45e6-aa4a-06c1ef64c6d6" absoluteBounds="14, 0.75, 2, 1.1939925130208333">
+      <DataClassMoniker Name="/FlyActInvoiceDataContext/MEMBERSHIPCATEGORy" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c835f885-1f00-4ac7-9b5f-195eabfebcec" absoluteBounds="14.015, 1.21, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="f4f8c8ef-180a-4f1c-b6b3-82f47700f6e7" absoluteBounds="17.5, 0.625, 2, 2.3478011067708335">
+      <DataClassMoniker Name="/FlyActInvoiceDataContext/MINFLYCHGPAR" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ee031b57-3a67-4fd9-aee9-944d2bcbb061" absoluteBounds="17.515, 1.085, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(16 : 1.34699625651042); (17.5 : 1.34699625651042)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/FlyActInvoiceDataContext/MEMBERSHIPCATEGORy/MEMBERSHIPCATEGORy_MINFLYCHGPAR" />
+      <nodes>
+        <classShapeMoniker Id="89fb9ec7-fb66-45e6-aa4a-06c1ef64c6d6" />
+        <classShapeMoniker Id="f4f8c8ef-180a-4f1c-b6b3-82f47700f6e7" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="59a0936a-78f4-41e7-a257-246404b85e19" absoluteBounds="0.875, 4, 2, 3.1170068359375">
+      <DataClassMoniker Name="/FlyActInvoiceDataContext/INVOICE" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c32f182d-5f85-432c-a8d3-ab14292ef83a" absoluteBounds="0.89000000000000012, 4.46, 1.9700000000000002, 2.5570068359375" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(1.875 : 4); (1.875 : 3.47280110677083)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/FlyActInvoiceDataContext/INVOICE/INVOICE_INVLINE" />
+      <nodes>
+        <classShapeMoniker Id="59a0936a-78f4-41e7-a257-246404b85e19" />
+        <classShapeMoniker Id="8dd0b979-01c0-4ced-bf30-fe70ed116365" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(1.9375 : 7.625); (1.9375 : 7.1170068359375)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/FlyActInvoiceDataContext/PEOPLE/PEOPLE_INVOICE" />
+      <nodes>
+        <classShapeMoniker Id="fde17008-59a4-44aa-b0f8-7c2a335c0f54" />
+        <classShapeMoniker Id="59a0936a-78f4-41e7-a257-246404b85e19" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="2c033d5d-e569-4e3c-bf12-759e17666f79" absoluteBounds="0.5, 11.625, 2, 2.5401025390625">
+      <DataClassMoniker Name="/FlyActInvoiceDataContext/FLYINGCHARGE" />
+      <nestedChildShapes>
+        <elementListCompartment Id="e276c4a2-5821-4bda-83f2-681d9e443768" absoluteBounds="0.51500000000000057, 12.085, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(1.75 : 10.9343082682292); (1.75 : 11.625)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/FlyActInvoiceDataContext/PEOPLE/PEOPLE_FLYINGCHARGE" />
+      <nodes>
+        <classShapeMoniker Id="fde17008-59a4-44aa-b0f8-7c2a335c0f54" />
+        <classShapeMoniker Id="2c033d5d-e569-4e3c-bf12-759e17666f79" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="1476775e-5837-4cbb-ab15-7932dcf2bf67" absoluteBounds="4.375, 6.25, 2, 1.9631982421875">
+      <DataClassMoniker Name="/FlyActInvoiceDataContext/MEMBERFROMTO" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c9add15a-b7c7-45f1-84c3-dbf8bd2aed38" absoluteBounds="4.39, 6.71, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(14.21875 : 1.94399251302083); (14.21875 : 7.52005126953125); (8.67708083333333 : 7.52005126953125 : JumpStart); (8.51041416666667 : 7.52005126953125 : JumpEnd); (6.375 : 7.52005126953125)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/FlyActInvoiceDataContext/MEMBERSHIPCATEGORy/MEMBERSHIPCATEGORy_MEMBERFROMTO" />
+      <nodes>
+        <classShapeMoniker Id="89fb9ec7-fb66-45e6-aa4a-06c1ef64c6d6" />
+        <classShapeMoniker Id="1476775e-5837-4cbb-ab15-7932dcf2bf67" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(3 : 7.91909912109375); (4.375 : 7.91909912109375)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/FlyActInvoiceDataContext/PEOPLE/PEOPLE_MEMBERFROMTO" />
+      <nodes>
+        <classShapeMoniker Id="fde17008-59a4-44aa-b0f8-7c2a335c0f54" />
+        <classShapeMoniker Id="1476775e-5837-4cbb-ab15-7932dcf2bf67" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="bd473939-e7cd-4426-93be-0cf5fdf6e108" absoluteBounds="20.25, 8.25, 2, 4.0785139973958326">
+      <DataClassMoniker Name="/FlyActInvoiceDataContext/RATE" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ac982133-0e7b-4780-bb7f-08f87750487c" absoluteBounds="20.265, 8.71, 1.9700000000000002, 3.518513997395833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(21 : 12.3285139973958); (21 : 13.625)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/FlyActInvoiceDataContext/RATE/RATE_CHARGECODESINRATE" />
+      <nodes>
+        <classShapeMoniker Id="bd473939-e7cd-4426-93be-0cf5fdf6e108" />
+        <classShapeMoniker Id="6308a2ba-87f5-4bc5-8a8f-440c43ffec64" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(19.125 : 8.84699625651042); (20.25 : 8.84699625651042)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/FlyActInvoiceDataContext/EQUIPTYPE/EQUIPTYPE_RATE" />
+      <nodes>
+        <classShapeMoniker Id="0269a05b-3424-409c-854f-5ca5e0e30bb6" />
+        <classShapeMoniker Id="bd473939-e7cd-4426-93be-0cf5fdf6e108" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(10.25 : 3.30214680989583); (14.1354166666667 : 3.30214680989583 : JumpStart); (14.3020833333333 : 3.30214680989583 : JumpEnd); (21.25 : 3.30214680989583); (21.25 : 8.25)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/FlyActInvoiceDataContext/QBO_ITEMNAME/QBO_ITEMNAME_RATE" />
+      <nodes>
+        <classShapeMoniker Id="50eb2d38-fd0c-4839-a527-3090962458ad" />
+        <classShapeMoniker Id="bd473939-e7cd-4426-93be-0cf5fdf6e108" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

@@ -1,0 +1,8 @@
+\obj\
+\Properties\
+MigrationLevelDevIntProd
+FlyActInvoice
+PSSA_MySQL
+spInvoiceDetails
+Statist.dbml
+cloudsWLogoOLD

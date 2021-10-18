@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 12.75" name="TNPV_PeopleContacts">
+  <DataContextMoniker Name="/TNPV_PeopleContactsDataContext" />
+  <nestedChildShapes>
+    <classShape Id="09c594a2-118a-4a56-b07a-deefb5147b55" absoluteBounds="0.5, 0.5, 2.25, 2.5401025390625">
+      <DataClassMoniker Name="/TNPV_PeopleContactsDataContext/TNPV_PeopleContact" />
+      <nestedChildShapes>
+        <elementListCompartment Id="8f45c2c8-7d72-4a44-a30c-87a20326ffe5" absoluteBounds="0.515, 0.96, 2.2199999999999998, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="e7e157c5-07da-4f2b-97e6-e0a42fad6e4a" absoluteBounds="0.5, 3.5, 2, 2.5401025390625">
+      <DataClassMoniker Name="/TNPV_PeopleContactsDataContext/PHYSADDRESS" />
+      <nestedChildShapes>
+        <elementListCompartment Id="9cd9d278-7310-471a-98e2-2afc27a9b761" absoluteBounds="0.515, 3.96, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="50536df0-f445-4617-88c6-ae5defeda247" absoluteBounds="0.5, 6.375, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/TNPV_PeopleContactsDataContext/CONTACTTYPE" />
+      <nestedChildShapes>
+        <elementListCompartment Id="217a4e5d-8e0c-4bba-8990-bea0cba42752" absoluteBounds="0.515, 6.835, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="0c1d257e-fdcf-4c5e-a373-1bfa7faf5782" absoluteBounds="3.5, 0.5, 2, 2.7324039713541666">
+      <DataClassMoniker Name="/TNPV_PeopleContactsDataContext/PEOPLECONTACT" />
+      <nestedChildShapes>
+        <elementListCompartment Id="48e88bc2-47bd-46f9-b535-8b95507ea9d3" absoluteBounds="3.515, 0.96, 1.9700000000000002, 2.1724039713541665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.5 : 7.16429768880208); (4.5 : 7.16429768880208); (4.5 : 3.23240397135417)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/TNPV_PeopleContactsDataContext/CONTACTTYPE/CONTACTTYPE_PEOPLECONTACT" />
+      <nodes>
+        <classShapeMoniker Id="50536df0-f445-4617-88c6-ae5defeda247" />
+        <classShapeMoniker Id="0c1d257e-fdcf-4c5e-a373-1bfa7faf5782" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="36706b99-b4bf-434f-ae6d-2c5828585f6b" absoluteBounds="6.75, 4.375, 2, 1.9631982421875">
+      <DataClassMoniker Name="/TNPV_PeopleContactsDataContext/PEOPLEOFFICE" />
+      <nestedChildShapes>
+        <elementListCompartment Id="9982d567-19fa-4374-b0d6-3b69502b1187" absoluteBounds="6.765, 4.835, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="3f7fae96-9642-4c2d-a5d3-14f41065d086" absoluteBounds="6.75, 6.875, 2, 1.1939925130208333">
+      <DataClassMoniker Name="/TNPV_PeopleContactsDataContext/BOARDOFFICE" />
+      <nestedChildShapes>
+        <elementListCompartment Id="19cec2d5-b7fb-4d7a-9532-c2b415dd8ca5" absoluteBounds="6.765, 7.335, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(7.75 : 6.875); (7.75 : 6.3381982421875)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/TNPV_PeopleContactsDataContext/BOARDOFFICE/BOARDOFFICE_PEOPLEOFFICE" />
+      <nodes>
+        <classShapeMoniker Id="3f7fae96-9642-4c2d-a5d3-14f41065d086" />
+        <classShapeMoniker Id="36706b99-b4bf-434f-ae6d-2c5828585f6b" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="5af3d168-371a-42af-84b7-ee9cc9b021ee" absoluteBounds="0.75, 8.5, 2, 1.3862939453125">
+      <DataClassMoniker Name="/TNPV_PeopleContactsDataContext/TNPV_TelephRoster" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ad065caa-fede-4de0-8c35-8a38d22fa2c9" absoluteBounds="0.765, 8.96, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="0c03294a-163e-4443-b017-d6916dc2433b" absoluteBounds="3.5, 8.5, 2, 1.3862939453125">
+      <DataClassMoniker Name="/TNPV_PeopleContactsDataContext/TNPV_EmailRoster" />
+      <nestedChildShapes>
+        <elementListCompartment Id="0068a39d-8f09-4063-909e-2ca84fe0be44" absoluteBounds="3.515, 8.96, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="9142d52c-30e7-48c6-8153-5938d46c97b5" absoluteBounds="6.25, 8.5, 2, 2.5401025390625">
+      <DataClassMoniker Name="/TNPV_PeopleContactsDataContext/TNPV_PhysAddrRoster" />
+      <nestedChildShapes>
+        <elementListCompartment Id="94b6f845-0aee-4be2-85b5-976e7cc15170" absoluteBounds="6.265, 8.96, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="ecd641db-9c1c-4a62-b78b-902c26823947" absoluteBounds="0.75, 10.5, 2, 1.9631982421875">
+      <DataClassMoniker Name="/TNPV_PeopleContactsDataContext/TNPV_QualifRoster" />
+      <nestedChildShapes>
+        <elementListCompartment Id="7b73b615-2fea-4741-be6d-05ed104cc0b1" absoluteBounds="0.765, 10.96, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="565043a2-6d78-4120-a47f-23da526c08f1" absoluteBounds="6.75, 0.5, 2, 3.5016097005208326">
+      <DataClassMoniker Name="/TNPV_PeopleContactsDataContext/PEOPLE" />
+      <nestedChildShapes>
+        <elementListCompartment Id="2ef7c80f-b054-48a4-a1aa-8921fd1d89f9" absoluteBounds="6.765, 0.96, 1.9700000000000002, 2.941609700520833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(6.75 : 1.86620198567708); (5.5 : 1.86620198567708)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/TNPV_PeopleContactsDataContext/PEOPLE/PEOPLE_PEOPLECONTACT" />
+      <nodes>
+        <classShapeMoniker Id="565043a2-6d78-4120-a47f-23da526c08f1" />
+        <classShapeMoniker Id="0c1d257e-fdcf-4c5e-a373-1bfa7faf5782" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(7.75 : 4.00160970052083); (7.75 : 4.375)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/TNPV_PeopleContactsDataContext/PEOPLE/PEOPLE_PEOPLEOFFICE" />
+      <nodes>
+        <classShapeMoniker Id="565043a2-6d78-4120-a47f-23da526c08f1" />
+        <classShapeMoniker Id="36706b99-b4bf-434f-ae6d-2c5828585f6b" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

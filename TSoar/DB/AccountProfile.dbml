@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="SoarDB" Class="AccountProfileDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=C1325433-H\SQLSERVER2014A;Initial Catalog=SoarDB;Persist Security Info=False;User ID=SoarNP" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="SqlConn" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.SETTINGS" Member="SETTINGs">
+    <Type Name="SETTING">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="sSettingName" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="sExplanation" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="sSettingValue" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="sInTable" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="sComments" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="bUserSelectable" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="cSettingType" Type="System.Char" DbType="NChar(1) NOT NULL" CanBeNull="false" />
+      <Column Name="dLow" Type="System.Decimal" DbType="Decimal(12,4)" CanBeNull="true" />
+      <Column Name="dHigh" Type="System.Decimal" DbType="Decimal(12,4)" CanBeNull="true" />
+      <Column Name="sSelectStmnt" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="sDataValueField" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="sDataTextField" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

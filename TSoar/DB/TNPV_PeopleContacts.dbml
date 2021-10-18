@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="SoarDB" Class="TNPV_PeopleContactsDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=C1325433-H\SQLSERVER2014A;Initial Catalog=SoarDB;Persist Security Info=True;User ID=SoarNP" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="SqlConn" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.TNPV_PeopleContacts" Member="TNPV_PeopleContacts">
+    <Type Name="TNPV_PeopleContact">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="sDisplayName" Type="System.String" DbType="NVarChar(55) NOT NULL" CanBeNull="false" />
+      <Column Name="sPeopleContactType" Type="System.String" DbType="NVarChar(30) NOT NULL" CanBeNull="false" />
+      <Column Name="DBegin" Type="System.DateTime" DbType="DateTime2" CanBeNull="true" />
+      <Column Name="DEnd" Type="System.DateTime" DbType="DateTime2" CanBeNull="true" />
+      <Column Name="iPhysAddress" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="bHasPhysAddr" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="sContactInfo" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="dContactPriorityRanking" Type="System.Decimal" DbType="Decimal(5,2)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.PHYSADDRESSES" Member="PHYSADDRESSes">
+    <Type Name="PHYSADDRESS">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="PiTRecordEntered" Type="System.DateTime" DbType="DateTime2 NOT NULL" CanBeNull="false" />
+      <Column Name="iRecordEnteredBy" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="sAddress1" Type="System.String" DbType="NVarChar(30) NOT NULL" CanBeNull="false" />
+      <Column Name="sAddress2" Type="System.String" DbType="NVarChar(30)" CanBeNull="true" />
+      <Column Name="sCity" Type="System.String" DbType="NVarChar(30) NOT NULL" CanBeNull="false" />
+      <Column Name="sStateProv" Type="System.String" DbType="NVarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="sZipPostal" Type="System.String" DbType="NVarChar(15)" CanBeNull="true" />
+      <Column Name="sCountry" Type="System.String" DbType="NVarChar(20) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.CONTACTTYPES" Member="CONTACTTYPEs">
+    <Type Name="CONTACTTYPE">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="sPeopleContactType" Type="System.String" DbType="NVarChar(30) NOT NULL" CanBeNull="false" />
+      <Column Name="bHasPhysAddr" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="dDefaultRank" Type="System.Decimal" DbType="Decimal(5,2) NOT NULL" CanBeNull="false" />
+      <Association Name="CONTACTTYPE_PEOPLECONTACT" Member="PEOPLECONTACTs" ThisKey="ID" OtherKey="iContactType" Type="PEOPLECONTACT" />
+    </Type>
+  </Table>
+  <Table Name="dbo.PEOPLECONTACTS" Member="PEOPLECONTACTs">
+    <Type Name="PEOPLECONTACT">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="PiTRecordEntered" Type="System.DateTime" DbType="DateTime2 NOT NULL" CanBeNull="false" />
+      <Column Name="iRecordEnteredBy" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="iPerson" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="iContactType" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="DBegin" Type="System.DateTime" DbType="DateTime2" CanBeNull="true" />
+      <Column Name="DEnd" Type="System.DateTime" DbType="DateTime2" CanBeNull="true" />
+      <Column Name="iPhysAddress" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="sContactInfo" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="dContactPriorityRanking" Type="System.Decimal" DbType="Decimal(5,2)" CanBeNull="true" />
+      <Association Name="CONTACTTYPE_PEOPLECONTACT" Member="CONTACTTYPE" ThisKey="iContactType" OtherKey="ID" Type="CONTACTTYPE" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+      <Association Name="PEOPLE_PEOPLECONTACT" Member="PEOPLE" ThisKey="iPerson" OtherKey="ID" Type="PEOPLE" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.PEOPLEOFFICES" Member="PEOPLEOFFICEs">
+    <Type Name="PEOPLEOFFICE">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="iPerson" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="iBoardOffice" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="DOfficeBegin" Type="System.DateTimeOffset" DbType="DateTimeOffset NOT NULL" CanBeNull="false" />
+      <Column Name="DOfficeEnd" Type="System.DateTimeOffset" DbType="DateTimeOffset NOT NULL" CanBeNull="false" />
+      <Column Name="sAdditionalInfo" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Association Name="BOARDOFFICE_PEOPLEOFFICE" Member="BOARDOFFICE" ThisKey="iBoardOffice" OtherKey="ID" Type="BOARDOFFICE" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+      <Association Name="PEOPLE_PEOPLEOFFICE" Member="PEOPLE" ThisKey="iPerson" OtherKey="ID" Type="PEOPLE" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.BOARDOFFICES" Member="BOARDOFFICEs">
+    <Type Name="BOARDOFFICE">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="sBoardOffice" Type="System.String" DbType="NVarChar(30) NOT NULL" CanBeNull="false" />
+      <Association Name="BOARDOFFICE_PEOPLEOFFICE" Member="PEOPLEOFFICEs" ThisKey="ID" OtherKey="iBoardOffice" Type="PEOPLEOFFICE" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TNPV_TelephRoster" Member="TNPV_TelephRosters">
+    <Type Name="TNPV_TelephRoster">
+      <Column Name="sDisplayName" Type="System.String" DbType="NVarChar(55) NOT NULL" CanBeNull="false" />
+      <Column Name="sContactInfo" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="sPeopleContactType" Type="System.String" DbType="NVarChar(30) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TNPV_EmailRoster" Member="TNPV_EmailRosters">
+    <Type Name="TNPV_EmailRoster">
+      <Column Name="sDisplayName" Type="System.String" DbType="NVarChar(55) NOT NULL" CanBeNull="false" />
+      <Column Name="sContactInfo" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="sPeopleContactType" Type="System.String" DbType="NVarChar(30) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TNPV_PhysAddrRoster" Member="TNPV_PhysAddrRosters">
+    <Type Name="TNPV_PhysAddrRoster">
+      <Column Name="sDisplayName" Type="System.String" DbType="NVarChar(55) NOT NULL" CanBeNull="false" />
+      <Column Name="sAddress1" Type="System.String" DbType="NVarChar(30) NOT NULL" CanBeNull="false" />
+      <Column Name="sAddress2" Type="System.String" DbType="NVarChar(30)" CanBeNull="true" />
+      <Column Name="sCity" Type="System.String" DbType="NVarChar(30) NOT NULL" CanBeNull="false" />
+      <Column Name="sStateProv" Type="System.String" DbType="NVarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="sZipPostal" Type="System.String" DbType="NVarChar(15)" CanBeNull="true" />
+      <Column Name="sCountry" Type="System.String" DbType="NVarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="sPeopleContactType" Type="System.String" DbType="NVarChar(30) NOT NULL" CanBeNull="false" />
+      <Column Name="bHasPhysAddr" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TNPV_QualifRoster" Member="TNPV_QualifRosters">
+    <Type Name="TNPV_QualifRoster">
+      <Column Name="sDisplayName" Type="System.String" DbType="NVarChar(55) NOT NULL" CanBeNull="false" />
+      <Column Name="Certification" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Rating" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Qualification" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Since" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="Expires" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.PEOPLE" Member="PEOPLEs">
+    <Type Name="PEOPLE">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="PiTRecordEntered" Type="System.DateTime" DbType="DateTime2 NOT NULL" CanBeNull="false" />
+      <Column Name="iRecordEnteredBy" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="sTitle" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="sFirstName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="sMiddleName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="sLastName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="sSuffix" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="sDisplayName" Type="System.String" DbType="NVarChar(55) NOT NULL" CanBeNull="false" />
+      <Column Name="sNotes" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="DateOfBirth" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="sUserName" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="sIdQBO" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="DAcceptedAUP" Type="System.DateTimeOffset" DbType="DateTimeOffset" CanBeNull="true" />
+      <Association Name="PEOPLE_PEOPLECONTACT" Member="PEOPLECONTACTs" ThisKey="ID" OtherKey="iPerson" Type="PEOPLECONTACT" />
+      <Association Name="PEOPLE_PEOPLEOFFICE" Member="PEOPLEOFFICEs" ThisKey="ID" OtherKey="iPerson" Type="PEOPLEOFFICE" />
+    </Type>
+  </Table>
+</Database>

@@ -1,0 +1,274 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 14.5, 24.5" name="StatistDailyFlightLog">
+  <DataContextMoniker Name="/StatistDailyFlightLogDataContext" />
+  <nestedChildShapes>
+    <classShape Id="64aafa46-186e-4275-b2d4-a0fce4234992" absoluteBounds="0.5, 4.375, 2, 3.5016097005208326">
+      <DataClassMoniker Name="/StatistDailyFlightLogDataContext/PEOPLE" />
+      <nestedChildShapes>
+        <elementListCompartment Id="01a0e1d0-4104-48f0-a9b6-440c6eded8a0" absoluteBounds="0.515, 4.835, 1.9700000000000002, 2.941609700520833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="188d1720-44b4-4388-838e-87a5e94b2912" absoluteBounds="7.875, 5.625, 2, 2.9247054036458331">
+      <DataClassMoniker Name="/StatistDailyFlightLogDataContext/EQUIPMENT" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ec305498-0759-4247-923a-64980ada48ff" absoluteBounds="7.8900000000000006, 6.085, 1.9700000000000002, 2.364705403645833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="d875edce-9fa1-4831-8b58-ae9e998e7b03" absoluteBounds="9.125, 9.75, 2, 1.9631982421875">
+      <DataClassMoniker Name="/StatistDailyFlightLogDataContext/LOCATION" />
+      <nestedChildShapes>
+        <elementListCompartment Id="75a28363-bf4c-4986-9578-0f1db747a457" absoluteBounds="9.14, 10.21, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="59ef9ae3-027a-46c4-a4cc-d0b8058b1762" absoluteBounds="1.25, 11.25, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/StatistDailyFlightLogDataContext/CHARGECODE" />
+      <nestedChildShapes>
+        <elementListCompartment Id="62fb3c1a-d2f9-4128-9066-ced7c7a88924" absoluteBounds="1.2650000000000001, 11.71, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(1.95552987154447 : 13.0208968098958); (1.95552987154447 : 13.2708968098958); (2.55849251552484 : 13.2708968098958); (2.55849251552484 : 13.0208968098958)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/StatistDailyFlightLogDataContext/CHARGECODE/CHARGECODE_CHARGECODE" />
+      <nodes>
+        <classShapeMoniker Id="59ef9ae3-027a-46c4-a4cc-d0b8058b1762" />
+        <classShapeMoniker Id="59ef9ae3-027a-46c4-a4cc-d0b8058b1762" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="4909ab84-0230-4fa4-a8bf-ee58dbff7424" absoluteBounds="1.375, 8.75, 2, 1.1939925130208333">
+      <DataClassMoniker Name="/StatistDailyFlightLogDataContext/AVIATORROLE" />
+      <nestedChildShapes>
+        <elementListCompartment Id="46edaf0d-9305-4ef3-9936-3280a4a80b89" absoluteBounds="1.3900000000000001, 9.21, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="e52a8469-0bb5-4610-a05f-08b227b11639" absoluteBounds="0.75, 0.5, 2, 1.9631982421875">
+      <DataClassMoniker Name="/StatistDailyFlightLogDataContext/SETTING" />
+      <nestedChildShapes>
+        <elementListCompartment Id="7b8e4b93-f326-43fb-9e22-47ca15e19d1e" absoluteBounds="0.765, 0.96, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="d3ee05a5-b3ac-41e1-8f0a-fcf765d8185d" absoluteBounds="4.625, 2.125, 2, 2.9247054036458331">
+      <DataClassMoniker Name="/StatistDailyFlightLogDataContext/DAILYFLIGHTLOG" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d5bc4596-ff05-436f-858e-c0b7a38cc106" absoluteBounds="4.64, 2.585, 1.9700000000000002, 2.364705403645833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(8.875 : 5.625); (8.875 : 3.58735270182292); (6.625 : 3.58735270182292)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/StatistDailyFlightLogDataContext/EQUIPMENT/EQUIPMENT_DAILYFLIGHTLOG" />
+      <nodes>
+        <classShapeMoniker Id="188d1720-44b4-4388-838e-87a5e94b2912" />
+        <classShapeMoniker Id="d3ee05a5-b3ac-41e1-8f0a-fcf765d8185d" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(10.53125 : 9.75); (10.53125 : 4.34978155273437); (8.95833333333333 : 4.34978155273437 : JumpStart); (8.79166666666667 : 4.34978155273437 : JumpEnd); (6.625 : 4.34978155273437)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/StatistDailyFlightLogDataContext/LOCATION/LOCATION_DAILYFLIGHTLOG" />
+      <nodes>
+        <classShapeMoniker Id="d875edce-9fa1-4831-8b58-ae9e998e7b03" />
+        <classShapeMoniker Id="d3ee05a5-b3ac-41e1-8f0a-fcf765d8185d" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.5 : 4.71235270182292); (4.625 : 4.71235270182292)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/StatistDailyFlightLogDataContext/PEOPLE/PEOPLE_DAILYFLIGHTLOG" />
+      <nodes>
+        <classShapeMoniker Id="64aafa46-186e-4275-b2d4-a0fce4234992" />
+        <classShapeMoniker Id="d3ee05a5-b3ac-41e1-8f0a-fcf765d8185d" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="e84fb550-6cde-4d4e-8529-8a405a3db646" absoluteBounds="4.125, 7.25, 2, 5.4246240234375">
+      <DataClassMoniker Name="/StatistDailyFlightLogDataContext/FLIGHTLOGROW" />
+      <nestedChildShapes>
+        <elementListCompartment Id="30e69503-ce4c-4429-8a81-3beb3db24199" absoluteBounds="4.14, 7.71, 1.9700000000000002, 4.8646240234375" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(3.25 : 11.9623120117187); (4.125 : 11.9623120117187)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/StatistDailyFlightLogDataContext/CHARGECODE/CHARGECODE_FLIGHTLOGROW" />
+      <nodes>
+        <classShapeMoniker Id="59ef9ae3-027a-46c4-a4cc-d0b8058b1762" />
+        <classShapeMoniker Id="e84fb550-6cde-4d4e-8529-8a405a3db646" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.375 : 5.04970540364583); (5.375 : 7.25)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/StatistDailyFlightLogDataContext/DAILYFLIGHTLOG/DAILYFLIGHTLOG_FLIGHTLOGROW" />
+      <nodes>
+        <classShapeMoniker Id="d3ee05a5-b3ac-41e1-8f0a-fcf765d8185d" />
+        <classShapeMoniker Id="e84fb550-6cde-4d4e-8529-8a405a3db646" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="615a48c7-62b8-499c-9adc-93a827f8d9ff" absoluteBounds="8, 12.5, 2, 1.1939925130208333">
+      <DataClassMoniker Name="/StatistDailyFlightLogDataContext/LAUNCHMETHOD" />
+      <nestedChildShapes>
+        <elementListCompartment Id="3d38646c-de6f-424c-97b9-12e48569d316" absoluteBounds="8.015, 12.96, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="2a768d04-cc8f-4d64-ba27-46ae1d0b2ae0" absoluteBounds="2.875, 15.375, 2, 2.3478011067708335">
+      <DataClassMoniker Name="/StatistDailyFlightLogDataContext/OPDETAIL" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b1ad606a-4393-491a-a446-37836b1e4052" absoluteBounds="2.89, 15.835, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(9.875 : 7.47420526166334); (10.4479166666667 : 7.47420526166334 : JumpStart); (10.6145833333333 : 7.47420526166334 : JumpEnd); (11.3645833333333 : 7.47420526166334); (11.3645833333333 : 17.3389589415433); (9.70833333333333 : 17.3389589415433 : JumpStart); (9.54166666666667 : 17.3389589415433 : JumpEnd); (8.11458333333333 : 17.3389589415433 : JumpStart); (7.94791666666667 : 17.3389589415433 : JumpEnd); (6.92708333333333 : 17.3389589415433 : JumpStart); (6.76041666666667 : 17.3389589415433 : JumpEnd); (4.875 : 17.3389589415433)]" manuallyRouted="true" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/StatistDailyFlightLogDataContext/EQUIPMENT/EQUIPMENT_OPDETAIL" />
+      <nodes>
+        <classShapeMoniker Id="188d1720-44b4-4388-838e-87a5e94b2912" />
+        <classShapeMoniker Id="2a768d04-cc8f-4d64-ba27-46ae1d0b2ae0" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="702d2ba6-cfc8-4e9c-827f-153a508c5f2b" absoluteBounds="6.5, 21, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/StatistDailyFlightLogDataContext/EQUIPMENTROLE" />
+      <nestedChildShapes>
+        <elementListCompartment Id="0fdc5ba4-c256-448d-9d64-0645378b389f" absoluteBounds="6.515, 21.46, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(8.03125 : 21); (8.03125 : 17.0693296725946); (6.92708333333333 : 17.0693296725946 : JumpStart); (6.76041666666667 : 17.0693296725946 : JumpEnd); (4.875 : 17.0693296725946)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/StatistDailyFlightLogDataContext/EQUIPMENTROLE/EQUIPMENTROLE_OPDETAIL" />
+      <nodes>
+        <classShapeMoniker Id="702d2ba6-cfc8-4e9c-827f-153a508c5f2b" />
+        <classShapeMoniker Id="2a768d04-cc8f-4d64-ba27-46ae1d0b2ae0" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="3a25486b-7931-4215-b71f-2606f40c7c7f" absoluteBounds="0.5, 15.375, 2, 2.7324039713541666">
+      <DataClassMoniker Name="/StatistDailyFlightLogDataContext/AVIATOR" />
+      <nestedChildShapes>
+        <elementListCompartment Id="3279c595-4275-4e3e-a50f-a802c81ed327" absoluteBounds="0.515, 15.835, 1.9700000000000002, 2.1724039713541665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.875 : 16.5489005533854); (2.5 : 16.5489005533854)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/StatistDailyFlightLogDataContext/OPDETAIL/OPDETAIL_AVIATOR" />
+      <nodes>
+        <classShapeMoniker Id="2a768d04-cc8f-4d64-ba27-46ae1d0b2ae0" />
+        <classShapeMoniker Id="3a25486b-7931-4215-b71f-2606f40c7c7f" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(1.00781125 : 7.87660970052083); (1.00781125 : 15.375)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/StatistDailyFlightLogDataContext/PEOPLE/PEOPLE_AVIATOR" />
+      <nodes>
+        <classShapeMoniker Id="64aafa46-186e-4275-b2d4-a0fce4234992" />
+        <classShapeMoniker Id="3a25486b-7931-4215-b71f-2606f40c7c7f" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(1.375 : 9.34699625651042); (0.7031225 : 9.34699625651042); (0.7031225 : 15.375)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/StatistDailyFlightLogDataContext/AVIATORROLE/AVIATORROLE_AVIATOR" />
+      <nodes>
+        <classShapeMoniker Id="4909ab84-0230-4fa4-a8bf-ee58dbff7424" />
+        <classShapeMoniker Id="3a25486b-7931-4215-b71f-2606f40c7c7f" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="58c2758c-f418-4aff-a79a-2532f238d99f" absoluteBounds="12.25, 7, 2, 1.1939925130208333">
+      <DataClassMoniker Name="/StatistDailyFlightLogDataContext/EQUIPTYPE" />
+      <nestedChildShapes>
+        <elementListCompartment Id="7d838c17-a642-4b81-a422-95a1b6a16f92" absoluteBounds="12.265, 7.46, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(12.25 : 7.89659888734209); (11.4479166666666 : 7.89659888734209 : JumpStart); (11.28125 : 7.89659888734209 : JumpEnd); (10.6145833333333 : 7.89659888734209 : JumpStart); (10.4479166666667 : 7.89659888734209 : JumpEnd); (9.875 : 7.89659888734209)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/StatistDailyFlightLogDataContext/EQUIPTYPE/EQUIPTYPE_EQUIPMENT" />
+      <nodes>
+        <classShapeMoniker Id="58c2758c-f418-4aff-a79a-2532f238d99f" />
+        <classShapeMoniker Id="188d1720-44b4-4388-838e-87a5e94b2912" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="ef6e5731-d4ae-4302-96e5-f2bb797b445d" absoluteBounds="12, 22.25, 2, 1.9631982421875">
+      <DataClassMoniker Name="/StatistDailyFlightLogDataContext/EQUIPROLESTYPE" />
+      <nestedChildShapes>
+        <elementListCompartment Id="7e0103c9-903c-4ed6-be0a-35d7837da8db" absoluteBounds="12.015, 22.71, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(7.5 : 22.5785953776042); (7.5 : 23.6194482421875); (12 : 23.6194482421875)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/StatistDailyFlightLogDataContext/EQUIPMENTROLE/EQUIPMENTROLE_EQUIPROLESTYPE" />
+      <nodes>
+        <classShapeMoniker Id="702d2ba6-cfc8-4e9c-827f-153a508c5f2b" />
+        <classShapeMoniker Id="ef6e5731-d4ae-4302-96e5-f2bb797b445d" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(13.125 : 8.19399251302083); (13.125 : 22.25)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/StatistDailyFlightLogDataContext/EQUIPTYPE/EQUIPTYPE_EQUIPROLESTYPE" />
+      <nodes>
+        <classShapeMoniker Id="58c2758c-f418-4aff-a79a-2532f238d99f" />
+        <classShapeMoniker Id="ef6e5731-d4ae-4302-96e5-f2bb797b445d" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="fdb128bf-5b5c-4671-8949-8ece1a35363d" absoluteBounds="9.25, 21, 2.25, 1.9631982421875">
+      <DataClassMoniker Name="/StatistDailyFlightLogDataContext/BRIDGE_LAUNCHMETH_EQUIPROLE" />
+      <nestedChildShapes>
+        <elementListCompartment Id="758c7128-8987-42c0-9841-e373da46913d" absoluteBounds="9.265, 21.46, 2.2199999999999998, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(8.5 : 21.7892976888021); (9.25 : 21.7892976888021)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/StatistDailyFlightLogDataContext/EQUIPMENTROLE/EQUIPMENTROLE_BRIDGE_LAUNCHMETH_EQUIPROLE" />
+      <nodes>
+        <classShapeMoniker Id="702d2ba6-cfc8-4e9c-827f-153a508c5f2b" />
+        <classShapeMoniker Id="fdb128bf-5b5c-4671-8949-8ece1a35363d" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(9.625 : 13.6939925130208); (9.625 : 21)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/StatistDailyFlightLogDataContext/LAUNCHMETHOD/LAUNCHMETHOD_BRIDGE_LAUNCHMETH_EQUIPROLE" />
+      <nodes>
+        <classShapeMoniker Id="615a48c7-62b8-499c-9adc-93a827f8d9ff" />
+        <classShapeMoniker Id="fdb128bf-5b5c-4671-8949-8ece1a35363d" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="a38abe69-9c56-401c-88c8-dd6a70ab59fc" absoluteBounds="9.375, 0.5, 2, 1.1939925130208333">
+      <DataClassMoniker Name="/StatistDailyFlightLogDataContext/TNPV_FlightLogsYearMonth" />
+      <nestedChildShapes>
+        <elementListCompartment Id="dd872965-67ad-42b5-b8fc-0398ec8e5f6b" absoluteBounds="9.39, 0.96, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="7c728919-0357-4e5d-b11a-38932715ceb6" absoluteBounds="5.5, 13.875, 2, 2.9247054036458331">
+      <DataClassMoniker Name="/StatistDailyFlightLogDataContext/OPERATION" />
+      <nestedChildShapes>
+        <elementListCompartment Id="88970387-a623-405b-8888-1d93d4f5be0b" absoluteBounds="5.515, 14.335, 1.9700000000000002, 2.364705403645833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(5.5 : 16.0873527018229); (4.875 : 16.0873527018229)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/StatistDailyFlightLogDataContext/OPERATION/OPERATION_OPDETAIL" />
+      <nodes>
+        <classShapeMoniker Id="7c728919-0357-4e5d-b11a-38932715ceb6" />
+        <classShapeMoniker Id="2a768d04-cc8f-4d64-ba27-46ae1d0b2ae0" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.6875 : 13.0208968098958); (2.6875 : 14.59375); (5.5 : 14.59375)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/StatistDailyFlightLogDataContext/CHARGECODE/CHARGECODE_OPERATION" />
+      <nodes>
+        <classShapeMoniker Id="59ef9ae3-027a-46c4-a4cc-d0b8058b1762" />
+        <classShapeMoniker Id="7c728919-0357-4e5d-b11a-38932715ceb6" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8 : 13.6939925130208); (7.5 : 13.875)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/StatistDailyFlightLogDataContext/LAUNCHMETHOD/LAUNCHMETHOD_OPERATION" />
+      <nodes>
+        <classShapeMoniker Id="615a48c7-62b8-499c-9adc-93a827f8d9ff" />
+        <classShapeMoniker Id="7c728919-0357-4e5d-b11a-38932715ceb6" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(10.59375 : 11.7131982421875); (10.59375 : 15.3686052018229); (7.5 : 15.3686052018229)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/StatistDailyFlightLogDataContext/LOCATION/LOCATION_OPERATION" />
+      <nodes>
+        <classShapeMoniker Id="d875edce-9fa1-4831-8b58-ae9e998e7b03" />
+        <classShapeMoniker Id="7c728919-0357-4e5d-b11a-38932715ceb6" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="f55e8c7a-b68e-4964-aad7-68c3da3f4423" absoluteBounds="10.125, 18, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/StatistDailyFlightLogDataContext/SPECIALOP" />
+      <nestedChildShapes>
+        <elementListCompartment Id="177d8488-1e5e-465e-9221-90bed1dc6aec" absoluteBounds="10.14, 18.46, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(6.84375 : 16.7997054036458); (6.84375 : 18.40625); (7.94791666666667 : 18.40625 : JumpStart); (8.11458333333333 : 18.40625 : JumpEnd); (9.54166666666667 : 18.40625 : JumpStart); (9.70833333333333 : 18.40625 : JumpEnd); (10.125 : 18.40625)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/StatistDailyFlightLogDataContext/OPERATION/OPERATION_SPECIALOP" />
+      <nodes>
+        <classShapeMoniker Id="7c728919-0357-4e5d-b11a-38932715ceb6" />
+        <classShapeMoniker Id="f55e8c7a-b68e-4964-aad7-68c3da3f4423" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="04d8eefc-a7ce-42ed-893a-07686bae2fc5" absoluteBounds="4.125, 18.875, 2, 1.1939925130208333">
+      <DataClassMoniker Name="/StatistDailyFlightLogDataContext/SPECIALOPTYPE" />
+      <nestedChildShapes>
+        <elementListCompartment Id="e8eb5d83-9c35-4852-91d2-00626f054534" absoluteBounds="4.14, 19.335, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(6.125 : 19.4719962565104); (7.94791666666667 : 19.4719962565104 : JumpStart); (8.11458333333333 : 19.4719962565104 : JumpEnd); (9.54166666666667 : 19.4719962565104 : JumpStart); (9.70833333333333 : 19.4719962565104 : JumpEnd); (10.125 : 19.4719962565104)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/StatistDailyFlightLogDataContext/SPECIALOPTYPE/SPECIALOPTYPE_SPECIALOP" />
+      <nodes>
+        <classShapeMoniker Id="04d8eefc-a7ce-42ed-893a-07686bae2fc5" />
+        <classShapeMoniker Id="f55e8c7a-b68e-4964-aad7-68c3da3f4423" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="SoarDB" Class="StatistDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=R43640;Initial Catalog=SoarDB;Persist Security Info=False;User ID=SoarNP" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="SqlConn" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.AVIATORS" Member="AVIATORs">
+    <Type Name="AVIATOR">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="PiTRecordEntered" Type="System.DateTime" DbType="DateTime2 NOT NULL" CanBeNull="false" />
+      <Column Name="iRecordEnteredBy" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="iPerson" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="iOpDetail" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="iAviatorRole" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="dPercentCharge" Type="System.Decimal" DbType="Decimal(6,2) NOT NULL" CanBeNull="false" />
+      <Column Name="b1stFlight" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="mInvoiced" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="DInvoiced" Type="System.DateTimeOffset" DbType="DateTimeOffset" CanBeNull="true" />
+      <Association Name="OPDETAIL_AVIATOR" Member="OPDETAIL" ThisKey="iOpDetail" OtherKey="ID" Type="OPDETAIL" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.OPDETAILS" Member="OPDETAILs">
+    <Type Name="OPDETAIL">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="PiTRecordEntered" Type="System.DateTime" DbType="DateTime2 NOT NULL" CanBeNull="false" />
+      <Column Name="iRecordEnteredBy" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="iEquip" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="iOperation" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="iEquipmentRole" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="dMaxAltitude" Type="System.Decimal" DbType="Decimal(6,0)" CanBeNull="true" />
+      <Column Name="dReleaseAltitude" Type="System.Decimal" DbType="Decimal(6,0)" CanBeNull="true" />
+      <Association Name="OPDETAIL_AVIATOR" Member="AVIATORs" ThisKey="ID" OtherKey="iOpDetail" Type="AVIATOR" />
+      <Association Name="OPERATION_OPDETAIL" Member="OPERATION" ThisKey="iOperation" OtherKey="ID" Type="OPERATION" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.OPERATIONS" Member="OPERATIONs">
+    <Type Name="OPERATION">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="PiTRecordEntered" Type="System.DateTime" DbType="DateTime2 NOT NULL" CanBeNull="false" />
+      <Column Name="iRecordEnteredBy" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="iLaunchMethod" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="iTakeoffLoc" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="DBegin" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="iLandingLoc" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="DEnd" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="sComment" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="iChargeCode" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="iInvoices2go" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="OPERATION_OPDETAIL" Member="OPDETAILs" ThisKey="ID" OtherKey="iOperation" Type="OPDETAIL" />
+    </Type>
+  </Table>
+  <Table Name="dbo.DIAGNOSTICS" Member="DIAGNOSTICs">
+    <Type Name="DIAGNOSTIC">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="PiT" Type="System.DateTime" DbType="DateTime2 NOT NULL" CanBeNull="false" />
+      <Column Name="sKind" Type="System.String" DbType="NVarChar(25) NOT NULL" CanBeNull="false" />
+      <Column Name="iDbgLvl" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="sDescription" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Function Name="dbo.TNPF_Aviators2bCharged" Method="TNPF_Aviators2bCharged" IsComposable="true">
+    <Parameter Name="iOpID" Type="System.Int32" DbType="Int" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.sp_StatsRptByPilot" Method="sp_StatsRptByPilot">
+    <ElementType Name="sp_StatsRptByPilotResult">
+      <Column Name="Aviator" Type="System.String" DbType="NVarChar(55)" CanBeNull="true" />
+      <Column Name="Year" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Glider" Type="System.String" DbType="VarChar(25)" CanBeNull="true" />
+      <Column Name="Role" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="[Flight Hours]" Member="Flight_Hours" Type="System.Decimal" DbType="Decimal(17,6)" CanBeNull="true" />
+      <Column Name="SubGlider" Type="System.String" DbType="VarChar(1)" CanBeNull="true" />
+      <Column Name="SubYear" Type="System.String" DbType="VarChar(1)" CanBeNull="true" />
+      <Column Name="SubAviator" Type="System.String" DbType="VarChar(1)" CanBeNull="true" />
+      <Column Name="Total" Type="System.String" DbType="VarChar(1)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.sp_StatsRptByGlider" Method="sp_StatsRptByGlider">
+    <ElementType Name="sp_StatsRptByGliderResult">
+      <Column Name="[Glider - Owner]" Member="Glider___Owner" Type="System.String" DbType="VarChar(78)" CanBeNull="true" />
+      <Column Name="Year" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="[Flight Hours]" Member="Flight_Hours" Type="System.Decimal" DbType="Decimal(17,6)" CanBeNull="true" />
+      <Column Name="SubGlider" Type="System.String" DbType="VarChar(1)" CanBeNull="true" />
+      <Column Name="Total" Type="System.String" DbType="VarChar(1)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+</Database>

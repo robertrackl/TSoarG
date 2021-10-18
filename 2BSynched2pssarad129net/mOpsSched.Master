@@ -1,0 +1,58 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="mOpsSched.Master.cs" Inherits="TSoar.mOpsSched" %>
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="ajaxToolkit" %>
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head runat="server">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title><%: Page.Title %> - TSoar</title>
+    <link rel="stylesheet" type="text/css" href="~/CSS/bootstrap.min.css" runat="server" />
+    <link rel="stylesheet" type="text/css" href="~/CSS/bootstrap-theme.min.css" runat="server" />
+    <link rel="stylesheet" type="text/css" href="~/CSS/Site.css" runat="server" />
+</head>
+<body class="master" onload="r4onload()">
+    <form id="form1" runat="server">
+        <asp:ScriptManager ID="ScriptManager1" EnablePartialRendering="True" EnableCdn="true" runat="server" AjaxFrameworkMode="Explicit">
+            <Scripts>
+                <asp:ScriptReference Path="~/Scripts/luxon.min.js" />
+                <asp:ScriptReference Path="~/Scripts/jquery-3.1.1.min.js" />
+                <asp:ScriptReference Path="~/Scripts/bootstrap.min.js" />
+                <asp:ScriptReference Path="~/Scripts/jquery-3.1.1.intellisense.js" />
+                <asp:ScriptReference Path="~/Scripts/jquery-3.1.1.slim.min.js" />
+                <asp:ScriptReference Path="~/Scripts/WebForms/WebForms.js" />
+                <asp:ScriptReference Path="~/Scripts/WebForms/WebUIValidation.js" />
+                <asp:ScriptReference Path="~/Scripts/WebForms/MenuStandards.js" />
+                <asp:ScriptReference Path="~/Scripts/WebForms/GridView.js" />
+                <asp:ScriptReference Path="~/Scripts/WebForms/DetailsView.js" />
+                <asp:ScriptReference Path="~/Scripts/WebForms/TreeView.js" />
+                <asp:ScriptReference Path="~/Scripts/WebForms/WebParts.js" />
+                <asp:ScriptReference Path="~/Scripts/WebForms/Focus.js" />
+                <asp:ScriptReference Path="~/Scripts/modernizr-2.8.3.js" />
+                <asp:ScriptReference Path="~/Scripts/respond.min.js" />
+                <asp:ScriptReference Path="~/Scripts/respond.matchmedia.addListener.min.js" />
+                <asp:ScriptReference Path="~/Scripts/WebForms/MSAjax/MicrosoftAjax.js" />
+                <asp:ScriptReference Path="~/Scripts/WebForms/MSAjax/MicrosoftAjaxApplicationServices.js" />
+                <asp:ScriptReference Path="~/Scripts/WebForms/MSAjax/MicrosoftAjaxComponentModel.js" />
+<%--                <asp:ScriptReference Path="~/Scripts/WebForms/MSAjax/MicrosoftAjaxCore.js" /> This causes Timer1 in Default.aspx not to fire its event--%>
+                <asp:ScriptReference Path="~/Scripts/WebForms/MSAjax/MicrosoftAjaxGlobalization.js" />
+                <asp:ScriptReference Path="~/Scripts/WebForms/MSAjax/MicrosoftAjaxHistory.js" />
+                <asp:ScriptReference Path="~/Scripts/WebForms/MSAjax/MicrosoftAjaxNetwork.js" />
+                <asp:ScriptReference Path="~/Scripts/WebForms/MSAjax/MicrosoftAjaxSerialization.js" />
+                <asp:ScriptReference Path="~/Scripts/WebForms/MSAjax/MicrosoftAjaxTimer.js" />
+                <asp:ScriptReference Path="~/Scripts/WebForms/MSAjax/MicrosoftAjaxWebForms.js" />
+                <asp:ScriptReference Path="~/Scripts/WebForms/MSAjax/MicrosoftAjaxWebServices.js" />
+            </Scripts>
+        </asp:ScriptManager>
+
+        <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server"  />
+        <div id="Scrolling-div" style="padding-bottom:0px; padding-top:44px;">
+            <div>
+                <asp:ContentPlaceHolder ID="ContentPlaceHolderMain" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

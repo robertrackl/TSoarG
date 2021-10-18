@@ -1,0 +1,263 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="SoarDB" Class="DataIntegrityDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=C1325433-H\SQLSERVER2014A;Initial Catalog=SoarDB;Persist Security Info=False;User ID=SoarNP" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="SqlConn" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.EQUIPTYPES" Member="EQUIPTYPEs">
+    <Type Name="EQUIPTYPE">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="sEquipmentType" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Association Name="EQUIPTYPE_RATE" Member="RATEs" ThisKey="ID" OtherKey="iEquipType" Type="RATE" />
+      <Association Name="EQUIPTYPE_EQUIPMENT" Member="EQUIPMENTs" ThisKey="ID" OtherKey="iEquipType" Type="EQUIPMENT" />
+    </Type>
+  </Table>
+  <Table Name="dbo.LAUNCHMETHODS" Member="LAUNCHMETHODs">
+    <Type Name="LAUNCHMETHOD">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="sLaunchMethod" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.AVIATORROLES" Member="AVIATORROLEs">
+    <Type Name="AVIATORROLE">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="sAviatorRole" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.RATES" Member="RATEs">
+    <Type Name="RATE">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="sShortName" Type="System.String" DbType="NVarChar(30) NOT NULL" CanBeNull="false" />
+      <Column Name="Dfrom" Type="System.DateTimeOffset" DbType="DateTimeOffset NOT NULL" CanBeNull="false" />
+      <Column Name="DTo" Type="System.DateTimeOffset" DbType="DateTimeOffset NOT NULL" CanBeNull="false" />
+      <Column Name="iEquipType" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="iLaunchMethod" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="sChargeCodes" Type="System.String" DbType="VarChar(26) NOT NULL" CanBeNull="false" />
+      <Column Name="mSingleDpUse" Type="System.Decimal" DbType="Money NOT NULL" CanBeNull="false" />
+      <Column Name="iNoChrg1stFt" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="mAltDiffDpFt" Type="System.Decimal" DbType="Money NOT NULL" CanBeNull="false" />
+      <Column Name="iNoChrg1stMin" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="mDurationDpMin" Type="System.Decimal" DbType="Money NOT NULL" CanBeNull="false" />
+      <Column Name="sComment" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="iQBO_ItemName" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="EQUIPTYPE_RATE" Member="EQUIPTYPE" ThisKey="iEquipType" OtherKey="ID" Type="EQUIPTYPE" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.INVOICESOURCES" Member="INVOICESOURCEs">
+    <Type Name="INVOICESOURCE">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="sInvoiceSource" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.QUALIFICATIONS" Member="QUALIFICATIONs">
+    <Type Name="QUALIFICATION">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="sQualification" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.CERTIFICATIONS" Member="CERTIFICATIONs">
+    <Type Name="CERTIFICATION">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="sCertification" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.RATINGS" Member="RATINGs">
+    <Type Name="RATING">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="sRating" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.EQUIPOPERDATA" Member="EQUIPOPERDATAs">
+    <Type Name="EQUIPOPERDATA">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="PiTRecordEntered" Type="System.DateTime" DbType="DateTime2" CanBeNull="true" />
+      <Column Name="iRecordEnteredBy" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="iEquipComponent" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="DFrom" Type="System.DateTimeOffset" DbType="DateTimeOffset NOT NULL" CanBeNull="false" />
+      <Column Name="DTo" Type="System.DateTimeOffset" DbType="DateTimeOffset NOT NULL" CanBeNull="false" />
+      <Column Name="dHours" Type="System.Decimal" DbType="Decimal(12,4) NOT NULL" CanBeNull="false" />
+      <Column Name="cSource" Type="System.Char" DbType="NChar(1) NOT NULL" CanBeNull="false" />
+      <Column Name="dDistance" Type="System.Decimal" DbType="Decimal(12,2) NOT NULL" CanBeNull="false" />
+      <Column Name="sDistanceUnits" Type="System.String" DbType="NVarChar(8) NOT NULL" CanBeNull="false" />
+      <Column Name="sComment" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Association Name="EQUIPCOMPONENT_EQUIPOPERDATA" Member="EQUIPCOMPONENT" ThisKey="iEquipComponent" OtherKey="ID" Type="EQUIPCOMPONENT" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.EQUIPMENT" Member="EQUIPMENTs">
+    <Type Name="EQUIPMENT">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="iEquipType" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="PiTRecordEntered" Type="System.DateTime" DbType="DateTime2" CanBeNull="true" />
+      <Column Name="iRecordEnteredBy" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="sShortEquipName" Type="System.String" DbType="VarChar(25) NOT NULL" CanBeNull="false" />
+      <Column Name="sDescription" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="sRegistrationId" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="sOwner" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="sModelNum" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="AcquisitionCost" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="sComment" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Association Name="EQUIPMENT_EQUIPCOMPONENT" Member="EQUIPCOMPONENTs" ThisKey="ID" OtherKey="iEquipment" Type="EQUIPCOMPONENT" />
+      <Association Name="EQUIPTYPE_EQUIPMENT" Member="EQUIPTYPE" ThisKey="iEquipType" OtherKey="ID" Type="EQUIPTYPE" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.PEOPLE" Member="PEOPLEs">
+    <Type Name="PEOPLE">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="PiTRecordEntered" Type="System.DateTime" DbType="DateTime2 NOT NULL" CanBeNull="false" />
+      <Column Name="iRecordEnteredBy" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="sTitle" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="sFirstName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="sMiddleName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="sLastName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="sSuffix" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="sDisplayName" Type="System.String" DbType="NVarChar(55) NOT NULL" CanBeNull="false" />
+      <Column Name="sNotes" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="DateOfBirth" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="sUserName" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="sIdQBO" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="DAcceptedAUP" Type="System.DateTimeOffset" DbType="DateTimeOffset NOT NULL" CanBeNull="false" />
+      <Association Name="PEOPLE_MEMBERFROMTO" Member="MEMBERFROMTOs" ThisKey="ID" OtherKey="iPerson" Type="MEMBERFROMTO" />
+    </Type>
+  </Table>
+  <Table Name="dbo.MEMBERFROMTO" Member="MEMBERFROMTOs">
+    <Type Name="MEMBERFROMTO">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="iPerson" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="iMemberCategory" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="DMembershipBegin" Type="System.DateTimeOffset" DbType="DateTimeOffset NOT NULL" CanBeNull="false" />
+      <Column Name="DMembershipEnd" Type="System.DateTimeOffset" DbType="DateTimeOffset NOT NULL" CanBeNull="false" />
+      <Column Name="sAdditionalInfo" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Association Name="PEOPLE_MEMBERFROMTO" Member="PEOPLE" ThisKey="iPerson" OtherKey="ID" Type="PEOPLE" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.aspnet_Roles" Member="aspnet_Roles">
+    <Type Name="aspnet_Role">
+      <Column Name="ApplicationId" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+      <Column Name="RoleId" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="RoleName" Type="System.String" DbType="NVarChar(256) NOT NULL" CanBeNull="false" />
+      <Column Name="LoweredRoleName" Type="System.String" DbType="NVarChar(256) NOT NULL" CanBeNull="false" />
+      <Column Name="Description" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Association Name="aspnet_Role_SETTINGSROLESBRIDGE" Member="SETTINGSROLESBRIDGEs" ThisKey="RoleId" OtherKey="uiRole" Type="SETTINGSROLESBRIDGE" />
+    </Type>
+  </Table>
+  <Table Name="dbo.SETTINGSROLESBRIDGE" Member="SETTINGSROLESBRIDGEs">
+    <Type Name="SETTINGSROLESBRIDGE">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="PiTRecordEntered" Type="System.DateTime" DbType="DateTime2" CanBeNull="true" />
+      <Column Name="iRecordEnteredBy" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="iSetting" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="uiRole" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+      <Column Name="sComments" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Association Name="aspnet_Role_SETTINGSROLESBRIDGE" Member="aspnet_Role" ThisKey="uiRole" OtherKey="RoleId" Type="aspnet_Role" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+      <Association Name="SETTING_SETTINGSROLESBRIDGE" Member="SETTING" ThisKey="iSetting" OtherKey="ID" Type="SETTING" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.EQUIPAGINGITEMS" Member="EQUIPAGINGITEMs">
+    <Type Name="EQUIPAGINGITEM">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="PiTRecordEntered" Type="System.DateTime" DbType="DateTime2" CanBeNull="true" />
+      <Column Name="iRecordEnteredBy" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="sName" Type="System.String" DbType="NVarChar(128) NOT NULL" CanBeNull="false" />
+      <Column Name="iEquipComponent" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="iParam" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="iOpCal" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="DStart" Type="System.DateTimeOffset" DbType="DateTimeOffset NOT NULL" CanBeNull="false" />
+      <Column Name="DEnd" Type="System.DateTimeOffset" DbType="DateTimeOffset NOT NULL" CanBeNull="false" />
+      <Column Name="dEstRunDays" Type="System.Decimal" DbType="Decimal(12,4) NOT NULL" CanBeNull="false" />
+      <Column Name="bRunExtrap" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="dEstCycleDays" Type="System.Decimal" DbType="Decimal(12,4) NOT NULL" CanBeNull="false" />
+      <Column Name="bCyclExtrap" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="dEstDistDays" Type="System.Decimal" DbType="Decimal(12,4) NOT NULL" CanBeNull="false" />
+      <Column Name="bDistExtrap" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="dEstDuration" Type="System.Decimal" DbType="Decimal(12,4) NOT NULL" CanBeNull="false" />
+      <Column Name="sComment" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Association Name="OPSCALNAME_EQUIPAGINGITEM" Member="OPSCALNAME" ThisKey="iOpCal" OtherKey="ID" Type="OPSCALNAME" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+      <Association Name="EQUIPCOMPONENT_EQUIPAGINGITEM" Member="EQUIPCOMPONENT" ThisKey="iEquipComponent" OtherKey="ID" Type="EQUIPCOMPONENT" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.OPSCALNAMES" Member="OPSCALNAMEs">
+    <Type Name="OPSCALNAME">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="sOpsCalName" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="bStandard" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Association Name="OPSCALNAME_EQUIPAGINGITEM" Member="EQUIPAGINGITEMs" ThisKey="ID" OtherKey="iOpCal" Type="EQUIPAGINGITEM" />
+      <Association Name="OPSCALNAME_OPSCALTIME" Member="OPSCALTIMEs" ThisKey="ID" OtherKey="iOpsCal" Type="OPSCALTIME" />
+    </Type>
+  </Table>
+  <Table Name="dbo.SETTINGS" Member="SETTINGs">
+    <Type Name="SETTING">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="sSettingName" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="sExplanation" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="sSettingValue" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="sInTable" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="sComments" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="bUserSelectable" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="cSettingType" Type="System.Char" DbType="NChar(1) NOT NULL" CanBeNull="false" />
+      <Column Name="dLow" Type="System.Decimal" DbType="Decimal(12,4)" CanBeNull="true" />
+      <Column Name="dHigh" Type="System.Decimal" DbType="Decimal(12,4)" CanBeNull="true" />
+      <Column Name="sSelectStmnt" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="sDataValueField" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="sDataTextField" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Association Name="SETTING_SETTINGSROLESBRIDGE" Member="SETTINGSROLESBRIDGEs" ThisKey="ID" OtherKey="iSetting" Type="SETTINGSROLESBRIDGE" />
+    </Type>
+  </Table>
+  <Table Name="dbo.FA_ITEMS" Member="FA_ITEMs">
+    <Type Name="FA_ITEM">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="sFA_ItemCode" Type="System.String" DbType="NVarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="sItemDescription" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.FA_PMTTERMS" Member="FA_PMTTERMs">
+    <Type Name="FA_PMTTERM">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="iPmtTermsCode" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="sDescription" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.EQUIPCOMPONENTS" Member="EQUIPCOMPONENTs">
+    <Type Name="EQUIPCOMPONENT">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="PiTRecordEntered" Type="System.DateTime" DbType="DateTime2" CanBeNull="true" />
+      <Column Name="iRecordEnteredBy" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="iEquipment" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="sComponent" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="bEntire" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="DLinkBegin" Type="System.DateTimeOffset" DbType="DateTimeOffset NOT NULL" CanBeNull="false" />
+      <Column Name="DLinkEnd" Type="System.DateTimeOffset" DbType="DateTimeOffset NOT NULL" CanBeNull="false" />
+      <Column Name="sComment" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="iParentComponent" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="EQUIPCOMPONENT_EQUIPOPERDATA" Member="EQUIPOPERDATAs" ThisKey="ID" OtherKey="iEquipComponent" Type="EQUIPOPERDATA" />
+      <Association Name="EQUIPCOMPONENT_EQUIPAGINGITEM" Member="EQUIPAGINGITEMs" ThisKey="ID" OtherKey="iEquipComponent" Type="EQUIPAGINGITEM" />
+      <Association Name="EQUIPMENT_EQUIPCOMPONENT" Member="EQUIPMENT" ThisKey="iEquipment" OtherKey="ID" Type="EQUIPMENT" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.OPSCALTIMES" Member="OPSCALTIMEs">
+    <Type Name="OPSCALTIME">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="PiTRecordEntered" Type="System.DateTime" DbType="DateTime2" CanBeNull="true" />
+      <Column Name="iRecordEnteredBy" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="iOpsCal" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="DStart" Type="System.DateTimeOffset" DbType="DateTimeOffset NOT NULL" CanBeNull="false" />
+      <Column Name="bOpStatus" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="sComment" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Association Name="OPSCALNAME_OPSCALTIME" Member="OPSCALNAME" ThisKey="iOpsCal" OtherKey="ID" Type="OPSCALNAME" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+    </Type>
+  </Table>
+  <Function Name="dbo.spCheck4PeopleFromToOverlaps" Method="spCheck4PeopleFromToOverlaps">
+    <Parameter Name="suStatus" Type="System.String" DbType="NVarChar(700)" Direction="InOut" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.spSettingsCheck" Method="spSettingsCheck">
+    <Parameter Name="sTable" Type="System.String" DbType="NVarChar(30)" />
+    <Parameter Name="sField" Type="System.String" DbType="NVarChar(80)" />
+    <Parameter Name="sRequiredValue" Type="System.String" DbType="NVarChar(MAX)" />
+    <Parameter Name="iHits" Type="System.Int32" DbType="Int" Direction="InOut" />
+    <Parameter Name="sMsg" Type="System.String" DbType="NVarChar(MAX)" Direction="InOut" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.TNPF_LinkBeginEnd" Method="TNPF_LinkBeginEnd" IsComposable="true">
+    <Parameter Name="iComponent" Type="System.Int32" DbType="Int" />
+    <ElementType Name="TNPF_LinkBeginEndResult">
+      <Column Name="DBegin" Type="System.DateTimeOffset" DbType="DateTimeOffset" CanBeNull="true" />
+      <Column Name="DEnd" Type="System.DateTimeOffset" DbType="DateTimeOffset" CanBeNull="true" />
+    </ElementType>
+  </Function>
+</Database>

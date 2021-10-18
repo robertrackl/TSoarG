@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="ManageSettings">
+  <DataContextMoniker Name="/ManageSettingsDataContext" />
+  <nestedChildShapes>
+    <classShape Id="e97b9968-a087-4459-8039-38d6c325cbdb" absoluteBounds="0.625, 0.5, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/ManageSettingsDataContext/aspnet_Role" />
+      <nestedChildShapes>
+        <elementListCompartment Id="cb587b0d-b305-41e5-8c1e-17aee6b5a596" absoluteBounds="0.64, 0.96, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="dae27f68-43c2-4299-976b-6a7c40f57845" absoluteBounds="7.25, 0.5, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/ManageSettingsDataContext/SETTING" />
+      <nestedChildShapes>
+        <elementListCompartment Id="9fc0f74c-fd51-4587-9744-e57af4b65003" absoluteBounds="7.265, 0.96, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="aa5b6a01-2405-4d72-8c95-df3135f49d56" absoluteBounds="3.75, 0.625, 2, 1.9631982421875">
+      <DataClassMoniker Name="/ManageSettingsDataContext/SETTINGSROLESBRIDGE" />
+      <nestedChildShapes>
+        <elementListCompartment Id="1776ecc3-34ba-42ed-b27b-3d6895e56341" absoluteBounds="3.765, 1.085, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.625 : 1.44794840494792); (3.75 : 1.44794840494792)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/ManageSettingsDataContext/aspnet_Role/aspnet_Role_SETTINGSROLESBRIDGE" />
+      <nodes>
+        <classShapeMoniker Id="e97b9968-a087-4459-8039-38d6c325cbdb" />
+        <classShapeMoniker Id="aa5b6a01-2405-4d72-8c95-df3135f49d56" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(7.25 : 1.60659912109375); (5.75 : 1.60659912109375)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/ManageSettingsDataContext/SETTING/SETTING_SETTINGSROLESBRIDGE" />
+      <nodes>
+        <classShapeMoniker Id="dae27f68-43c2-4299-976b-6a7c40f57845" />
+        <classShapeMoniker Id="aa5b6a01-2405-4d72-8c95-df3135f49d56" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

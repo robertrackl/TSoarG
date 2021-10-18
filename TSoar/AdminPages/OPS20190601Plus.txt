@@ -1,0 +1,32 @@
+1	Aero Tow by Altitude	2019/06/01	Rev4	N766PW	N333TM	Al Rubin		Tim Heneghan	Brian Tschabold	2		Bergseth Field	1100	4100	12:32	12:57	C	0.00	100	0.00	N	Gift Cert #2019127
+2	Aero Tow by Altitude	2019/06/01	Rev4	N213TA	N333TM	John Miller		Joe Salz	Mike Grijalva	2		Bergseth Field	1100	4100	12:52	13:13	C	0.00	100	0.00	N	
+3	Aero Tow by Altitude	2019/06/01	Rev4	N766PW	N333TM	Tim Heneghan	John Miller	Jim Grijalva		2		Bergseth Field	1100	4100	13:26	13:47	C	100	0.00	0.00	N	
+4	Aero Tow by Altitude	2019/06/01	Rev4	N766PW	N333TM	Al Rubin		Joe Salz	Brandon Rosales	2	Al Rubin	Bergseth Field	1100	4100	14:10	14:35	X	0.00	0.00	100	N	r4 petitioned PSSA Board for free flight
+5	Aero Tow by Altitude	2019/06/01	Rev4	N213TA	N333TM	Tim Heneghan	John Miller	Roberto Rosales		2	Al Rubin	Bergseth Field	1100	4100	14:47	15:14	X	0.00	0.00	100	N	r4 petitioned PSSA Board for free flight
+6	Aero Tow by Altitude	2019/06/01	Rev4	N766PW	N333TM	Tim Heneghan		Brad Pattison	Julie Ferrari	2		Bergseth Field	1100	4100	15:10	15:35	C	0.00	100	0.00	N	
+7	Aero Tow by Altitude	2019/06/01	Rev4	N21PT	N333TM	John Miller		Robert Rackl		1		Bergseth Field	1100	4400	15:36	16:34	T	100	0.00	0.00	N	
+8	Aero Tow by Altitude	2019/06/01	Rev4	N766PW	N333TM	Tim Heneghan		Mike Gowen		1		Bergseth Field	1100	4100	15:51	16:31	F	100	0.00	0.00	N	
+9	Aero Tow by Altitude	2019/06/01	Rev4	N766PW	N333TM	Tim Heneghan		Brad Pattison	Cindy Wilson	2		Bergseth Field	1100	4100	17:27	18:15	C	0.00	100	0.00	N	Gift Cert #2019131
+10	Aero Tow by Altitude	2019/06/02	Rev4	N766PW	N333TM	Bryan Monroe		Brano Mikulik	Mike Cook	2		Bergseth Field	1100	3000	12:44	13:16	F	50	50	0.00	N	
+11	Aero Tow by Altitude	2019/06/02	Rev4	N766PW	N333TM	Bryan Monroe		Tim Heneghan	Mike Cook	2		Bergseth Field	1100	4100	14:09	15:13	F	50	50	0.00	N	
+12	Aero Tow by Altitude	2019/06/02	Rev4	N213TA	N333TM	Bryan Monroe		Marlene Nelson	Doug Bakken	2		Bergseth Field	1100	4000	14:54	15:22	F	100	0.00	0.00	N	
+13	Aero Tow by Altitude	2019/06/02	Rev4	N766PW	N333TM	Bryan Monroe		Joe Salz	Victor Vodak	2		Bergseth Field	1100	4100	15:31	16:06	C	0.00	100	0.00	N	
+14	Aero Tow by Altitude	2019/06/02	Rev4	N213TA	N333TM	Bryan Monroe		Brano Mikulik		1		Bergseth Field	1100	3600	15:57	17:05	F	100	0.00	0.00	N	
+15	Aero Tow by Altitude	2019/06/02	Rev4	N766PW	N333TM	Bryan Monroe		Marlene Nelson	Jan Bakken	2		Bergseth Field	1100	4100	16:22	16:58	F	100	0.00	0.00	N	
+16	Aero Tow by Altitude	2019/06/02	Rev4	N157AJ	N333TM	Bryan Monroe		Greg Bahnsen		1		Bergseth Field	1100	4200	17:23	19:26	F	100	0.00	0.00	N	
+17	Aero Tow by Altitude	2019/06/08	Rev4	N213TA	N333TM	Benny Harwell	Scott Thiel	Eric Haupt		2		Bergseth Field	1100	3700	13:03	13:21	X	100	0.00	0.00	N	Instructor Currency
+18	Aero Tow by Altitude	2019/06/08	Rev4	N213TA	N333TM	Benny Harwell		Eric Haupt		1		Bergseth Field	1100	2100	13:46	13:53	X	100	0.00	0.00	N	Instructor Currency
+19	Aero Tow by Altitude	2019/06/08	Rev4	N213TA	N333TM	Benny Harwell		Eric Haupt		1		Bergseth Field	1100	2100	13:59	14:06	X	100	0.00	0.00	N	Instructor Currency
+20	Aero Tow by Altitude	2019/06/08	Rev4	N157AJ	N333TM	Benny Harwell		Marton Kun-Szabo		1		Bergseth Field	1100	3300	14:42	15:56	F	100	0.00	0.00	N	
+21	Aero Tow by Altitude	2019/06/08	Rev4	N213TA	N333TM	Benny Harwell	Eric Haupt	Steve Forslund		2		Bergseth Field	1100	3600	14:52	15:12	F	100	0.00	0.00	N	New Member
+22	Aero Tow by Altitude	2019/06/08	Rev4	N872	N333TM	Benny Harwell		Curt Chenoweth		1		Bergseth Field	1100	3500	15:05	17:20	T	100	0.00	0.00	N	
+23	Aero Tow by Altitude	2019/06/08	Rev4	N213TA	N333TM	Benny Harwell	Scott Thiel	Joe Salz		2		Bergseth Field	1100	1400	15:24	15:27	F	100	0.00	0.00	N	Flight Review
+24	Aero Tow by Altitude	2019/06/08	Rev4	N213TA	N333TM	Benny Harwell	Scott Thiel	Joe Salz		2		Bergseth Field	1100	3600	15:33	15:47	F	100	0.00	0.00	N	Flight Review
+25	Aero Tow by Altitude	2019/06/08	Rev4	N213TA	N333TM	Al Rubin	Scott Thiel	Joe Salz		2		Bergseth Field	1100	2100	15:58	16:07	F	100	0.00	0.00	N	Flight Review
+26	Aero Tow by Altitude	2019/06/08	Rev4	N213TA	N333TM	Al Rubin	Scott Thiel	Steve Forslund		2		Bergseth Field	1100	3800	16:28	16:45	F	100	0.00	0.00	N	
+27	Aero Tow by Altitude	2019/06/09	Rev4	N213TA	N333TM	Dan Alfus	John Miller	Anna Lewis		2		Bergseth Field	1100	4100	13:45	14:20	F	100	0.00	0.00	N	Logbook sale
+28	Aero Tow by Altitude	2019/06/09	Rev4	N157AJ	N333TM	Dan Alfus		Rokas Cesnakauskas		1		Bergseth Field	1100	4100	14:03	14:30	F	100	0.00	0.00	N	
+29	Aero Tow by Altitude	2019/06/09	Rev4	N157AJ	N333TM	Dan Alfus		Greg Bahnsen		1		Bergseth Field	1100	5000	14:47	16:15	F	100	0.00	0.00	N	
+30	Aero Tow by Altitude	2019/06/09	Rev4	N213TA	N333TM	Dan Alfus		Eric Haupt	Robert Rackl	2		Bergseth Field	1100	4100	15:03	15:40	F	50	50	0.00	N	
+31	Aero Tow by Altitude	2019/06/09	Rev4	N157AJ	N333TM	Dan Alfus		Bryan Monroe		1		Bergseth Field	1100	4500	16:37	17:03	F	100	0.00	0.00	N	
+32	Aero Tow by Altitude	2019/06/09	Rev4	N213TA	N333TM	Dan Alfus		Brian Halbert		1		Bergseth Field	1100	4300	17:04	17:47	F	100	0.00	0.00	N	Check amount $307 to include payment for Anna Lewis log book

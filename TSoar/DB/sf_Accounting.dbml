@@ -1,0 +1,248 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="SoarDB" Class="sf_AccountingDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=R43640;Initial Catalog=SoarDB;Persist Security Info=False;User ID=SoarNP" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="SqlConn" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.SF_ACCOUNTS" Member="SF_ACCOUNTs">
+    <Type Name="SF_ACCOUNT">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="PiTRecordEntered" Type="System.DateTime" DbType="DateTime2 NOT NULL" CanBeNull="false" />
+      <Column Name="iRecordEnteredBy" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="sCode" Type="System.String" DbType="NVarChar(25) NOT NULL" CanBeNull="false" />
+      <Column Name="sSortCode" Type="System.String" DbType="NVarChar(40)" CanBeNull="true" />
+      <Column Name="sName" Type="System.String" DbType="NVarChar(128) NOT NULL" CanBeNull="false" />
+      <Column Name="iSF_Type" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="iSF_ParentAcct" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="iSubLedger" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="sNotes" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Association Name="SF_ACCOUNT_SF_ENTRy" Member="SF_ENTRies" ThisKey="ID" OtherKey="iAccountId" Type="SF_ENTRy" />
+      <Association Name="SF_ACCTTYPE_SF_ACCOUNT" Member="SF_ACCTTYPE" ThisKey="iSF_Type" OtherKey="ID" Type="SF_ACCTTYPE" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.SF_ATTACHMENTCATEGS" Member="SF_ATTACHMENTCATEGs">
+    <Type Name="SF_ATTACHMENTCATEG">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="sAttachmentCateg" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Association Name="SF_ATTACHMENTCATEG_SF_XACT_DOC" Member="SF_XACT_DOCs" ThisKey="ID" OtherKey="iAttachmentCateg" Type="SF_XACT_DOC" />
+    </Type>
+  </Table>
+  <Table Name="dbo.SF_XACTTYPES" Member="SF_XACTTYPEs">
+    <Type Name="SF_XACTTYPE">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="sTransactionType" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Association Name="SF_XACTTYPE_SF_XACT" Member="SF_XACTs" ThisKey="ID" OtherKey="iType" Type="SF_XACT" />
+    </Type>
+  </Table>
+  <Table Name="dbo.SF_XACT_DOCS" Member="SF_XACT_DOCs">
+    <Type Name="SF_XACT_DOC">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="iXactId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="iDocsId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="iAttachmentCateg" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="SF_ATTACHMENTCATEG_SF_XACT_DOC" Member="SF_ATTACHMENTCATEG" ThisKey="iAttachmentCateg" OtherKey="ID" Type="SF_ATTACHMENTCATEG" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+      <Association Name="SF_DOC_SF_XACT_DOC" Member="SF_DOC" ThisKey="iDocsId" OtherKey="ID" Type="SF_DOC" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+      <Association Name="SF_XACT_SF_XACT_DOC" Member="SF_XACT" ThisKey="iXactId" OtherKey="ID" Type="SF_XACT" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.SF_ACCTTYPES" Member="SF_ACCTTYPEs">
+    <Type Name="SF_ACCTTYPE">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="sAccountType" Type="System.String" DbType="NVarChar(25)" CanBeNull="true" />
+      <Association Name="SF_ACCTTYPE_SF_ACCOUNT" Member="SF_ACCOUNTs" ThisKey="ID" OtherKey="iSF_Type" Type="SF_ACCOUNT" />
+    </Type>
+  </Table>
+  <Table Name="dbo.SF_PAYMENTMETHODS" Member="SF_PAYMENTMETHODs">
+    <Type Name="SF_PAYMENTMETHOD">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="sPaymentMethod" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Association Name="SF_PAYMENTMETHOD_SF_ENTRy" Member="SF_ENTRies" ThisKey="ID" OtherKey="iPaymentMethod" Type="SF_ENTRy" />
+    </Type>
+  </Table>
+  <Table Name="dbo.SF_ALLOWEDATTACHTYPES" Member="SF_ALLOWEDATTACHTYPEs">
+    <Type Name="SF_ALLOWEDATTACHTYPE">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="sAllowedFileType" Type="System.String" DbType="VarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="iMinBytes" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="iMaxBytes" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="SF_ALLOWEDATTACHTYPE_SF_DOC" Member="SF_DOCs" ThisKey="ID" OtherKey="iFileType" Type="SF_DOC" />
+    </Type>
+  </Table>
+  <Table Name="dbo.SF_DOCS" Member="SF_DOCs">
+    <Type Name="SF_DOC">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="blobDoc" Type="System.Data.Linq.Binary" DbType="Image NOT NULL" CanBeNull="false" UpdateCheck="Never" />
+      <Column Name="Dinserted" Type="System.DateTimeOffset" DbType="DateTimeOffset NOT NULL" CanBeNull="false" />
+      <Column Name="DDateOfDoc" Type="System.DateTimeOffset" DbType="DateTimeOffset NOT NULL" CanBeNull="false" />
+      <Column Name="sPrefix" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="sName" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="iFileType" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="SF_DOC_SF_XACT_DOC" Member="SF_XACT_DOCs" ThisKey="ID" OtherKey="iDocsId" Type="SF_XACT_DOC" />
+      <Association Name="SF_ALLOWEDATTACHTYPE_SF_DOC" Member="SF_ALLOWEDATTACHTYPE" ThisKey="iFileType" OtherKey="ID" Type="SF_ALLOWEDATTACHTYPE" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.SF_AUDITTRAIL" Member="SF_AUDITTRAILs">
+    <Type Name="SF_AUDITTRAIL">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="DTimeStamp" Type="System.DateTimeOffset" DbType="DateTimeOffset NOT NULL" CanBeNull="false" />
+      <Column Name="iRecordEnteredBy" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="cAction" Type="System.Char" DbType="NChar(1) NOT NULL" CanBeNull="false" />
+      <Column Name="Jold" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="Jnew" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.SF_ENTRIES" Member="SF_ENTRies">
+    <Type Name="SF_ENTRy">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="iXactId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="iAccountId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="mAmount" Type="System.Decimal" DbType="Money NOT NULL" CanBeNull="false" />
+      <Column Name="sDescription" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="iPaymentMethod" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="SF_ACCOUNT_SF_ENTRy" Member="SF_ACCOUNT" ThisKey="iAccountId" OtherKey="ID" Type="SF_ACCOUNT" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+      <Association Name="SF_PAYMENTMETHOD_SF_ENTRy" Member="SF_PAYMENTMETHOD" ThisKey="iPaymentMethod" OtherKey="ID" Type="SF_PAYMENTMETHOD" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+      <Association Name="SF_XACT_SF_ENTRy" Member="SF_XACT" ThisKey="iXactId" OtherKey="ID" Type="SF_XACT" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.SF_VENDORS" Member="SF_VENDORs">
+    <Type Name="SF_VENDOR">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="sVendorName" Type="System.String" DbType="NVarChar(128) NOT NULL" CanBeNull="false" />
+      <Column Name="sNotes" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.SF_XACTS" Member="SF_XACTs">
+    <Type Name="SF_XACT">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="D" Type="System.DateTimeOffset" DbType="DateTimeOffset NOT NULL" CanBeNull="false" />
+      <Column Name="iType" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="sMemo" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="cStatus" Type="System.Char" DbType="NChar(1) NOT NULL" CanBeNull="false" />
+      <Column Name="iVendor" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="iMember" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="cStatusPrev" Type="System.Char" DbType="NChar(1)" CanBeNull="true" />
+      <Column Name="iReplaces" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="iReplacedBy" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="SF_XACT_SF_XACT_DOC" Member="SF_XACT_DOCs" ThisKey="ID" OtherKey="iXactId" Type="SF_XACT_DOC" />
+      <Association Name="SF_XACT_SF_ENTRy" Member="SF_ENTRies" ThisKey="ID" OtherKey="iXactId" Type="SF_ENTRy" />
+      <Association Name="SF_XACTTYPE_SF_XACT" Member="SF_XACTTYPE" ThisKey="iType" OtherKey="ID" Type="SF_XACTTYPE" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.SFV_AttachedFiles" Member="SFV_AttachedFiles">
+    <Type Name="SFV_AttachedFile">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="DDateOfDoc" Type="System.DateTimeOffset" DbType="DateTimeOffset NOT NULL" CanBeNull="false" />
+      <Column Name="sPrefix" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="sName" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="sAttachmentCateg" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.EQUIPTYPES" Member="EQUIPTYPEs">
+    <Type Name="EQUIPTYPE">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="sEquipmentType" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Association Name="EQUIPTYPE_RATE" Member="RATEs" ThisKey="ID" OtherKey="iEquipType" Type="RATE" />
+    </Type>
+  </Table>
+  <Table Name="dbo.LAUNCHMETHODS" Member="LAUNCHMETHODs">
+    <Type Name="LAUNCHMETHOD">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="sLaunchMethod" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.QBO_ITEMNAMES" Member="QBO_ITEMNAMEs">
+    <Type Name="QBO_ITEMNAME">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="sQBO_ItemName" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Association Name="QBO_ITEMNAME_RATE" Member="RATEs" ThisKey="ID" OtherKey="iQBO_ItemName" Type="RATE" />
+    </Type>
+  </Table>
+  <Table Name="dbo.FA_ITEMS" Member="FA_ITEMs">
+    <Type Name="FA_ITEM">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="sFA_ItemCode" Type="System.String" DbType="NVarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="sItemDescription" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Association Name="FA_ITEM_RATE" Member="RATEs" ThisKey="ID" OtherKey="iFA_Item" Type="RATE" />
+    </Type>
+  </Table>
+  <Table Name="dbo.FA_PMTTERMS" Member="FA_PMTTERMs">
+    <Type Name="FA_PMTTERM">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="iPmtTermsCode" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="sDescription" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.RATES" Member="RATEs">
+    <Type Name="RATE">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="sShortName" Type="System.String" DbType="NVarChar(30) NOT NULL" CanBeNull="false" />
+      <Column Name="Dfrom" Type="System.DateTimeOffset" DbType="DateTimeOffset NOT NULL" CanBeNull="false" />
+      <Column Name="DTo" Type="System.DateTimeOffset" DbType="DateTimeOffset NOT NULL" CanBeNull="false" />
+      <Column Name="iEquipType" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="iLaunchMethod" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="sChargeCodes" Type="System.String" DbType="VarChar(26) NOT NULL" CanBeNull="false" />
+      <Column Name="mSingleDpUse" Type="System.Decimal" DbType="Money NOT NULL" CanBeNull="false" />
+      <Column Name="iNoChrg1stFt" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="mAltDiffDpFt" Type="System.Decimal" DbType="Money NOT NULL" CanBeNull="false" />
+      <Column Name="iNoChrg1stMin" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="mDurationDpMin" Type="System.Decimal" DbType="Money NOT NULL" CanBeNull="false" />
+      <Column Name="iDurCapMin" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="sComment" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="iQBO_ItemName" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="iFA_Item" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="iFA_PmtTerm" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="EQUIPTYPE_RATE" Member="EQUIPTYPE" ThisKey="iEquipType" OtherKey="ID" Type="EQUIPTYPE" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+      <Association Name="FA_ITEM_RATE" Member="FA_ITEM" ThisKey="iFA_Item" OtherKey="ID" Type="FA_ITEM" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+      <Association Name="QBO_ITEMNAME_RATE" Member="QBO_ITEMNAME" ThisKey="iQBO_ItemName" OtherKey="ID" Type="QBO_ITEMNAME" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TIREWARDS" Member="TIREWARDs">
+    <Type Name="TIREWARD">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="PiTRecordEntered" Type="System.DateTimeOffset" DbType="DateTimeOffset NOT NULL" CanBeNull="false" />
+      <Column Name="iRecordEnteredBy" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="DEarn" Type="System.DateTimeOffset" DbType="DateTimeOffset NOT NULL" CanBeNull="false" />
+      <Column Name="DExpiry" Type="System.DateTimeOffset" DbType="DateTimeOffset NOT NULL" CanBeNull="false" />
+      <Column Name="DClaim" Type="System.DateTimeOffset" DbType="DateTimeOffset NOT NULL" CanBeNull="false" />
+      <Column Name="iPerson" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="iServicePts" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="cECCode" Type="System.Char" DbType="NChar(1) NOT NULL" CanBeNull="false" />
+      <Column Name="bForward" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="sComments" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Function Name="dbo.sf_AccountsFlatList" Method="sf_AccountsFlatList" IsComposable="true">
+    <ElementType Name="sf_AccountsFlatListResult">
+      <Column Name="sCode" Type="System.String" DbType="NVarChar(25)" CanBeNull="true" />
+      <Column Name="sSortCode" Type="System.String" DbType="NVarChar(40)" CanBeNull="true" />
+      <Column Name="sName" Type="System.String" DbType="NVarChar(128)" CanBeNull="true" />
+      <Column Name="sAccountType" Type="System.String" DbType="NVarChar(25)" CanBeNull="true" />
+      <Column Name="ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="iSF_ParentAcct" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="sNotes" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.TNPF_EligibleRewardMembers" Method="TNPF_EligibleRewardMembers" IsComposable="true">
+    <Parameter Name="DAsOf" Parameter="dAsOf" Type="System.DateTimeOffset" DbType="DateTimeOffset" />
+    <Parameter Name="bAsOf" Type="System.Boolean" DbType="Bit" />
+    <ElementType Name="TNPF_EligibleRewardMembersResult">
+      <Column Name="ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="sDisplayName" Type="System.String" DbType="NVarChar(55)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.TNPF_MRewards2" Method="TNPF_MRewards2" IsComposable="true">
+    <Parameter Name="sUser" Type="System.String" DbType="NVarChar(256)" />
+    <Parameter Name="bIsDisplayName" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="DExpiryRef" Parameter="dExpiryRef" Type="System.DateTimeOffset" DbType="DateTimeOffset" />
+    <ElementType Name="TNPF_MRewards2Result">
+      <Column Name="EarnD" Type="System.DateTimeOffset" DbType="DateTimeOffset" CanBeNull="true" />
+      <Column Name="ExpiryD" Type="System.DateTimeOffset" DbType="DateTimeOffset" CanBeNull="true" />
+      <Column Name="ClaimD" Type="System.DateTimeOffset" DbType="DateTimeOffset" CanBeNull="true" />
+      <Column Name="OrderByD" Type="System.DateTimeOffset" DbType="DateTimeOffset" CanBeNull="true" />
+      <Column Name="ServicePtsi" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Expiredb" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="ECCodec" Type="System.Char" DbType="NChar(1)" CanBeNull="true" />
+      <Column Name="Cumuli" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CumForwarded" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Claim1yri" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Claim1yrG" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Commentss" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+</Database>

@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="SoarDB" Class="ClubMembershipDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=R43640;Initial Catalog=SoarDB;Persist Security Info=False;User ID=SoarNP" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="SqlConn" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.MEMBERFROMTO" Member="MEMBERFROMTOs">
+    <Type Name="MEMBERFROMTO">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="iPerson" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="iMemberCategory" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="DMembershipBegin" Type="System.DateTimeOffset" DbType="DateTimeOffset NOT NULL" CanBeNull="false" />
+      <Column Name="DMembershipEnd" Type="System.DateTimeOffset" DbType="DateTimeOffset NOT NULL" CanBeNull="false" />
+      <Column Name="sAdditionalInfo" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Association Name="MEMBERSHIPCATEGORy_MEMBERFROMTO" Member="MEMBERSHIPCATEGORy" ThisKey="iMemberCategory" OtherKey="ID" Type="MEMBERSHIPCATEGORy" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+      <Association Name="PEOPLE_MEMBERFROMTO" Member="PEOPLE" ThisKey="iPerson" OtherKey="ID" Type="PEOPLE" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.MEMBERSHIPCATEGORIES" Member="MEMBERSHIPCATEGORies">
+    <Type Name="MEMBERSHIPCATEGORy">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="sMembershipCategory" Type="System.String" DbType="VarChar(25) NOT NULL" CanBeNull="false" />
+      <Association Name="MEMBERSHIPCATEGORy_MEMBERFROMTO" Member="MEMBERFROMTOs" ThisKey="ID" OtherKey="iMemberCategory" Type="MEMBERFROMTO" />
+    </Type>
+  </Table>
+  <Table Name="dbo.SSA_MEMBERFROMTO" Member="SSA_MEMBERFROMTOs">
+    <Type Name="SSA_MEMBERFROMTO">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="PiTRecordEntered" Type="System.DateTime" DbType="DateTime2 NOT NULL" CanBeNull="false" />
+      <Column Name="iRecordEnteredBy" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="iPerson" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="iSSA_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="iSSA_MemberCategory" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="DMembershipBegin" Type="System.DateTimeOffset" DbType="DateTimeOffset NOT NULL" CanBeNull="false" />
+      <Column Name="DMembershipEnd" Type="System.DateTimeOffset" DbType="DateTimeOffset" CanBeNull="true" />
+      <Column Name="DMembershipExpires" Type="System.DateTimeOffset" DbType="DateTimeOffset" CanBeNull="true" />
+      <Column Name="bRenewsWithChapter" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="sChapterAffiliation" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="sAdditionalInfo" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Association Name="SSA_MEMBERCATEGORy_SSA_MEMBERFROMTO" Member="SSA_MEMBERCATEGORy" ThisKey="iSSA_MemberCategory" OtherKey="ID" Type="SSA_MEMBERCATEGORy" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+      <Association Name="PEOPLE_SSA_MEMBERFROMTO" Member="PEOPLE" ThisKey="iPerson" OtherKey="ID" Type="PEOPLE" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.SSA_MEMBERCATEGORIES" Member="SSA_MEMBERCATEGORies">
+    <Type Name="SSA_MEMBERCATEGORy">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="sSSA_MemberCategory" Type="System.String" DbType="NVarChar(20) NOT NULL" CanBeNull="false" />
+      <Association Name="SSA_MEMBERCATEGORy_SSA_MEMBERFROMTO" Member="SSA_MEMBERFROMTOs" ThisKey="ID" OtherKey="iSSA_MemberCategory" Type="SSA_MEMBERFROMTO" />
+    </Type>
+  </Table>
+  <Table Name="dbo.EQUITYSHARES" Member="EQUITYSHAREs">
+    <Type Name="EQUITYSHARE">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="PiTRecordEntered" Type="System.DateTime" DbType="DateTime2" CanBeNull="true" />
+      <Column Name="iRecordEnteredBy" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="iOwner" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="DXaction" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="cDateQuality" Type="System.Char" DbType="NChar(1) NOT NULL" CanBeNull="false" />
+      <Column Name="dNumShares" Type="System.Decimal" DbType="Decimal(12,4) NOT NULL" CanBeNull="false" />
+      <Column Name="cXactType" Type="System.Char" DbType="NChar(1) NOT NULL" CanBeNull="false" />
+      <Column Name="sInfoSource" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="sComment" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Association Name="PEOPLE_EQUITYSHARE" Member="PEOPLE" ThisKey="iOwner" OtherKey="ID" Type="PEOPLE" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TNPV_EquityShares" Member="TNPV_EquityShares">
+    <Type Name="TNPV_EquityShare">
+      <Column Name="sDisplayName" Type="System.String" DbType="NVarChar(55) NOT NULL" CanBeNull="false" />
+      <Column Name="DXaction" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="cDateQuality" Type="System.Char" DbType="NChar(1) NOT NULL" CanBeNull="false" />
+      <Column Name="dNumShares" Type="System.Decimal" DbType="Decimal(12,4) NOT NULL" CanBeNull="false" />
+      <Column Name="cXactType" Type="System.Char" DbType="NChar(1) NOT NULL" CanBeNull="false" />
+      <Column Name="sInfoSource" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="sComment" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="SubCount" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="runningSubtotal" Type="System.Decimal" DbType="Decimal(38,4)" CanBeNull="true" />
+      <Column Name="[Overall Count]" Member="Overall_Count" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="RunningTotal" Type="System.Decimal" DbType="Decimal(38,4)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.PEOPLE" Member="PEOPLEs">
+    <Type Name="PEOPLE">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="PiTRecordEntered" Type="System.DateTime" DbType="DateTime2 NOT NULL" CanBeNull="false" />
+      <Column Name="iRecordEnteredBy" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="sTitle" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="sFirstName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="sMiddleName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="sLastName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="sSuffix" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="sDisplayName" Type="System.String" DbType="NVarChar(55) NOT NULL" CanBeNull="false" />
+      <Column Name="sNotes" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="DateOfBirth" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="sUserName" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="sIdQBO" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="iFA_branch_code" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="iFA_debtor_no" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="DAcceptedAUP" Type="System.DateTimeOffset" DbType="DateTimeOffset NOT NULL" CanBeNull="false" />
+      <Association Name="PEOPLE_MEMBERFROMTO" Member="MEMBERFROMTOs" ThisKey="ID" OtherKey="iPerson" Type="MEMBERFROMTO" />
+      <Association Name="PEOPLE_SSA_MEMBERFROMTO" Member="SSA_MEMBERFROMTOs" ThisKey="ID" OtherKey="iPerson" Type="SSA_MEMBERFROMTO" />
+      <Association Name="PEOPLE_EQUITYSHARE" Member="EQUITYSHAREs" ThisKey="ID" OtherKey="iOwner" Type="EQUITYSHARE" />
+    </Type>
+  </Table>
+</Database>

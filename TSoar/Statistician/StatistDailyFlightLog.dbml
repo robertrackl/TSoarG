@@ -1,0 +1,318 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="SoarDB" Class="StatistDailyFlightLogDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=C1325433-H\SQLSERVER2014A;Initial Catalog=SoarDB;Persist Security Info=False;User ID=SoarNP" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="SqlConn" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.PEOPLE" Member="PEOPLEs">
+    <Type Name="PEOPLE">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="PiTRecordEntered" Type="System.DateTime" DbType="DateTime2 NOT NULL" CanBeNull="false" />
+      <Column Name="iRecordEnteredBy" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="sTitle" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="sFirstName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="sMiddleName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="sLastName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="sSuffix" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="sDisplayName" Type="System.String" DbType="NVarChar(55) NOT NULL" CanBeNull="false" />
+      <Column Name="sNotes" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="DateOfBirth" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="sUserName" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="sIdQBO" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="DAcceptedAUP" Type="System.DateTimeOffset" DbType="DateTimeOffset NOT NULL" CanBeNull="false" />
+      <Association Name="PEOPLE_DAILYFLIGHTLOG" Member="DAILYFLIGHTLOGs" ThisKey="ID" OtherKey="iMainTowOp" Type="DAILYFLIGHTLOG" />
+      <Association Name="PEOPLE_AVIATOR" Member="AVIATORs" ThisKey="ID" OtherKey="iPerson" Type="AVIATOR" />
+    </Type>
+  </Table>
+  <Table Name="dbo.EQUIPMENT" Member="EQUIPMENTs">
+    <Type Name="EQUIPMENT">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="iEquipType" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="PiTRecordEntered" Type="System.DateTime" DbType="DateTime2" CanBeNull="true" />
+      <Column Name="iRecordEnteredBy" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="sShortEquipName" Type="System.String" DbType="VarChar(25) NOT NULL" CanBeNull="false" />
+      <Column Name="sDescription" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="sRegistrationId" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="sOwner" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="sModelNum" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="AcquisitionCost" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="sComment" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Association Name="EQUIPMENT_DAILYFLIGHTLOG" Member="DAILYFLIGHTLOGs" ThisKey="ID" OtherKey="iMainTowEquip" Type="DAILYFLIGHTLOG" />
+      <Association Name="EQUIPMENT_OPDETAIL" Member="OPDETAILs" ThisKey="ID" OtherKey="iEquip" Type="OPDETAIL" />
+      <Association Name="EQUIPTYPE_EQUIPMENT" Member="EQUIPTYPE" ThisKey="iEquipType" OtherKey="ID" Type="EQUIPTYPE" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.LOCATIONS" Member="LOCATIONs">
+    <Type Name="LOCATION">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="sLocation" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="sAbbrev" Type="System.String" DbType="NVarChar(6)" CanBeNull="true" />
+      <Column Name="Latitude" Type="System.Decimal" DbType="Decimal(18,6)" CanBeNull="true" />
+      <Column Name="Longitude" Type="System.Decimal" DbType="Decimal(18,6)" CanBeNull="true" />
+      <Column Name="dRunwayAltitude" Type="System.Decimal" DbType="Decimal(6,0) NOT NULL" CanBeNull="false" />
+      <Association Name="LOCATION_DAILYFLIGHTLOG" Member="DAILYFLIGHTLOGs" ThisKey="ID" OtherKey="iMainLocation" Type="DAILYFLIGHTLOG" />
+      <Association Name="LOCATION_OPERATION" Member="OPERATIONs" ThisKey="ID" OtherKey="iTakeoffLoc" Type="OPERATION" />
+    </Type>
+  </Table>
+  <Table Name="dbo.CHARGECODES" Member="CHARGECODEs">
+    <Type Name="CHARGECODE">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="sChargeCode" Type="System.String" DbType="NVarChar(30) NOT NULL" CanBeNull="false" />
+      <Column Name="cChargeCode" Type="System.Char" DbType="Char(1) NOT NULL" CanBeNull="false" />
+      <Column Name="bCharge4Launch" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="bCharge4Rental" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Association Name="CHARGECODE_CHARGECODE" Member="CHARGECODE2" ThisKey="ID" OtherKey="ID" Type="CHARGECODE" Cardinality="One" />
+      <Association Name="CHARGECODE_FLIGHTLOGROW" Member="FLIGHTLOGROWs" ThisKey="ID" OtherKey="iChargeCode" Type="FLIGHTLOGROW" />
+      <Association Name="CHARGECODE_OPERATION" Member="OPERATIONs" ThisKey="ID" OtherKey="iChargeCode" Type="OPERATION" />
+      <Association Name="CHARGECODE_CHARGECODE" Member="CHARGECODE1" ThisKey="ID" OtherKey="ID" Type="CHARGECODE" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.AVIATORROLES" Member="AVIATORROLEs">
+    <Type Name="AVIATORROLE">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="sAviatorRole" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Association Name="AVIATORROLE_AVIATOR" Member="AVIATORs" ThisKey="ID" OtherKey="iAviatorRole" Type="AVIATOR" />
+    </Type>
+  </Table>
+  <Table Name="dbo.SETTINGS" Member="SETTINGs">
+    <Type Name="SETTING">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="sSettingName" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="sExplanation" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="sSettingValue" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="sInTable" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="sComments" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.DAILYFLIGHTLOGS" Member="DAILYFLIGHTLOGs">
+    <Type Name="DAILYFLIGHTLOG">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="PiTRecordEntered" Type="System.DateTimeOffset" DbType="DateTimeOffset NOT NULL" CanBeNull="false" />
+      <Column Name="iRecordEnteredBy" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="DFlightOps" Type="System.DateTimeOffset" DbType="DateTimeOffset NOT NULL" CanBeNull="false" />
+      <Column Name="sFldMgr" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="iMainTowEquip" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="iMainTowOp" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="iMainGlider" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="iMainLocation" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="iMainLaunchMethod" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="sNotes" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Association Name="DAILYFLIGHTLOG_FLIGHTLOGROW" Member="FLIGHTLOGROWs" ThisKey="ID" OtherKey="iFliteLog" Type="FLIGHTLOGROW" />
+      <Association Name="EQUIPMENT_DAILYFLIGHTLOG" Member="EQUIPMENT" ThisKey="iMainTowEquip" OtherKey="ID" Type="EQUIPMENT" IsForeignKey="true" DeleteRule="CASCADE" />
+      <Association Name="LOCATION_DAILYFLIGHTLOG" Member="LOCATION" ThisKey="iMainLocation" OtherKey="ID" Type="LOCATION" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+      <Association Name="PEOPLE_DAILYFLIGHTLOG" Member="PEOPLE" ThisKey="iMainTowOp" OtherKey="ID" Type="PEOPLE" IsForeignKey="true" DeleteRule="CASCADE" />
+    </Type>
+  </Table>
+  <Table Name="dbo.FLIGHTLOGROWS" Member="FLIGHTLOGROWs">
+    <Type Name="FLIGHTLOGROW">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="PiTRecordEntered" Type="System.DateTimeOffset" DbType="DateTimeOffset NOT NULL" CanBeNull="false" />
+      <Column Name="iRecordEnteredBy" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="iFliteLog" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="cStatus" Type="System.Char" DbType="NChar(1) NOT NULL" CanBeNull="false" />
+      <Column Name="iTowEquip" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="iTowOperator" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="iGlider" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="iPilot1" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="iAviatorRole1" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="dPctCharge1" Type="System.Decimal" DbType="Decimal(6,2) NOT NULL" CanBeNull="false" />
+      <Column Name="iPilot2" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="iAviatorRole2" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="dPctCharge2" Type="System.Decimal" DbType="Decimal(6,2) NOT NULL" CanBeNull="false" />
+      <Column Name="iLaunchMethod" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="dReleaseAltitude" Type="System.Decimal" DbType="Decimal(6,0)" CanBeNull="true" />
+      <Column Name="dMaxAltitude" Type="System.Decimal" DbType="Decimal(6,0)" CanBeNull="true" />
+      <Column Name="iLocTakeOff" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="DTakeOff" Type="System.DateTimeOffset" DbType="DateTimeOffset NOT NULL" CanBeNull="false" />
+      <Column Name="iLocLanding" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="DLanding" Type="System.DateTimeOffset" DbType="DateTimeOffset NOT NULL" CanBeNull="false" />
+      <Column Name="iChargeCode" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="mAmtCollected" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="sComments" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Association Name="CHARGECODE_FLIGHTLOGROW" Member="CHARGECODE" ThisKey="iChargeCode" OtherKey="ID" Type="CHARGECODE" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+      <Association Name="DAILYFLIGHTLOG_FLIGHTLOGROW" Member="DAILYFLIGHTLOG" ThisKey="iFliteLog" OtherKey="ID" Type="DAILYFLIGHTLOG" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.LAUNCHMETHODS" Member="LAUNCHMETHODs">
+    <Type Name="LAUNCHMETHOD">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="sLaunchMethod" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Association Name="LAUNCHMETHOD_BRIDGE_LAUNCHMETH_EQUIPROLE" Member="BRIDGE_LAUNCHMETH_EQUIPROLEs" ThisKey="ID" OtherKey="iLaunchMethod" Type="BRIDGE_LAUNCHMETH_EQUIPROLE" />
+      <Association Name="LAUNCHMETHOD_OPERATION" Member="OPERATIONs" ThisKey="ID" OtherKey="iLaunchMethod" Type="OPERATION" />
+    </Type>
+  </Table>
+  <Table Name="dbo.OPDETAILS" Member="OPDETAILs">
+    <Type Name="OPDETAIL">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="PiTRecordEntered" Type="System.DateTime" DbType="DateTime2 NOT NULL" CanBeNull="false" />
+      <Column Name="iRecordEnteredBy" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="iEquip" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="iOperation" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="iEquipmentRole" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="dMaxAltitude" Type="System.Decimal" DbType="Decimal(6,0)" CanBeNull="true" />
+      <Column Name="dReleaseAltitude" Type="System.Decimal" DbType="Decimal(6,0)" CanBeNull="true" />
+      <Association Name="OPDETAIL_AVIATOR" Member="AVIATORs" ThisKey="ID" OtherKey="iOpDetail" Type="AVIATOR" />
+      <Association Name="EQUIPMENT_OPDETAIL" Member="EQUIPMENT" ThisKey="iEquip" OtherKey="ID" Type="EQUIPMENT" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+      <Association Name="EQUIPMENTROLE_OPDETAIL" Member="EQUIPMENTROLE" ThisKey="iEquipmentRole" OtherKey="ID" Type="EQUIPMENTROLE" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+      <Association Name="OPERATION_OPDETAIL" Member="OPERATION" ThisKey="iOperation" OtherKey="ID" Type="OPERATION" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.EQUIPMENTROLES" Member="EQUIPMENTROLEs">
+    <Type Name="EQUIPMENTROLE">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="sEquipmentRole" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="iAvgUseDurationMinutes" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="sComment" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Association Name="EQUIPMENTROLE_OPDETAIL" Member="OPDETAILs" ThisKey="ID" OtherKey="iEquipmentRole" Type="OPDETAIL" />
+      <Association Name="EQUIPMENTROLE_EQUIPROLESTYPE" Member="EQUIPROLESTYPEs" ThisKey="ID" OtherKey="iEquipRole" Type="EQUIPROLESTYPE" />
+      <Association Name="EQUIPMENTROLE_BRIDGE_LAUNCHMETH_EQUIPROLE" Member="BRIDGE_LAUNCHMETH_EQUIPROLEs" ThisKey="ID" OtherKey="iEquipRole" Type="BRIDGE_LAUNCHMETH_EQUIPROLE" />
+    </Type>
+  </Table>
+  <Table Name="dbo.AVIATORS" Member="AVIATORs">
+    <Type Name="AVIATOR">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="PiTRecordEntered" Type="System.DateTime" DbType="DateTime2 NOT NULL" CanBeNull="false" />
+      <Column Name="iRecordEnteredBy" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="iPerson" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="iOpDetail" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="iAviatorRole" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="dPercentCharge" Type="System.Decimal" DbType="Decimal(6,2) NOT NULL" CanBeNull="false" />
+      <Column Name="b1stFlight" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="mInvoiced" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="DInvoiced" Type="System.DateTimeOffset" DbType="DateTimeOffset" CanBeNull="true" />
+      <Association Name="OPDETAIL_AVIATOR" Member="OPDETAIL" ThisKey="iOpDetail" OtherKey="ID" Type="OPDETAIL" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+      <Association Name="PEOPLE_AVIATOR" Member="PEOPLE" ThisKey="iPerson" OtherKey="ID" Type="PEOPLE" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+      <Association Name="AVIATORROLE_AVIATOR" Member="AVIATORROLE" ThisKey="iAviatorRole" OtherKey="ID" Type="AVIATORROLE" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.EQUIPTYPES" Member="EQUIPTYPEs">
+    <Type Name="EQUIPTYPE">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="sEquipmentType" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Association Name="EQUIPTYPE_EQUIPMENT" Member="EQUIPMENTs" ThisKey="ID" OtherKey="iEquipType" Type="EQUIPMENT" />
+      <Association Name="EQUIPTYPE_EQUIPROLESTYPE" Member="EQUIPROLESTYPEs" ThisKey="ID" OtherKey="iEquipType" Type="EQUIPROLESTYPE" />
+    </Type>
+  </Table>
+  <Table Name="dbo.EQUIPROLESTYPES" Member="EQUIPROLESTYPEs">
+    <Type Name="EQUIPROLESTYPE">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="PiTRecordEntered" Type="System.DateTime" DbType="DateTime2" CanBeNull="true" />
+      <Column Name="iRecordEnteredBy" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="iEquipType" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="iEquipRole" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="sComments" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Association Name="EQUIPMENTROLE_EQUIPROLESTYPE" Member="EQUIPMENTROLE" ThisKey="iEquipRole" OtherKey="ID" Type="EQUIPMENTROLE" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+      <Association Name="EQUIPTYPE_EQUIPROLESTYPE" Member="EQUIPTYPE" ThisKey="iEquipType" OtherKey="ID" Type="EQUIPTYPE" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.BRIDGE_LAUNCHMETH_EQUIPROLE" Member="BRIDGE_LAUNCHMETH_EQUIPROLEs">
+    <Type Name="BRIDGE_LAUNCHMETH_EQUIPROLE">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="PiTRecordEntered" Type="System.DateTime" DbType="DateTime2" CanBeNull="true" />
+      <Column Name="iRecordEnteredBy" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="iLaunchMethod" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="iEquipRole" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="sComment" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Association Name="EQUIPMENTROLE_BRIDGE_LAUNCHMETH_EQUIPROLE" Member="EQUIPMENTROLE" ThisKey="iEquipRole" OtherKey="ID" Type="EQUIPMENTROLE" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+      <Association Name="LAUNCHMETHOD_BRIDGE_LAUNCHMETH_EQUIPROLE" Member="LAUNCHMETHOD" ThisKey="iLaunchMethod" OtherKey="ID" Type="LAUNCHMETHOD" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TNPV_FlightLogsYearMonth" Member="TNPV_FlightLogsYearMonths">
+    <Type Name="TNPV_FlightLogsYearMonth">
+      <Column Name="YearMonth" Type="System.String" DbType="NVarChar(7)" CanBeNull="true" />
+      <Column Name="FlightLogCount" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.OPERATIONS" Member="OPERATIONs">
+    <Type Name="OPERATION">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="PiTRecordEntered" Type="System.DateTime" DbType="DateTime2 NOT NULL" CanBeNull="false" />
+      <Column Name="iRecordEnteredBy" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="iLaunchMethod" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="iTakeoffLoc" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="DBegin" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="iLandingLoc" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="DEnd" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="sComment" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="iChargeCode" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="iInvoices2go" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="OPERATION_OPDETAIL" Member="OPDETAILs" ThisKey="ID" OtherKey="iOperation" Type="OPDETAIL" />
+      <Association Name="OPERATION_SPECIALOP" Member="SPECIALOPs" ThisKey="ID" OtherKey="iOperation" Type="SPECIALOP" />
+      <Association Name="CHARGECODE_OPERATION" Member="CHARGECODE" ThisKey="iChargeCode" OtherKey="ID" Type="CHARGECODE" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+      <Association Name="LAUNCHMETHOD_OPERATION" Member="LAUNCHMETHOD" ThisKey="iLaunchMethod" OtherKey="ID" Type="LAUNCHMETHOD" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+      <Association Name="LOCATION_OPERATION" Member="LOCATION" ThisKey="iTakeoffLoc" OtherKey="ID" Type="LOCATION" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.SPECIALOPS" Member="SPECIALOPs">
+    <Type Name="SPECIALOP">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="PiTRecordEntered" Type="System.DateTime" DbType="DateTime2" CanBeNull="true" />
+      <Column Name="iRecordEnteredBy" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="iOperation" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="iSpecialOpType" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="sDescription" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="iDurationMinutes" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="OPERATION_SPECIALOP" Member="OPERATION" ThisKey="iOperation" OtherKey="ID" Type="OPERATION" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+      <Association Name="SPECIALOPTYPE_SPECIALOP" Member="SPECIALOPTYPE" ThisKey="iSpecialOpType" OtherKey="ID" Type="SPECIALOPTYPE" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.SPECIALOPTYPES" Member="SPECIALOPTYPEs">
+    <Type Name="SPECIALOPTYPE">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="sSpecialOpType" Type="System.String" DbType="NVarChar(255) NOT NULL" CanBeNull="false" />
+      <Association Name="SPECIALOPTYPE_SPECIALOP" Member="SPECIALOPs" ThisKey="ID" OtherKey="iSpecialOpType" Type="SPECIALOP" />
+    </Type>
+  </Table>
+  <Function Name="dbo.sp_PeopleWhoCanTow" Method="sp_PeopleWhoCanTow">
+    <Parameter Name="Date" Parameter="date" Type="System.DateTime" DbType="DateTime" />
+    <ElementType Name="sp_PeopleWhoCanTowResult">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="sDisplayName" Type="System.String" DbType="NVarChar(55) NOT NULL" CanBeNull="false" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.bTNPF_CheckDupOp" Method="bTNPF_CheckDupOp" IsComposable="true">
+    <Parameter Name="iLaunchMethod" Type="System.Int32" DbType="Int" />
+    <Parameter Name="iTakeoffLoc" Type="System.Int32" DbType="Int" />
+    <Parameter Name="DBegin" Parameter="dBegin" Type="System.DateTime" DbType="SmallDateTime" />
+    <Parameter Name="DTakeoff" Parameter="dTakeoff" Type="System.DateTime" DbType="SmallDateTime" />
+    <Return Type="System.Boolean" />
+  </Function>
+  <Function Name="dbo.iTNPF_ClosestOpInTime" Method="iTNPF_ClosestOpInTime" IsComposable="true">
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.sp_FlightLogRows" Method="sp_FlightLogRows">
+    <Parameter Name="iWhichFliteLog" Type="System.Int32" DbType="Int" />
+    <ElementType Name="sp_FlightLogRowsResult">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="iFliteLog" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="cStatus" Type="System.Char" DbType="NChar(1) NOT NULL" CanBeNull="false" />
+      <Column Name="iTowEquip" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="sTowEquipName" Type="System.String" DbType="VarChar(25)" CanBeNull="true" />
+      <Column Name="iTowOperator" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="sTowOperName" Type="System.String" DbType="NVarChar(55) NOT NULL" CanBeNull="false" />
+      <Column Name="iGlider" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="sGliderName" Type="System.String" DbType="VarChar(25)" CanBeNull="true" />
+      <Column Name="iLaunchMethod" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="sLaunchMethod" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="iPilot1" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="sPilot1" Type="System.String" DbType="NVarChar(55) NOT NULL" CanBeNull="false" />
+      <Column Name="iAviatorRole1" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="sAviatorRole1" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="dPctCharge1" Type="System.Decimal" DbType="Decimal(6,2) NOT NULL" CanBeNull="false" />
+      <Column Name="iPilot2" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="sPilot2" Type="System.String" DbType="NVarChar(55) NOT NULL" CanBeNull="false" />
+      <Column Name="iAviatorRole2" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="sAviatorRole2" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="dPctCharge2" Type="System.Decimal" DbType="Decimal(6,2) NOT NULL" CanBeNull="false" />
+      <Column Name="dReleaseAltitude" Type="System.Decimal" DbType="Decimal(6,0)" CanBeNull="true" />
+      <Column Name="dMaxAltitude" Type="System.Decimal" DbType="Decimal(6,0)" CanBeNull="true" />
+      <Column Name="iLocTakeOff" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="sLocTakeOff" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="DTakeOff" Type="System.DateTimeOffset" DbType="DateTimeOffset NOT NULL" CanBeNull="false" />
+      <Column Name="iLocLanding" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="sLocLanding" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="DLanding" Type="System.DateTimeOffset" DbType="DateTimeOffset NOT NULL" CanBeNull="false" />
+      <Column Name="iChargeCode" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="cChargeCode" Type="System.Char" DbType="Char(1) NOT NULL" CanBeNull="false" />
+      <Column Name="sChargeCode" Type="System.String" DbType="NVarChar(30) NOT NULL" CanBeNull="false" />
+      <Column Name="mAmtCollected" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="sComments" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+</Database>

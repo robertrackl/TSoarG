@@ -1,0 +1,1292 @@
+1	Aero Tow by Altitude	2017/01/14	Rev2	N766PW	Evergreen Soaring	Evergreen Soaring	Eric Haupt	Sven Schoenbach		2		Arlington	140	3000	14:02	14:17	X	100.00	0.00	0.00	N	
+2	Aero Tow by Altitude	2017/01/14	Rev2	N766PW	Evergreen Soaring	Evergreen Soaring	Eric Haupt	Brad Johnson		2		Arlington	140	4000	14:33	14:50	X	100.00	0.00	0.00	N	
+3	Aero Tow by Altitude	2017/01/14	Rev2	N766PW	Evergreen Soaring	Evergreen Soaring	Eric Haupt	Brad Johnson		2		Arlington	140	4000	15:06	15:23	X	100.00	0.00	0.00	N	
+4	Aero Tow by Altitude	2017/01/14	Rev2	N766PW	Evergreen Soaring	Evergreen Soaring	Eric Haupt	Brad Johnson		2		Arlington	140	340	15:38	15:40	X	100.00	0.00	0.00	N	
+5	Aero Tow by Altitude	2017/01/14	Rev2	N766PW	Evergreen Soaring	Evergreen Soaring	Eric Haupt	Sven Schoenbach		2		Arlington	140	340	16:17	16:19	X	100.00	0.00	0.00	N	
+6	Aero Tow by Altitude	2017/01/14	Rev2	N766PW	Evergreen Soaring	Evergreen Soaring	Eric Haupt	Sven Schoenbach		2		Arlington	140	3000	16:24	16:30	X	100.00	0.00	0.00	N	
+7	Aero Tow by Altitude	2017/01/21	Rev2	N766PW	Evergreen Soaring	Evergreen Soaring	Eric Haupt	Brad Johnson		2		Arlington	140	4000	16:00	16:25	X	100.00	0.00	0.00	N	
+8	Aero Tow by Altitude	2017/01/21	Rev2	N766PW	Evergreen Soaring	Evergreen Soaring	Eric Haupt	Brad Johnson		2		Arlington	140	1500	16:35	16:45	X	100.00	0.00	0.00	N	
+9	Aero Tow by Altitude	2017/01/28	Rev2	N766PW	Evergreen Soaring	Evergreen Soaring	Eric Haupt	Brad Johnson		2		Arlington	140	3500	12:00	12:17	X	100.00	0.00	0.00	N	
+10	Aero Tow by Altitude	2017/01/28	Rev2	N766PW	Evergreen Soaring	Evergreen Soaring	Eric Haupt	Brad Johnson		2		Arlington	140	2000	13:00	13:10	X	100.00	0.00	0.00	N	
+11	Aero Tow by Altitude	2017/01/28	Rev2	N766PW	Evergreen Soaring	Evergreen Soaring	Eric Haupt	Brad Johnson		2		Arlington	140	1500	14:24	14:34	X	100.00	0.00	0.00	N	
+12	Aero Tow by Altitude	2017/01/28	Rev2	N766PW	Evergreen Soaring	Evergreen Soaring	Eric Haupt	Brad Johnson		2		Arlington	140	1500	14:53	14:59	X	100.00	0.00	0.00	N	
+13	Aero Tow by Altitude	2017/01/28	Rev2	N766PW	Evergreen Soaring	Evergreen Soaring	Eric Haupt	Brad Johnson		2		Arlington	140	1500	15:30	15:37	X	100.00	0.00	0.00	N	
+14	Aero Tow by Altitude	2017/01/28	Rev2	N766PW	Evergreen Soaring	Evergreen Soaring	Eric Haupt	Brad Johnson		2		Arlington	140	1500	15:54	16:00	X	100.00	0.00	0.00	N	
+15	Aero Tow by Altitude	2017/01/28	Rev2	N766PW	Evergreen Soaring	Evergreen Soaring	Eric Haupt	Brad Johnson		2		Arlington	140	1500	16:10	16:18	X	100.00	0.00	0.00	N	
+16	Aero Tow by Altitude	2017/01/28	Rev2	N766PW	Evergreen Soaring	Evergreen Soaring	Eric Haupt	Brad Johnson		2		Arlington	140	1500	16:31	16:39	X	100.00	0.00	0.00	N	
+17	Aero Tow by Altitude	2017/01/28	Rev2	N766PW	Evergreen Soaring	Evergreen Soaring	Eric Haupt	Brad Johnson		2		Arlington	140	340	16:57	16:59	X	100.00	0.00	0.00	N	
+18	Aero Tow by Altitude	2017/02/11	Rev2	N766PW	30Y	Evergreen Soaring	Eric Haupt	Brad Johnson		2		Arlington	140	5000	12:08	12:28	G	100.00	0.00	0.00	N	
+19	Aero Tow by Altitude	2017/02/11	Rev2	N766PW	30Y	Evergreen Soaring	Eric Haupt	Brad Johnson		2		Arlington	140	1500	12:49	12:54	G	100.00	0.00	0.00	N	
+20	Aero Tow by Altitude	2017/02/11	Rev2	N766PW	30Y	Evergreen Soaring	Eric Haupt	Brad Johnson		2		Arlington	140	1500	13:14	13:19	G	100.00	0.00	0.00	N	
+21	Aero Tow by Altitude	2017/02/11	Rev2	N766PW	30Y	Evergreen Soaring	Eric Haupt	Brad Johnson		2		Arlington	140	1500	13:38	13:45	G	100.00	0.00	0.00	N	
+22	Aero Tow by Altitude	2017/02/11	Rev2	N766PW	30Y	Evergreen Soaring	Eric Haupt	Brad Johnson		2		Arlington	140	1500	15:14	15:23	G	100.00	0.00	0.00	N	
+23	Aero Tow by Altitude	2017/02/11	Rev2	N766PW	30Y	Evergreen Soaring	Eric Haupt	Brad Johnson		2		Arlington	140	1500	15:35	15:40	G	100.00	0.00	0.00	N	
+24	Aero Tow by Altitude	2017/02/11	Rev2	N766PW	30Y	Evergreen Soaring		Eric Haupt		1		Arlington	140	4000	16:00	16:18	G	100.00	0.00	0.00	N	
+25	Aero Tow by Altitude	2017/02/12	Rev2	N766PW	30Y	Evergreen Soaring		Brad Johnson	Neal Karman	2		Arlington	140	3500	12:49	13:06	G	100.00	0.00	0.00	N	
+26	Aero Tow by Altitude	2017/02/12	Rev2	N766PW	30Y	Evergreen Soaring		Brad Johnson	Neal Karman	2		Arlington	140	340	13:17	13:19	G	100.00	0.00	0.00	N	
+27	Aero Tow by Altitude	2017/02/12	Rev2	N766PW	30Y	Evergreen Soaring		Brad Johnson	Neal Karman	2		Arlington	140	2600	13:24	13:35	G	100.00	0.00	0.00	N	
+28	Aero Tow by Altitude	2017/02/12	Rev2	N766PW	30Y	Evergreen Soaring		Eric Haupt		1		Arlington	140	3000	14:45	15:05	G	100.00	0.00	0.00	N	
+29	Aero Tow by Altitude	2017/04/09		N766PW	N333TM	Al Rubin		John Miller		1		Bergseth	1100	3600	15:25	15:37	I	100.00	0.00	0.00	N	Instructor currency
+30	Aero Tow by Altitude	2017/04/09		N766PW	N333TM	Al Rubin		John Miller		1		Bergseth	1100	2100	15:45	15:51	I	100.00	0.00	0.00	N	Instructor currency
+31	Aero Tow by Altitude	2017/04/09		N766PW	N333TM	Al Rubin		John Miller		1		Bergseth	1100	2100	16:00	16:06	I	100.00	0.00	0.00	N	Instructor currency
+32	Aero Tow by Altitude	2017/04/09		N766PW	N333TM	Al Rubin		John Miller		2		Bergseth	1100	4100	16:22	17:00	C	100.00	0.00	0.00	N	Intro ride for Marcelino Villasana
+33	Aero Tow by Altitude	2017/04/09		N766PW	N333TM	Al Rubin		Tim Heneghan		1		Bergseth	1100	4100	17:15	17:45	F	100.00	0.00	0.00	N	
+34	Aero Tow by Altitude	2017/04/15		N213TA	N333TM	Joe Salz		Curt Chenoweth		1		Bergseth	1100	2100	12:00	12:20	A	100.00	0.00	0.00	N	Reposition L-13AC from Evergreen Sky Ranch
+35	Aero Tow by Altitude	2017/04/15		N213TA	N333TM	Joe Salz	Eric Haupt	Marlene Nelson		2		Bergseth	1100	3200	12:41	12:53	F	100.00	0.00	0.00	Y	
+36	Aero Tow by Altitude	2017/04/15		N213TA	N333TM	Joe Salz	Eric Haupt	Marlene Nelson		2		Bergseth	1100	3800	13:03	13:15	F	100.00	0.00	0.00	N	
+37	Aero Tow by Altitude	2017/04/15		N213TA	N333TM	Joe Salz	Eric Haupt	Marlene Nelson		2		Bergseth	1100	1600	13:24	13:27	F	100.00	0.00	0.00	N	Assumed: simulated ropebreak
+38	Aero Tow by Altitude	2017/04/15		N213TA	N333TM	Joe Salz	Eric Haupt	Curt Chenoweth		2		Bergseth	1100	3000	13:42	13:52	F	100.00	0.00	0.00	Y	
+39	Aero Tow by Altitude	2017/04/15		N213TA	N333TM	Joe Salz	Eric Haupt	Curt Chenoweth		2		Bergseth	1100	3000	14:03	14:13	F	100.00	0.00	0.00	N	
+40	Aero Tow by Altitude	2017/04/15		N766PW	N333TM	Joe Salz	John Miller	Mike Cook		2		Bergseth	1100	3800	14:15	14:43	F	100.00	0.00	0.00	Y	
+41	Aero Tow by Altitude	2017/04/15		N213TA	N333TM	Joe Salz	Eric Haupt	Curt Chenoweth		2		Bergseth	1100	1800	14:27	14:30	F	100.00	0.00	0.00	N	Too high for sim. rope break charge
+42	Aero Tow by Altitude	2017/04/15		N213TA	N333TM	Joe Salz	John Miller	Jim Miller		2		Bergseth	1100	3700	15:11	15:28	F	100.00	0.00	0.00	Y	
+43	Aero Tow by Altitude	2017/04/15		N213TA	N333TM	Joe Salz		Eric Haupt		1		Bergseth	1100	3100	15:25	15:36	F	100.00	0.00	0.00	N	
+44	Aero Tow by Altitude	2017/04/15		N213TA	N333TM	Joe Salz	Eric Haupt	Marlene Nelson		2		Bergseth	1100	3100	15:50	16:04	F	100.00	0.00	0.00	N	
+45	Aero Tow by Altitude	2017/04/15		N213TA	N333TM	Joe Salz	Eric Haupt	Tim Heneghan		2		Bergseth	1100	3200	16:24	16:36	F	100.00	0.00	0.00	Y	
+46	Aero Tow by Altitude	2017/04/15		N157AJ	N333TM	Joe Salz		Mike Cook		1		Bergseth	1100	3100	16:42	16:52	F	100.00	0.00	0.00	N	
+47	Aero Tow by Altitude	2017/04/15		N213TA	N333TM	Joe Salz	Eric Haupt	Tim Heneghan		2		Bergseth	1100	1300	16:55	16:59	F	100.00	0.00	0.00	N	
+48	Aero Tow by Altitude	2017/04/15		N213TA	N333TM	Joe Salz	Eric Haupt	Tim Heneghan		2		Bergseth	1100	2100	17:06	17:12	F	100.00	0.00	0.00	N	
+49	Aero Tow by Altitude	2017/04/15		N157AJ	N333TM	Joe Salz		Mike Cook		1		Bergseth	1100	3100	17:22	18:24	F	100.00	0.00	0.00	N	
+50	Aero Tow by Altitude	2017/04/15		N766PW	N333TM	Joe Salz		Marlene Nelson		1		Bergseth	1100	3600	17:29	18:15	F	100.00	0.00	0.00	N	
+51	Aero Tow by Altitude	2017/04/21		N213TA	N333TM	Al Rubin		Robert Rackl		1		Bergseth	1100	2800	13:40	13:51	F	100.00	0.00	0.00	N	
+52	Aero Tow by Altitude	2017/04/21		N42DJ	N333TM	Al Rubin		Brad Pattison		1		Bergseth	1100	4100	14:06	16:14	T	100.00	0.00	0.00	N	
+53	Aero Tow by Altitude	2017/04/21		N213TA	N333TM	Al Rubin		Scott Thiel		1		Bergseth	1100	3500	14:18	14:38	I	100.00	0.00	0.00	N	Instructor Currency
+54	Aero Tow by Altitude	2017/04/21		N766PW	N333TM	Al Rubin		Marlene Nelson		1		Bergseth	1100	3700	14:43	15:29	F	100.00	0.00	0.00	N	
+55	Aero Tow by Altitude	2017/04/21		N213TA	N333TM	Al Rubin		Scott Thiel		1		Bergseth	1100	3300	15:02	15:17	I	100.00	0.00	0.00	N	Instructor Currency
+56	Aero Tow by Altitude	2017/04/21		N872	N333TM	Al Rubin		Curt Chenoweth		1		Bergseth	1100	3600	15:20	15:52	T	100.00	0.00	0.00	N	
+57	Aero Tow by Altitude	2017/04/21		N213TA	N333TM	Al Rubin		Scott Thiel		1		Bergseth	1100	2800	15:31	15:42	I	100.00	0.00	0.00	N	Instructor Currency
+58	Aero Tow by Altitude	2017/04/21		N766PW	N333TM	Joe Salz		Robert Rackl		1		Bergseth	1100	2600	15:50	16:18	F	100.00	0.00	0.00	N	
+59	Aero Tow by Altitude	2017/04/21		N213TA	N333TM	Joe Salz	Scott Thiel	Brian Halbert		2		Bergseth	1100	3500	15:57	16:11	F	100.00	0.00	0.00	N	
+60	Aero Tow by Altitude	2017/04/21		N766PW	N333TM	Joe Salz		Robert Rackl		2		Bergseth	1100	2500	16:32	16:43	F	100.00	0.00	0.00	N	Landed at Evergreen Sky Ranch
+61	Aero Tow by Altitude	2017/04/29		N213TA	N333TM	Benny Harwell	Scott Thiel	Brian Halbert		2		Bergseth	1100	4100	12:37	12:55	F	100.00	0.00	0.00	N	
+62	Aero Tow by Altitude	2017/04/29		N213TA	N333TM	Benny Harwell	Scott Thiel	Mike Gowen		2		Bergseth	1100	3000	13:18	13:31	F	100.00	0.00	0.00	Y	
+63	Aero Tow by Altitude	2017/04/29		N213TA	N333TM	Benny Harwell	Scott Thiel	Florin Botezatu		2		Bergseth	1100	3000	13:48	13:59	F	100.00	0.00	0.00	Y	
+64	Aero Tow by Altitude	2017/04/29		N213TA	N333TM	Benny Harwell	Scott Thiel	Brian Halbert		2		Bergseth	1100	4000	14:11	14:27	F	100.00	0.00	0.00	N	
+65	Aero Tow by Altitude	2017/04/29		N213TA	N333TM	Benny Harwell		Florin Botezatu		1		Bergseth	1100	2600	14:41	14:51	F	100.00	0.00	0.00	N	
+66	Aero Tow by Altitude	2017/04/29		N213TA	N333TM	Benny Harwell	Eric Haupt	Marc Brooks		2		Bergseth	1100	4100	15:07	15:28	F	100.00	0.00	0.00	Y	
+67	Aero Tow by Altitude	2017/04/29		N213TA	N333TM	Benny Harwell	Eric Haupt	Marc Brooks		2		Bergseth	1100	1300	15:34	15:37	F	100.00	0.00	0.00	N	
+68	Aero Tow by Altitude	2017/04/29		N213TA	N333TM	Benny Harwell		Marc Brooks		1		Bergseth	1100	2200	15:45	15:50	F	100.00	0.00	0.00	N	
+69	Aero Tow by Altitude	2017/04/29		N213TA	N333TM	Benny Harwell		Eric Haupt		1		Bergseth	1100	4100	16:02	16:20	F	100.00	0.00	0.00	N	
+70	Aero Tow by Altitude	2017/04/29		N213TA	N333TM	Benny Harwell		Eric Haupt		1		Bergseth	1100	3900	16:35	16:51	F	100.00	0.00	0.00	N	
+71	Aero Tow by Altitude	2017/04/29		N213TA	N333TM	Benny Harwell		Eric Haupt		1		Bergseth	1100	3800	17:01	17:14	F	100.00	0.00	0.00	N	
+72	Aero Tow by Altitude	2017/04/29		N213TA	N333TM	Benny Harwell		Eric Haupt		1		Bergseth	1100	3900	17:24	17:39	F	100.00	0.00	0.00	N	
+73	Aero Tow by Altitude	2017/04/29		N213TA	N333TM	Benny Harwell		Eric Haupt		1		Bergseth	1100	4100	17:49	18:04	F	100.00	0.00	0.00	N	
+74	Aero Tow by Altitude	2017/05/03		N213TA	N333TM	Joe Salz		Jim Miller		1		Bergseth	1100	3300	13:55	14:11	F	100.00	0.00	0.00	N	
+75	Aero Tow by Altitude	2017/05/03		N766PW	N333TM	Joe Salz		Jim Miller		2		Bergseth	1100	3600	14:21	15:39	F	100.00	0.00	0.00	N	Rackl in front seat
+76	Aero Tow by Altitude	2017/05/03		N872	N333TM	Benny Harwell		Marlene Nelson		1		Bergseth	1100	3800	14:57	16:45	T	100.00	0.00	0.00	N	
+77	Aero Tow by Altitude	2017/05/03		N213TA	N333TM	Benny Harwell		Joe Salz		1		Bergseth	1100	3100	15:09	15:33	G	100.00	0.00	0.00	N	Redeemed Tow Waiver
+78	Aero Tow by Altitude	2017/05/03		N213TA	N333TM	Joe Salz		Curt Chenoweth		1		Bergseth	1100	3600	16:11	17:13	F	100.00	0.00	0.00	N	
+79	Aero Tow by Altitude	2017/05/03		N766PW	N333TM	Joe Salz		Robert Rackl		2		Bergseth	1100	4200	17:00	18:13	F	100.00	0.00	0.00	N	Jim Miller in front seat
+80	Aero Tow by Altitude	2017/05/07		N766PW	N333TM	Jeff Pratt		Robert Rackl		1		Bergseth	1100	3600	13:50	14:40	F	100.00	0.00	0.00	N	
+81	Aero Tow by Altitude	2017/05/07		N157AJ	N333TM	Jeff Pratt		Mike Cook		1		Bergseth	1100	3500	14:15	14:27	F	100.00	0.00	0.00	N	
+82	Aero Tow by Altitude	2017/05/07		N872	N333TM	Jeff Pratt		Marlene Nelson		1		Bergseth	1100	2800	14:30	16:46	T	100.00	0.00	0.00	N	
+83	Aero Tow by Altitude	2017/05/07		N42DJ	N333TM	Jeff Pratt		Brad Pattison		1		Bergseth	1100	3000	14:50	18:13	T	100.00	0.00	0.00	N	
+84	Aero Tow by Altitude	2017/05/07		N766PW	N333TM	Jeff Pratt		Paul Caspell		2		Bergseth	1100	3400	15:16	16:20	F	100.00	0.00	0.00	N	
+85	Aero Tow by Altitude	2017/05/07		N157AJ	N333TM	Jeff Pratt		Mike Cook		1		Bergseth	1100	2800	15:30	16:48	F	100.00	0.00	0.00	N	
+86	Aero Tow by Altitude	2017/05/07		N766PW	N333TM	Jeff Pratt		Florin Botezatu		1		Bergseth	1100	3500	16:36	18:30	F	100.00	0.00	0.00	N	
+87	Aero Tow by Altitude	2017/05/07		N872	N333TM	Jeff Pratt		Curt Chenoweth		1		Bergseth	1100	3000	17:06	18:49	T	100.00	0.00	0.00	N	
+88	Aero Tow by Altitude	2017/05/20	Rev2	N213TA	N333TM	Joe Salz		Scott Thiel	Tom	2		Bergseth	1100	3000	12:25	12:40	G	100.00	0.00	0.00	N	
+89	Aero Tow by Altitude	2017/05/20	Rev2	N213TA	N333TM	Joe Salz		Jim Miller		1		Bergseth	1100	2100	12:55	13:05	F	100.00	0.00	0.00	N	
+90	Aero Tow by Altitude	2017/05/20	Rev2	N213TA	N333TM	Joe Salz	Scott Thiel	Brian Halbert		2		Bergseth	1100	4100	13:15	13:36	F	100.00	0.00	0.00	N	
+91	Aero Tow by Altitude	2017/05/20	Rev2	N213TA	N333TM	Joe Salz		Jim Miller		1		Bergseth	1100	4200	13:25	14:26	F	100.00	0.00	0.00	N	
+92	Aero Tow by Altitude	2017/05/20	Rev2	N42DJ	N333TM	Joe Salz		Brad Pattison		1		Bergseth	1100	2800	13:38	15:42	T	100.00	0.00	0.00	N	
+93	Aero Tow by Altitude	2017/05/20	Rev2	N766PW	N333TM	Bob Stoney		Joe Salz		1		Bergseth	1100	2100	13:50	14:05	G	100.00	0.00	0.00	N	
+94	Aero Tow by Altitude	2017/05/20	Rev2	N157AJ	N333TM	Bob Stoney		Scott Thiel		1		Bergseth	1100	2900	14:03	14:14	G	100.00	0.00	0.00	N	
+95	Aero Tow by Altitude	2017/05/20	Rev2	N766PW	N333TM	Bob Stoney		Joe Salz		1		Bergseth	1100	2700	14:12	14:23	G	100.00	0.00	0.00	N	
+96	Aero Tow by Altitude	2017/05/20	Rev2	N157AJ	N333TM	Bob Stoney		Florin Botezatu		1		Bergseth	1100	4100	14:35	15:48	F	100.00	0.00	0.00	N	
+97	Aero Tow by Altitude	2017/05/20	Rev2	N766PW	N333TM	Bob Stoney		Joe Salz	Lori Jones	2		Bergseth	1100	4100	14:53	15:13	C	0.00	100.00	0.00	N	
+98	Aero Tow by Altitude	2017/05/20	Rev2	N157AJ	N333TM	Bob Stoney		Paul Caspell		1		Bergseth	1100	3600	16:11	17:12	F	100.00	0.00	0.00	N	
+99	Aero Tow by Altitude	2017/05/20	Rev2	N213TA	N333TM	Bob Stoney		Joe Salz	Lary Lamb	2		Bergseth	1100	4100	16:38	17:08	C	0.00	100.00	0.00	N	
+100	Aero Tow by Altitude	2017/05/20	Rev2	N213TA	N333TM	Bob Stoney	Scott Thiel	Brian Halbert		2		Bergseth	1100	2900	17:18	17:34	F	100.00	0.00	0.00	N	
+101	Aero Tow by Altitude	2017/05/20	Rev2	N213TA	N333TM	Bob Stoney	Scott Thiel	Brian Halbert		2		Bergseth	1100	3200	17:40	17:54	F	100.00	0.00	0.00	N	
+102	Aero Tow by Altitude	2017/05/21		N213TA	N333TM	Bob Stoney	John Miller	Greg Bahnsen		2		Bergseth	1100	3300	12:46	13:05	F	100.00	0.00	0.00	Y	
+103	Aero Tow by Altitude	2017/05/21		N213TA	N333TM	Bob Stoney	John Miller	Greg Bahnsen		2		Bergseth	1100	1300	13:20	13:22	F	100.00	0.00	0.00	N	
+104	Aero Tow by Altitude	2017/05/21		N213TA	N333TM	Bob Stoney		John Miller		2		Bergseth	1100	4100	14:04	15:04	C	100.00	0.00	0.00	N	Rita Edris - Introductory ride
+105	Aero Tow by Altitude	2017/05/21		N872	N333TM	Bob Stoney		Marlene Nelson		1		Bergseth	1100	3600	14:23	14:46	T	100.00	0.00	0.00	N	
+106	Aero Tow by Altitude	2017/05/21		N872	N333TM	Bob Stoney		Curt Chenoweth		1		Bergseth	1100	3600	15:06	15:30	T	100.00	0.00	0.00	N	
+107	Aero Tow by Altitude	2017/05/21		N213TA	N333TM	Bob Stoney		Florin Botezatu		1		Bergseth	1100	3300	15:32	16:28	F	100.00	0.00	0.00	N	
+108	Aero Tow by Altitude	2017/05/21		N213TA	N333TM	Bob Stoney		Paul Caspell		1		Bergseth	1100	3300	16:18	16:52	F	100.00	0.00	0.00	N	
+109	Aero Tow by Altitude	2017/05/21		N872	N333TM	Bob Stoney		Marlene Nelson		1		Bergseth	1100	3100	16:35	16:58	T	100.00	0.00	0.00	N	
+110	Aero Tow by Altitude	2017/05/21		N213TA	N333TM	Bob Stoney		Mike Gowen		1		Bergseth	1100	3500	17:04	17:18	F	100.00	0.00	0.00	N	
+111	Aero Tow by Altitude	2017/05/26	Rev4	N157AJ	SGC	SGC		Florin Botezatu		1		Ephrata	1276	4276	11:45	12:00	G	100	0.00	0.00	N	T/O and landing times guessed; duration is correct
+112	Aero Tow by Altitude	2017/05/26	Rev4	N157AJ	SGC	SGC		Florin Botezatu		1		Ephrata	1276	4276	13:00	14:15	G	100	0.00	0.00	N	T/O and landing times guessed; duration is correct
+113	Aero Tow by Altitude	2017/05/27		N213TA	N333TM	Benny Harwell		Joe Salz		1		Bergseth	1100	2500	12:50	13:00	G	100.00	0.00	0.00	N	Redeemed tow pilot credit. Landed "on tow" at Evergreen Sky Ranch.
+114	Aero Tow by Altitude	2017/05/27		N213TA	N333TM	Benny Harwell		Joe Salz		1		Bergseth	1100	2500	13:10	13:20	G	100.00	0.00	0.00	N	Redeemed tow pilot credit.
+115	Aero Tow by Altitude	2017/05/27		N766PW	N333TM	Benny Harwell		Joe Salz		1		Bergseth	1100	2100	13:40	13:47	G	100.00	0.00	0.00	N	Redeemed tow pilot credit.
+116	Aero Tow by Altitude	2017/05/27		N766PW	N333TM	Benny Harwell	Grant Smith	Jim Murphy		2		Bergseth	1100	3000	14:00	14:31	F	100.00	0.00	0.00	Y	
+117	Aero Tow by Altitude	2017/05/27		N766PW	N333TM	Benny Harwell		Jim Murphy		1		Bergseth	1100	3000	14:45	15:18	F	100.00	0.00	0.00	N	
+118	Aero Tow by Altitude	2017/05/27		N213TA	N333TM	Joe Salz		Eric Haupt		2		Bergseth	1100	4100	15:35	15:55	C	100.00	0.00	0.00	N	Intro ride for Alex Weeks
+119	Aero Tow by Altitude	2017/05/27		N766PW	N333TM	Joe Salz	Eric Haupt	Alex Weeks		2		Bergseth	1100	3000	15:35	15:55	F	100.00	0.00	0.00	N	
+120	Aero Tow by Altitude	2017/05/27		N300GG	N333TM	Joe Salz		Mike Cook		1		Bergseth	1100	3000	16:20	16:52	T	100.00	0.00	0.00	N	DG-300
+121	Aero Tow by Altitude	2017/05/28		N213TA	N333TM	Bob Stoney		Jim Miller		1		Bergseth	1100	4100	12:13	12:35	F	100.00	0.00	0.00	N	
+122	Aero Tow by Altitude	2017/05/28		N300GG	N333TM	Bob Stoney		Mike Cook		1		Bergseth	1100	4100	14:22	15:30	T	100.00	0.00	0.00	N	
+123	Aero Tow by Altitude	2017/05/28		N213TA	N333TM	Joe Salz		John Miller		2		Bergseth	1100	4100	16:20	17:04	C	100.00	0.00	0.00	N	Intro ride Patrick O`Hara Harn
+124	Aero Tow by Altitude	2017/05/28	Rev4	N157AJ	SGC	SGC		Florin Botezatu		1		Ephrata	1276	4176	12:30	16:50	G	100	0.00	0.00	N	T/O Ldg times guessed; duration is correct
+125	Aero Tow by Altitude	2017/06/03		N213TA	N333TM	Bob Stoney	Eric Haupt	Kenji Ominato		2		Bergseth	1100	2500	11:17	11:24	F	100.00	0.00	0.00	N	
+126	Aero Tow by Altitude	2017/06/03		N213TA	N333TM	Bob Stoney	Eric Haupt	Kenji Ominato		2		Bergseth	1100	1800	11:33	11:37	F	100.00	0.00	0.00	N	
+127	Aero Tow by Altitude	2017/06/03		N213TA	N333TM	Bob Stoney	Eric Haupt	Kenji Ominato		2		Bergseth	1100	1700	11:48	11:51	F	100.00	0.00	0.00	N	
+128	Aero Tow by Altitude	2017/06/03		N213TA	N333TM	Bob Stoney	Eric Haupt	Brano Mikulik		2		Bergseth	1100	3000	12:18	12:36	F	100.00	0.00	0.00	Y	
+129	Aero Tow by Altitude	2017/06/03		N213TA	N333TM	Bob Stoney	Scott Thiel	Terry Crippen		2		Bergseth	1100	3100	12:56	13:06	F	100.00	0.00	0.00	Y	
+130	Aero Tow by Altitude	2017/06/03		N213TA	N333TM	Bob Stoney	Scott Thiel	Terry Crippen		2		Bergseth	1100	1400	13:18	13:21	F	100.00	0.00	0.00	N	
+131	Aero Tow by Altitude	2017/06/03		N213TA	N333TM	Bob Stoney	Scott Thiel	Terry Crippen		2		Bergseth	1100	2100	13:28	13:34	F	100.00	0.00	0.00	N	
+132	Aero Tow by Altitude	2017/06/03		N213TA	N333TM	Bob Stoney		Kenji Ominato		2		Bergseth	1100	3200	13:57	14:17	C	100.00	0.00	0.00	N	Intro ride for Douglas J. Brown
+133	Aero Tow by Altitude	2017/06/03		N213TA	N333TM	Bob Stoney	Scott Thiel	Brian Halbert		2		Bergseth	1100	3000	14:22	14:35	F	100.00	0.00	0.00	N	
+134	Aero Tow by Altitude	2017/06/03		N213TA	N333TM	Bob Stoney	Scott Thiel	Brian Halbert		2		Bergseth	1100	1400	14:44	14:47	F	100.00	0.00	0.00	N	
+135	Aero Tow by Altitude	2017/06/04		N213TA	N333TM	Bob Stoney		Jim Miller		1		Bergseth	1100	3400	13:51	14:36	F	100.00	0.00	0.00	N	
+136	Aero Tow by Altitude	2017/06/04		N213TA	N333TM	Bob Stoney		Mike Cook		1		Bergseth	1100	2900	15:00	16:09	F	100.00	0.00	0.00	N	
+137	Aero Tow by Altitude	2017/06/04		N872	N333TM	Bob Stoney		Curt Chenoweth		1		Bergseth	1100	3600	16:20	16:57	T	100.00	0.00	0.00	N	
+138	Aero Tow by Altitude	2017/06/04		N213TA	N333TM	Bob Stoney		Greg Bahnsen		1		Bergseth	1100	3000	16:32	16:55	F	100.00	0.00	0.00	N	
+139	Aero Tow by Altitude	2017/06/04		N213TA	N333TM	Bob Stoney		Tim Heneghan		2		Bergseth	1100	2900	17:14	18:39	F	100.00	0.00	0.00	N	Split charges 50/50
+140	Aero Tow by Altitude	2017/06/04		N872	N333TM	Bob Stoney		Marlene Nelson		1		Bergseth	1100	3900	17:23	18:45	T	100.00	0.00	0.00	N	
+141	Aero Tow by Altitude	2017/06/10		N213TA	N333TM	Mark Carino		Scott Thiel		1		Bergseth	1100	3100	11:45	11:56	G	100.00	0.00	0.00	N	Instructor Tow reward
+142	Aero Tow by Altitude	2017/06/10		N213TA	N333TM	Mark Carino	Scott Thiel	Brian Halbert		2		Bergseth	1100	2100	12:10	12:14	F	100.00	0.00	0.00	N	
+143	Aero Tow by Altitude	2017/06/10		N213TA	N333TM	Mark Carino	Scott Thiel	Brian Halbert		2		Bergseth	1100	2100	12:18	12:24	F	100.00	0.00	0.00	N	
+144	Aero Tow by Altitude	2017/06/10		N213TA	N333TM	Mark Carino	Scott Thiel	Dave Jones		2		Bergseth	1100	3200	12:36	12:45	F	100.00	0.00	0.00	N	
+145	Aero Tow by Altitude	2017/06/10		N213TA	N333TM	Mark Carino	Scott Thiel	Brian Halbert		2		Bergseth	1100	3100	13:20	13:33	F	100.00	0.00	0.00	N	
+146	Aero Tow by Altitude	2017/06/10		N213TA	N333TM	Mark Carino	Scott Thiel	Dave Jones		2		Bergseth	1100	3200	13:45	14:22	F	100.00	0.00	0.00	N	
+147	Aero Tow by Altitude	2017/06/10		N300GG	N333TM	Mark Carino		Mike Cook		1		Bergseth	1100	3000	14:02	15:05	T	100.00	0.00	0.00	N	
+148	Aero Tow by Altitude	2017/06/10		N213TA	N333TM	Mark Carino		Kenji Ominato		1		Bergseth	1100	3100	14:31	15:14	F	100.00	0.00	0.00	N	
+149	Aero Tow by Altitude	2017/06/10		N213TA	N333TM	Mark Carino		Kenji Ominato		2		Bergseth	1100	4100	15:37	16:07	C	100.00	0.00	0.00	N	Ethan Horan intro ride
+150	Aero Tow by Altitude	2017/06/10		N213TA	N333TM	Mark Carino		Tim Heneghan		2		Bergseth	1100	4100	16:20	17:00	C	100.00	0.00	0.00	N	Alex Parker intro ride
+151	Aero Tow by Altitude	2017/06/11		N213TA	N333TM	Benny Harwell		Joe Salz		2		Bergseth	1100	3100	09:46	10:00	G	100.00	0.00	0.00	N	Passenger Megan Hall. Redeemed Benny Harwell tow reward
+152	Aero Tow by Altitude	2017/06/11		N766PW	N333TM	Benny Harwell		Tim Heneghan		2		Bergseth	1100	4100	10:01	10:21	G	100.00	0.00	0.00	N	Passenger Damon Hall. Redeemed Benny Harwell tow reward
+153	Aero Tow by Altitude	2017/06/11		N213TA	N333TM	Benny Harwell		Pete Roberts		2		Bergseth	1100	4100	10:15	10:31	C	100.00	0.00	0.00	N	Intro ride by Joe Salz
+154	Aero Tow by Altitude	2017/06/11		N766PW	N333TM	Benny Harwell		Lynn Roberts		2		Bergseth	1100	4100	10:35	10:56	C	100.00	0.00	0.00	N	Intro ride by Tim Heneghan
+155	Aero Tow by Altitude	2017/06/11		N213TA	N333TM	Benny Harwell		Philip Roberts		2		Bergseth	1100	4100	10:54	11:15	C	100.00	0.00	0.00	N	Intro ride by Joe Salz
+156	Aero Tow by Altitude	2017/06/11		N157AJ	N333TM	Benny Harwell		Brano Mikulik		1		Bergseth	1100	4100	12:42	15:05	F	100.00	0.00	0.00	N	
+157	Aero Tow by Altitude	2017/06/11		N213TA	N333TM	Benny Harwell		Jim Miller		1		Bergseth	1100	4100	13:01	13:56	F	100.00	0.00	0.00	N	
+158	Aero Tow by Altitude	2017/06/11		N872	N333TM	Benny Harwell		Curt Chenoweth		1		Bergseth	1100	3300	13:30	15:38	T	100.00	0.00	0.00	N	Ventus 2
+159	Aero Tow by Altitude	2017/06/11		N766PW	N333TM	Benny Harwell	John Miller	Marc Brooks		2		Bergseth	1100	3700	14:12	14:32	F	100.00	0.00	0.00	N	
+160	Aero Tow by Altitude	2017/06/11		N300GG	N333TM	Benny Harwell		Mike Cook		1		Bergseth	1100	3300	14:44	15:05	T	100.00	0.00	0.00	N	DG-300
+161	Aero Tow by Altitude	2017/06/11		N213TA	N333TM	Benny Harwell	John Miller	Skyler Roehl		2		Bergseth	1100	4100	15:25	15:44	C	100.00	0.00	0.00	N	Intro ride by John Miller
+162	Aero Tow by Altitude	2017/06/11		N766PW	N333TM	Benny Harwell		Lucas Roehl		2		Bergseth	1100	4100	15:47	16:27	C	100.00	0.00	0.00	N	Intro ride by Tim Heneghan; used gift certificate #2013156
+163	Aero Tow by Altitude	2017/06/11		N157AJ	N333TM	Joe Salz		Marc Brooks		1		Bergseth	1100	4300	17:35	17:59	F	100.00	0.00	0.00	N	
+164	Aero Tow by Altitude	2017/06/11		DG	N333TM	Joe Salz		Tim Heneghan		1		Bergseth	1100	2500	17:50	18:00	T	100.00	0.00	0.00	N	Tow to Evergreen Sky Ranch, released just above runway
+165	Aero Tow by Altitude	2017/06/17	Rev2	N213TA	N333TM	Jeff Pratt		Tim Heneghan		1		Bergseth	1100	3000	11:36	11:50	F	0.00	100.00	0.00	N	
+166	Aero Tow by Altitude	2017/06/17	Rev2	N213TA	N333TM	Jeff Pratt	Scott Thiel	Brian Halbert		2		Bergseth	1100	3100	12:08	12:20	F	0.00	100.00	0.00	N	
+167	Aero Tow by Altitude	2017/06/17	Rev2	N213TA	N333TM	Jeff Pratt	Scott Thiel	Dave Jones		2		Bergseth	1100	3100	12:30	12:46	F	0.00	100.00	0.00	N	
+168	Aero Tow by Altitude	2017/06/17	Rev2	N213TA	N333TM	Jeff Pratt	Scott Thiel	Brian Halbert		2		Bergseth	1100	3100	13:08	13:20	F	0.00	100.00	0.00	N	
+169	Aero Tow by Altitude	2017/06/17	Rev2	N213TA	N333TM	Jeff Pratt	Scott Thiel	Dave Jones		2		Bergseth	1100	3100	13:40	13:52	F	0.00	100.00	0.00	N	
+170	Aero Tow by Altitude	2017/06/24	Rev2	N213TA	N333TM	Joe Salz	Scott Thiel	Brian Halbert		2		Bergseth	1100	4000	10:30	10:45	F	100.00	0.00	0.00	N	
+171	Aero Tow by Altitude	2017/06/24	Rev2	N213TA	N333TM	Joe Salz	Scott Thiel	Brian Halbert		2		Bergseth	1100	1400	11:04	11:05	F	100.00	0.00	0.00	N	
+172	Aero Tow by Altitude	2017/06/24	Rev2	N213TA	N333TM	Joe Salz		Brian Halbert		1		Bergseth	1100	3100	11:31	11:43	F	100.00	0.00	0.00	N	
+173	Aero Tow by Altitude	2017/06/24	Rev2	N213TA	N333TM	Joe Salz		Brian Halbert		1		Bergseth	1100	3100	11:48	12:01	F	100.00	0.00	0.00	N	
+174	Aero Tow by Altitude	2017/06/24	Rev2	N213TA	N333TM	Joe Salz	Scott Thiel	Doug Brown		2		Bergseth	1100	2900	12:18	12:31	F	100.00	0.00	0.00	N	
+175	Aero Tow by Altitude	2017/06/24	Rev2	N766PW	N333TM	Joe Salz		Tim Heneghan	Lucas Roehl	2		Bergseth	1100	4100	12:43	13:06	F	0.00	100.00	0.00	N	
+176	Aero Tow by Altitude	2017/06/24	Rev2	N213TA	N333TM	Joe Salz	Scott Thiel	Skyler Roehl		2		Bergseth	1100	3400	13:09	13:24	F	100.00	0.00	0.00	N	
+177	Aero Tow by Altitude	2017/06/24	Rev2	N157AJ	N333TM	Grant Smith		Marc Brooks		1		Bergseth	1100	3700	13:33	13:50	F	100.00	0.00	0.00	N	
+178	Aero Tow by Altitude	2017/06/24	Rev2	N213TA	N333TM	Grant Smith		Joe Salz	Kurt Kulesza	2		Bergseth	1100	3100	13:48	14:11	G	100.00	0.00	0.00	N	
+179	Aero Tow by Altitude	2017/06/24	Rev2	N766PW	N333TM	Grant Smith		Scott Thiel	Daniel Marchenko	2		Bergseth	1100	4000	14:13	14:35	C	0.00	100.00	0.00	N	
+180	Aero Tow by Altitude	2017/06/24	Rev2	N300GG	N333TM	Grant Smith		Mike Cook		1		Bergseth	1100	3500	15:14	15:48	T	100.00	0.00	0.00	N	
+181	Aero Tow by Altitude	2017/06/24	Rev2	N157AJ	N333TM	Grant Smith		Robert Rackl		1		Bergseth	1100	3200	15:48	16:05	F	100.00	0.00	0.00	N	
+182	Aero Tow by Altitude	2017/06/24	Rev2	N157AJ	N333TM	Grant Smith		Robert Rackl		1		Bergseth	1100	2200	16:13	16:18	F	100.00	0.00	0.00	N	
+183	Aero Tow by Altitude	2017/07/10	Rev3	N213TA	N333TM	Joe Salz	Scott Thiel	Brad Pattison		2		Bergseth	1100	2100	14:16	14:25	F	100	0.00	0.00	N	
+184	Aero Tow by Altitude	2017/07/10	Rev3	N213TA	N333TM	Joe Salz		Brian Halbert		1		Bergseth	1100	2100	14:36	14:41	F	100	0.00	0.00	N	
+185	Aero Tow by Altitude	2017/07/10	Rev3	N213TA	N333TM	Joe Salz		Brian Halbert		1		Bergseth	1100	2100	14:52	15:00	F	100	0.00	0.00	N	
+186	Aero Tow by Altitude	2017/07/10	Rev3	N766PW	N333TM	Joe Salz	Scott Thiel	Brad Pattison		2		Bergseth	1100	2100	15:09	15:17	F	100	0.00	0.00	N	
+187	Aero Tow by Altitude	2017/07/10	Rev3	N213TA	N333TM	Joe Salz	Scott Thiel	Dave Jones		2		Bergseth	1100	2900	15:19	15:35	F	100	0.00	0.00	N	
+188	Aero Tow by Altitude	2017/07/10	Rev3	N766PW	N333TM	Joe Salz		Eric Haupt		1		Bergseth	1100	3000	15:37	15:58	F	100	0.00	0.00	N	
+189	Aero Tow by Altitude	2017/07/10	Rev3	N213TA	N333TM	Joe Salz	Scott Thiel	Doug Brown		2		Bergseth	1100	4100	15:50	16:08	F	100	0.00	0.00	N	
+190	Aero Tow by Altitude	2017/07/10	Rev3	N872	N333TM	Joe Salz		Marlene Nelson		1		Bergseth	1100	3300	16:05	17:28	F	100	0.00	0.00	N	
+191	Aero Tow by Altitude	2017/07/10	Rev3	N766PW	N333TM	Joe Salz		Eric Haupt		1		Bergseth	1100	3000	16:18	16:31	F	100	0.00	0.00	N	
+192	Aero Tow by Altitude	2017/07/10	Rev3	N213TA	N333TM	Joe Salz	Scott Thiel	Dave Jones		2		Bergseth	1100	4100	16:29	16:48	F	100	0.00	0.00	N	
+193	Aero Tow by Altitude	2017/07/10	Rev3	N766PW	N333TM	Joe Salz		Eric Haupt		1		Bergseth	1100	3100	16:50	17:07	F	100	0.00	0.00	N	Jim Miller substituted his personal check
+194	Aero Tow by Altitude	2017/07/10	Rev3	N213TA	N333TM	Al Rubin		Brad Pattison	Paul Caspell	2		Bergseth	1100	3000	17:03	17:22	F	50	50	0.00	N	Paul Caspell personal check $27.
+195	Aero Tow by Altitude	2017/07/10	Rev3	N300GG	N333TM	Al Rubin		Mike Cook		1		Bergseth	1100	3100	17:15	18:10	F	100	0.00	0.00	N	
+196	Aero Tow by Altitude	2017/07/10	Rev3	N766PW	N333TM	Al Rubin		Tim Heneghan		1		Bergseth	1100	3100	17:37	17:57	F	100	0.00	0.00	N	
+197	Aero Tow by Altitude	2017/07/10	Rev3	N213TA	N333TM	Al Rubin		Brian Halbert		1		Bergseth	1100	2100	17:51	18:05	F	100	0.00	0.00	N	
+198	Aero Tow by Altitude	2017/07/02	Rev3	N766PW	N333TM	Benny Harwell		Tim Heneghan	Benny Harwell	2		Bergseth	1100	4100	12:12	12:30	G	0	100	0.00	N	Actual Passenger was Benny Harwell`s son
+199	Aero Tow by Altitude	2017/07/02	Rev3	N766PW	N333TM	Benny Harwell		John Miller	Walter Bergseth	2		Bergseth	1100	3600	13:39	14:05	X	100	0.00	0.00	N	
+200	Aero Tow by Altitude	2017/07/02	Rev3	N766PW	N333TM	Benny Harwell	John Miller	Ian Lichty		2		Bergseth	1100	4100	14:26	14:53	C	100	0.00	0.00	N	Jim Murphy substituted personal check for cash
+201	Aero Tow by Altitude	2017/07/02	Rev3	N766PW	N333TM	Benny Harwell		Jim Murphy		1		Bergseth	1100	3100	15:18	17:16	F	100	0.00	0.00	N	
+202	Aero Tow by Altitude	2017/07/02	Rev3	N213TA	N333TM	Benny Harwell	John Miller	Don Allen		2		Bergseth	1100	4100	16:23	16:56	C	100	0.00	0.00	N	
+203	Aero Tow by Altitude	2017/07/02	Rev3	N872	N333TM	Grant Smith		Curt Chenoweth		1		Bergseth	1100	3100	16:56	19:21	T	100	0.00	0.00	N	
+204	Aero Tow by Altitude	2017/07/02	Rev3	N213TA	N333TM	Grant Smith	John Miller	Art Lent		2		Bergseth	1100	4100	17:09	17:38	C	100	0.00	0.00	N	
+205	Aero Tow by Altitude	2017/07/02	Rev3	N766PW	N333TM	Grant Smith		Greg Bahnsen		1		Bergseth	1100	3200	17:30	18:09	F	100	0.00	0.00	N	
+206	Aero Tow by Altitude	2017/07/02	Rev3	N157AJ	N333TM	Grant Smith		Jim Murphy		1		Bergseth	1100	4100	18:24	19:45	F	100	0.00	0.00	N	
+207	Aero Tow by Altitude	2017/07/08	Rev3	N213TA	N333TM	Bob Stoney		Brian Halbert		1		Bergseth	1100	4100	11:50	12:13	F	100	0.00	0.00	N	Scott Thiel was at the field
+208	Aero Tow by Altitude	2017/07/08	Rev3	N766PW	N333TM	Benny Harwell		Brad Pattison	Julie`s Dad	2		Bergseth	1100	3600	12:18	12:48	F	100	0.00	0.00	N	
+209	Aero Tow by Altitude	2017/07/08	Rev3	N213TA	N333TM	Benny Harwell		Joe Salz	Bob Stoney	2		Bergseth	1100	4100	12:30	12:55	G	0.00	100	0.00	N	Actual passenger Charlie Holmes. Redeemed Bob Stoney tow reward.
+210	Aero Tow by Altitude	2017/07/08	Rev3	N766PW	N333TM	Bob Stoney		Brad Pattison	Julie`s Uncle	2		Bergseth	1100	3100	13:05	13:35	F	100	0.00	0.00	N	
+211	Aero Tow by Altitude	2017/07/08	Rev3	N213TA	N333TM	Bob Stoney		Robert Rackl	Jim Miller	2		Bergseth	1100	3500	13:15	13:41	F	100	0.00	0.00	N	
+212	Aero Tow by Altitude	2017/07/08	Rev3	N4TE	N333TM	Bob Stoney		Kenji Ominato		1		Bergseth	1100	6800	13:32	17:44	T	100	0.00	0.00	N	
+213	Aero Tow by Altitude	2017/07/08	Rev3	N766PW	N333TM	Bob Stoney		Mike Gowen		1		Bergseth	1100	3100	14:04	14:36	F	100	0.00	0.00	N	
+214	Aero Tow by Altitude	2017/07/08	Rev3	N213TA	N333TM	Bob Stoney		Brian Halbert		1		Bergseth	1100	4100	14:15	14:48	F	100	0.00	0.00	N	
+215	Aero Tow by Altitude	2017/07/08	Rev3	N300GG	N333TM	Bob Stoney		Mike Cook		1		Bergseth	1100	3100	14:29	16:38	T	100	0.00	0.00	N	
+216	Aero Tow by Altitude	2017/07/08	Rev3	N157AJ	N333TM	Benny Harwell		Brano Mikulik		1		Bergseth	1100	3300	14:40	16:50	F	100	0.00	0.00	N	
+217	Aero Tow by Altitude	2017/07/08	Rev3	N213TA	N333TM	Bob Stoney		Jim Miller	Robert Rackl	2		Bergseth	1100	3100	15:00	16:23	F	100	0.00	0.00	N	
+218	Aero Tow by Altitude	2017/07/08	Rev3	N766PW	N333TM	Bob Stoney		Marlene Nelson	Burt Compton	2		Bergseth	1100	3600	16:09	17:26	F	100	0.00	0.00	N	
+219	Aero Tow by Altitude	2017/07/09	Rev3	N300GG	N333TM	Al Rubin		Mike Cook		1		Bergseth	1100	3100	14:15	16:11	T	100	0.00	0.00	N	
+220	Aero Tow by Altitude	2017/07/09	Rev3	N4TE	N333TM	Al Rubin		Kenji Ominato		1		Bergseth	1100	2700	14:28	18:23	T	100	0.00	0.00	N	
+221	Aero Tow by Altitude	2017/07/09	Rev3	N157AJ	N333TM	Al Rubin		Brad Pattison		1		Bergseth	1100	3600	14:41	16:01	F	100	0.00	0.00	N	
+222	Aero Tow by Altitude	2017/07/09	Rev3	N213TA	N333TM	Al Rubin		Robert Rackl	Paul Caspell	2		Bergseth	1100	3400	15:12	15:56	F	100	0.00	0.00	N	
+223	Aero Tow by Altitude	2017/07/09	Rev3	N213TA	N333TM	Al Rubin		Eric Haupt	Kyle Krusinski	2		Bergseth	1100	3000	16:36	17:01	F	100	0.00	0.00	N	No tow waiver claimed
+224	Aero Tow by Altitude	2017/07/15	Rev3	N213TA	N333TM	Bob Stoney	Scott Thiel	Bud Burns		2		Bergseth	1100	4000	11:26	11:45	C	100	0.00	0.00	N	PSSA Gift Certificate #2017310
+225	Aero Tow by Altitude	2017/07/15	Rev3	N213TA	N333TM	Bob Stoney		Scott Thiel	unknown passenger	2		Bergseth	1100	4100	12:03	12:27	G	100	0.00	0.00	N	
+226	Aero Tow by Altitude	2017/07/15	Rev3	N213TA	N333TM	Bob Stoney		Scott Thiel	unknown passenger	2		Bergseth	1100	3900	12:42	13:03	G	100	0.00	0.00	N	
+227	Aero Tow by Altitude	2017/07/15	Rev3	N213TA	N333TM	Bob Stoney	Scott Thiel	Dave Jones		2		Bergseth	1100	3700	13:21	13:55	F	100	0.00	0.00	N	
+228	Aero Tow by Altitude	2017/07/15	Rev3	N4TE	N333TM	Bob Stoney		Kenji Ominato		1		Bergseth	1100	2600	14:08	19:20	T	100	0.00	0.00	N	
+229	Aero Tow by Altitude	2017/07/15	Rev3	N213TA	N333TM	Bob Stoney	Scott Thiel	JAD Dennis		2		Bergseth	1100	3100	14:19	14:49	C	100	0.00	0.00	N	2 checks 125+7
+230	Aero Tow by Altitude	2017/07/15	Rev3	N300GG	N333TM	Bob Stoney		Mike Cook		1		Bergseth	1100	2700	14:30	15:59	T	100	0.00	0.00	N	
+231	Aero Tow by Altitude	2017/07/15	Rev3	N213TA	N333TM	Joe Salz		Brian Halbert	Jim Miller	2		Bergseth	1100	3600	15:15	15:40	F	50	50	0.00	N	
+232	Aero Tow by Altitude	2017/07/15	Rev3	N766PW	N333TM	Joe Salz		Tim Heneghan	Colin Pop	2		Bergseth	1100	4100	15:50	16:23	C	0.00	100	0.00	N	SSA FAST voucher #578528
+233	Aero Tow by Altitude	2017/07/15	Rev3	N213TA	N333TM	Joe Salz		Mike Gowen		1		Bergseth	1100	4000	16:11	16:58	F	100	0.00	0.00	N	
+234	Aero Tow by Altitude	2017/07/15	Rev3	N766PW	N333TM	Joe Salz	Eric Haupt	Nicolas Alegria		2		Bergseth	1100	4000	16:56	17:09	F	100	0.00	0.00	N	Promised to send membership app and payment
+235	Aero Tow by Altitude	2017/07/15	Rev3	N766PW	N333TM	Joe Salz		Eric Haupt	Brad Johnson	2		Bergseth	1100	4000	17:25	18:10	F	100	0.00	0.00	N	
+236	Aero Tow by Altitude	2017/07/15	Rev3	N766PW	N333TM	Joe Salz		Eric Haupt	Shannon	2		Bergseth	1100	3600	18:20	18:45	F	100	0.00	0.00	N	
+237	Aero Tow by Altitude	2017/07/15	Rev3	N766PW	N333TM	Joe Salz		Eric Haupt	Michael	2		Bergseth	1100	3400	18:53	19:13	F	100	0.00	0.00	N	
+238	Aero Tow by Altitude	2017/07/15	Rev3	N766PW	N333TM	Joe Salz		Eric Haupt	Brad Johnson	2		Bergseth	1100	4000	19:25	20:15	F	100	0.00	0.00	N	
+239	Aero Tow by Altitude	2017/07/16	Rev3	N4TE	N333TM	Jeff Pratt		Kenji Ominato		1		Bergseth	1100	3100	13:32	18:44	T	100	0.00	0.00	N	
+240	Aero Tow by Altitude	2017/07/16	Rev3	N300GG	N333TM	Jeff Pratt		Mike Cook		1		Bergseth	1100	3100	14:09	14:27	T	100	0.00	0.00	N	
+241	Aero Tow by Altitude	2017/07/16	Rev3	N157AJ	N333TM	Jeff Pratt		Florin Botezatu		1		Bergseth	1100	4100	16:23	18:59	F	100	0.00	0.00	N	
+242	Aero Tow by Altitude	2017/07/16	Rev3	N213TA	N333TM	Jeff Pratt		Tim Heneghan	Paul Caspell	2		Bergseth	1100	2100	16:39	18:00	F	50	50	0.00	N	Check from Paul Caspell
+243	Aero Tow by Altitude	2017/07/16	Rev3	N300GG	N333TM	Jeff Pratt		Mike Cook		1		Bergseth	1100	2900	16:48	18:12	T	100	0.00	0.00	N	
+244	Aero Tow by Altitude	2017/07/22	Rev3	N213TA	N333TM	Joe Salz		Brian Halbert		1		Bergseth	1100	3100	11:33	11:48	F	100	0.00	0.00	N	
+245	Aero Tow by Altitude	2017/07/22	Rev3	N766PW	N333TM	Joe Salz		Tim Heneghan	Doug Lannom	2		Bergseth	1100	4100	12:08	12:37	C	0.00	100	0.00	N	
+246	Aero Tow by Altitude	2017/07/22	Rev3	N213TA	N333TM	Joe Salz	Scott Thiel	Dave Jones		2		Bergseth	1100	3900	12:24	12:47	F	100	0.00	0.00	N	
+247	Aero Tow by Altitude	2017/07/22	Rev3	N213TA	N333TM	Joe Salz	Scott Thiel	JAD Dennis		2		Bergseth	1100	4000	12:59	13:27	F	100	0.00	0.00	N	
+248	Aero Tow by Altitude	2017/07/22	Rev3	N766PW	N333TM	Joe Salz	Scott Thiel	Jim Miller		2		Bergseth	1100	3900	13:44	14:11	F	100	0.00	0.00	N	PW-6 checkout front seat
+249	Aero Tow by Altitude	2017/07/22	Rev3	N213TA	N333TM	Joe Salz	Eric Haupt	Brian Halbert		2		Bergseth	1100	3100	13:59	14:30	F	100	0.00	0.00	N	
+250	Aero Tow by Altitude	2017/07/22	Rev3	N213TA	N333TM	Joe Salz	Eric Haupt	Nicolas Alegria		2		Bergseth	1100	3700	14:49	15:08	F	100	0.00	0.00	N	
+251	Aero Tow by Altitude	2017/07/22	Rev3	N766PW	N333TM	Al Rubin		Tim Heneghan	Ray Coville	2		Bergseth	1100	4100	15:06	15:54	C	0.00	100	0.00	N	$15 Cash donation
+252	Aero Tow by Altitude	2017/07/22	Rev3	N300GG	N333TM	Al Rubin		Mike Cook		1		Bergseth	1100	3100	15:16	17:37	T	100	0.00	0.00	N	
+253	Aero Tow by Altitude	2017/07/22	Rev3	N213TA	N333TM	Al Rubin	Scott Thiel	Dave Jones		2		Bergseth	1100	3500	15:30	16:02	F	100	0.00	0.00	N	
+254	Aero Tow by Altitude	2017/07/22	Rev3	N213TA	N333TM	Al Rubin	Scott Thiel	JAD Dennis		2		Bergseth	1100	3900	16:27	16:49	F	100	0.00	0.00	N	
+255	Aero Tow by Altitude	2017/07/22	Rev3	N766PW	N333TM	Al Rubin		Tim Heneghan	Kris Stanford	2		Bergseth	1100	3800	16:43	17:23	C	0.00	100	0.00	N	
+256	Aero Tow by Altitude	2017/07/22	Rev3	N213TA	N333TM	Al Rubin	Eric Haupt	Nicolas Alegria		2		Bergseth	1100	3000	17:01	17:12	F	100	0.00	0.00	N	new regular member
+257	Aero Tow by Altitude	2017/07/22	Rev3	N213TA	N333TM	Al Rubin		Brian Halbert		1		Bergseth	1100	3100	17:25	17:45	F	100	0.00	0.00	N	
+258	Aero Tow by Altitude	2017/07/22	Rev3	N766PW	N333TM	Al Rubin		Robert Rackl	Jim Miller	2		Bergseth	1100	3400	17:37	18:47	F	50	50	0.00	N	
+259	Aero Tow by Altitude	2017/07/30	Rev4	N766PW	N333TM	Bob Stoney		Tim Heneghan	Ethan Wood	2	Bob Stoney	Bergseth	1100	4100	12:22	13:00	G	0.00	0.00	100	N	
+260	Aero Tow by Altitude	2017/07/30	Rev4	N4TE	N333TM	Bob Stoney		Kenji Ominato		1		Bergseth	1100	4100	13:15	16:35	T	100	0.00	0.00	N	
+261	Aero Tow by Altitude	2017/07/30	Rev4	N766PW	N333TM	Bob Stoney		Jim Miller	Mark Miller	2		Bergseth	1100	3600	13:28	13:43	F	100	0.00	0.00	N	
+262	Aero Tow by Altitude	2017/07/30	Rev4	N213TA	N333TM	Bob Stoney	John Miller	Josh Atencio		2		Bergseth	1100	3600	13:43	14:14	C	100	0.00	0.00	N	
+263	Aero Tow by Altitude	2017/07/30	Rev4	N872	N333TM	Bob Stoney		Marlene Nelson		1		Bergseth	1100	3600	13:57	15:19	T	100	0.00	0.00	N	
+264	Aero Tow by Altitude	2017/07/30	Rev4	N300GG	N333TM	Bob Stoney		Mike Cook		1		Bergseth	1100	3600	14:10	16:22	T	100	0.00	0.00	N	
+265	Aero Tow by Altitude	2017/07/30	Rev4	N766PW	N333TM	Bob Stoney		Robert Rackl	Paul Caspell	2		Bergseth	1100	3600	14:22	15:26	F	50	50	0.00	N	Paul Caspell did takeoff, Robert Rackl did landing
+266	Aero Tow by Altitude	2017/07/30	Rev4	N213TA	N333TM	Bob Stoney		Tim Heneghan	Melanie Freiberg	2		Bergseth	1100	4100	15:00	15:30	C	0.00	100	0.00	N	
+267	Aero Tow by Altitude	2017/07/30	Rev4	N872	N333TM	Bob Stoney		Curt Chenoweth		1		Bergseth	1100	4100	15:32	18:05	T	100	0.00	0.00	N	
+268	Aero Tow by Altitude	2017/07/30	Rev4	N766PW	N333TM	Bob Stoney	John Miller	Marcus Luker		2		Bergseth	1100	4100	15:43	16:08	C	100	0.00	0.00	N	
+269	Aero Tow by Altitude	2017/07/30	Rev4	N213TA	N333TM	Bob Stoney		Tim Heneghan	Jordan Luker	2		Bergseth	1100	4100	15:57	16:20	C	0.00	100	0.00	N	
+270	Aero Tow by Altitude	2017/07/30	Rev4	N766PW	N333TM	Bob Stoney	John Miller	Craig Luker		2		Bergseth	1100	4100	16:27	16:47	C	100	0.00	0.00	N	
+271	Aero Tow by Altitude	2017/07/30	Rev4	N213TA	N333TM	Bob Stoney		Tim Heneghan	Anil Bains	2		Bergseth	1100	4100	16:45	17:14	C	0.00	100	0.00	N	
+272	Aero Tow by Altitude	2017/07/30	Rev4	N766PW	N333TM	Bob Stoney	John Miller	Arjun Sareen		2		Bergseth	1100	4100	17:01	17:30	C	100	0.00	0.00	N	
+273	Aero Tow by Altitude	2017/07/30	Rev4	N213TA	N333TM	Bob Stoney		Brad Pattison	Steve Arionus	2	Bob Stoney	Bergseth	1100	1400	17:30	17:35	F	0.00	0.00	100	N	Released early
+274	Aero Tow by Altitude	2017/07/30	Rev4	N213TA	N333TM	Bob Stoney		Brad Pattison	Steve Arionus	2		Bergseth	1100	4100	17:58	18:32	C	0.00	100	0.00	N	
+275	Aero Tow by Altitude	2017/07/30	Rev4	N766PW	N333TM	Bob Stoney		Kenji Ominato	Ethan Wood	2	Bob Stoney	Bergseth	1100	4100	18:22	19:39	G	0.00	0.00	100	N	
+276	Aero Tow by Altitude	2017/07/30	Rev4	N213TA	N333TM	Bob Stoney		Robert Rackl		1		Bergseth	1100	3000	18:40	18:55	X	100	0.00	0.00	N	Maintenance flight to Tim Heneghan`s property
+277	Aero Tow by Altitude	2017/08/05	Rev4	N213TA	N333TM	Joe Salz		Curt Chenoweth		1		Bergseth	1100	2500	10:00	10:15	X	100	0.00	0.00	N	Repositioning from Evergreen Sky Ranch
+278	Aero Tow by Altitude	2017/08/05	Rev4	N213TA	N333TM	Joe Salz		Tim Heneghan	Jennifer Sands	2		Bergseth	1100	4100	11:07	11:30	C	0.00	100	0.00	N	Gift Certificate #2016302
+279	Aero Tow by Altitude	2017/08/05	Rev4	N213TA	N333TM	Joe Salz		Tim Heneghan	Peter Barlow	2		Bergseth	1100	4100	11:33	12:05	C	0.00	100	0.00	N	Gift Certificate #2016301
+280	Aero Tow by Altitude	2017/08/05	Rev4	N213TA	N333TM	Joe Salz	Scott Thiel	Dave Jones		2		Bergseth	1100	4000	12:15	12:34	F	100	0.00	0.00	N	
+281	Aero Tow by Altitude	2017/08/05	Rev4	N213TA	N333TM	Joe Salz	Scott Thiel	Dave Jones		2		Bergseth	1100	3900	12:40	12:58	F	100	0.00	0.00	N	
+282	Aero Tow by Altitude	2017/08/05	Rev4	N213TA	N333TM	Joe Salz	Scott Thiel	Dave Rauschenberg		2		Bergseth	1100	4100	13:12	13:35	C	100	0.00	0.00	N	
+283	Aero Tow by Altitude	2017/08/05	Rev4	N213TA	N333TM	Joe Salz		Tim Heneghan	Henry Fournier	2		Bergseth	1100	4100	13:45	14:15	C	0.00	100	0.00	N	
+284	Aero Tow by Altitude	2017/08/05	Rev4	N213TA	N333TM	Joe Salz		Tim Heneghan	Joshua Tucker	2		Bergseth	1100	4100	14:26	14:50	C	0.00	100	0.00	N	
+285	Aero Tow by Altitude	2017/08/05	Rev4	N213TA	N333TM	Al Rubin	Scott Thiel	Dave Jones		2		Bergseth	1100	3100	15:00	15:15	F	100	0.00	0.00	N	
+286	Aero Tow by Altitude	2017/08/05	Rev4	N213TA	N333TM	Al Rubin		Joe Salz	Benjamin Barnett	2		Bergseth	1100	4100	15:29	15:50	M	0.00	100	0.00	N	Field manager and 1 board member accepted discount for introductory membership
+287	Aero Tow by Altitude	2017/08/05	Rev4	N213TA	N333TM	Al Rubin	Scott Thiel	Brandon Barnett		2		Bergseth	1100	4100	16:04	16:27	C	100	0.00	0.00	N	
+288	Aero Tow by Altitude	2017/08/05	Rev4	N213TA	N333TM	Al Rubin		Joe Salz	Brian Barnett	2		Bergseth	1100	4100	16:27	16:52	C	0.00	100	0.00	N	
+289	Aero Tow by Altitude	2017/08/06	Rev4	N213TA	N333TM	Grant Smith	John Miller	Will Snider		2		Bergseth	1100	4100	13:11	13:37	C	100	0.00	0.00	N	Paid for temporary membership a few weeks earlier
+290	Aero Tow by Altitude	2017/08/06	Rev4	N213TA	N333TM	Grant Smith	John Miller	Will Snider		2		Bergseth	1100	4100	14:17	14:38	F	100	0.00	0.00	N	
+291	Aero Tow by Altitude	2017/08/06	Rev4	N213TA	N333TM	Grant Smith	John Miller	Natsuki Ishibashi		2		Bergseth	1100	4100	15:19	15:45	C	100	0.00	0.00	N	
+292	Aero Tow by Altitude	2017/08/06	Rev4	N157AJ	N333TM	Grant Smith		Greg Bahnsen		1		Bergseth	1100	3800	16:30	17:59	F	100	0.00	0.00	N	
+293	Aero Tow by Altitude	2017/08/12	Rev4	N213TA	N333TM	Dariush Zand	Scott Thiel	Alexandria Wilson		2		Bergseth	1100	4100	14:42	15:04	C	100	0.00	0.00	N	
+294	Aero Tow by Altitude	2017/08/12	Rev4	N300GG	N333TM	Dariush Zand		Mike Cook		1		Bergseth	1100	3100	15:58	17:40	T	100	0.00	0.00	N	
+295	Aero Tow by Altitude	2017/08/12	Rev4	N42DJ	N333TM	Dariush Zand		Brad Pattison		1		Bergseth	1100	4100	16:13	18:05	T	100	0.00	0.00	N	
+296	Aero Tow by Altitude	2017/08/12	Rev4	N157AJ	N333TM	Dariush Zand		Jim Miller		1		Bergseth	1100	4100	16:31	17:07	F	100	0.00	0.00	N	
+297	Aero Tow by Altitude	2017/08/19	Rev4	N213TA	N333TM	Mark Carino	Scott Thiel	Brian Halbert		2		Bergseth	1100	3800	11:13	11:30	F	100	0.00	0.00	N	
+298	Aero Tow by Altitude	2017/08/19	Rev4	N213TA	N333TM	Mark Carino		Joe Salz	Megan Morton	2		Bergseth	1100	4100	11:53	12:14	C	0.00	100	0.00	N	
+299	Aero Tow by Altitude	2017/08/19	Rev4	N213TA	N333TM	Mark Carino		Brian Halbert		1		Bergseth	1100	3200	12:25	12:53	F	100	0.00	0.00	N	
+300	Aero Tow by Altitude	2017/08/19	Rev4	N213TA	N333TM	Mark Carino		Brian Halbert		1		Bergseth	1100	3200	13:40	14:07	F	100	0.00	0.00	N	
+301	Aero Tow by Altitude	2017/08/19	Rev4	N4TE	N333TM	Mark Carino		Kenji Ominato		1		Bergseth	1100	3100	14:22	18:58	T	100	0.00	0.00	N	
+302	Aero Tow by Altitude	2017/08/19	Rev4	N766PW	N333TM	Mark Carino	Scott Thiel	Dean King		2		Bergseth	1100	4100	15:00	15:31	C	100	0.00	0.00	N	
+303	Aero Tow by Altitude	2017/08/19	Rev4	N213TA	N333TM	Mark Carino	Eric Haupt	Nicolas Alegria		2		Bergseth	1100	3000	15:21	15:44	F	100	0.00	0.00	N	
+304	Aero Tow by Altitude	2017/08/19	Rev4	N300GG	N333TM	Jameson Pratt		Mike Cook		1		Bergseth	1100	3100	15:34	15:54	T	100	0.00	0.00	N	
+305	Aero Tow by Altitude	2017/08/19	Rev4	N157AJ	N333TM	Jameson Pratt		Jim Miller		1		Bergseth	1100	3600	16:00	17:34	F	100	0.00	0.00	N	
+306	Aero Tow by Altitude	2017/08/19	Rev4	N213TA	N333TM	Jameson Pratt	Eric Haupt	Nicolas Alegria		2		Bergseth	1100	2100	16:11	16:16	F	100	0.00	0.00	N	
+307	Aero Tow by Altitude	2017/08/19	Rev4	N213TA	N333TM	Jameson Pratt	Eric Haupt	Mike		2	Eric Haupt	Bergseth	1100	3000	16:30	16:41	F	0.00	0.00	100	N	flew with a friend
+308	Aero Tow by Altitude	2017/08/19	Rev4	N300GG	N333TM	Jameson Pratt		Mike Cook		1		Bergseth	1100	3100	16:42	18:42	T	100	0.00	0.00	N	
+309	Aero Tow by Altitude	2017/08/19	Rev4	N766PW	N333TM	Jameson Pratt	Scott Thiel	Paul Caspell		2		Bergseth	1100	3100	17:35	18:45	F	100	0.00	0.00	N	
+310	Aero Tow by Altitude	2017/08/19	Rev4	N157AJ	N333TM	Jameson Pratt		Florin Botezatu		1		Bergseth	1100	3100	17:54	19:14	F	100	0.00	0.00	N	
+311	Aero Tow by Altitude	2017/08/19	Rev4	N213TA	N333TM	Mark Carino	Eric Haupt	Nicolas Alegria		2		Bergseth	1100	2300	18:10	18:25	F	100	0.00	0.00	N	
+312	Aero Tow by Altitude	2017/08/20	Rev4	N766PW	N333TM	Jameson Pratt	John Miller	Randy Gilmore		2		Bergseth	1100	4100	13:33	14:05	C	100	0.00	0.00	N	Gift Cert #2017373
+313	Aero Tow by Altitude	2017/08/20	Rev4	N766PW	N333TM	Al Rubin	John Miller	Mike Gough		2		Bergseth	1100	4100	14:44	15:16	C	100	0.00	0.00	N	Gift Cert #2017374
+314	Aero Tow by Altitude	2017/08/20	Rev4	N213TA	N333TM	Al Rubin	John Miller	Dave Jones		2		Bergseth	1100	4100	15:33	16:03	F	100	0.00	0.00	N	
+315	Aero Tow by Altitude	2017/08/20	Rev4	N766PW	N333TM	Al Rubin		Paul Caspell	Robert Rackl	2		Bergseth	1100	3400	15:47	17:44	F	50	50	0.00	N	
+316	Aero Tow by Altitude	2017/08/20	Rev4	N213TA	N333TM	Al Rubin		Grant Smith	Ron Smith	2		Bergseth	1100	3100	16:14	17:27	X	100	0.00	0.00	N	Proficiency
+317	Aero Tow by Altitude	2017/08/26	Rev4	N213TA	N333TM	Jameson Pratt	Scott Thiel	Alexandria Wilson		2		Bergseth	1100	4000	11:36	11:52	F	100	0.00	0.00	N	
+318	Aero Tow by Altitude	2017/08/26	Rev4	N213TA	N333TM	Jameson Pratt		Brian Halbert		1		Bergseth	1100	3100	12:10	12:25	F	100	0.00	0.00	N	
+319	Aero Tow by Altitude	2017/08/26	Rev4	N213TA	N333TM	Jameson Pratt	Scott Thiel	Doug Brown		2		Bergseth	1100	2500	12:38	12:47	F	100	0.00	0.00	N	
+320	Aero Tow by Altitude	2017/08/26	Rev4	N213TA	N333TM	Jameson Pratt	Scott Thiel	Gay Huffman		2		Bergseth	1100	4100	13:05	13:26	F	100	0.00	0.00	N	FAST
+321	Aero Tow by Altitude	2017/08/26	Rev4	N766PW	N333TM	Jameson Pratt		Tim Heneghan	Bill Kapp	2	Mike Cook	Bergseth	1100	4100	13:21	13:49	C	0.00	0.00	100	N	
+322	Aero Tow by Altitude	2017/08/26	Rev4	N213TA	N333TM	Jameson Pratt	Scott Thiel	Doug Brown		2		Bergseth	1100	2100	13:37	13:44	F	100	0.00	0.00	N	
+323	Aero Tow by Altitude	2017/08/26	Rev4	N766PW	N333TM	Joe Salz		Marlene Nelson		1		Bergseth	1100	4100	14:19	14:45	F	100	0.00	0.00	N	
+324	Aero Tow by Altitude	2017/08/26	Rev4	N872	N333TM	Joe Salz		Curt Chenoweth		1		Bergseth	1100	3600	14:37	15:35	T	100	0.00	0.00	N	
+325	Aero Tow by Altitude	2017/08/26	Rev4	N213TA	N333TM	Joe Salz		Mike Gowen		1		Bergseth	1100	3500	15:36	16:10	F	100	0.00	0.00	N	
+326	Aero Tow by Altitude	2017/08/27	Rev4	N213TA	N333TM	Grant Smith	John Miller	Jason Pyper		2		Bergseth	1100	4100	13:48	14:12	C	100	0.00	0.00	N	
+327	Aero Tow by Altitude	2017/08/27	Rev4	N213TA	N333TM	Grant Smith	John Miller	Joel Millar		2		Bergseth	1100	4100	14:25	14:49	C	100	0.00	0.00	N	Gift Certif. #2017330
+328	Aero Tow by Altitude	2017/08/27	Rev4	N213TA	N333TM	Grant Smith	John Miller	Dave Jones		2		Bergseth	1100	4100	15:02	15:24	F	100	0.00	0.00	N	
+329	Aero Tow by Altitude	2017/08/27	Rev4	N872	N333TM	Grant Smith		Marlene Nelson		1		Bergseth	1100	3100	16:10	16:57	T	100	0.00	0.00	N	
+330	Aero Tow by Altitude	2017/09/02	Rev4	N213TA	N333TM	Jeff Pratt		Eric Haupt	Anthony Bankey	2		Bergseth	1100	3500	12:02	12:18	G	100	0.00	0.00	N	
+331	Aero Tow by Altitude	2017/09/02	Rev4	N213TA	N333TM	Jeff Pratt	Grant Smith	Tiffany Miller Campbell		2		Bergseth	1100	4100	12:35	12:57	C	100	0.00	0.00	N	
+332	Aero Tow by Altitude	2017/09/02	Rev4	N213TA	N333TM	Jeff Pratt	Eric Haupt	Marco Rossi		2		Bergseth	1100	4000	13:21	13:39	C	100	0.00	0.00	N	
+333	Aero Tow by Altitude	2017/09/02	Rev4	N213TA	N333TM	Jeff Pratt	Scott Thiel	Nicolas Alegria		2		Bergseth	1100	4000	13:55	14:14	F	100	0.00	0.00	N	
+334	Aero Tow by Altitude	2017/09/02	Rev4	N157AJ	N333TM	Jeff Pratt		Jim Miller		1		Bergseth	1100	4000	14:22	15:03	F	100	0.00	0.00	N	
+335	Aero Tow by Altitude	2017/09/02	Rev4	N872	N333TM	Jeff Pratt		Curt Chenoweth		1		Bergseth	1100	3600	14:40	16:33	T	100	0.00	0.00	N	
+336	Aero Tow by Altitude	2017/09/02	Rev4	N213TA	N333TM	Jeff Pratt	Grant Smith	Tiffany Miller Campbell		2		Bergseth	1100	3000	14:54	15:26	F	100	0.00	0.00	N	
+337	Aero Tow by Altitude	2017/09/02	Rev4	N300GG	N333TM	Jeff Pratt		Mike Cook		1		Bergseth	1100	4000	15:11	17:17	T	100	0.00	0.00	N	
+338	Aero Tow by Altitude	2017/09/02	Rev4	N213TA	N333TM	Jeff Pratt	Grant Smith	Benjamin Barnett		2		Bergseth	1100	3600	15:42	16:20	F	100	0.00	0.00	N	
+339	Aero Tow by Altitude	2017/09/02	Rev4	N21PT	N333TM	Jeff Pratt		Robert Rackl		1		Bergseth	1100	3600	16:00	18:36	T	100	0.00	0.00	N	
+340	Aero Tow by Altitude	2017/09/02	Rev4	N213TA	N333TM	Jeff Pratt	Grant Smith	Joel Medley		2		Bergseth	1100	3600	16:29	17:05	C	100	0.00	0.00	N	
+341	Aero Tow by Altitude	2017/09/02	Rev4	N213TA	N333TM	Jeff Pratt	Grant Smith	Brian Barnett		2		Bergseth	1100	3900	17:36	18:32	F	100	0.00	0.00	N	
+342	Aero Tow by Altitude	2017/09/02	Rev4	N213TA	N333TM	Jeff Pratt		Paul Caspell	Jim Miller	2		Bergseth	1100	3600	18:43	19:05	F	50	50	0.00	N	
+343	Aero Tow by Altitude	2017/09/03	Rev4	N213TA	N333TM	Bob Stoney		Dariush Zand	Dale Kimball	2		Bergseth	1100	4100	13:05	13:29	C	0.00	100	0.00	N	Redeemed Gift Cert. #2017372
+344	Aero Tow by Altitude	2017/09/03	Rev4	N766PW	N333TM	Bob Stoney		Dariush Zand	Frank	2		Bergseth	1100	3400	15:30	16:04	F	100	0.00	0.00	N	
+345	Aero Tow by Altitude	2017/09/09	Rev4	N213TA	N333TM	Joe Salz		Brano Mikulik	Paul Caspell	2		Bergseth	1100	3300	14:20	14:57	F	50	50	0.00	N	
+346	Aero Tow by Altitude	2017/09/09	Rev4	N213TA	N333TM	Joe Salz		Eric Haupt	Sven Schönbach	2		Bergseth	1100	2100	16:06	16:13	F	100	0.00	0.00	N	
+347	Aero Tow by Altitude	2017/09/10	Rev4	N157AJ	N333TM	Jameson Pratt		Jim Miller		1		Bergseth	1100	3500	12:59	13:28	F	100	0.00	0.00	N	
+348	Aero Tow by Altitude	2017/09/10	Rev4	N42DJ	N333TM	Jameson Pratt		Brad Pattison		1		Bergseth	1100	4200	13:10	17:15	T	100	0.00	0.00	N	
+349	Aero Tow by Altitude	2017/09/10	Rev4	N4TE	N333TM	Jameson Pratt		Kenji Ominato		1		Bergseth	1100	4100	13:36	17:09	T	100	0.00	0.00	N	
+350	Aero Tow by Altitude	2017/09/10	Rev4	N157AJ	N333TM	Jameson Pratt		Florin Botezatu		1		Bergseth	1100	3900	13:55	14:45	F	100	0.00	0.00	N	
+351	Aero Tow by Altitude	2017/09/10	Rev4	N872	N333TM	Jameson Pratt		Marlene Nelson		1		Bergseth	1100	3600	14:06	17:00	T	100	0.00	0.00	N	
+352	Aero Tow by Altitude	2017/09/10	Rev4	N157AJ	N333TM	Jameson Pratt		Greg Bahnsen		1		Bergseth	1100	4100	14:58	16:53	F	100	0.00	0.00	N	
+353	Aero Tow by Altitude	2017/09/10	Rev4	N213TA	N333TM	Jameson Pratt		Dave Jones	Tim Heneghan	2		Bergseth	1100	4200	15:11	15:43	F	100	0.00	0.00	N	
+354	Aero Tow by Altitude	2017/09/16	Rev4	N4TE	N333TM	Grant Smith		Kenji Ominato		1		Bergseth	1100	6500	14:17	17:32	T	100	0.00	0.00	N	Released over Carbon River Ridge. Max altit. 8500`
+355	Aero Tow by Altitude	2017/09/16	Rev4	N213TA	N333TM	Grant Smith	Eric Haupt	Dave Jones		2		Bergseth	1100	3600	14:44	14:57	F	100	0.00	0.00	N	
+356	Aero Tow by Altitude	2017/09/16	Rev4	N213TA	N333TM	Grant Smith	Eric Haupt	Bruce MacInnis		2		Bergseth	1100	4100	15:31	15:48	C	100	0.00	0.00	N	
+357	Aero Tow by Altitude	2017/09/16	Rev4	N213TA	N333TM	Grant Smith	Eric Haupt	Nicolas Alegria		2		Bergseth	1100	2100	16:08	16:13	F	100	0.00	0.00	N	
+358	Aero Tow by Altitude	2017/09/16	Rev4	N213TA	N333TM	Grant Smith	Eric Haupt	Nicolas Alegria		2		Bergseth	1100	2100	16:25	16:29	F	100	0.00	0.00	N	
+359	Aero Tow by Altitude	2017/09/16	Rev4	N213TA	N333TM	Grant Smith	Eric Haupt	Nicolas Alegria		2		Bergseth	1100	2100	16:38	16:43	F	100	0.00	0.00	N	
+360	Aero Tow by Altitude	2017/09/16	Rev4	N213TA	N333TM	Grant Smith		Robert Rackl	Paul Caspell	2		Bergseth	1100	2200	16:55	17:02	F	100	0.00	0.00	N	
+361	Aero Tow by Altitude	2017/09/16	Rev4	N213TA	N333TM	Grant Smith		Eric Haupt	Sven Schönbach	2		Bergseth	1100	4100	17:10	17:22	F	100	0.00	0.00	N	
+362	Aero Tow by Altitude	2017/09/22	Rev4	N300GG	N333TM	Al Rubin		Mike Cook		1		Bergseth	1100	3600	14:05	15:05	T	100	0.00	0.00	N	
+363	Aero Tow by Altitude	2017/09/22	Rev4	N42DJ	N333TM	Al Rubin		Brad Pattison		1		Bergseth	1100	3100	14:30	16:30	T	100	0.00	0.00	N	
+364	Aero Tow by Altitude	2017/09/22	Rev4	N4TE	N333TM	Al Rubin		Kenji Ominato		1		Bergseth	1100	3200	14:50	16:47	T	100	0.00	0.00	N	
+365	Aero Tow by Altitude	2017/09/22	Rev4	N213TA	N333TM	Al Rubin		Robert Rackl	Paul Caspell	2		Bergseth	1100	3600	15:10	16:00	F	50	50	0.00	N	
+366	Aero Tow by Altitude	2017/09/22	Rev4	N300GG	N333TM	Al Rubin		Mike Cook		1		Bergseth	1100	3600	15:35	16:38	T	100	0.00	0.00	N	
+367	Aero Tow by Altitude	2017/09/23	Rev4	N213TA	N333TM	Joe Salz		Tim Heneghan		1		Bergseth	1100	3100	12:02	12:24	F	100	0.00	0.00	N	
+368	Aero Tow by Altitude	2017/09/23	Rev4	N213TA	N333TM	Joe Salz		Eric Haupt	Alexandria Wilson	2		Bergseth	1100	4100	13:16	13:38	F	100	0.00	0.00	N	
+369	Aero Tow by Altitude	2017/09/23	Rev4	N157AJ	N333TM	Joe Salz		Jim Murphy		1		Bergseth	1100	4000	13:31	15:19	F	100	0.00	0.00	N	
+370	Aero Tow by Altitude	2017/09/23	Rev4	N766PW	N333TM	Joe Salz		Tim Heneghan	Victor Frias	2		Bergseth	1100	4100	13:48	14:22	F	100	0.00	0.00	N	
+371	Aero Tow by Altitude	2017/09/23	Rev4	N213TA	N333TM	Joe Salz		Eric Haupt	Miros Frias	2		Bergseth	1100	3800	14:03	14:24	F	100	0.00	0.00	N	
+372	Aero Tow by Altitude	2017/09/23	Rev4	N4TE	N333TM	Joe Salz		Kenji Ominato		1		Bergseth	1100	3100	14:18	18:15	T	100	0.00	0.00	N	
+373	Aero Tow by Altitude	2017/09/23	Rev4	N872	N333TM	Joe Salz		Curt Chenoweth		1		Bergseth	1100	4000	14:30	18:10	T	100	0.00	0.00	N	
+374	Aero Tow by Altitude	2017/09/23	Rev4	N766PW	N333TM	Joe Salz		Florin Botezatu	Paul Caspell	2		Bergseth	1100	2800	14:53	15:27	F	50	50	0.00	N	
+375	Aero Tow by Altitude	2017/09/23	Rev4	N213TA	N333TM	Joe Salz		Eric Haupt	Grant Szalay	2		Bergseth	1100	3900	15:03	15:21	F	100	0.00	0.00	N	
+376	Aero Tow by Altitude	2017/09/23	Rev4	N157AJ	N333TM	Tim Heneghan		Jim Murphy		1		Bergseth	1100	2300	15:31	15:38	F	100	0.00	0.00	N	
+377	Aero Tow by Altitude	2017/09/23	Rev4	N766PW	N333TM	Joe Salz		Paul Caspell	Florin Botezatu	2		Bergseth	1100	3000	15:44	18:20	F	50	50	0.00	N	
+378	Aero Tow by Altitude	2017/09/23	Rev4	N213TA	N333TM	Joe Salz		Marc Brooks		1		Bergseth	1100	4200	15:52	18:25	F	100	0.00	0.00	N	
+379	Aero Tow by Altitude	2017/09/23	Rev4	N213TA	N333TM	Joe Salz		Tim Heneghan	Marlene Nelson	2		Bergseth	1100	3200	16:10	16:44	F	100	0.00	0.00	N	
+380	Aero Tow by Altitude	2017/09/23	Rev4	N213TA	N333TM	Joe Salz		Grant Nelson	Tim Heneghan	2		Bergseth	1100	3400	16:51	17:18	F	100	0.00	0.00	N	
+381	Aero Tow by Altitude	2017/09/24	Rev4	N766PW	N333TM	Al Rubin		Tim Heneghan	Steve Svedarsky	2		Bergseth	1100	4100	12:35	13:00	F	100	0.00	0.00	N	Gift Certif. #2017381
+382	Aero Tow by Altitude	2017/09/24	Rev4	N213TA	N333TM	Al Rubin	John Miller	Dave Jones		2		Bergseth	1100	4000	13:21	13:41	F	100	0.00	0.00	N	
+383	Aero Tow by Altitude	2017/09/24	Rev4	N4TE	N333TM	Tim Heneghan		Kenji Ominato		1		Bergseth	1100	6500	13:37	16:05	T	100	0.00	0.00	N	
+384	Aero Tow by Altitude	2017/09/24	Rev4	N42DJ	N333TM	Tim Heneghan		Brad Pattison		1		Bergseth	1100	7200	14:11	18:03	T	100	0.00	0.00	N	
+385	Aero Tow by Altitude	2017/09/24	Rev4	N300GG	N333TM	Tim Heneghan		Mike Cook		1		Bergseth	1100	7500	14:37	17:26	T	100	0.00	0.00	N	
+386	Aero Tow by Altitude	2017/09/24	Rev4	N213TA	N333TM	Tim Heneghan	John Miller	Dave Jones		2		Bergseth	1100	4100	15:09	15:32	F	100	0.00	0.00	N	
+387	Aero Tow by Altitude	2017/09/24	Rev4	N766PW	N333TM	Tim Heneghan		Florin Botezatu	Paul Caspell	2		Bergseth	1100	4100	15:24	17:58	F	50	50	0.00	N	
+388	Aero Tow by Altitude	2017/09/24	Rev4	N872	N333TM	Tim Heneghan		Marlene Nelson		1		Bergseth	1100	2500	15:37	17:35	T	100	0.00	0.00	N	
+389	Aero Tow by Altitude	2017/09/24	Rev4	N213TA	N333TM	Tim Heneghan		Marc Brooks		1		Bergseth	1100	2100	16:12	16:16	F	100	0.00	0.00	N	Pattern tow
+390	Aero Tow by Altitude	2017/09/24	Rev4	N213TA	N333TM	Tim Heneghan		Marc Brooks		1		Bergseth	1100	2100	16:21	16:25	F	100	0.00	0.00	N	Pattern tow
+391	Aero Tow by Altitude	2017/09/24	Rev4	N157AJ	N333TM	Tim Heneghan		Greg Bahnsen		1		Bergseth	1100	4000	17:17	18:44	F	100	0.00	0.00	N	
+392	Aero Tow by Altitude	2017/10/06	Rev4	N766PW	87B	Walla Walla Soaring		Robert Rackl	Paul Caspell	2		Walla Walla Martin Field	746	3700	15:40	16:05	G	50	50	0.00	N	
+393	Aero Tow by Altitude	2017/10/07	Rev4	N213TA	N333TM	Al Rubin		Mike Gowen		1		Bergseth	1100	3500	12:12	12:33	F	100	0.00	0.00	N	
+394	Aero Tow by Altitude	2017/10/07	Rev4	N213TA	N333TM	Al Rubin		Brian Tolmie	Joe Salz	2		Bergseth	1100	3800	13:10	13:55	M	100	0.00	0.00	N	FAST
+395	Aero Tow by Altitude	2017/10/07	Rev4	N213TA	N333TM	Joe Salz		Eric Haupt	James Cooper	2		Bergseth	1100	3400	14:13	15:04	F	100	0.00	0.00	N	
+396	Aero Tow by Altitude	2017/10/07	Rev4	N213TA	N333TM	Joe Salz		Eric Haupt	Marco Rossi	2		Bergseth	1100	2500	15:22	15:28	F	100	0.00	0.00	N	
+397	Aero Tow by Altitude	2017/10/07	Rev4	N766PW	87B	Walla Walla Soaring		Paul Caspell	Robert Rackl	2		Walla Walla Martin Field	746	3500	12:45	13:30	G	50	50	0.00	N	
+398	Aero Tow by Altitude	2017/10/08	Rev4	N766PW	87B	Walla Walla Soaring		Robert Rackl	Paul Caspell	2		Walla Walla Martin Field	746	4300	12:50	13:15	G	50	50	0.00	N	
+399	Aero Tow by Altitude	2017/10/08	Rev4	N766PW	87B	Walla Walla Soaring		Paul Caspell	Robert Rackl	2		Walla Walla Martin Field	746	3500	13:45	16:00	G	50	50	0.00	N	
+400	Aero Tow by Altitude	2017/10/14	Rev4	N766PW	N333TM	Tim Heneghan		Robert Rackl		1		Bergseth	1100	2800	12:05	12:15	X	100	0.00	0.00	N	Ferry flight from Evergreen Sky Ranch to Bergseth Field
+401	Aero Tow by Altitude	2017/10/14	Rev4	N213TA	N333TM	Tim Heneghan	Scott Thiel	Brian Tolmie		2		Bergseth	1100	4100	12:30	12:50	F	100	0.00	0.00	N	
+402	Aero Tow by Altitude	2017/10/14	Rev4	N213TA	N333TM	Tim Heneghan	Scott Thiel	Doug Brown		2		Bergseth	1100	2100	13:31	13:36	F	100	0.00	0.00	N	
+403	Aero Tow by Altitude	2017/10/14	Rev4	N213TA	N333TM	Tim Heneghan	Scott Thiel	Doug Brown		2		Bergseth	1100	2100	13:52	13:57	F	100	0.00	0.00	N	
+404	Aero Tow by Altitude	2017/10/14	Rev4	N213TA	N333TM	Tim Heneghan	Scott Thiel	Doug Brown		2		Bergseth	1100	2100	14:00	14:06	F	100	0.00	0.00	N	
+405	Aero Tow by Altitude	2017/10/14	Rev4	N213TA	N333TM	Tim Heneghan	Scott Thiel	Doug Brown		2		Bergseth	1100	2100	14:01	14:06	F	100	0.00	0.00	N	
+406	Aero Tow by Altitude	2017/10/14	Rev4	N213TA	N333TM	Tim Heneghan	Scott Thiel	Doug Brown		2		Bergseth	1100	2100	14:27	14:35	F	100	0.00	0.00	N	
+407	Aero Tow by Altitude	2017/10/14	Rev4	N213TA	N333TM	Tim Heneghan		Brano Mikulik		1		Bergseth	1100	4100	14:45	15:05	F	100	0.00	0.00	N	
+408	Aero Tow by Altitude	2017/10/14	Rev4	N766PW	N333TM	Al Rubin		Tim Heneghan	Sean Heneghan	2		Bergseth	1100	4100	15:25	15:45	F	100	0.00	0.00	N	
+409	Aero Tow by Altitude	2017/10/15	Rev4	N4TE	N333TM	Joe Salz		Kenji Ominato		1		Bergseth	1100	6500	13:03	14:10	T	100	0.00	0.00	N	
+410	Aero Tow by Altitude	2017/10/15	Rev4	N213TA	N333TM	Joe Salz	John Miller	Patrisco Perez		2		Bergseth	1100	4100	13:46	14:06	C	100	0.00	0.00	N	
+411	Aero Tow by Altitude	2017/10/15	Rev4	N213TA	N333TM	Joe Salz	John Miller	Dave Jones		2		Bergseth	1100	4300	14:36	14:54	F	100	0.00	0.00	N	
+412	Aero Tow by Altitude	2017/10/15	Rev4	N213TA	N333TM	Joe Salz	John Miller	Dave Jones		2		Bergseth	1100	2100	15:19	15:25	F	100	0.00	0.00	N	
+413	Aero Tow by Altitude	2017/10/15	Rev4	N213TA	N333TM	Joe Salz	John Miller	Dave Jones		2		Bergseth	1100	2100	15:29	15:35	F	100	0.00	0.00	N	
+414	Aero Tow by Altitude	2017/10/15	Rev4	N213TA	N333TM	Joe Salz	John Miller	Dave Jones		2		Bergseth	1100	2100	15:40	15:46	F	100	0.00	0.00	N	
+415	Aero Tow by Altitude	2017/10/28	Rev4	N213TA	N333TM	Tim Heneghan		Tina King	Joe Salz	2		Bergseth	1100	4100	12:30	12:49	C	100	0.00	0.00	N	
+416	Aero Tow by Altitude	2017/10/28	Rev4	N213TA	N333TM	Benny Harwell		Curt King	Tim Heneghan	2		Bergseth	1100	4100	13:04	13:22	C	100	0.00	0.00	N	Gift Certif. #2013164
+417	Aero Tow by Altitude	2017/10/28	Rev4	N157AJ	N333TM	Benny Harwell		Karl Hadley		1		Bergseth	1100	4500	13:50	14:09	F	100	0.00	0.00	N	
+418	Aero Tow by Altitude	2017/10/28	Rev4	N213TA	N333TM	Benny Harwell		Mike Gowen		1		Bergseth	1100	4100	14:27	14:49	F	100	0.00	0.00	N	
+419	Aero Tow by Altitude	2017/10/28	Rev4	N157AJ	N333TM	Benny Harwell		Karl Hadley		1		Bergseth	1100	4500	14:57	15:18	F	100	0.00	0.00	N	
+420	Aero Tow by Altitude	2017/10/28	Rev4	N213TA	N333TM	Benny Harwell		Scott Thiel	Joe Andre	2		Bergseth	1100	4000	15:11	15:33	G	100	0.00	0.00	N	
+421	Aero Tow by Altitude	2017/10/28	Rev4	N157AJ	N333TM	Benny Harwell		Mike Cook		1		Bergseth	1100	4100	15:38	15:56	F	100	0.00	0.00	N	
+422	Aero Tow by Altitude	2017/10/28	Rev4	N213TA	N333TM	Joe Salz		Scott Thiel	Keith Dawson	2		Bergseth	1100	4100	16:05	16:24	G	100	0.00	0.00	N	
+423	Aero Tow by Altitude	2017/10/28	Rev4	N213TA	N333TM	Joe Salz		Scott Thiel	Mariah Danner	2		Bergseth	1100	4200	16:32	16:55	X	100	0.00	0.00	N	
+424	Aero Tow by Altitude	2017/10/28	Rev4	N213TA	N333TM	Joe Salz		Connie Benson	Scott Thiel	2		Bergseth	1100	4100	17:11	17:31	C	100	0.00	0.00	N	Gift Certif. #2016262
+425	Aero Tow by Altitude	2018/03/31	Rev4	N42DJ	N333TM	Joe Salz		Henry Rebbeck		1	Brad Pattison	Bergseth	1100	3500	13:05	17:45	T	0.00	0.00	100	N	
+426	Aero Tow by Altitude	2018/03/31	Rev4	N4TE	N333TM	Joe Salz		Kenji Ominato		1		Bergseth	1100	3300	13:27	14:30	T	100	0.00	0.00	N	
+427	Aero Tow by Altitude	2018/03/31	Rev4	N4TE	N333TM	Benny Harwell		Kenji Ominato		1		Bergseth	1100	3100	15:13	17:50	T	100	0.00	0.00	N	
+428	Aero Tow by Altitude	2018/03/31	Rev4	N872	N333TM	Joe Salz		Marlene Nelson		1		Bergseth	1100	3100	15:41	17:02	T	100	0.00	0.00	N	
+429	Aero Tow by Altitude	2018/04/20	Rev4	N213TA	N333TM	Al Rubin		Joe Salz		1		Bergseth	1100	3100	12:30	12:40	X	100	0.00	0.00	N	first flight after major repairs
+430	Aero Tow by Altitude	2018/04/20	Rev4	N213TA	N333TM	Al Rubin		Joe Salz		1		Bergseth	1100	2600	12:45	12:52	X	100	0.00	0.00	N	second flight after major repairs
+431	Aero Tow by Altitude	2018/04/20	Rev4	N213TA	N333TM	Al Rubin		Joe Salz		1		Bergseth	1100	2100	12:58	13:06	F	100	0.00	0.00	N	
+432	Aero Tow by Altitude	2018/04/20	Rev4	N213TA	N333TM	Al Rubin		Scott Thiel		1		Bergseth	1100	4000	13:21	13:37	X	100	0.00	0.00	N	instructor currency
+433	Aero Tow by Altitude	2018/04/20	Rev4	N213TA	N333TM	Al Rubin		Scott Thiel		1		Bergseth	1100	3200	13:57	14:12	X	100	0.00	0.00	N	instructor currency
+434	Aero Tow by Altitude	2018/04/20	Rev4	N213TA	N333TM	Al Rubin		Scott Thiel		1		Bergseth	1100	2100	14:19	14:25	X	100	0.00	0.00	N	instructor currency
+435	Aero Tow by Altitude	2018/04/20	Rev4	N213TA	N333TM	Al Rubin		Mike Cook	Scott Thiel	2		Bergseth	1100	3100	14:34	14:51	F	100	0.00	0.00	Y	
+436	Aero Tow by Altitude	2018/04/20	Rev4	N213TA	N333TM	Al Rubin		Robert Rackl	Scott Thiel	2		Bergseth	1100	3500	15:06	15:23	F	100	0.00	0.00	N	
+437	Aero Tow by Altitude	2018/04/20	Rev4	N213TA	N333TM	Al Rubin		Robert Rackl	Scott Thiel	2		Bergseth	1100	1400	15:29	15:31	F	100	0.00	0.00	N	
+438	Aero Tow by Altitude	2018/04/20	Rev4	N213TA	N333TM	Al Rubin		Robert Rackl	Scott Thiel	2		Bergseth	1100	2100	15:38	15:45	F	100	0.00	0.00	N	
+439	Aero Tow by Altitude	2018/04/20	Rev4	N213TA	N333TM	Al Rubin		Paul Caspell	Scott Thiel	2		Bergseth	1100	3100	15:53	16:07	F	100	0.00	0.00	Y	
+440	Aero Tow by Altitude	2018/04/22	Rev4	N300GG	N333TM	Bob Stoney		Mike Cook		1		Bergseth	1100	3100	13:00	15:37	T	100	0.00	0.00	N	
+441	Aero Tow by Altitude	2018/04/22	Rev4	N213TA	N333TM	Bob Stoney		John Miller		1		Bergseth	1100	3600	13:11	13:22	X	100	0.00	0.00	N	Instructor Currency
+442	Aero Tow by Altitude	2018/04/22	Rev4	N213TA	N333TM	Bob Stoney		John Miller		1		Bergseth	1100	2100	13:37	13:42	X	100	0.00	0.00	N	Instructor Currency
+443	Aero Tow by Altitude	2018/04/22	Rev4	N213TA	N333TM	Bob Stoney		John Miller		1		Bergseth	1100	2100	13:45	13:50	X	100	0.00	0.00	N	Instructor Currency
+444	Aero Tow by Altitude	2018/04/22	Rev4	N213TA	N333TM	Bob Stoney	John Miller	Jim Miller		2		Bergseth	1100	4100	14:03	14:21	F	100	0.00	0.00	N	
+445	Aero Tow by Altitude	2018/04/22	Rev4	N213TA	N333TM	Bob Stoney	John Miller	Jim Miller		2		Bergseth	1100	3600	14:27	15:02	F	100	0.00	0.00	N	
+446	Aero Tow by Altitude	2018/04/22	Rev4	N213TA	N333TM	Bob Stoney	John Miller	Greg Bahnsen		2		Bergseth	1100	4100	15:30	16:00	F	100	0.00	0.00	Y	
+447	Aero Tow by Altitude	2018/04/22	Rev4	N213TA	N333TM	Bob Stoney	John Miller	Greg Bahnsen		2		Bergseth	1100	2100	16:10	16:20	F	100	0.00	0.00	N	
+448	Aero Tow by Altitude	2018/04/22	Rev4	N213TA	N333TM	Bob Stoney	John Miller	Greg Bahnsen		2		Bergseth	1100	2100	16:25	16:30	F	100	0.00	0.00	N	
+449	Aero Tow by Altitude	2018/04/22	Rev4	N213TA	N333TM	Bob Stoney	John Miller	Greg Bahnsen		2		Bergseth	1100	2100	16:25	16:40	F	100	0.00	0.00	N	
+450	Aero Tow by Altitude	2018/04/22	Rev4	N213TA	N333TM	Bob Stoney		Paul Caspell	Mike Cook	2		Bergseth	1100	3100	16:52	18:17	F	50	50	0.00	N	
+451	Aero Tow by Altitude	2018/04/29	Rev4	N213TA	N333TM	Joe Salz		Mike Gowen		1		Bergseth	1100	3100	14:11	14:46	F	100	0.00	0.00	N	John Miller was candidate tow pilot
+452	Aero Tow by Altitude	2018/04/29	Rev4	N213TA	N333TM	Joe Salz		Mike Gowen		1		Bergseth	1100	2700	14:45	14:57	F	100	0.00	0.00	N	John Miller was candidate tow pilot
+453	Aero Tow by Altitude	2018/04/29	Rev4	N213TA	N333TM	Joe Salz		Mike Gowen		1		Bergseth	1100	2500	15:10	15:33	F	100	0.00	0.00	N	John Miller was candidate tow pilot
+454	Aero Tow by Altitude	2018/04/29	Rev4	N213TA	N333TM	John Miller		Greg Bahnsen		1		Bergseth	1100	3600	15:38	16:02	F	100	0.00	0.00	N	First solo tow by John Miller
+455	Aero Tow by Altitude	2018/05/05	Rev4	N213TA	N333TM	Al Rubin	Scott Thiel	Tim Heneghan		2		Bergseth	1100	3100	12:53	13:22	F	100	0.00	0.00	N	
+456	Aero Tow by Altitude	2018/05/05	Rev4	N213TA	N333TM	Al Rubin		Paul Caspell	Mike Cook	2		Bergseth	1100	3100	13:46	14:09	F	50	50	0.00	N	
+457	Aero Tow by Altitude	2018/05/05	Rev4	N213TA	N333TM	Al Rubin		Tim Heneghan	Mike Cook	2		Bergseth	1100	2100	15:35	15:50	F	50	50	0.00	N	
+458	Aero Tow by Altitude	2018/05/06	Rev4	N213TA	N333TM	Al Rubin	John Miller	Benny Harwell		2		Bergseth	1100	4100	12:59	13:21	F	100	0.00	0.00	N	
+459	Aero Tow by Altitude	2018/05/06	Rev4	N213TA	N333TM	Al Rubin	John Miller	Benny Harwell		2		Bergseth	1100	2100	13:29	13:36	F	100	0.00	0.00	N	
+460	Aero Tow by Altitude	2018/05/06	Rev4	N213TA	N333TM	Al Rubin	John Miller	Benny Harwell		2		Bergseth	1100	2100	13:46	13:53	F	100	0.00	0.00	N	
+461	Aero Tow by Altitude	2018/05/06	Rev4	N300GG	N333TM	Al Rubin		Mike Cook		1		Bergseth	1100	3100	14:59	15:56	T	100	0.00	0.00	N	
+462	Aero Tow by Altitude	2018/05/06	Rev4	N213TA	N333TM	Al Rubin		Benny Harwell		1		Bergseth	1100	2100	15:27	15:36	F	100	0.00	0.00	N	
+463	Aero Tow by Altitude	2018/05/06	Rev4	N213TA	N333TM	Al Rubin		Benny Harwell		1		Bergseth	1100	3100	15:52	16:10	F	100	0.00	0.00	N	
+464	Aero Tow by Altitude	2018/05/06	Rev4	N213TA	N333TM	Al Rubin	John Miller	Brano Mikulik		2		Bergseth	1100	3100	16:33	17:12	F	100	0.00	0.00	Y	
+465	Aero Tow by Altitude	2018/05/06	Rev4	N213TA	N333TM	Al Rubin		Greg Bahnsen		1		Bergseth	1100	1600	17:30	17:38	X	100	0.00	0.00	N	Ferry flight to Evergreen Sky Ranch
+466	Aero Tow by Altitude	2018/05/12	Rev4	N213TA	N333TM	Joe Salz		Kenji Ominato		1		Bergseth	1100	2100	10:45	10:55	X	100	0.00	0.00	N	Ferry flight from Evergreen Sky Ranch
+467	Aero Tow by Altitude	2018/05/12	Rev4	N213TA	N333TM	Joe Salz	Scott Thiel	Grant Smith		2		Bergseth	1100	3100	11:46	12:09	X	100	0.00	0.00	N	Instructor currency
+468	Aero Tow by Altitude	2018/05/12	Rev4	N213TA	N333TM	Joe Salz		Grant Smith		1		Bergseth	1100	2100	13:00	13:07	X	100	0.00	0.00	N	Instructor currency
+469	Aero Tow by Altitude	2018/05/12	Rev4	N213TA	N333TM	Joe Salz		Grant Smith		1		Bergseth	1100	2100	13:07	13:09	X	100	0.00	0.00	N	Instructor currency
+470	Aero Tow by Altitude	2018/05/12	Rev4	N213TA	N333TM	Joe Salz		Scott Thiel	Daniel Rodriguez	2		Bergseth	1100	4000	13:25	13:47	C	0.00	100	0.00	N	
+471	Aero Tow by Altitude	2018/05/12	Rev4	N766PW	N333TM	Joe Salz		Grant Smith		1		Bergseth	1100	2600	13:42	14:02	X	100	0.00	0.00	N	Maintenance check flight
+472	Aero Tow by Altitude	2018/05/12	Rev4	N766PW	N333TM	Grant Smith		Joe Salz		1		Bergseth	1100	2500	14:12	14:18	X	100	0.00	0.00	N	Maintenance check flight
+473	Aero Tow by Altitude	2018/05/12	Rev4	N213TA	N333TM	Bob Stoney	Scott Thiel	Brian Halbert		2		Bergseth	1100	3100	14:27	14:45	F	100	0.00	0.00	Y	
+474	Aero Tow by Altitude	2018/05/12	Rev4	N766PW	N333TM	Bob Stoney	Grant Smith	Don Berk		2		Bergseth	1100	3600	14:48	15:37	C	100	0.00	0.00	N	Joe Salz has check for $50
+475	Aero Tow by Altitude	2018/05/12	Rev4	N4TE	N333TM	Bob Stoney		Kenji Ominato		1		Bergseth	1100	4700	15:03	18:05	T	100	0.00	0.00	N	Landing time estimated
+476	Aero Tow by Altitude	2018/05/12	Rev4	N300GG	N333TM	Bob Stoney		Mike Cook		1		Bergseth	1100	4700	15:23	17:50	T	100	0.00	0.00	N	Landing time estimated
+477	Aero Tow by Altitude	2018/05/12	Rev4	N766PW	N333TM	Bob Stoney		Robert Rackl	Paul Caspell	2		Bergseth	1100	3400	15:50	18:21	F	50	50	0.00	N	
+478	Aero Tow by Altitude	2018/05/12	Rev4	N213TA	N333TM	Bob Stoney	Grant Smith	Dave Jones		2		Bergseth	1100	3100	16:10	17:15	F	100	0.00	0.00	N	
+479	Aero Tow by Altitude	2018/05/12	Rev4	N213TA	N333TM	Bob Stoney	Grant Smith	Brian Halbert		2		Bergseth	1100	3100	17:29	18:40	F	100	0.00	0.00	N	
+480	Aero Tow by Altitude	2018/05/13	Rev4	N213TA	N333TM	Grant Smith		Mike Gowen		1		Bergseth	1100	3500	11:57	12:17	F	100	0.00	0.00	N	
+481	Aero Tow by Altitude	2018/05/13	Rev4	N766PW	N333TM	Grant Smith		Brad Pattison		1		Bergseth	1100	4100	12:20	13:10	F	100	0.00	0.00	N	
+482	Aero Tow by Altitude	2018/05/13	Rev4	N766PW	N333TM	Grant Smith	John Miller	Tina Kruse		2		Bergseth	1100	4100	12:53	13:17	C	100	0.00	0.00	N	
+483	Aero Tow by Altitude	2018/05/13	Rev4	N766PW	N333TM	John Miller		Brad Pattison	Thomas Copeland	2		Bergseth	1100	4200	13:41	14:19	C	0.00	100	0.00	N	
+484	Aero Tow by Altitude	2018/05/13	Rev4	N4TE	N333TM	John Miller		Kenji Ominato		1		Bergseth	1100	4400	14:02	17:30	T	100	0.00	0.00	N	Landing time guessed
+485	Aero Tow by Altitude	2018/05/13	Rev4	N766PW	N333TM	John Miller		Brad Pattison	Mike Lee	2		Bergseth	1100	4300	14:32	15:12	C	0.00	100	0.00	N	
+486	Aero Tow by Altitude	2018/05/13	Rev4	N766PW	N333TM	John Miller		Brad Pattison	Richard Bertrand	2		Bergseth	1100	4200	15:24	16:11	C	0.00	100	0.00	N	
+487	Aero Tow by Altitude	2018/05/13	Rev4	N213TA	N333TM	John Miller		Paul Caspell	Mike Gowen	2		Bergseth	1100	4200	15:50	16:07	F	50	50	0.00	N	
+488	Aero Tow by Altitude	2018/05/19	Rev4	N213TA	N333TM	Joe Salz	Scott Thiel	Brian Halbert		2		Bergseth	1100	2100	12:20	12:27	F	100	0.00	0.00	N	
+489	Aero Tow by Altitude	2018/05/19	Rev4	N213TA	N333TM	Joe Salz	Scott Thiel	Brian Halbert		2		Bergseth	1100	2100	12:39	12:46	F	100	0.00	0.00	N	
+490	Aero Tow by Altitude	2018/05/19	Rev4	N213TA	N333TM	Joe Salz	Scott Thiel	Brian Halbert		2		Bergseth	1100	2100	13:03	13:10	F	100	0.00	0.00	N	
+491	Aero Tow by Altitude	2018/05/19	Rev4	N213TA	N333TM	Joe Salz	Scott Thiel	Brian Halbert		2		Bergseth	1100	1400	13:18	13:20	F	100	0.00	0.00	N	
+492	Aero Tow by Altitude	2018/05/19	Rev4	N213TA	N333TM	Joe Salz		Brian Halbert		1		Bergseth	1100	3100	13:47	14:04	F	100	0.00	0.00	N	
+493	Aero Tow by Altitude	2018/05/25	Rev4	N766PW	SGC	SGC		Robert Seccombe	Robert Rackl	2		Ephrata	1276	4200	14:48	15:06	G	50	50	0.00	N	
+494	Aero Tow by Altitude	2018/05/26	Rev4	N766PW	SGC	SGC		Robert Rackl	Paul Caspell	2		Ephrata	1276	4100	15:00	16:55	G	50	50	0.00	N	
+495	Aero Tow by Altitude	2018/05/26	Rev4	N213TA	N333TM	Joe Salz		Scott Thiel	Tyson	2		Bergseth	1100	4350	12:39	13:06	T	100	0.00	0.00	N	
+496	Aero Tow by Altitude	2018/05/26	Rev4	N213TA	N333TM	Joe Salz	Scott Thiel	Eric Haupt		2		Bergseth	1100	3000	13:25	13:38	F	100	0.00	0.00	N	Brian Roger tow pilot in training
+497	Aero Tow by Altitude	2018/05/26	Rev4	N213TA	N333TM	Joe Salz	Eric Haupt	Brian Roger		2		Bergseth	1100	4100	13:54	14:14	X	100	0.00	0.00	N	Brian Roger tow pilot orientation
+498	Aero Tow by Altitude	2018/05/26	Rev4	N213TA	N333TM	Joe Salz	Scott Thiel	Thomas Copeland		2		Bergseth	1100	4100	14:43	15:07	F	100	0.00	0.00	N	Brian Roger tow pilot in training
+499	Aero Tow by Altitude	2018/05/26	Rev4	N213TA	N333TM	Joe Salz	Eric Haupt	Mike Lee		2		Bergseth	1100	3900	15:30	15:47	F	100	0.00	0.00	N	Brian Roger tow pilot in training
+500	Aero Tow by Altitude	2018/05/26	Rev4	N213TA	N333TM	Joe Salz		Benny Harwell		1		Bergseth	1100	3200	15:58	16:12	T	100	0.00	0.00	N	Brian Roger tow pilot in training
+501	Aero Tow by Altitude	2018/05/26	Rev4	N213TA	N333TM	Joe Salz		Benny Harwell		1		Bergseth	1100	2100	16:55	17:03	T	100	0.00	0.00	N	Brian Roger tow pilot in training
+502	Aero Tow by Altitude	2018/05/26	Rev4	N213TA	N333TM	Benny Harwell	Scott Thiel	Nicolas Alegria		2		Bergseth	1100	2100	17:13	17:18	F	100	0.00	0.00	N	
+503	Aero Tow by Altitude	2018/05/26	Rev4	N213TA	N333TM	Benny Harwell	Scott Thiel	Nicolas Alegria		2		Bergseth	1100	2100	17:30	17:36	F	100	0.00	0.00	N	
+504	Aero Tow by Altitude	2018/05/26	Rev4	N213TA	N333TM	Benny Harwell	Scott Thiel	Nicolas Alegria		2		Bergseth	1100	2100	17:45	17:51	F	100	0.00	0.00	N	
+505	Aero Tow by Altitude	2018/05/27	Rev4	N766PW	SGC	SGC		Robert Seccombe	Robert Rackl	2		Ephrata	1276	4200	12:30	14:22	G	50	50	0.00	N	
+506	Aero Tow by Altitude	2018/05/27	Rev4	N766PW	SGC	SGC		Paul Caspell	Robert Rackl	2		Ephrata	1276	4100	15:30	17:00	G	50	50	0.00	N	
+507	Aero Tow by Altitude	2018/05/27	Rev4	N213TA	N333TM	John Miller		Joe Salz	Matt Limbock	2		Bergseth	1100	4000	13:59	14:23	C	0.00	100	0.00	N	
+508	Aero Tow by Altitude	2018/05/27	Rev4	N213TA	N333TM	Joe Salz		Jim Miller		1		Bergseth	1100	3800	14:59	15:46	F	100	0.00	0.00	N	
+509	Aero Tow by Altitude	2018/05/27	Rev4	N213TA	N333TM	Joe Salz	John Miller	Karl Hadley		2		Bergseth	1100	4000	15:59	16:34	F	100	0.00	0.00	N	
+510	Aero Tow by Altitude	2018/05/27	Rev4	N213TA	N333TM	John Miller		Greg Bahnsen		1		Bergseth	1100	4100	16:46	18:10	F	100	0.00	0.00	N	
+511	Aero Tow by Altitude	2018/06/02	Rev4	N213TA	N333TM	Tim Heneghan		Brian Halbert		1		Bergseth	1100	2100	11:54	12:01	F	100	0.00	0.00	N	
+512	Aero Tow by Altitude	2018/06/02	Rev4	N213TA	N333TM	Tim Heneghan	Scott Thiel	Cheryl Brothers		2		Bergseth	1100	4100	12:23	12:44	C	100	0.00	0.00	N	
+513	Aero Tow by Altitude	2018/06/02	Rev4	N213TA	N333TM	Tim Heneghan	Scott Thiel	Gerald Timko		2		Bergseth	1100	4100	12:56	13:20	C	100	0.00	0.00	N	
+514	Aero Tow by Altitude	2018/06/02	Rev4	N766PW	N333TM	Tim Heneghan		Kenji Ominato	Tim O`Brien	2		Bergseth	1100	4100	13:15	13:51	C	0.00	100	0.00	N	
+515	Aero Tow by Altitude	2018/06/02	Rev4	N213TA	N333TM	Tim Heneghan		Brian Halbert		1		Bergseth	1100	3100	13:29	14:02	F	100	0.00	0.00	N	
+516	Aero Tow by Altitude	2018/06/02	Rev4	N766PW	N333TM	Tim Heneghan		Jim Miller	Philip Bates	2		Bergseth	1100	3600	14:15	15:09	F	100	0.00	0.00	N	
+517	Aero Tow by Altitude	2018/06/02	Rev4	N157AJ	N333TM	Tim Heneghan		Joe Salz		1		Bergseth	1100	2100	15:08	15:17	X	100	0.00	0.00	N	1st flight after major maintenance
+518	Aero Tow by Altitude	2018/06/02	Rev4	N4TE	N333TM	Tim Heneghan		Kenji Ominato		1		Bergseth	1100	6000	15:20	19:02	T	100	0.00	0.00	N	
+519	Aero Tow by Altitude	2018/06/02	Rev4	N157AJ	N333TM	Tim Heneghan		Joe Salz		1		Bergseth	1100	2600	15:38	15:54	X	100	0.00	0.00	N	2nd flight after major maintenance
+520	Aero Tow by Altitude	2018/06/02	Rev4	N766PW	N333TM	Tim Heneghan		Paul Caspell	Mike Cook	2		Bergseth	1100	3100	15:46	17:00	F	50	50	0.00	N	
+521	Aero Tow by Altitude	2018/06/02	Rev4	N157AJ	N333TM	Al Rubin		Tim Heneghan		1		Bergseth	1100	4100	17:02	18:34	F	100	0.00	0.00	N	
+522	Aero Tow by Altitude	2018/06/02	Rev4	N766PW	N333TM	Al Rubin		Joe Salz	Heidi Pham	2		Bergseth	1100	4100	17:17	17:41	C	0.00	100	0.00	N	
+523	Aero Tow by Altitude	2018/06/02	Rev4	N766PW	N333TM	Al Rubin		Marlene Nelson	Curt Chenoweth	2		Bergseth	1100	4100	17:54	18:45	F	100	0.00	0.00	N	
+524	Aero Tow by Altitude	2018/06/03	Rev4	N213TA	N333TM	Joe Salz	John Miller	Nelson Hui		2		Bergseth	1100	3600	13:45	14:13	C	100	0.00	0.00	N	No temporary membership form submitted
+525	Aero Tow by Altitude	2018/06/03	Rev4	N213TA	N333TM	Joe Salz	John Miller	Nelson Hui		2		Bergseth	1100	2100	14:19	14:23	F	100	0.00	0.00	N	
+526	Aero Tow by Altitude	2018/06/03	Rev4	N213TA	N333TM	Joe Salz	John Miller	Nelson Hui		2		Bergseth	1100	2100	14:27	14:32	F	100	0.00	0.00	N	
+527	Aero Tow by Altitude	2018/06/10	Rev4	N213TA	N333TM	John Miller		Kenji Ominato	Guest	2		Bergseth	1100	4000	13:34	14:54	F	100	0.00	0.00	N	
+528	Aero Tow by Altitude	2018/06/10	Rev4	N213TA	N333TM	John Miller		Kenji Ominato	Jim Miller	2		Bergseth	1100	4200	15:15	15:49	F	50	50	0.00	N	
+529	Aero Tow by Altitude	2018/06/16	Rev4	N213TA	N333TM	Joe Salz	Scott Thiel	Dave Jones		2		Bergseth	1100	2100	11:30	11:36	F	100	0.00	0.00	N	
+530	Aero Tow by Altitude	2018/06/16	Rev4	N213TA	N333TM	Joe Salz	Scott Thiel	Dave Jones		2		Bergseth	1100	2100	11:47	11:53	F	100	0.00	0.00	N	
+531	Aero Tow by Altitude	2018/06/16	Rev4	N766PW	N333TM	Joe Salz	Scott Thiel	Nelson Hui		2		Bergseth	1100	3100	12:06	12:20	F	100	0.00	0.00	N	
+532	Aero Tow by Altitude	2018/06/16	Rev4	N766PW	N333TM	Joe Salz	Scott Thiel	Robert Seccombe		2		Bergseth	1100	3000	12:36	12:50	F	100	0.00	0.00	N	
+533	Aero Tow by Altitude	2018/06/16	Rev4	N213TA	N333TM	Joe Salz		Mike Gowen		1		Bergseth	1100	3400	13:00	13:17	F	100	0.00	0.00	N	
+534	Aero Tow by Altitude	2018/06/16	Rev4	N4TE	N333TM	Joe Salz		Kenji Ominato		1		Bergseth	1100	3700	13:37	15:00	T	100	0.00	0.00	N	
+535	Aero Tow by Altitude	2018/06/16	Rev4	N213TA	N333TM	Joe Salz	Scott Thiel	Scott Walker		2		Bergseth	1100	3300	13:53	14:12	C	100	0.00	0.00	N	Gift Cert 2017380
+536	Aero Tow by Altitude	2018/06/16	Rev4	N21PT	N333TM	Joe Salz		Robert Rackl		1		Bergseth	1100	3200	14:05	14:17	T	100	0.00	0.00	N	
+537	Aero Tow by Altitude	2018/06/16	Rev4	N300GG	N333TM	Joe Salz		Mike Cook		1		Bergseth	1100	3100	14:07	14:24	T	100	0.00	0.00	N	Returned with control stick upper third broken off
+538	Aero Tow by Altitude	2018/06/16	Rev4	N766PW	N333TM	Brian Roger	Scott Thiel	Nelson Hui		2		Bergseth	1100	3100	14:36	14:50	F	100	0.00	0.00	N	
+539	Aero Tow by Altitude	2018/06/16	Rev4	N872	N333TM	Brian Roger		Marlene Nelson		1		Bergseth	1100	3600	14:55	15:16	T	100	0.00	0.00	N	
+540	Aero Tow by Altitude	2018/06/16	Rev4	N157AJ	N333TM	Brian Roger		Jim Miller		1		Bergseth	1100	4000	16:33	17:10	F	100	0.00	0.00	N	
+541	Aero Tow by Altitude	2018/06/16	Rev4	N766PW	N333TM	Brian Roger		Nelson Hui	Kenji Ominato	2		Bergseth	1100	3500	16:50	17:27	F	100	0.00	0.00	N	
+542	Aero Tow by Altitude	2018/06/16	Rev4	N21PT	N333TM	Brian Roger		Robert Rackl		1		Bergseth	1100	3600	17:00	17:44	T	100	0.00	0.00	N	
+543	Aero Tow by Altitude	2018/06/16	Rev4	N213TA	N333TM	Brian Roger		Mike Gowen	Paul Caspell	2		Bergseth	1100	4100	17:17	17:41	F	50	50	0.00	N	
+544	Aero Tow by Altitude	2018/06/16	Rev4	N872	N333TM	Brian Roger		Marlene Nelson		1		Bergseth	1100	3600	17:38	18:13	T	100	0.00	0.00	N	
+545	Aero Tow by Altitude	2018/06/17	Rev4	N766PW	N333TM	Tim Heneghan		Joe Salz	Victoria Whisler	2		Bergseth	1100	4100	11:10	11:40	C	0.00	100	0.00	N	
+546	Aero Tow by Altitude	2018/06/17	Rev4	N766PW	N333TM	Tim Heneghan	John Miller	Donn Bauer		2		Bergseth	1100	4100	11:55	12:20	F	100	0.00	0.00	N	
+547	Aero Tow by Altitude	2018/06/17	Rev4	N766PW	N333TM	Brian Roger	John Miller	Rick Whisler		2		Bergseth	1100	4100	12:40	13:15	C	0.00	100	0.00	N	Also paid for Victoria Whisler`s flight
+548	Aero Tow by Altitude	2018/06/17	Rev4	N4TE	N333TM	Brian Roger		Kenji Ominato		1		Bergseth	1100	5600	13:15	18:15	T	100	0.00	0.00	N	
+549	Aero Tow by Altitude	2018/06/17	Rev4	N213TA	N333TM	Brian Roger		Joe Salz	Joe Quinn	2		Bergseth	1100	4100	13:30	13:50	C	0.00	100	0.00	N	
+550	Aero Tow by Altitude	2018/06/17	Rev4	N766PW	N333TM	Brian Roger		Tim Heneghan	Gerald Kuzaro	2		Bergseth	1100	4100	13:45	14:12	C	0.00	100	0.00	N	
+551	Aero Tow by Altitude	2018/06/17	Rev4	N21PT	N333TM	Brian Roger		Robert Rackl		1		Bergseth	1100	3100	14:04	14:30	T	100	0.00	0.00	N	
+552	Aero Tow by Altitude	2018/06/17	Rev4	N213TA	N333TM	Brian Roger	John Miller	Dave Jones		2		Bergseth	1100	4200	14:37	15:24	F	100	0.00	0.00	N	
+553	Aero Tow by Altitude	2018/06/17	Rev4	N766PW	N333TM	Brian Roger		Tim Heneghan	Joe Kuzaro	2		Bergseth	1100	4100	14:55	15:28	C	0.00	100	0.00	N	
+554	Aero Tow by Altitude	2018/06/17	Rev4	N872	N333TM	Brian Roger		Curt Chenoweth		1		Bergseth	1100	3800	15:11	18:00	T	100	0.00	0.00	N	
+555	Aero Tow by Altitude	2018/06/17	Rev4	N213TA	N333TM	Brian Roger	John Miller	Karen Ekse		2		Bergseth	1100	4200	15:45	17:00	C	100	0.00	0.00	N	FAST
+556	Aero Tow by Altitude	2018/06/17	Rev4	N21PT	N333TM	Brian Roger		Robert Rackl		1		Bergseth	1100	3500	16:00	18:32	T	100	0.00	0.00	N	
+557	Aero Tow by Altitude	2018/06/17	Rev4	N766PW	N333TM	Brian Roger		Greg Bahnsen	Paul Caspell	2		Bergseth	1100	3900	16:23	18:17	F	50	50	0.00	N	
+558	Aero Tow by Altitude	2018/06/17	Rev4	N213TA	N333TM	Brian Roger	John Miller	Donn Bauer		2		Bergseth	1100	2100	17:25	17:30	F	100	0.00	0.00	N	
+559	Aero Tow by Altitude	2018/06/23	Rev4	N766PW	N333TM	Al Rubin		Joe Salz	Mike Cook	2		Bergseth	1100	2600	13:42	14:10	X	100	0.00	0.00	N	PR visit to Cowley Field
+560	Aero Tow by Altitude	2018/06/23	Rev4	N4TE	N333TM	Joe Salz		Kenji Ominato		1		Bergseth	1100	3300	15:02	17:34	T	100	0.00	0.00	N	
+561	Aero Tow by Altitude	2018/06/23	Rev4	N300GG	N333TM	Al Rubin		Mike Cook		1		Bergseth	1100	3000	15:27	15:59	T	100	0.00	0.00	N	
+562	Aero Tow by Altitude	2018/06/23	Rev4	N872	N333TM	Joe Salz		Marlene Nelson		1		Bergseth	1100	3600	15:56	18:30	T	100	0.00	0.00	N	
+563	Aero Tow by Altitude	2018/06/23	Rev4	N300GG	N333TM	Benny Harwell		Mike Cook		1		Bergseth	1100	3400	16:31	17:38	T	100	0.00	0.00	N	
+564	Aero Tow by Altitude	2018/06/23	Rev4	N766PW	N333TM	Al Rubin		Brano Mikulik	Benny Harwell	2		Bergseth	1100	3600	16:56	18:03	F	100	0.00	0.00	N	
+565	Aero Tow by Altitude	2018/06/24	Rev4	N766PW	N333TM	Al Rubin		Tim Heneghan	Alexandria Wilson	2		Bergseth	1100	4100	13:05	13:23	F	0.00	100	0.00	N	
+566	Aero Tow by Altitude	2018/06/24	Rev4	N213TA	N333TM	Al Rubin	John Miller	Lyra Young		2		Bergseth	1100	4100	13:24	13:50	M	100	0.00	0.00	N	Temporary Membership extended till August 31, 2018
+567	Aero Tow by Altitude	2018/06/24	Rev4	N213TA	N333TM	Al Rubin	John Miller	Dave Jones		2		Bergseth	1100	4100	14:10	14:30	F	100	0.00	0.00	N	
+568	Aero Tow by Altitude	2018/06/24	Rev4	N213TA	N333TM	Al Rubin	John Miller	Dave Jones		2		Bergseth	1100	2100	14:42	14:49	F	100	0.00	0.00	N	
+569	Aero Tow by Altitude	2018/06/24	Rev4	N213TA	N333TM	Al Rubin	John Miller	Dave Jones		2		Bergseth	1100	2100	14:57	15:05	F	100	0.00	0.00	N	
+570	Aero Tow by Altitude	2018/06/24	Rev4	N213TA	N333TM	John Miller		Greg Bahnsen	Brian Miller	2		Bergseth	1100	4100	15:38	16:55	F	100	0.00	0.00	N	
+571	Aero Tow by Altitude	2018/06/24	Rev4	N872	N333TM	John Miller		Curt Chenoweth		1		Bergseth	1100	3600	15:55	16:34	T	100	0.00	0.00	N	
+572	Aero Tow by Altitude	2018/06/24	Rev4	N21PT	N333TM	John Miller		Robert Rackl		1		Bergseth	1100	4400	16:12	17:16	T	100	0.00	0.00	N	
+573	Aero Tow by Altitude	2018/06/24	Rev4	N213TA	N333TM	John Miller		Doug Brown	Paul Caspell	2		Bergseth	1100	4100	17:16	17:43	F	100	0.00	0.00	N	
+574	Aero Tow by Altitude	2018/07/07	Rev4	N213TA	N333TM	Benny Harwell	Eric Haupt	Kapitolina Semenova		2		Bergseth	1100	4100	13:37	13:58	M	100	0.00	0.00	N	
+575	Aero Tow by Altitude	2018/07/07	Rev4	N213TA	N333TM	Joe Salz		Benny Harwell		1		Bergseth	1100	2100	14:37	14:44	F	100	0.00	0.00	N	
+576	Aero Tow by Altitude	2018/07/07	Rev4	N213TA	N333TM	Joe Salz		Benny Harwell		1		Bergseth	1100	2100	14:47	14:53	F	100	0.00	0.00	N	
+577	Aero Tow by Altitude	2018/07/07	Rev4	N213TA	N333TM	Joe Salz		Benny Harwell		1		Bergseth	1100	3100	14:57	15:12	F	100	0.00	0.00	N	
+578	Aero Tow by Altitude	2018/07/07	Rev4	N213TA	N333TM	Benny Harwell	Eric Haupt	Nicolas Alegria		2		Bergseth	1100	3800	15:31	15:46	F	100	0.00	0.00	N	
+579	Aero Tow by Altitude	2018/07/07	Rev4	N213TA	N333TM	Joe Salz		Eric Haupt	Steve Boguer	2		Bergseth	1100	3900	16:06	16:27	F	100	0.00	0.00	N	
+580	Aero Tow by Altitude	2018/07/07	Rev4	N213TA	N333TM	Joe Salz		Eric Haupt	Galatte Boguer	2		Bergseth	1100	4000	16:41	16:56	F	100	0.00	0.00	N	
+581	Aero Tow by Altitude	2018/07/07	Rev4	N213TA	N333TM	Joe Salz	Eric Haupt	Nicolas Alegria		2		Bergseth	1100	3700	17:16	17:29	F	100	0.00	0.00	N	
+582	Aero Tow by Altitude	2018/07/07	Rev4	N213TA	N333TM	Joe Salz	Eric Haupt	Nicolas Alegria		2		Bergseth	1100	2100	17:31	17:38	F	100	0.00	0.00	N	
+583	Aero Tow by Altitude	2018/07/07	Rev4	N213TA	N333TM	Joe Salz		Eric Haupt	Marton Kun-Szabo	2		Bergseth	1100	3500	17:53	18:07	X	100	0.00	0.00	N	Tow Pilot Orientation flight
+584	Aero Tow by Altitude	2018/07/07	Rev4	N213TA	N333TM	Marton Kun-Szabo		Benny Harwell		1		Bergseth	1100	2100	18:27	18:33	F	100	0.00	0.00	N	
+585	Aero Tow by Altitude	2018/07/07	Rev4	N213TA	N333TM	Marton Kun-Szabo		Benny Harwell		1		Bergseth	1100	2100	18:37	18:42	F	100	0.00	0.00	N	
+586	Aero Tow by Altitude	2018/07/07	Rev4	N213TA	N333TM	Marton Kun-Szabo		Benny Harwell		1		Bergseth	1100	2100	18:45	18:53	F	100	0.00	0.00	N	
+587	Aero Tow by Altitude	2018/07/07	Rev4	N213TA	N333TM	Marton Kun-Szabo	Eric Haupt	Nicolas Alegria		2		Bergseth	1100	2100	19:06	19:10	F	100	0.00	0.00	N	
+588	Aero Tow by Altitude	2018/07/07	Rev4	N213TA	N333TM	Marton Kun-Szabo	Eric Haupt	Nicolas Alegria		2		Bergseth	1100	2100	19:15	19:21	F	100	0.00	0.00	N	
+589	Aero Tow by Altitude	2018/07/07	Rev4	N213TA	N333TM	Marton Kun-Szabo	Eric Haupt	Nicolas Alegria		2		Bergseth	1100	2100	19:24	19:29	F	100	0.00	0.00	N	
+590	Aero Tow by Altitude	2018/07/07	Rev4	N213TA	N333TM	Marton Kun-Szabo	Eric Haupt	Nicolas Alegria		2		Bergseth	1100	2100	19:31	19:39	F	100	0.00	0.00	N	
+591	Aero Tow by Altitude	2018/07/07	Rev4	N213TA	N333TM	Marton Kun-Szabo	Eric Haupt	Nicolas Alegria		2		Bergseth	1100	2100	19:40	19:46	F	100	0.00	0.00	N	
+592	Aero Tow by Altitude	2018/07/08	Rev4	N213TA	N333TM	Brian Roger		Karl Hadley		1		Bergseth	1100	3300	13:10	13:33	F	100	0.00	0.00	N	
+593	Aero Tow by Altitude	2018/07/08	Rev4	N213TA	N333TM	Brian Roger	John Miller	Dave Jones		2		Bergseth	1100	4100	14:05	14:31	F	100	0.00	0.00	N	
+594	Aero Tow by Altitude	2018/07/08	Rev4	N213TA	N333TM	Brian Roger	John Miller	Dave Jones		2		Bergseth	1100	2100	14:39	14:44	F	100	0.00	0.00	N	
+595	Aero Tow by Altitude	2018/07/08	Rev4	N213TA	N333TM	Brian Roger	John Miller	Dave Jones		2		Bergseth	1100	2100	15:05	15:10	F	100	0.00	0.00	N	
+596	Aero Tow by Altitude	2018/07/08	Rev4	N213TA	N333TM	Brian Roger	John Miller	Seth Leopold		2		Bergseth	1100	4100	15:36	16:04	M	100	0.00	0.00	N	
+597	Aero Tow by Altitude	2018/07/08	Rev4	N157AJ	N333TM	Brian Roger		Jim Miller		1		Bergseth	1100	3200	15:54	16:41	F	100	0.00	0.00	N	
+598	Aero Tow by Altitude	2018/07/08	Rev4	N213TA	N333TM	Brian Roger		Paul Caspell	Karl Hadley	2		Bergseth	1100	3100	16:29	16:45	F	50	50	0.00	N	
+599	Aero Tow by Altitude	2018/07/08	Rev4	N157AJ	N333TM	Brian Roger		Greg Bahnsen		1		Bergseth	1100	3900	17:03	18:45	F	100	0.00	0.00	N	
+600	Aero Tow by Altitude	2018/07/08	Rev4	N213TA	N333TM	Brian Roger		Paul Caspell	Karl Hadley	2		Bergseth	1100	3100	17:22	18:00	F	50	50	0.00	N	
+601	Aero Tow by Altitude	2018/07/14	Rev4	N213TA	N333TM	Marton Kun-Szabo	Scott Thiel	Brian Halbert		2		Bergseth	1100	2100	11:00	11:12	F	100	0.00	0.00	N	
+602	Aero Tow by Altitude	2018/07/14	Rev4	N213TA	N333TM	Marton Kun-Szabo	Scott Thiel	Brad Hankins		2		Bergseth	1100	4100	11:33	11:55	C	100	0.00	0.00	N	Gift Certif. #2017384
+603	Aero Tow by Altitude	2018/07/14	Rev4	N213TA	N333TM	Marton Kun-Szabo		Brian Halbert		1		Bergseth	1100	3400	12:11	12:26	F	100	0.00	0.00	N	
+604	Aero Tow by Altitude	2018/07/14	Rev4	N213TA	N333TM	Marton Kun-Szabo	Scott Thiel	Gerald Krzycki		2		Bergseth	1100	4100	12:50	13:12	C	100	0.00	0.00	N	
+605	Aero Tow by Altitude	2018/07/14	Rev4	N213TA	N333TM	Marton Kun-Szabo		Scott Thiel	Dan Lincoln	2		Bergseth	1100	3200	14:01	14:30	T	100	0.00	0.00	N	
+606	Aero Tow by Altitude	2018/07/14	Rev4	N4TE	N333TM	Marton Kun-Szabo		Kenji Ominato		1		Bergseth	1100	6100	14:26	16:55	T	100	0.00	0.00	N	
+607	Aero Tow by Altitude	2018/07/14	Rev4	N300GG	N333TM	Marton Kun-Szabo		Mike Cook		1		Bergseth	1100	6100	14:53	16:35	T	100	0.00	0.00	N	
+608	Aero Tow by Altitude	2018/07/14	Rev4	N213TA	N333TM	Marton Kun-Szabo	Scott Thiel	Jacob Mersino		2		Bergseth	1100	3700	15:19	15:44	X	100	0.00	0.00	N	Potential new Instructor member
+609	Aero Tow by Altitude	2018/07/14	Rev4	N213TA	N333TM	Marton Kun-Szabo	Scott Thiel	Hugh Lyman		2		Bergseth	1100	4100	15:58	16:20	C	100	0.00	0.00	N	
+610	Aero Tow by Altitude	2018/07/14	Rev4	N213TA	N333TM	Marton Kun-Szabo	Scott Thiel	Doug Brown		2		Bergseth	1100	3100	16:34	16:55	F	100	0.00	0.00	N	
+611	Aero Tow by Altitude	2018/07/15	Rev4	N766PW	N333TM	Bob Stoney		Marlene Nelson	Robert Rackl	2		Bergseth	1100	2800	12:46	13:01	F	100	0.00	0.00	N	
+612	Aero Tow by Altitude	2018/07/15	Rev4	N766PW	N333TM	Bob Stoney		Marlene Nelson	Spring Rain Moe	2		Bergseth	1100	3600	13:38	14:15	F	100	0.00	0.00	N	
+613	Aero Tow by Altitude	2018/07/15	Rev4	N766PW	N333TM	Bob Stoney		Marlene Nelson	James P Moe	2		Bergseth	1100	3100	14:32	14:55	F	100	0.00	0.00	N	
+614	Aero Tow by Altitude	2018/07/15	Rev4	N157AJ	N333TM	Bob Stoney		Greg Bahnsen		1		Bergseth	1100	3900	14:51	16:10	F	100	0.00	0.00	N	
+615	Aero Tow by Altitude	2018/07/15	Rev4	N213TA	N333TM	Bob Stoney	John Miller	Trevor Brown		2		Bergseth	1100	4100	15:05	15:38	C	100	0.00	0.00	N	
+616	Aero Tow by Altitude	2018/07/15	Rev4	N766PW	N333TM	Bob Stoney		Paul Caspell	Robert Rackl	2		Bergseth	1100	4600	15:57	17:31	F	50	50	0.00	N	
+617	Aero Tow by Altitude	2018/07/21	Rev4	N766PW	N333TM	Marton Kun-Szabo	Scott Thiel	Donn Bauer		2		Bergseth	1100	4100	11:54	12:25	F	100	0.00	0.00	N	
+618	Aero Tow by Altitude	2018/07/21	Rev4	N213TA	N333TM	Marton Kun-Szabo		Marlene Nelson	Betty Amunson	2		Bergseth	1100	3700	12:39	13:01	F	100	0.00	0.00	N	
+619	Aero Tow by Altitude	2018/07/21	Rev4	N766PW	N333TM	Marton Kun-Szabo		Marlene Nelson	Alain Bourdoiseau	2		Bergseth	1100	4300	13:45	14:48	F	100	0.00	0.00	N	Gift from Alain
+620	Aero Tow by Altitude	2018/07/21	Rev4	N4TE	N333TM	Marton Kun-Szabo		Kenji Ominato		1		Bergseth	1100	3100	14:04	19:12	T	100	0.00	0.00	N	
+621	Aero Tow by Altitude	2018/07/21	Rev4	N872	N333TM	Joe Salz		Curt Chenoweth		1		Bergseth	1100	3600	14:35	17:22	T	100	0.00	0.00	N	
+622	Aero Tow by Altitude	2018/07/21	Rev4	N766PW	N333TM	Marton Kun-Szabo	John Miller	Benny Harwell		2		Bergseth	1100	4100	15:15	15:45	F	100	0.00	0.00	N	
+623	Aero Tow by Altitude	2018/07/21	Rev4	N766PW	N333TM	Marton Kun-Szabo	John Miller	Benny Harwell		2		Bergseth	1100	2100	16:05	16:14	F	100	0.00	0.00	N	
+624	Aero Tow by Altitude	2018/07/21	Rev4	N766PW	N333TM	Marton Kun-Szabo	John Miller	Benny Harwell		2		Bergseth	1100	2100	16:31	16:38	F	100	0.00	0.00	N	
+625	Aero Tow by Altitude	2018/07/21	Rev4	N213TA	N333TM	Benny Harwell		Joe Salz	Shawn Miller	2		Bergseth	1100	4100	16:48	17:17	C	0.00	100	0.00	N	
+626	Aero Tow by Altitude	2018/07/21	Rev4	N766PW	N333TM	Marton Kun-Szabo	John Miller	Benny Harwell		2		Bergseth	1100	1400	17:29	17:31	F	100	0.00	0.00	N	Simulated Rope Break
+627	Aero Tow by Altitude	2018/07/21	Rev4	N213TA	N333TM	Marton Kun-Szabo		Joe Salz	Sharon Miller	2		Bergseth	1100	4100	17:37	17:57	C	0.00	100	0.00	N	
+628	Aero Tow by Altitude	2018/07/21	Rev4	N872	N333TM	Marton Kun-Szabo		Marlene Nelson		1		Bergseth	1100	2600	18:09	19:35	T	100	0.00	0.00	N	
+629	Aero Tow by Altitude	2018/07/21	Rev4	N766PW	N333TM	Marton Kun-Szabo		Paul Caspell	Mike Cook	2		Bergseth	1100	3300	18:39	19:45	F	50	50	0.00	N	
+630	Aero Tow by Altitude	2018/07/22	Rev4	N213TA	N333TM	John Miller		Tim Heneghan	Dan Crystal	2		Bergseth	1100	4100	12:52	13:16	C	0.00	100	0.00	N	
+631	Aero Tow by Altitude	2018/07/22	Rev4	N766PW	N333TM	John Miller		Greg Bahnsen	Jesse Churchill	2		Bergseth	1100	4100	13:26	13:53	F	100	0.00	0.00	N	
+632	Aero Tow by Altitude	2018/07/22	Rev4	N213TA	N333TM	John Miller		Mike Gowen		1		Bergseth	1100	4100	13:44	14:11	F	100	0.00	0.00	N	
+633	Aero Tow by Altitude	2018/07/22	Rev4	N4TE	N333TM	John Miller		Kenji Ominato		1		Bergseth	1100	6000	14:03	15:52	T	100	0.00	0.00	N	
+634	Aero Tow by Altitude	2018/07/22	Rev4	N300GG	N333TM	John Miller		Mike Cook		1		Bergseth	1100	6500	14:28	16:29	T	100	0.00	0.00	N	
+635	Aero Tow by Altitude	2018/07/22	Rev4	N766PW	N333TM	John Miller		Tim Heneghan	Amelia Leopold	2		Bergseth	1100	4100	14:54	15:35	C	0.00	100	0.00	N	
+636	Aero Tow by Altitude	2018/07/22	Rev4	N21PT	N333TM	John Miller		Robert Rackl		1		Bergseth	1100	4600	15:12	18:08	T	100	0.00	0.00	N	
+637	Aero Tow by Altitude	2018/07/22	Rev4	N213TA	N333TM	John Miller		Mike Gowen	Paul Caspell	2		Bergseth	1100	4600	15:30	17:00	F	50	50	0.00	N	
+638	Aero Tow by Altitude	2018/07/22	Rev4	N766PW	N333TM	Tim Heneghan	John Miller	Joanne Bannerot		2		Bergseth	1100	4100	16:09	16:34	C	0.00	100	0.00	N	Gift Cert #2018400
+639	Aero Tow by Altitude	2018/07/22	Rev4	N766PW	N333TM	Tim Heneghan	John Miller	Steve Bannerot		2		Bergseth	1100	4100	16:49	17:08	C	0.00	100	0.00	N	Gift Cert #2017388
+640	Aero Tow by Altitude	2018/07/22	Rev4	N213TA	N333TM	Tim Heneghan	John Miller	Dave Jones		2		Bergseth	1100	2100	17:18	17:24	F	100	0.00	0.00	N	pattern tow
+641	Aero Tow by Altitude	2018/07/28	Rev4	N213TA	N333TM	Brian Roger		Joe Salz	Brooke Barber	2		Bergseth	1100	4100	11:24	11:44	M	0.00	100	0.00	N	
+642	Aero Tow by Altitude	2018/07/28	Rev4	N213TA	N333TM	Brian Roger		Joe Salz	Haley Daugherty	2		Bergseth	1100	4100	11:53	12:12	M	0.00	100	0.00	N	
+643	Aero Tow by Altitude	2018/07/28	Rev4	N213TA	N333TM	Brian Roger		Joe Salz	Sherrie Barber	2		Bergseth	1100	4100	12:22	12:41	M	0.00	100	0.00	N	
+644	Aero Tow by Altitude	2018/07/28	Rev4	N213TA	N333TM	Brian Roger		Joe Salz	Carson Bujer	2		Bergseth	1100	4100	13:04	13:24	C	0.00	100	0.00	N	
+645	Aero Tow by Altitude	2018/07/28	Rev4	N213TA	N333TM	Brian Roger		Tim Heneghan	Mike Cook	2		Bergseth	1100	2100	13:15	13:21	X	100	0.00	0.00	N	Maintenance Flight
+646	Aero Tow by Altitude	2018/07/28	Rev4	N213TA	N333TM	Brian Roger		Tim Heneghan	Catherine Bujer	2		Bergseth	1100	4000	13:26	13:56	C	0.00	100	0.00	N	
+647	Aero Tow by Altitude	2018/07/28	Rev4	N766PW	N333TM	Brian Roger		Joe Salz	William Bujer	2		Bergseth	1100	4100	13:44	14:05	C	0.00	100	0.00	N	
+648	Aero Tow by Altitude	2018/07/28	Rev4	N766PW	N333TM	Brian Roger		Tim Heneghan	Tom Bujer	2		Bergseth	1100	4100	14:15	14:50	C	0.00	100	0.00	N	
+649	Aero Tow by Altitude	2018/07/28	Rev4	N213TA	N333TM	Brian Roger		Joe Salz	Angela Osborne	2		Bergseth	1100	4100	14:30	14:52	C	0.00	100	0.00	N	
+650	Aero Tow by Altitude	2018/07/28	Rev4	N213TA	N333TM	Brian Roger		Joe Salz	Peter Lopez	2		Bergseth	1100	4100	15:05	15:21	M	0.00	100	0.00	N	
+651	Aero Tow by Altitude	2018/07/28	Rev4	N766PW	N333TM	Brian Roger		Tim Heneghan	Florence Bass	2		Bergseth	1100	3500	15:16	15:41	M	0.00	100	0.00	N	
+652	Aero Tow by Altitude	2018/07/28	Rev4	N766PW	N333TM	Brian Roger		Tim Heneghan	Payton Levens	2		Bergseth	1100	3500	16:05	16:24	M	0.00	100	0.00	N	
+653	Aero Tow by Altitude	2018/07/28	Rev4	N766PW	N333TM	Brian Roger		Tim Heneghan	Justin Romer	2		Bergseth	1100	3500	16:35	16:56	M	0.00	100	0.00	N	
+654	Aero Tow by Altitude	2018/07/28	Rev4	N766PW	N333TM	Brian Roger		Tim Heneghan	Ryan Johnson	2		Bergseth	1100	3500	17:03	17:23	M	0.00	100	0.00	N	
+655	Aero Tow by Altitude	2018/07/28	Rev4	N766PW	N333TM	Brian Roger		Tim Heneghan	Aldo Sebastian	2		Bergseth	1100	3500	17:30	17:52	M	0.00	100	0.00	N	
+656	Aero Tow by Altitude	2018/07/29	Rev4	N213TA	N333TM	Al Rubin	John Miller	Tiana Lopez		2		Bergseth	1100	4100	11:59	12:21	M	100	0.00	0.00	N	Paid for intro previous day. Paid $7 for flight log today.
+657	Aero Tow by Altitude	2018/07/29	Rev4	N213TA	N333TM	Al Rubin	John Miller	Ethan Curtis		2		Bergseth	1100	4100	12:52	13:17	M	100	0.00	0.00	N	$7 for flight log.
+658	Aero Tow by Altitude	2018/08/04	Rev4	N213TA	N333TM	Marton Kun-Szabo	Scott Thiel	Caroline Endicott		2		Bergseth	1100	4000	11:30	12:00	M	0.00	100	0.00	N	Gift Cert #2018406
+659	Aero Tow by Altitude	2018/08/04	Rev4	N213TA	N333TM	Marton Kun-Szabo		Brian Halbert		1		Bergseth	1100	3000	12:26	12:39	F	100	0.00	0.00	N	
+660	Aero Tow by Altitude	2018/08/04	Rev4	N300GG	N333TM	Marton Kun-Szabo		Mike Cook		1		Bergseth	1100	3200	12:55	15:37	T	100	0.00	0.00	N	
+661	Aero Tow by Altitude	2018/08/04	Rev4	N213TA	N333TM	Marton Kun-Szabo		Brian Halbert		1		Bergseth	1100	3700	13:26	13:49	F	100	0.00	0.00	N	
+662	Aero Tow by Altitude	2018/08/04	Rev4	N213TA	N333TM	Marton Kun-Szabo	Scott Thiel	Marc Brooks		2		Bergseth	1100	4000	14:00	14:25	F	100	0.00	0.00	N	
+663	Aero Tow by Altitude	2018/08/04	Rev4	N213TA	N333TM	Marton Kun-Szabo	Scott Thiel	Marc Brooks		2		Bergseth	1100	3700	14:35	15:27	F	100	0.00	0.00	N	
+664	Aero Tow by Altitude	2018/08/04	Rev4	N213TA	N333TM	Marton Kun-Szabo	Scott Thiel	Hugh Lyman		2		Bergseth	1100	3500	15:45	16:05	F	100	0.00	0.00	N	
+665	Aero Tow by Altitude	2018/08/04	Rev4	N213TA	N333TM	Marton Kun-Szabo		Joe Salz	Jeff Hansen	2		Bergseth	1100	4100	16:25	16:55	C	0.00	100	0.00	N	
+666	Aero Tow by Altitude	2018/08/04	Rev4	N213TA	N333TM	Marton Kun-Szabo		Marc Brooks		1		Bergseth	1100	2100	17:10	17:16	F	100	0.00	0.00	N	
+667	Aero Tow by Altitude	2018/08/05	Rev4	N213TA	N333TM	Brian Roger		Joe Salz	Micky Troy	2		Bergseth	1100	4100	11:41	12:07	C	0.00	100	0.00	N	
+668	Aero Tow by Altitude	2018/08/05	Rev4	N766PW	N333TM	Brian Roger		Marlene Nelson	Zina Roberts	2		Bergseth	1100	3600	12:50	13:06	F	100	0.00	0.00	N	
+669	Aero Tow by Altitude	2018/08/05	Rev4	N213TA	N333TM	Brian Roger	John Miller	Ethan Curtis		2		Bergseth	1100	4100	13:09	13:40	F	100	0.00	0.00	N	
+670	Aero Tow by Altitude	2018/08/05	Rev4	N766PW	N333TM	Brian Roger		Tim Heneghan	Kathleen Wagner	2		Bergseth	1100	4100	13:24	13:54	M	0.00	100	0.00	N	
+671	Aero Tow by Altitude	2018/08/05	Rev4	N766PW	N333TM	Brian Roger		Tim Heneghan	Katrina Wagner	2		Bergseth	1100	3800	14:09	14:27	M	0.00	100	0.00	N	
+672	Aero Tow by Altitude	2018/08/05	Rev4	N213TA	N333TM	Brian Roger	John Miller	Lyra Young		2		Bergseth	1100	4100	14:23	15:02	F	100	0.00	0.00	N	
+673	Aero Tow by Altitude	2018/08/05	Rev4	N766PW	N333TM	Brian Roger		Tim Heneghan	Kalleigh Wagner	2		Bergseth	1100	4100	14:44	15:10	M	0.00	100	0.00	N	
+674	Aero Tow by Altitude	2018/08/05	Rev4	N21PT	N333TM	Al Rubin		Robert Rackl		1		Bergseth	1100	3400	15:03	16:13	T	100	0.00	0.00	N	
+675	Aero Tow by Altitude	2018/08/05	Rev4	N213TA	N333TM	Al Rubin		Jim Miller	Cary Farrah	2		Bergseth	1100	3900	15:16	15:43	F	100	0.00	0.00	N	
+676	Aero Tow by Altitude	2018/08/05	Rev4	N766PW	N333TM	Brian Roger		Tim Heneghan	Gary Wagner	2		Bergseth	1100	4000	16:05	16:38	M	0.00	100	0.00	N	Paid for Kathleen, Katrina, Kalleigh and Gary Wagner
+677	Aero Tow by Altitude	2018/08/05	Rev4	N213TA	N333TM	Brian Roger		Jim Miller	Wasif Dweik	2		Bergseth	1100	3800	16:20	16:50	F	100	0.00	0.00	N	
+678	Aero Tow by Altitude	2018/08/05	Rev4	N766PW	N333TM	Brian Roger		Tim Heneghan	Annamarie Burke	2		Bergseth	1100	4000	16:52	17:15	C	0.00	100	0.00	N	
+679	Aero Tow by Altitude	2018/08/05	Rev4	N213TA	N333TM	Brian Roger	John Miller	Robert Burke		2		Bergseth	1100	4100	17:08	17:38	C	100	0.00	0.00	N	
+680	Aero Tow by Altitude	2018/08/05	Rev4	N766PW	N333TM	Brian Roger		Tim Heneghan	Thomas Klein	2		Bergseth	1100	4100	17:27	17:55	M	0.00	100	0.00	N	
+681	Aero Tow by Altitude	2018/08/05	Rev4	N766PW	N333TM	Brian Roger		Tim Heneghan	Tammy Klein	2		Bergseth	1100	4100	18:04	18:30	M	0.00	100	0.00	N	
+682	Aero Tow by Altitude	2018/08/05	Rev4	N157AJ	N333TM	Brian Roger		Greg Bahnsen		1		Bergseth	1100	4100	18:23	19:48	F	100	0.00	0.00	N	
+683	Aero Tow by Altitude	2018/08/12	Rev4	N766PW	N333TM	Tim Heneghan		Brad Pattison	David Holsinger	2		Bergseth	1100	4100	11:59	12:27	M	0.00	100	0.00	N	Gift Cert #2017390
+684	Aero Tow by Altitude	2018/08/12	Rev4	N766PW	N333TM	Tim Heneghan	John Miller	Ethan Curtis		2		Bergseth	1100	3900	12:44	13:03	F	100	0.00	0.00	N	
+685	Aero Tow by Altitude	2018/08/12	Rev4	N766PW	N333TM	Tim Heneghan	John Miller	Lyra Young		2		Bergseth	1100	4000	13:17	13:45	F	100	0.00	0.00	N	
+686	Aero Tow by Altitude	2018/08/12	Rev4	N766PW	N333TM	Tim Heneghan	John Miller	Dave Jones		2		Bergseth	1100	3900	13:58	14:20	F	100	0.00	0.00	N	
+687	Aero Tow by Altitude	2018/08/12	Rev4	N42DJ	N333TM	Tim Heneghan		Brad Pattison		1		Bergseth	1100	3700	14:48	18:50	T	100	0.00	0.00	N	
+688	Aero Tow by Altitude	2018/08/12	Rev4	N766PW	N333TM	Tim Heneghan		Greg Bahnsen		1		Bergseth	1100	4100	15:00	16:05	F	100	0.00	0.00	N	
+689	Aero Tow by Altitude	2018/08/12	Rev4	N872	N333TM	Brian Roger		Marlene Nelson		1		Bergseth	1100	3800	15:17	17:33	T	100	0.00	0.00	N	
+690	Aero Tow by Altitude	2018/08/12	Rev4	N300GG	N333TM	Brian Roger		Mike Cook		1		Bergseth	1100	3600	15:31	17:45	T	100	0.00	0.00	N	
+691	Aero Tow by Altitude	2018/08/12	Rev4	N21PT	N333TM	Brian Roger		Robert Rackl		1		Bergseth	1100	3500	15:45	17:10	T	100	0.00	0.00	N	
+692	Aero Tow by Altitude	2018/08/12	Rev4	N157AJ	N333TM	Brian Roger		Jim Miller		1		Bergseth	1100	3700	16:01	17:50	F	100	0.00	0.00	N	
+693	Aero Tow by Altitude	2018/08/12	Rev4	N766PW	N333TM	Brian Roger	John Miller	Joseph Mitchell		2		Bergseth	1100	4100	16:25	16:50	C	100	0.00	0.00	N	Sold logbook for $7.00
+694	Aero Tow by Altitude	2018/08/12	Rev4	N766PW	N333TM	Brian Roger	John Miller	Bryan Monroe		2		Bergseth	1100	4100	17:15	17:35	F	100	0.00	0.00	N	New regular member
+695	Aero Tow by Altitude	2018/08/18	Rev4	N766PW	N333TM	Marton Kun-Szabo		Tim Heneghan	Michael Ketteman	2		Bergseth	1100	4100	12:00	12:25	C	0.00	100	0.00	N	
+696	Aero Tow by Altitude	2018/08/18	Rev4	N766PW	N333TM	Marton Kun-Szabo		Tim Heneghan	Kathryn Scott	2		Bergseth	1100	4000	12:48	13:14	C	0.00	100	0.00	N	
+697	Aero Tow by Altitude	2018/08/18	Rev4	N766PW	N333TM	Marton Kun-Szabo		Tim Heneghan	Julis Scott	2		Bergseth	1100	4100	13:24	13:49	C	0.00	100	0.00	N	Dennis substituted $450 personal check for cash received
+698	Aero Tow by Altitude	2018/08/19	Rev4	N213TA	N333TM	Brian Roger	John Miller	Alex Kovsky		2		Bergseth	1100	4100	11:54	12:18	M	100	0.00	0.00	N	FAST #569011
+699	Aero Tow by Altitude	2018/08/19	Rev4	N766PW	N333TM	Brian Roger		Joe Salz	Holly	2	Brian Roger	Bergseth	1100	4100	12:21	12:40	T	0.00	0.00	100	N	
+700	Aero Tow by Altitude	2018/08/19	Rev4	N213TA	N333TM	Brian Roger	John Miller	Bryan Monroe		2		Bergseth	1100	4100	12:37	12:57	F	100	0.00	0.00	N	
+701	Aero Tow by Altitude	2018/08/19	Rev4	N766PW	N333TM	Brian Roger		Mike Gowen		1		Bergseth	1100	4100	12:58	13:20	F	100	0.00	0.00	N	
+702	Aero Tow by Altitude	2018/08/19	Rev4	N213TA	N333TM	Marton Kun-Szabo	John Miller	Lyra Young		2		Bergseth	1100	4100	13:12	13:35	F	100	0.00	0.00	N	
+703	Aero Tow by Altitude	2018/08/19	Rev4	N766PW	N333TM	Brian Roger		Tim Heneghan	Michal Kovsky	2		Bergseth	1100	4100	13:30	13:50	M	0.00	100	0.00	N	FAST #37834, John Miller provided ground instruction
+704	Aero Tow by Altitude	2018/08/19	Rev4	N213TA	N333TM	Brian Roger	John Miller	Dave Jones		2		Bergseth	1100	4000	14:00	14:20	F	100	0.00	0.00	N	
+705	Aero Tow by Altitude	2018/08/19	Rev4	N766PW	N333TM	Brian Roger		Brad Pattison	Tyler Pattison	2		Bergseth	1100	4100	14:23	15:15	F	100	0.00	0.00	N	
+706	Aero Tow by Altitude	2018/08/19	Rev4	N213TA	N333TM	Brian Roger		Joe Salz	Antonio Galvan	2		Bergseth	1100	4100	14:37	15:00	T	0.00	100	0.00	N	
+707	Aero Tow by Altitude	2018/08/19	Rev4	N213TA	N333TM	Brian Roger		Brian Halbert		1		Bergseth	1100	4100	15:10	15:30	F	100	0.00	0.00	N	
+708	Aero Tow by Altitude	2018/08/19	Rev4	N766PW	N333TM	Brian Roger	John Miller	Marton Kun-Szabo		2		Bergseth	1100	4100	15:28	15:48	T	100	0.00	0.00	N	Joins as Dues-Paying Tow Pilot
+709	Aero Tow by Altitude	2018/08/19	Rev4	N42DJ	N333TM	Brian Roger		Brad Pattison		1		Bergseth	1100	2800	15:45	16:49	T	100	0.00	0.00	N	
+710	Aero Tow by Altitude	2018/08/19	Rev4	N213TA	N333TM	Brian Roger	John Miller	Alex Kovsky		2		Bergseth	1100	4100	16:02	16:20	F	100	0.00	0.00	N	
+711	Aero Tow by Altitude	2018/08/19	Rev4	N213TA	N333TM	Brian Roger	John Miller	Lyra Young		2		Bergseth	1100	4100	16:48	17:08	F	100	0.00	0.00	N	
+712	Aero Tow by Altitude	2018/08/19	Rev4	N766PW	N333TM	Brian Roger		Joe Salz	Brian Pennington	2		Bergseth	1100	4100	17:03	17:32	T	100	0.00	0.00	N	$150 refunded later to Brian Pennington
+713	Aero Tow by Altitude	2018/08/19	Rev4	N213TA	N333TM	Brian Roger		Joe Salz	Bruce Green	2	Brian Roger	Bergseth	1100	4100	17:42	18:02	T	0.00	0.00	100	N	
+714	Aero Tow by Altitude	2018/08/19	Rev4	N766PW	N333TM	Brian Roger	John Miller	Marton Kun-Szabo		2		Bergseth	1100	3600	17:50	18:10	T	100	0.00	0.00	N	Back seat checkout
+715	Aero Tow by Altitude	2018/08/19	Rev4	N157AJ	N333TM	Brian Roger		Robert Rackl		1		Bergseth	1100	3400	18:00	18:39	F	100	0.00	0.00	N	
+716	Aero Tow by Altitude	2018/08/19	Rev4	N766PW	N333TM	Brian Roger		Paul Caspell	Brian Halbert	2		Bergseth	1100	4100	18:10	18:30	F	50	50	0.00	N	
+717	Aero Tow by Altitude	2018/09/01	Rev4	N213TA	N333TM	Tim Heneghan	Scott Thiel	Insuh Paik		2		Bergseth	1100	3500	12:12	12:26	C	100	0.00	0.00	N	
+718	Aero Tow by Altitude	2018/09/01	Rev4	N213TA	N333TM	Tim Heneghan	Scott Thiel	Bryan Monroe		2		Bergseth	1100	3800	13:18	13:36	F	100	0.00	0.00	N	
+719	Aero Tow by Altitude	2018/09/01	Rev4	N213TA	N333TM	Joe Salz	Scott Thiel	Bryan Monroe		2		Bergseth	1100	3900	13:50	14:08	F	100	0.00	0.00	N	
+720	Aero Tow by Altitude	2018/09/01	Rev4	N213TA	N333TM	Joe Salz		Brad Pattison		1		Bergseth	1100	2700	14:05	15:00	T	100	0.00	0.00	N	
+721	Aero Tow by Altitude	2018/09/01	Rev4	N213TA	N333TM	Tim Heneghan		Curt Chenoweth		1		Bergseth	1100	3700	14:16	14:41	T	100	0.00	0.00	N	
+722	Aero Tow by Altitude	2018/09/01	Rev4	N213TA	N333TM	Joe Salz		Kenji Ominato		1		Bergseth	1100	3100	14:52	18:52	T	100	0.00	0.00	N	Glider landing time guessed (landed after everyone else had gone home)
+723	Aero Tow by Altitude	2018/09/01	Rev4	N213TA	N333TM	Joe Salz		Curt Chenoweth		1		Bergseth	1100	3600	15:35	17:40	T	100	0.00	0.00	N	
+724	Aero Tow by Altitude	2018/09/01	Rev4	N213TA	N333TM	Joe Salz		Brad Pattison		1		Bergseth	1100	3600	15:45	17:56	T	100	0.00	0.00	N	
+725	Aero Tow by Altitude	2018/09/01	Rev4	N213TA	N333TM	Joe Salz	Scott Thiel	Dave Jones		2		Bergseth	1100	3500	16:03	16:25	F	100	0.00	0.00	N	
+726	Aero Tow by Altitude	2018/09/01	Rev4	N213TA	N333TM	Joe Salz	Scott Thiel	Dave Jones		2		Bergseth	1100	2100	16:50	16:58	F	100	0.00	0.00	N	
+727	Aero Tow by Altitude	2018/09/02	Rev4	N213TA	N333TM	Marton Kun-Szabo		Joe Salz	Joe Mitchell	2		Bergseth	1100	4100	14:23	14:45	F	0.00	100	0.00	N	30-Day Member
+728	Aero Tow by Altitude	2018/09/02	Rev4	N213TA	N333TM	Marton Kun-Szabo		Joe Salz	John Hash	2		Bergseth	1100	4100	15:03	15:29	M	0.00	100	0.00	N	Improvised Gift Cert 1 Greg Bahnsen
+729	Aero Tow by Altitude	2018/09/02	Rev4	N872	N333TM	Marton Kun-Szabo		Marlene Nelson		1		Bergseth	1100	2600	15:24	17:34	T	100	0.00	0.00	N	
+730	Aero Tow by Altitude	2018/09/02	Rev4	N213TA	N333TM	Marton Kun-Szabo		Joe Salz	Wez Loeffler	2		Bergseth	1100	4100	15:51	16:18	M	0.00	100	0.00	N	Improvised Gift Cert 2 Greg Bahnsen
+731	Aero Tow by Altitude	2018/09/02	Rev4	N157AJ	N333TM	Marton Kun-Szabo		Jim Miller		1		Bergseth	1100	4100	16:05	17:06	F	100	0.00	0.00	N	
+732	Aero Tow by Altitude	2018/09/02	Rev4	N213TA	N333TM	Marton Kun-Szabo		Joe Salz	Steve Tiffany	2		Bergseth	1100	4100	16:32	16:54	M	0.00	100	0.00	N	Gift Cert #2018409
+733	Aero Tow by Altitude	2018/09/02	Rev4	N213TA	N333TM	Marton Kun-Szabo		Mike Gowen	Paul Caspell	2		Bergseth	1100	4100	17:04	18:28	F	50	50	0.00	N	
+734	Aero Tow by Altitude	2018/09/02	Rev4	N157AJ	N333TM	Marton Kun-Szabo		Greg Bahnsen		1		Bergseth	1100	4000	17:24	19:39	F	100	0.00	0.00	N	
+735	Aero Tow by Altitude	2018/09/09	Rev4	N213TA	N333TM	Al Rubin	John Miller	Dennis Buschman		2		Bergseth	1100	4100	12:18	12:38	F	100	0.00	0.00	N	
+736	Aero Tow by Altitude	2018/09/09	Rev4	N213TA	N333TM	Brian Roger		Brad Pattison		1		Bergseth	1100	4100	13:04	13:05	T	100	0.00	0.00	N	
+737	Aero Tow by Altitude	2018/09/09	Rev4	N213TA	N333TM	Brian Roger	John Miller	Marla Klein		2		Bergseth	1100	4100	13:21	13:41	C	100	0.00	0.00	N	
+738	Aero Tow by Altitude	2018/09/09	Rev4	N213TA	N333TM	Brian Roger		Kenji Ominato		1		Bergseth	1100	2900	13:24	17:45	T	100	0.00	0.00	N	Flight duration guessed
+739	Aero Tow by Altitude	2018/09/09	Rev4	N213TA	N333TM	Brian Roger		Joe Salz	Roni Boucher	2		Bergseth	1100	4100	13:55	14:27	C	0.00	100	0.00	N	
+740	Aero Tow by Altitude	2018/09/09	Rev4	N157AJ	N333TM	Brian Roger		Robert Rackl		1		Bergseth	1100	3400	14:24	15:26	F	100	0.00	0.00	N	
+741	Aero Tow by Altitude	2018/09/09	Rev4	N213TA	N333TM	Brian Roger		Joe Salz	Neil Dahmen	2		Bergseth	1100	4100	14:38	15:07	M	0.00	100	0.00	N	Gift Cert. #2017389
+742	Aero Tow by Altitude	2018/09/09	Rev4	N213TA	N333TM	Brian Roger		Curt Chenoweth		1		Bergseth	1100	3600	14:50	14:51	T	100	0.00	0.00	N	
+743	Aero Tow by Altitude	2018/09/09	Rev4	N213TA	N333TM	Brian Roger	John Miller	Bryan Monroe		2		Bergseth	1100	4100	15:12	15:45	F	100	0.00	0.00	N	
+744	Aero Tow by Altitude	2018/09/09	Rev4	N157AJ	N333TM	Brian Roger		Greg Bahnsen		1		Bergseth	1100	3600	15:40	19:23	F	100	0.00	0.00	N	
+745	Aero Tow by Altitude	2018/09/09	Rev4	N213TA	N333TM	Brian Roger	John Miller	Tom Klein		2		Bergseth	1100	4100	16:00	16:25	F	100	0.00	0.00	N	
+746	Aero Tow by Altitude	2018/09/09	Rev4	N213TA	N333TM	Brian Roger	John Miller	Grant Nelson		2		Bergseth	1100	3900	16:34	17:07	F	100	0.00	0.00	N	
+747	Aero Tow by Altitude	2018/09/09	Rev4	N213TA	N333TM	Brian Roger	John Miller	Ethan Curtis		2		Bergseth	1100	3900	17:24	17:47	F	100	0.00	0.00	N	
+748	Aero Tow by Altitude	2018/09/09	Rev4	N213TA	N333TM	Brian Roger		Paul Caspell	Robert Rackl	2		Bergseth	1100	3700	18:04	19:13	F	50	50	0.00	N	
+749	Aero Tow by Altitude	2018/09/15	Rev4	N213TA	N333TM	Joe Salz		Marlene Nelson	Brian Roger	2		Bergseth	1100	4000	13:38	14:12	F	100	0.00	0.00	N	
+750	Aero Tow by Altitude	2018/09/15	Rev4	N213TA	N333TM	Brian Roger		Jim Miller	Curt Chenoweth	2		Bergseth	1100	3700	14:35	15:09	F	100	0.00	0.00	N	
+751	Aero Tow by Altitude	2018/09/19	Rev4	N42DJ	N333TM	Al Rubin		Brad Pattison		1		Bergseth	1100	5600	13:23	18:25	T	100	0.00	0.00	N	
+752	Aero Tow by Altitude	2018/09/19	Rev4	N213TA	N333TM	Al Rubin	John Miller	Bryan Monroe		2		Bergseth	1100	4100	13:50	14:14	F	100	0.00	0.00	N	
+753	Aero Tow by Altitude	2018/09/19	Rev4	N157AJ	N333TM	Al Rubin		Robert Rackl		1		Bergseth	1100	3400	14:00	15:21	F	100	0.00	0.00	N	
+754	Aero Tow by Altitude	2018/09/19	Rev4	N213TA	N333TM	Al Rubin	John Miller	Bryan Monroe		2		Bergseth	1100	2100	14:26	14:32	F	100	0.00	0.00	N	
+755	Aero Tow by Altitude	2018/09/19	Rev4	N213TA	N333TM	Al Rubin	John Miller	Bryan Monroe		2		Bergseth	1100	2100	14:43	14:50	F	100	0.00	0.00	N	
+756	Aero Tow by Altitude	2018/09/19	Rev4	N213TA	N333TM	Al Rubin	John Miller	Bryan Monroe		2		Bergseth	1100	1300	15:02	15:04	F	100	0.00	0.00	N	
+757	Aero Tow by Altitude	2018/09/19	Rev4	N213TA	N333TM	Al Rubin	John Miller	Bryan Monroe		2		Bergseth	1100	1400	15:10	15:13	F	100	0.00	0.00	N	
+758	Aero Tow by Altitude	2018/09/19	Rev4	N157AJ	N333TM	Al Rubin		Grant Nelson		1		Bergseth	1100	4200	15:53	18:07	F	100	0.00	0.00	N	
+759	Aero Tow by Altitude	2018/09/19	Rev4	N213TA	N333TM	Al Rubin		Bryan Monroe		1		Bergseth	1100	2100	16:05	16:11	F	100	0.00	0.00	N	First solo in a glider
+760	Aero Tow by Altitude	2018/09/19	Rev4	N213TA	N333TM	Al Rubin		Robert Rackl		1		Bergseth	1100	3400	16:25	17:55	F	100	0.00	0.00	N	
+761	Aero Tow by Altitude	2018/09/23	Rev4	N265BA	N333TM	Marton Kun-Szabo	Eric Haupt	Nikolay Ilduganov		2		Bergseth	1100	3000	11:26	11:45	T	100	0.00	0.00	N	
+762	Aero Tow by Altitude	2018/09/23	Rev4	N213TA	17Z	Ivan Pavlinovic	John Miller	Dave Jones		2		Bergseth	1100	3800	11:39	12:15	G	100	0.00	0.00	N	
+763	Aero Tow by Altitude	2018/09/23	Rev4	N766PW	N333TM	Marton Kun-Szabo		Tim Heneghan	Jens Steinhagen	2		Bergseth	1100	4000	11:50	12:47	F	100	0.00	0.00	N	
+764	Aero Tow by Altitude	2018/09/23	Rev4	N213TA	N333TM	Marton Kun-Szabo	John Miller	Dave Jones		2		Bergseth	1100	2100	12:35	12:42	F	100	0.00	0.00	N	
+765	Aero Tow by Altitude	2018/09/23	Rev4	N379BA	N333TM	Marton Kun-Szabo		Nikolay Ilduganov		1		Bergseth	1100	3100	12:48	13:11	T	100	0.00	0.00	N	
+766	Aero Tow by Altitude	2018/09/23	Rev4	N766PW	17Z	Ivan Pavlinovic	John Miller	Joseph Mitchell		2		Bergseth	1100	4000	13:03	13:24	G	100	0.00	0.00	N	
+767	Aero Tow by Altitude	2018/09/23	Rev4	N265BA	N333TM	Marton Kun-Szabo		Fred Hermanspann	Tom Van de Velde	2		Bergseth	1100	4100	13:18	13:39	T	100	0.00	0.00	N	
+768	Aero Tow by Altitude	2018/09/23	Rev4	N766PW	N333TM	Marton Kun-Szabo		Jim Miller	Paul Caspell	2		Bergseth	1100	4100	13:35	13:56	F	50	50	0.00	N	
+769	Aero Tow by Altitude	2018/09/23	Rev4	N213TA	17Z	Ivan Pavlinovic	Eric Haupt	John Miller		2		Bergseth	1100	2100	13:49	13:54	X	100	0.00	0.00	N	Instructor Flight Review
+770	Aero Tow by Altitude	2018/09/23	Rev4	N265BA	N333TM	Marton Kun-Szabo	Eric Haupt	Oleg Gorenko		2		Bergseth	1100	3000	13:58	14:12	T	100	0.00	0.00	N	
+771	Aero Tow by Altitude	2018/09/23	Rev4	N213TA	N333TM	Marton Kun-Szabo	Eric Haupt	John Miller		2		Bergseth	1100	2100	14:04	14:10	X	100	0.00	0.00	N	Instructor Flight Review
+772	Aero Tow by Altitude	2018/09/23	Rev4	N872	N333TM	Marton Kun-Szabo		Curt Chenoweth		1		Bergseth	1100	3600	14:20	15:33	T	100	0.00	0.00	N	
+773	Aero Tow by Altitude	2018/09/23	Rev4	N213TA	N333TM	Marton Kun-Szabo	Eric Haupt	John Miller		2		Bergseth	1100	1500	14:33	14:35	X	100	0.00	0.00	N	Instructor Flight Review, simulated rope break
+774	Aero Tow by Altitude	2018/09/23	Rev4	N379BA	N333TM	Marton Kun-Szabo		Tom Van de Velde		1		Bergseth	1100	4200	14:40	15:42	T	100	0.00	0.00	N	
+775	Aero Tow by Altitude	2018/09/23	Rev4	N766PW	N333TM	Marton Kun-Szabo	John Miller	Joseph Mitchell		2		Bergseth	1100	4100	14:57	15:25	F	100	0.00	0.00	N	
+776	Aero Tow by Altitude	2018/09/23	Rev4	N766PW	17Z	Ivan Pavlinovic		Jim Miller	Paul Caspell	2		Bergseth	1100	4100	15:40	16:01	G	50	50	0.00	N	
+777	Aero Tow by Altitude	2018/09/23	Rev4	N379BA	N333TM	Marton Kun-Szabo		James Cooper		1		Bergseth	1100	3100	16:03	16:50	T	100	0.00	0.00	N	
+778	Aero Tow by Altitude	2018/09/23	Rev4	N213TA	17Z	Ivan Pavlinovic	John Miller	Dave Jones		2		Bergseth	1100	2100	16:17	16:22	G	100	0.00	0.00	N	
+779	Aero Tow by Altitude	2018/09/23	Rev4	N265BA	N333TM	Joe Salz	Eric Haupt	Brad Johnson		2		Bergseth	1100	3100	16:28	16:44	T	100	0.00	0.00	N	
+780	Aero Tow by Altitude	2018/09/23	Rev4	N213TA	17Z	Ivan Pavlinovic		Greg Bahnsen		1		Bergseth	1100	4300	16:42	17:03	G	100	0.00	0.00	N	
+781	Aero Tow by Altitude	2018/09/23	Rev4	N379BA	N333TM	Marton Kun-Szabo		Oleks Buynytskyy		1		Bergseth	1100	3100	17:03	17:14	T	100	0.00	0.00	N	
+782	Aero Tow by Altitude	2018/09/23	Rev4	N213TA	N333TM	Marton Kun-Szabo	John Miller	Dave Jones		2		Bergseth	1100	2100	17:18	17:24	F	100	0.00	0.00	N	
+783	Aero Tow by Altitude	2018/09/26	Rev4	N42DJ	N333TM	Joe Salz		Brad Pattison		1		Bergseth	1100	6900	13:24	15:57	T	100	0.00	0.00	N	Practiced unassisted T/O
+784	Aero Tow by Altitude	2018/09/26	Rev4	N157AJ	N333TM	Joe Salz		Robert Rackl		1		Bergseth	1100	3400	13:54	15:04	F	100	0.00	0.00	N	
+785	Aero Tow by Altitude	2018/09/26	Rev4	N379BA	N333TM	Joe Salz		Florin Botezatu		1		Bergseth	1100	4500	14:09	15:10	T	100	0.00	0.00	N	Evergreen L-33
+786	Aero Tow by Altitude	2018/09/26	Rev4	N157AJ	N333TM	Joe Salz		Greg Bahnsen		1		Bergseth	1100	4300	15:26	16:03	F	100	0.00	0.00	N	
+787	Aero Tow by Altitude	2018/09/28	Rev4	N42DJ	N333TM	Al Rubin		Brad Pattison		1		Bergseth	1100	5900	13:20	17:27	T	100	0.00	0.00	N	
+788	Aero Tow by Altitude	2018/09/28	Rev4	N300GG	N333TM	Al Rubin		Mike Cook		1		Bergseth	1100	5800	13:40	15:22	T	100	0.00	0.00	N	
+789	Aero Tow by Altitude	2018/09/28	Rev4	N213TA	N333TM	Al Rubin		Paul Caspell	Mike Cook	2		Bergseth	1100	4000	16:30	16:54	F	50	50	0.00	N	
+790	Aero Tow by Altitude	2018/09/29	Rev4	N379BA	N333TM	Benny Harwell		Nikolay Ilduganov		1		Bergseth	1100	3100	12:03	12:23	T	100	0.00	0.00	N	Times are uncertain; $43 cash initially recorded in Clearing Account
+791	Aero Tow by Altitude	2018/09/29	Rev4	N766PW	N333TM	Benny Harwell		Kenji Ominato	Unknown	2		Bergseth	1100	4100	12:17	12:55	C	0.00	100	0.00	N	
+792	Aero Tow by Altitude	2018/09/29	Rev4	N42DJ	N333TM	Benny Harwell		Brad Pattison		1		Bergseth	1100	6200	12:38	14:37	T	100	0.00	0.00	N	
+793	Aero Tow by Altitude	2018/09/29	Rev4	N379BA	N333TM	Benny Harwell		James Cooper		1		Bergseth	1100	3100	13:07	14:03	T	100	0.00	0.00	N	Times are uncertain
+794	Aero Tow by Altitude	2018/09/29	Rev4	N213TA	N333TM	Benny Harwell	Scott Thiel	Dan Rogel		2		Bergseth	1100	4100	13:17	13:37	C	100	0.00	0.00	N	Logbook Sale; $7 cash initially went into Clearing Account
+795	Aero Tow by Altitude	2018/09/29	Rev4	N766PW	N333TM	Benny Harwell		Kenji Ominato	Unknown	2		Bergseth	1100	4100	13:33	14:00	C	0.00	100	0.00	N	
+796	Aero Tow by Altitude	2018/09/29	Rev4	N872	N333TM	Benny Harwell		Curt Chenoweth		1		Bergseth	1100	4100	14:03	14:22	T	100	0.00	0.00	N	
+797	Aero Tow by Altitude	2018/09/29	Rev4	N213TA	N333TM	Benny Harwell	Scott Thiel	Bill Clugston		2		Bergseth	1100	4100	14:20	14:40	C	100	0.00	0.00	N	Gift Cert #2018403
+798	Aero Tow by Altitude	2018/09/29	Rev4	N379BA	N333TM	Benny Harwell		Florin Botezatu		1		Bergseth	1100	3600	14:48	15:50	T	100	0.00	0.00	N	$155 cash initially recorded in Clearing Account
+799	Aero Tow by Altitude	2018/09/29	Rev4	N213TA	N333TM	Benny Harwell		Brad Pattison	Joe Mitchell	2		Bergseth	1100	4100	15:13	15:43	F	0.00	100	0.00	N	
+800	Aero Tow by Altitude	2018/09/29	Rev4	N766PW	N333TM	Benny Harwell		Kenji Ominato	Unknown	2		Bergseth	1100	4100	15:30	16:00	C	0.00	100	0.00	N	Paid for all 3 flights of `Unknown`
+801	Aero Tow by Altitude	2018/09/29	Rev4	N213TA	N333TM	Benny Harwell		Marc Brooks		1		Bergseth	1100	4100	16:55	17:15	F	100	0.00	0.00	N	
+802	Aero Tow by Altitude	2018/09/30	Rev4	N213TA	N333TM	Benny Harwell	John Miller	Lyra Young		2		Bergseth	1100	4100	12:11	12:32	F	100	0.00	0.00	N	
+803	Aero Tow by Altitude	2018/09/30	Rev4	N213TA	N333TM	Benny Harwell	John Miller	Lyra Young		2		Bergseth	1100	4100	12:50	13:09	F	100	0.00	0.00	N	Applied for Youth Membership
+804	Aero Tow by Altitude	2018/09/30	Rev4	N213TA	N333TM	Tim Heneghan	John Miller	Benny Harwell		2		Bergseth	1100	4100	13:39	13:56	F	100	0.00	0.00	N	
+805	Aero Tow by Altitude	2018/09/30	Rev4	N213TA	N333TM	Tim Heneghan	John Miller	Benny Harwell		2		Bergseth	1100	2100	14:05	14:10	F	100	0.00	0.00	N	
+806	Aero Tow by Altitude	2018/09/30	Rev4	N213TA	N333TM	Tim Heneghan	John Miller	Benny Harwell		2		Bergseth	1100	2100	14:19	14:24	F	100	0.00	0.00	N	
+807	Aero Tow by Altitude	2018/09/30	Rev4	N213TA	N333TM	Benny Harwell	John Miller	Bryan Monroe		2		Bergseth	1100	3300	14:47	15:02	F	100	0.00	0.00	N	
+808	Aero Tow by Altitude	2018/09/30	Rev4	N213TA	N333TM	Benny Harwell	John Miller	Bryan Monroe		2		Bergseth	1100	2100	15:13	15:19	F	100	0.00	0.00	N	
+809	Aero Tow by Altitude	2018/09/30	Rev4	N213TA	N333TM	Benny Harwell	John Miller	Dave Jones		2		Bergseth	1100	4200	15:30	16:09	F	100	0.00	0.00	N	
+810	Aero Tow by Altitude	2018/09/30	Rev4	N213TA	N333TM	Benny Harwell	John Miller	Dave Jones		2		Bergseth	1100	2100	16:27	16:33	F	100	0.00	0.00	N	
+811	Aero Tow by Altitude	2018/10/06	Rev4	N213TA	N333TM	Joe Salz		Brad Pattison	Bud Truitt	2		Bergseth	1100	4100	15:18	15:42	M	0.00	100	0.00	N	
+812	Aero Tow by Altitude	2018/10/06	Rev4	N872	N333TM	Joe Salz		Marlene Nelson		1		Bergseth	1100	3200	15:33	16:39	T	100	0.00	0.00	N	
+813	Aero Tow by Altitude	2018/10/06	Rev4	N300GG	N333TM	Joe Salz		Mike Cook		1		Bergseth	1100	3100	15:44	16:00	T	100	0.00	0.00	N	
+814	Aero Tow by Altitude	2018/10/06	Rev4	N213TA	N333TM	Joe Salz		Brad Pattison	Joe Mitchell	2		Bergseth	1100	4200	16:05	16:25	F	0.00	100	0.00	N	
+815	Aero Tow by Altitude	2018/10/06	Rev4	N300GG	N333TM	Joe Salz		Mike Cook		1		Bergseth	1100	3000	16:16	16:36	T	100	0.00	0.00	N	
+816	Aero Tow by Altitude	2018/10/06	Rev4	N213TA	N333TM	Joe Salz		Kenji Ominato		1		Bergseth	1100	3600	16:33	16:53	F	100	0.00	0.00	N	
+817	Aero Tow by Altitude	2018/10/13	Rev4	N766PW	N333TM	Tim Heneghan		Kenji Ominato	Tyler Peterson	2		Bergseth	1100	4100	13:08	13:30	X	100	0.00	0.00	N	Museum of Flight Raffle
+818	Aero Tow by Altitude	2018/10/13	Rev4	N766PW	N333TM	Tim Heneghan		Kenji Ominato	Rio Farmer	2		Bergseth	1100	4700	14:10	14:58	F	100	0.00	0.00	N	
+819	Aero Tow by Altitude	2018/10/13	Rev4	N872	N333TM	Tim Heneghan		Curt Chenoweth		1		Bergseth	1100	3600	14:30	16:50	T	100	0.00	0.00	N	
+820	Aero Tow by Altitude	2018/10/13	Rev4	N300GG	N333TM	Tim Heneghan		Mike Cook		1		Bergseth	1100	3600	14:40	17:00	T	100	0.00	0.00	N	
+821	Aero Tow by Altitude	2018/10/13	Rev4	N766PW	N333TM	Tim Heneghan		Kenji Ominato	Joe Mitchell	2		Bergseth	1100	4100	15:24	16:21	F	0.00	100	0.00	N	
+822	Aero Tow by Altitude	2018/10/13	Rev4	N213TA	N333TM	Tim Heneghan		Brian Halbert		1		Bergseth	1100	2100	16:19	16:24	F	100	0.00	0.00	N	
+823	Aero Tow by Altitude	2018/10/13	Rev4	N766PW	N333TM	Tim Heneghan		Kenji Ominato	Marlene Nelson	2		Bergseth	1100	4100	16:35	17:15	F	100	0.00	0.00	N	
+824	Aero Tow by Altitude	2018/10/13	Rev4	N213TA	N333TM	Tim Heneghan		Brian Halbert		1		Bergseth	1100	4100	16:56	17:18	F	100	0.00	0.00	N	
+825	Aero Tow by Altitude	2018/10/14	Rev4	N766PW	N333TM	Marton Kun-Szabo	John Miller	Donn Bauer		2		Bergseth	1100	4100	12:41	13:05	F	100	0.00	0.00	N	
+826	Aero Tow by Altitude	2018/10/14	Rev4	N766PW	N333TM	Marton Kun-Szabo	John Miller	Eric Brathwaite		2		Bergseth	1100	4100	13:41	13:59	C	100	0.00	0.00	N	
+827	Aero Tow by Altitude	2018/10/14	Rev4	N213TA	N333TM	Marton Kun-Szabo	John Miller	Lyra Young		2		Bergseth	1100	4100	14:17	14:36	F	100	0.00	0.00	N	
+828	Aero Tow by Altitude	2018/10/14	Rev4	N213TA	N333TM	Marton Kun-Szabo		Bryan Monroe		1		Bergseth	1100	4100	14:55	15:14	F	100	0.00	0.00	N	
+829	Aero Tow by Altitude	2018/10/14	Rev4	N872	N333TM	Marton Kun-Szabo		Marlene Nelson		1		Bergseth	1100	4300	15:18	15:44	T	100	0.00	0.00	N	
+830	Aero Tow by Altitude	2018/10/14	Rev4	N766PW	N333TM	Marton Kun-Szabo	John Miller	Donn Bauer		2		Bergseth	1100	4100	15:26	15:43	F	100	0.00	0.00	N	
+831	Aero Tow by Altitude	2018/10/14	Rev4	N213TA	N333TM	Marton Kun-Szabo	John Miller	Lyra Young		2		Bergseth	1100	4200	16:03	16:21	F	100	0.00	0.00	N	$75 for `member purchased gift cert` (??) for auction at Aviation High School
+832	Aero Tow by Altitude	2018/10/14	Rev4	N766PW	N333TM	Marton Kun-Szabo		Kenji Ominato	Joe Mitchell	2		Bergseth	1100	4100	16:23	16:54	F	0.00	100	0.00	N	
+833	Aero Tow by Altitude	2018/10/14	Rev4	N213TA	N333TM	Marton Kun-Szabo		Bryan Monroe		1		Bergseth	1100	4100	16:44	17:02	F	100	0.00	0.00	N	
+834	Aero Tow by Altitude	2018/10/14	Rev4	N766PW	N333TM	Marton Kun-Szabo	John Miller	Eric Brathwaite		2		Bergseth	1100	4100	17:05	17:22	F	100	0.00	0.00	N	
+835	Aero Tow by Altitude	2018/10/20	Rev4	N213TA	N333TM	Marton Kun-Szabo	Scott Thiel	Mike Gowen		2		Bergseth	1100	4100	12:33	12:49	F	100	0.00	0.00	N	
+836	Aero Tow by Altitude	2018/10/20	Rev4	N213TA	N333TM	Marton Kun-Szabo	Scott Thiel	Mike Gowen		2		Bergseth	1100	1500	12:58	13:00	F	100	0.00	0.00	N	Simulated rope break
+837	Aero Tow by Altitude	2018/10/20	Rev4	N213TA	N333TM	Marton Kun-Szabo	Scott Thiel	Mike Gowen		2		Bergseth	1100	2200	13:13	13:19	F	100	0.00	0.00	N	
+838	Aero Tow by Altitude	2018/10/20	Rev4	N213TA	N333TM	Marton Kun-Szabo	Scott Thiel	Mike Cook		2		Bergseth	1100	4100	13:28	13:44	F	100	0.00	0.00	N	
+839	Aero Tow by Altitude	2018/10/20	Rev4	N213TA	N333TM	Marton Kun-Szabo	Scott Thiel	Mike Cook		2		Bergseth	1100	1500	13:51	13:53	F	100	0.00	0.00	N	Simulated rope break
+840	Aero Tow by Altitude	2018/10/20	Rev4	N213TA	N333TM	Marton Kun-Szabo	Scott Thiel	Mike Cook		2		Bergseth	1100	2100	13:58	14:03	F	100	0.00	0.00	N	
+841	Aero Tow by Altitude	2018/10/20	Rev4	N766PW	N333TM	Marton Kun-Szabo	Scott Thiel	Donn Bauer		2		Bergseth	1100	3100	14:18	14:35	F	100	0.00	0.00	N	
+842	Aero Tow by Altitude	2018/10/20	Rev4	N766PW	N333TM	Marton Kun-Szabo	Scott Thiel	Donn Bauer		2		Bergseth	1100	2200	14:45	14:51	F	100	0.00	0.00	N	
+843	Aero Tow by Altitude	2018/10/20	Rev4	N766PW	N333TM	Marton Kun-Szabo		Tim Heneghan	Sean Heneghan	2		Bergseth	1100	4100	15:01	15:19	F	100	0.00	0.00	N	
+844	Aero Tow by Altitude	2018/10/20	Rev4	N766PW	N333TM	Marton Kun-Szabo		Robert Rackl	Brano Mikulik	2		Bergseth	1100	3900	15:37	15:56	F	100	0.00	0.00	N	
+845	Aero Tow by Altitude	2018/10/21	Rev4	N213TA	N333TM	Marton Kun-Szabo		Joe Salz	Deena Casad	2		Bergseth	1100	4100	12:02	12:27	C	0.00	100	0.00	N	
+846	Aero Tow by Altitude	2018/10/21	Rev4	N213TA	N333TM	Marton Kun-Szabo	John Miller	Lyra Young		2		Bergseth	1100	4100	12:36	12:55	F	100	0.00	0.00	N	
+847	Aero Tow by Altitude	2018/10/21	Rev4	N766PW	N333TM	Joe Salz		Kenji Ominato	Josh Jensun	2		Bergseth	1100	4200	13:01	13:23	C	0.00	100	0.00	N	
+848	Aero Tow by Altitude	2018/10/21	Rev4	N213TA	N333TM	Joe Salz	John Miller	Marton Kun-Szabo		2		Bergseth	1100	4100	13:24	13:42	F	100	0.00	0.00	N	
+849	Aero Tow by Altitude	2018/10/21	Rev4	N766PW	N333TM	Joe Salz		Greg Bahnsen	Chloe Churchill	2		Bergseth	1100	4100	14:00	14:25	F	100	0.00	0.00	N	
+850	Aero Tow by Altitude	2018/10/21	Rev4	N766PW	N333TM	Joe Salz	John Miller	Dave Jones		2		Bergseth	1100	4100	14:30	14:45	F	100	0.00	0.00	N	Includes $150 for two $75 gift certs to be sold at benefit auction
+851	Aero Tow by Altitude	2018/10/21	Rev4	N766PW	N333TM	Joe Salz	John Miller	Donn Bauer		2		Bergseth	1100	4100	15:05	15:20	F	100	0.00	0.00	N	
+852	Aero Tow by Altitude	2018/10/21	Rev4	N213TA	N333TM	Joe Salz		Marton Kun-Szabo		1		Bergseth	1100	4100	15:21	15:37	F	100	0.00	0.00	N	
+853	Aero Tow by Altitude	2018/10/21	Rev4	N766PW	N333TM	Joe Salz	John Miller	Donn Bauer		2		Bergseth	1100	4100	15:41	15:58	F	100	0.00	0.00	N	
+854	Aero Tow by Altitude	2018/10/21	Rev4	N213TA	N333TM	Joe Salz		Kenji Ominato	Lane Helgeson	2		Bergseth	1100	4100	15:59	16:20	C	0.00	100	0.00	N	
+855	Aero Tow by Altitude	2018/10/21	Rev4	N766PW	N333TM	Marton Kun-Szabo		Greg Bahnsen	Jayng Isoh	2		Bergseth	1100	4100	16:20	16:42	F	100	0.00	0.00	N	
+856	Aero Tow by Altitude	2018/10/21	Rev4	N766PW	N333TM	Marton Kun-Szabo	John Miller	Donn Bauer		2		Bergseth	1100	4100	16:50	17:10	F	100	0.00	0.00	N	
+857	Aero Tow by Altitude	2018/10/27	Rev4	N213TA	N333TM	Joe Salz		Bryan Monroe		1		Bergseth	1100	4100	12:35	12:55	F	100	0.00	0.00	N	
+858	Aero Tow by Altitude	2018/10/27	Rev4	N213TA	N333TM	Joe Salz		Bryan Monroe		1		Bergseth	1100	4100	13:06	13:22	F	100	0.00	0.00	N	
+859	Aero Tow by Altitude	2018/10/27	Rev4	N157AJ	N333TM	Joe Salz		Tim Heneghan		1		Bergseth	1100	3600	13:21	13:32	F	100	0.00	0.00	N	
+860	Aero Tow by Altitude	2018/10/27	Rev4	N213TA	N333TM	Joe Salz	John Miller	Brano Mikulik		2		Bergseth	1100	4100	13:35	13:53	F	100	0.00	0.00	N	
+861	Aero Tow by Altitude	2018/10/27	Rev4	N157AJ	N333TM	Joe Salz		Mike Cook		1		Bergseth	1100	3600	13:53	14:10	F	100	0.00	0.00	N	
+862	Aero Tow by Altitude	2018/10/30	Rev4	N213TA	N333TM	Tim Heneghan		Joe Salz		1		Bergseth	1100	3000	14:06	14:24	X	100	0.00	0.00	N	Ferry from Bergseth to Evergreen Skyranch for pre-annual maintenance
+863	Aero Tow by Altitude	2019/03/09	Rev4	N213TA	N333TM	Joe Salz		Scott Thiel		1		Bergseth	1100	3600	12:33	12:45	X	100	0.00	0.00	N	
+864	Aero Tow by Altitude	2019/03/09	Rev4	N213TA	N333TM	Joe Salz		Scott Thiel		1		Bergseth	1100	2100	12:50	12:55	X	100	0.00	0.00	N	
+865	Aero Tow by Altitude	2019/03/09	Rev4	N213TA	N333TM	Joe Salz		Scott Thiel		1		Bergseth	1100	2100	13:01	13:06	X	100	0.00	0.00	N	
+866	Aero Tow by Altitude	2019/03/09	Rev4	N213TA	N333TM	Joe Salz	Scott Thiel	Robert Rackl		2		Bergseth	1100	3600	13:21	13:39	F	100	0.00	0.00	Y	
+867	Aero Tow by Altitude	2019/03/09	Rev4	N213TA	N333TM	Joe Salz	Scott Thiel	Robert Seccombe		2		Bergseth	1100	3700	14:09	14:19	F	100	0.00	0.00	Y	
+868	Aero Tow by Altitude	2019/03/09	Rev4	N213TA	N333TM	Joe Salz	Scott Thiel	Robert Seccombe		2		Bergseth	1100	2100	14:34	14:38	F	100	0.00	0.00	N	
+869	Aero Tow by Altitude	2019/03/09	Rev4	N766PW	N333TM	Joe Salz		Mike Cook	Tim Heneghan	2		Bergseth	1100	3100	14:50	15:25	F	50	50	0.00	N	
+870	Aero Tow by Altitude	2019/03/09	Rev4	N766PW	N333TM	Joe Salz	Scott Thiel	Dan Alfus		2		Bergseth	1100	3900	15:04	15:35	F	100	0.00	0.00	N	New regular member
+871	Aero Tow by Altitude	2019/03/09	Rev4	N766PW	N333TM	Joe Salz		Tim Heneghan	Rokas Cesnakauskas	2		Bergseth	1100	4100	15:50	16:40	F	50	50	0.00	N	New regular member
+872	Aero Tow by Altitude	2019/03/09	Rev4	N213TA	N333TM	Joe Salz	Scott Thiel	Mike Cook		2		Bergseth	1100	2100	16:04	16:10	F	100	0.00	0.00	Y	
+873	Aero Tow by Altitude	2019/03/09	Rev4	N213TA	N333TM	Joe Salz		Robert Seccombe		1		Bergseth	1100	4100	16:25	17:15	F	100	0.00	0.00	N	
+874	Aero Tow by Altitude	2019/03/09	Rev4	N766PW	N333TM	Tim Heneghan		Haup		1		Bergseth	1100	1400	16:55	16:56	F	100	0.00	0.00	N	
+875	Aero Tow by Altitude	2019/03/09	Rev4	N766PW	N333TM	Tim Heneghan		Joe Salz		1		Bergseth	1100	2100	17:04	17:07	F	100	0.00	0.00	N	
+876	Aero Tow by Altitude	2019/03/09	Rev4	N766PW	N333TM	Tim Heneghan		Joe Salz		1		Bergseth	1100	1400	17:11	17:12	F	100	0.00	0.00	N	
+877	Aero Tow by Altitude	2019/03/10	Rev4	N213TA	N333TM	Marton Kun-Szabo		John Miller		1		Bergseth	1100	2100	12:43	12:49	X	100	0.00	0.00	N	Instructor currency
+878	Aero Tow by Altitude	2019/03/10	Rev4	N213TA	N333TM	Marton Kun-Szabo		John Miller		1		Bergseth	1100	2100	12:52	12:58	X	100	0.00	0.00	N	Instructor currency
+879	Aero Tow by Altitude	2019/03/10	Rev4	N213TA	N333TM	Marton Kun-Szabo		John Miller		1		Bergseth	1100	2100	13:08	13:13	X	100	0.00	0.00	N	Instructor currency
+880	Aero Tow by Altitude	2019/03/10	Rev4	N766PW	N333TM	Marton Kun-Szabo		Mike Cook		1		Bergseth	1100	4100	13:49	14:25	F	100	0.00	0.00	N	
+881	Aero Tow by Altitude	2019/03/10	Rev4	N213TA	N333TM	Marton Kun-Szabo		Tim Heneghan		1		Bergseth	1100	3100	14:02	14:27	F	100	0.00	0.00	N	
+882	Aero Tow by Altitude	2019/03/10	Rev4	N766PW	N333TM	Marton Kun-Szabo	John Miller	Greg Bahnsen		2		Bergseth	1100	4100	14:42	15:06	F	100	0.00	0.00	Y	
+883	Aero Tow by Altitude	2019/03/10	Rev4	N213TA	N333TM	Marton Kun-Szabo		Greg Bahnsen		1		Bergseth	1100	2100	16:02	16:08	F	100	0.00	0.00	N	
+884	Aero Tow by Altitude	2019/03/10	Rev4	N213TA	N333TM	Marton Kun-Szabo		Greg Bahnsen		1		Bergseth	1100	2500	16:22	16:48	X	100	0.00	0.00	N	Reposition to Evergreen Sky Ranch
+885	Aero Tow by Altitude	2019/03/16	Rev4	N213TA	N333TM	Benny Harwell		Tim Heneghan		1		Bergseth	1100	1600	10:00	10:03	X	100	0.00	0.00	N	Test wheel brake
+886	Aero Tow by Altitude	2019/03/16	Rev4	N213TA	N333TM	Benny Harwell		Tim Heneghan		1		Bergseth	1100	2400	10:10	10:22	X	100	0.00	0.00	N	Reposition from Evergreen Sky Ranch to Bergseth
+887	Aero Tow by Altitude	2019/03/16	Rev4	N766PW	N333TM	Bob Stoney		Robert Rackl		1		Bergseth	1100	2100	11:51	11:57	F	100	0.00	0.00	N	
+888	Aero Tow by Altitude	2019/03/16	Rev4	N766PW	N333TM	Bob Stoney		Robert Rackl		1		Bergseth	1100	2100	12:01	12:05	F	100	0.00	0.00	N	
+889	Aero Tow by Altitude	2019/03/16	Rev4	N213TA	N333TM	Bob Stoney	John Miller	Brian Halbert		2		Bergseth	1100	3200	12:12	12:26	F	100	0.00	0.00	Y	
+890	Aero Tow by Altitude	2019/03/16	Rev4	N766PW	N333TM	Bob Stoney		Robert Rackl	Martin Ullrich	2		Bergseth	1100	4100	12:45	13:06	F	100	0.00	0.00	N	
+891	Aero Tow by Altitude	2019/03/16	Rev4	N213TA	N333TM	Bob Stoney		Brian Halbert		1		Bergseth	1100	2100	13:00	13:07	F	100	0.00	0.00	N	
+892	Aero Tow by Altitude	2019/03/16	Rev4	N766PW	N333TM	Bob Stoney	John Miller	Benny Harwell		2		Bergseth	1100	4100	13:15	13:35	F	100	0.00	0.00	Y	
+893	Aero Tow by Altitude	2019/03/16	Rev4	N157AJ	N333TM	Bob Stoney		Marton Kun-Szabo		1		Bergseth	1100	4100	13:33	13:56	F	100	0.00	0.00	N	
+894	Aero Tow by Altitude	2019/03/16	Rev4	N766PW	N333TM	Bob Stoney	John Miller	Bryan Monroe		2		Bergseth	1100	4100	14:01	14:20	F	100	0.00	0.00	N	
+895	Aero Tow by Altitude	2019/03/16	Rev4	N157AJ	N333TM	Bob Stoney		Mike Cook		1		Bergseth	1100	3100	14:16	14:32	F	100	0.00	0.00	N	
+896	Aero Tow by Altitude	2019/03/16	Rev4	N213TA	N333TM	Bob Stoney	John Miller	Dan Alfus		2		Bergseth	1100	4100	15:08	15:29	F	100	0.00	0.00	N	
+897	Aero Tow by Altitude	2019/03/16	Rev4	N157AJ	N333TM	Bob Stoney		Marton Kun-Szabo		1		Bergseth	1100	4100	15:22	15:45	F	100	0.00	0.00	N	
+898	Aero Tow by Altitude	2019/03/16	Rev4	N766PW	N333TM	Bob Stoney		Rokas Cesnakauskas	Tim Heneghan	2		Bergseth	1100	4100	15:40	16:02	F	50	50	0.00	N	
+899	Aero Tow by Altitude	2019/03/16	Rev4	N157AJ	N333TM	Bob Stoney		Bryan Monroe		1		Bergseth	1100	4100	16:00	16:20	F	100	0.00	0.00	N	
+900	Aero Tow by Altitude	2019/03/16	Rev4	N766PW	N333TM	Bob Stoney		Robert Rackl	Martin Ullrich	2		Bergseth	1100	4300	16:14	16:40	F	100	0.00	0.00	N	
+901	Aero Tow by Altitude	2019/03/17	Rev4	N157AJ	N333TM	Al Rubin		Bryan Monroe		1		Bergseth	1100	4100	12:19	12:40	F	100	0.00	0.00	N	
+902	Aero Tow by Altitude	2019/03/17	Rev4	N766PW	N333TM	Al Rubin		Mike Gowen		1		Bergseth	1100	4100	12:36	12:54	F	100	0.00	0.00	N	
+903	Aero Tow by Altitude	2019/03/17	Rev4	N157AJ	N333TM	Al Rubin		Mike Cook		1		Bergseth	1100	4100	12:55	13:17	F	100	0.00	0.00	N	
+904	Aero Tow by Altitude	2019/03/17	Rev4	N766PW	N333TM	Al Rubin		Marlene Nelson		1		Bergseth	1100	4100	13:10	13:32	F	100	0.00	0.00	N	
+905	Aero Tow by Altitude	2019/03/17	Rev4	N157AJ	N333TM	Al Rubin		Marton Kun-Szabo		1		Bergseth	1100	3100	13:50	14:10	F	100	0.00	0.00	N	
+906	Aero Tow by Altitude	2019/03/17	Rev4	N766PW	N333TM	Al Rubin		Mike Gowen		1		Bergseth	1100	3500	14:20	15:02	F	100	0.00	0.00	N	
+907	Aero Tow by Altitude	2019/03/17	Rev4	N157AJ	N333TM	Al Rubin		Bryan Monroe		1		Bergseth	1100	3300	14:40	14:55	F	100	0.00	0.00	N	
+908	Aero Tow by Altitude	2019/03/17	Rev4	N157AJ	N333TM	Al Rubin		Marton Kun-Szabo		1		Bergseth	1100	3100	15:05	16:13	F	100	0.00	0.00	N	
+909	Aero Tow by Altitude	2019/03/17	Rev4	N766PW	N333TM	Al Rubin		Tim Heneghan	Mike Cook	2		Bergseth	1100	4100	15:17	15:39	F	50	50	0.00	N	
+910	Aero Tow by Altitude	2019/03/17	Rev4	N766PW	N333TM	Al Rubin		Mike Gowen		1		Bergseth	1100	3500	16:22	17:03	F	100	0.00	0.00	N	
+911	Aero Tow by Altitude	2019/03/17	Rev4	N157AJ	N333TM	Al Rubin		Greg Bahnsen		1		Bergseth	1100	3800	16:37	17:37	F	100	0.00	0.00	N	
+912	Aero Tow by Altitude	2019/03/23	Rev4	N213TA	N333TM	Joe Salz	Scott Thiel	Jim Miller		2		Bergseth	1100	1400	12:38	12:40	F	100	0.00	0.00	N	
+913	Aero Tow by Altitude	2019/03/23	Rev4	N213TA	N333TM	Joe Salz	Scott Thiel	Jim Miller		2		Bergseth	1100	3800	12:49	13:25	F	100	0.00	0.00	N	
+914	Aero Tow by Altitude	2019/03/23	Rev4	N213TA	N333TM	Joe Salz	Scott Thiel	Jim Miller		2		Bergseth	1100	2100	13:32	13:38	F	100	0.00	0.00	N	
+915	Aero Tow by Altitude	2019/03/23	Rev4	N4TE	N333TM	Joe Salz		Kenji Ominato		1		Bergseth	1100	3900	13:43	16:05	T	100	0.00	0.00	N	
+916	Aero Tow by Altitude	2019/03/23	Rev4	N766PW	N333TM	Joe Salz	Scott Thiel	Brian Halbert		2		Bergseth	1100	3800	14:11	14:33	F	100	0.00	0.00	N	
+917	Aero Tow by Altitude	2019/03/23	Rev4	N766PW	N333TM	Joe Salz	Scott Thiel	Brian Halbert		2		Bergseth	1100	3800	14:45	15:06	F	100	0.00	0.00	N	
+918	Aero Tow by Altitude	2019/03/30	Rev4	N213TA	N333TM	Benny Harwell		Grant Smith	Tim Heneghan	2		Bergseth	1100	1400	10:00	10:02	X	100	0.00	0.00	N	Instructor currency
+919	Aero Tow by Altitude	2019/03/30	Rev4	N213TA	N333TM	Benny Harwell		Grant Smith	Tim Heneghan	2		Bergseth	1100	1400	10:07	10:09	X	100	0.00	0.00	N	Instructor currency
+920	Aero Tow by Altitude	2019/03/30	Rev4	N213TA	N333TM	Benny Harwell		Grant Smith	Tim Heneghan	2		Bergseth	1100	2100	10:22	10:29	X	100	0.00	0.00	N	Instructor currency
+921	Aero Tow by Altitude	2019/03/30	Rev4	N213TA	N333TM	Benny Harwell	Grant Smith	Rokas Cesnakauskas		2		Bergseth	1100	3800	10:50	11:07	F	100	0.00	0.00	N	
+922	Aero Tow by Altitude	2019/03/30	Rev4	N213TA	N333TM	Dan Alfus	Grant Smith	Rokas Cesnakauskas		2		Bergseth	1100	2100	11:18	11:28	F	100	0.00	0.00	N	
+923	Aero Tow by Altitude	2019/03/30	Rev4	N213TA	N333TM	Dan Alfus	Grant Smith	Rokas Cesnakauskas		2		Bergseth	1100	2100	11:33	11:43	F	100	0.00	0.00	N	
+924	Aero Tow by Altitude	2019/03/30	Rev4	N213TA	N333TM	Benny Harwell	Grant Smith	Dave Allen		2		Bergseth	1100	3100	12:00	12:18	F	100	0.00	0.00	N	
+925	Aero Tow by Altitude	2019/03/30	Rev4	N213TA	N333TM	Joe Salz	Grant Smith	Dave Allen		2		Bergseth	1100	2100	12:26	12:33	F	100	0.00	0.00	N	
+926	Aero Tow by Altitude	2019/03/30	Rev4	N213TA	N333TM	Joe Salz		Dave Allen		1		Bergseth	1100	3200	12:41	13:02	F	100	0.00	0.00	N	
+927	Aero Tow by Altitude	2019/03/30	Rev4	N766PW	N333TM	Joe Salz		Benny Harwell		1		Bergseth	1100	4100	13:06	14:04	F	100	0.00	0.00	N	
+928	Aero Tow by Altitude	2019/03/30	Rev4	N213TA	N333TM	Benny Harwell	Grant Smith	Rokas Cesnakauskas		2		Bergseth	1100	2400	13:22	14:20	F	100	0.00	0.00	N	
+929	Aero Tow by Altitude	2019/03/30	Rev4	DG	DG	Tim Heneghan		Tim Heneghan		1		Bergseth	1100	2100	13:25	18:25	X	100	0.00	0.00	N	Tow altitude guessed - self launch
+930	Aero Tow by Altitude	2019/03/30	Rev4	N213TA	N333TM	Dan Alfus		Kenji Ominato		1		Bergseth	1100	6300	13:54	18:35	T	100	0.00	0.00	N	
+931	Aero Tow by Altitude	2019/03/30	Rev4	N21PT	N333TM	Dan Alfus		Robert Rackl		1		Bergseth	1100	3700	14:31	15:50	T	100	0.00	0.00	N	
+932	Aero Tow by Altitude	2019/03/30	Rev4	N213TA	N333TM	Dan Alfus		Dave Allen		1		Bergseth	1100	3100	14:50	15:48	F	100	0.00	0.00	N	
+933	Aero Tow by Altitude	2019/03/30	Rev4	N766PW	N333TM	Bryan Monroe	Grant Smith	Arunas Banionis		2		Bergseth	1100	3300	15:13	16:29	F	100	0.00	0.00	N	New regular member
+934	Aero Tow by Altitude	2019/03/30	Rev4	N213TA	N333TM	Benny Harwell		Dan Alfus		1		Bergseth	1100	2100	16:00	16:10	F	100	0.00	0.00	N	
+935	Aero Tow by Altitude	2019/03/30	Rev4	N213TA	N333TM	Benny Harwell		Dan Alfus		1		Bergseth	1100	2100	16:16	16:22	F	100	0.00	0.00	N	
+936	Aero Tow by Altitude	2019/03/30	Rev4	N766PW	N333TM	Benny Harwell		Marlene Nelson		1		Bergseth	1100	3300	16:33	18:11	F	100	0.00	0.00	N	
+937	Aero Tow by Altitude	2019/03/30	Rev4	N766PW	N333TM	Benny Harwell	Grant Smith	Brian Halbert		2		Bergseth	1100	3100	16:40	17:00	F	100	0.00	0.00	N	
+938	Aero Tow by Altitude	2019/03/30	Rev4	N766PW	N333TM	Al Rubin	Grant Smith	Dave Allen		2		Bergseth	1100	2600	17:22	17:33	F	100	0.00	0.00	N	
+939	Aero Tow by Altitude	2019/03/30	Rev4	N766PW	N333TM	Al Rubin		Dave Allen	Rainy Allen	2		Bergseth	1100	3100	17:47	18:25	F	100	0.00	0.00	N	
+940	Aero Tow by Altitude	2019/03/31	Rev4	N213TA	N333TM	Bob Stoney	Grant Smith	Rokas Cesnakauskas		2		Bergseth	1100	1400	11:00	11:02	F	100	0.00	0.00	N	
+941	Aero Tow by Altitude	2019/03/31	Rev4	N213TA	N333TM	Bob Stoney		Rokas Cesnakauskas		1		Bergseth	1100	3100	11:20	11:33	F	100	0.00	0.00	N	
+942	Aero Tow by Altitude	2019/03/31	Rev4	N157AJ	N333TM	Bob Stoney		Brian Halbert		1		Bergseth	1100	3200	11:49	12:05	F	100	0.00	0.00	N	
+943	Aero Tow by Altitude	2019/03/31	Rev4	N4TE	N333TM	Bob Stoney		Kenji Ominato		1		Bergseth	1100	5500	12:03	17:10	T	100	0.00	0.00	N	
+944	Aero Tow by Altitude	2019/03/31	Rev4	N213TA	N333TM	Bob Stoney	Grant Smith	Brano Mikulik		2		Bergseth	1100	3100	12:25	12:38	F	100	0.00	0.00	N	
+945	Aero Tow by Altitude	2019/03/31	Rev4	N213TA	N333TM	Bob Stoney	Grant Smith	Brano Mikulik		2		Bergseth	1100	1400	12:40	12:43	F	100	0.00	0.00	N	
+946	Aero Tow by Altitude	2019/03/31	Rev4	N213TA	N333TM	Bob Stoney	Grant Smith	Brano Mikulik		2		Bergseth	1100	2100	12:47	12:52	F	100	0.00	0.00	N	
+947	Aero Tow by Altitude	2019/03/31	Rev4	N766PW	N333TM	Bob Stoney	John Miller	Arunas Banionis		2		Bergseth	1100	4100	13:08	14:02	F	100	0.00	0.00	N	
+948	Aero Tow by Altitude	2019/03/31	Rev4	N157AJ	N333TM	Bob Stoney		Greg Bahnsen		1		Bergseth	1100	3000	14:06	15:40	F	100	0.00	0.00	N	
+949	Aero Tow by Altitude	2019/03/31	Rev4	N213TA	N333TM	Bob Stoney		Brano Mikulik	Paul Caspell	2		Bergseth	1100	2600	14:20	16:34	F	50	50	0.00	N	
+950	Aero Tow by Altitude	2019/03/31	Rev4	N766PW	N333TM	Bob Stoney	John Miller	Rokas Cesnakauskas		2		Bergseth	1100	4100	14:58	15:38	F	100	0.00	0.00	N	
+951	Aero Tow by Altitude	2019/03/31	Rev4	N766PW	N333TM	Bob Stoney	John Miller	Arunas Banionis		2		Bergseth	1100	4100	15:59	16:30	F	100	0.00	0.00	N	
+952	Aero Tow by Altitude	2019/03/31	Rev4	N157AJ	N333TM	Al Rubin		Rokas Cesnakauskas		1		Bergseth	1100	3100	17:25	17:42	F	100	0.00	0.00	N	
+953	Aero Tow by Altitude	2019/04/20	Rev4	N766PW	N333TM	Dan Alfus		Kenji Ominato	Mike Cook	2		Bergseth	1100	2350	13:50	14:03	F	50	50	0.00	N	
+954	Aero Tow by Altitude	2019/04/20	Rev4	N766PW	N333TM	Dan Alfus		Mike Gowen	Brian Halbert	2		Bergseth	1100	2500	14:17	14:27	F	50	50	0.00	N	
+955	Aero Tow by Altitude	2019/04/20	Rev4	N300GG	N333TM	Dan Alfus		Mike Cook		1		Bergseth	1100	3000	14:36	15:06	T	100	0.00	0.00	N	
+956	Aero Tow by Altitude	2019/04/20	Rev4	N4TE	N333TM	Dan Alfus		Kenji Ominato		1		Bergseth	1100	3200	14:48	18:08	T	100	0.00	0.00	N	
+957	Aero Tow by Altitude	2019/04/20	Rev4	N157AJ	N333TM	Bryan Monroe		Brian Halbert		1		Bergseth	1100	2900	15:21	15:42	F	100	0.00	0.00	N	
+958	Aero Tow by Altitude	2019/04/20	Rev4	N300GG	N333TM	Bryan Monroe		Mike Cook		1		Bergseth	1100	3000	15:34	16:24	T	100	0.00	0.00	N	
+959	Aero Tow by Altitude	2019/04/20	Rev4	N157AJ	N333TM	Bryan Monroe		Rokas Cesnakauskas		1		Bergseth	1100	3100	16:00	16:47	F	100	0.00	0.00	N	
+960	Aero Tow by Altitude	2019/04/20	Rev4	N872	N333TM	Bryan Monroe		Marlene Nelson		1		Bergseth	1100	3000	16:13	17:55	T	100	0.00	0.00	N	
+961	Aero Tow by Altitude	2019/04/20	Rev4	N213TA	N333TM	Bryan Monroe	Scott Thiel	Paul Caspell		2		Bergseth	1100	3000	16:28	16:42	F	100	0.00	0.00	Y	
+962	Aero Tow by Altitude	2019/04/27	Rev4	N213TA	N333TM	Marton Kun-Szabo		Dariush Zand	Grant Smith	2		Bergseth	1100	2500	11:33	12:07	F	100	0.00	0.00	N	
+963	Aero Tow by Altitude	2019/04/27	Rev4	N213TA	N333TM	Marton Kun-Szabo		Dariush Zand	Grant Smith	2		Bergseth	1100	1500	12:17	12:18	F	100	0.00	0.00	N	
+964	Aero Tow by Altitude	2019/04/27	Rev4	N213TA	N333TM	Marton Kun-Szabo		Dariush Zand	Grant Smith	2		Bergseth	1100	3700	12:27	13:03	F	100	0.00	0.00	N	
+965	Aero Tow by Altitude	2019/04/27	Rev4	N213TA	N333TM	Marton Kun-Szabo		Kenji Ominato		1		Bergseth	1100	4100	13:23	14:23	F	100	0.00	0.00	N	
+966	Aero Tow by Altitude	2019/04/27	Rev4	N872	N333TM	Marton Kun-Szabo		Curt Chenoweth		1		Bergseth	1100	3600	15:40	17:20	T	100	0.00	0.00	N	
+967	Aero Tow by Altitude	2019/04/28	Rev4	N4TE	N333TM	Bryan Monroe		Kenji Ominato		1		Bergseth	1100	3500	12:00	16:02	T	100	0.00	0.00	N	
+968	Aero Tow by Altitude	2019/04/28	Rev4	N766PW	N333TM	Bryan Monroe		Robert Rackl	Rokas Cesnakauskas	2		Bergseth	1100	3600	12:17	13:54	F	50	50	0.00	N	Rokas check #1052
+969	Aero Tow by Altitude	2019/04/28	Rev4	N213TA	N333TM	Bryan Monroe		Dan Alfus	Grant Smith	2		Bergseth	1100	4200	12:32	13:37	F	100	0.00	0.00	N	
+970	Aero Tow by Altitude	2019/04/28	Rev4	N872	N333TM	Bryan Monroe		Marlene Nelson		1		Bergseth	1100	3200	12:48	15:01	T	100	0.00	0.00	N	
+971	Aero Tow by Altitude	2019/04/28	Rev4	N157AJ	N333TM	Bryan Monroe		Marton Kun-Szabo		1		Bergseth	1100	4100	12:59	15:09	F	100	0.00	0.00	N	
+972	Aero Tow by Altitude	2019/04/28	Rev4	N213TA	N333TM	Bryan Monroe		Mike Gowen		1		Bergseth	1100	4100	13:49	15:52	F	100	0.00	0.00	N	Landed out in Howard Hanson Dam Water Shed
+973	Aero Tow by Altitude	2019/04/28	Rev4	N766PW	N333TM	Bryan Monroe		Arunas Banionis	Grant Smith	2		Bergseth	1100	4200	14:22	16:53	F	100	0.00	0.00	N	
+974	Aero Tow by Altitude	2019/04/28	Rev4	N766PW	N333TM	Marton Kun-Szabo		Dariush Zand		1		Bergseth	1100	3600	17:09	18:20	F	100	0.00	0.00	N	
+975	Aero Tow by Altitude	2019/05/04	Rev4	N766PW	N333TM	Dan Alfus		Tim Heneghan	Mike Cook	2		Bergseth	1100	3900	12:11	12:56	F	0.00	100	0.00	N	
+976	Aero Tow by Altitude	2019/05/04	Rev4	N213TA	N333TM	Dan Alfus		Dave Allen	Grant Smith	2		Bergseth	1100	3000	12:45	13:04	F	100	0.00	0.00	N	
+977	Aero Tow by Altitude	2019/05/04	Rev4	N42DJ	N333TM	Dan Alfus		Brad Pattison		1		Bergseth	1100	3600	13:20	16:00	T	100	0.00	0.00	N	
+978	Aero Tow by Altitude	2019/05/04	Rev4	N872	N333TM	Dan Alfus		Curt Chenoweth		1		Bergseth	1100	3400	13:31	16:35	T	100	0.00	0.00	N	
+979	Aero Tow by Altitude	2019/05/04	Rev4	N766PW	N333TM	Dan Alfus		Robert Seccombe	Grant Smith	2		Bergseth	1100	4100	13:43	14:33	F	100	0.00	0.00	N	
+980	Aero Tow by Altitude	2019/05/04	Rev4	N300GG	N333TM	Dan Alfus		Mike Cook		1		Bergseth	1100	4100	13:57	16:39	T	100	0.00	0.00	N	
+981	Aero Tow by Altitude	2019/05/04	Rev4	N157AJ	N333TM	Dan Alfus		Brian Halbert		1		Bergseth	1100	4100	14:12	16:12	F	100	0.00	0.00	N	
+982	Aero Tow by Altitude	2019/05/04	Rev4	N213TA	N333TM	Dan Alfus		Dave Allen	Dean	2		Bergseth	1100	4100	14:26	16:05	F	100	0.00	0.00	N	
+983	Aero Tow by Altitude	2019/05/04	Rev4	N766PW	N333TM	Al Rubin		Rokas Cesnakauskas	Grant Smith	2		Bergseth	1100	3100	14:50	15:55	F	100	0.00	0.00	N	
+984	Aero Tow by Altitude	2019/05/04	Rev4	N766PW	N333TM	Dan Alfus		Robert Seccombe		1		Bergseth	1100	3400	16:21	17:33	F	100	0.00	0.00	N	
+985	Aero Tow by Altitude	2019/05/04	Rev4	N157AJ	N333TM	Dan Alfus		Rokas Cesnakauskas		1		Bergseth	1100	3200	16:44	18:07	F	100	0.00	0.00	N	
+986	Aero Tow by Altitude	2019/05/04	Rev4	N213TA	N333TM	Dan Alfus		Dave Allen	Grant Smith	2		Bergseth	1100	3200	17:01	18:03	F	100	0.00	0.00	N	
+987	Aero Tow by Altitude	2019/05/05	Rev4	N213TA	N333TM	Bob Stoney	Grant Smith	Lyra Young		2		Bergseth	1100	3700	12:48	13:58	F	100	0.00	0.00	N	
+988	Aero Tow by Altitude	2019/05/05	Rev4	N766PW	N333TM	Bob Stoney		Tim Heneghan	Rich Aldredge	2		Bergseth	1100	3700	13:02	13:46	F	100	0.00	0.00	N	
+989	Aero Tow by Altitude	2019/05/05	Rev4	N872	N333TM	Bob Stoney		Marlene Nelson		1		Bergseth	1100	3000	13:16	16:00	T	100	0.00	0.00	N	
+990	Aero Tow by Altitude	2019/05/05	Rev4	N300GG	N333TM	Bob Stoney		Mike Cook		1		Bergseth	1100	3200	13:26	16:14	T	100	0.00	0.00	N	
+991	Aero Tow by Altitude	2019/05/05	Rev4	N766PW	N333TM	Bob Stoney		Joe Salz	Mo Aouinti	2		Bergseth	1100	4100	14:02	14:40	C	0.00	100	0.00	N	Gift Cert #2019124
+992	Aero Tow by Altitude	2019/05/05	Rev4	N213TA	N333TM	Bob Stoney	John Miller	Hana Nevins		2		Bergseth	1100	4100	14:27	15:20	C	100	0.00	0.00	N	Payment not received from Square Inc.
+993	Aero Tow by Altitude	2019/05/05	Rev4	N766PW	N333TM	Bob Stoney		Joe Salz	Marksyn Mamochka	2		Bergseth	1100	4100	15:07	15:28	C	0.00	100	0.00	N	
+994	Aero Tow by Altitude	2019/05/05	Rev4	N157AJ	N333TM	Bob Stoney		Greg Bahnsen		1		Bergseth	1100	3600	15:26	16:57	F	100	0.00	0.00	N	
+995	Aero Tow by Altitude	2019/05/05	Rev4	N213TA	N333TM	Bob Stoney		Karl Hadley	Curt Chenoweth	2		Bergseth	1100	3000	15:40	17:25	F	100	0.00	0.00	N	
+996	Aero Tow by Altitude	2019/05/05	Rev4	N766PW	N333TM	Bob Stoney	John Miller	Hana Nevins		2		Bergseth	1100	4100	16:00	16:48	F	100	0.00	0.00	N	
+997	Aero Tow by Altitude	2019/05/08	Rev4	N766PW	N333TM	Tim Heneghan		Joe Salz	Mark Babcock	2		Evergreen Sky Ranch	600	3600	15:00	15:20	F	100	0.00	0.00	N	
+998	Aero Tow by Altitude	2019/05/08	Rev4	N766PW	N333TM	Joe Salz		Tim Heneghan	Dave Lawrence	2		Evergreen Sky Ranch	600	3600	15:40	16:00	F	100	0.00	0.00	N	
+999	Aero Tow by Altitude	2019/05/09	Rev4	N766PW	N333TM	Al Rubin		Tim Heneghan	Karma Kauffman	2		Evergreen Sky Ranch	600	3600	13:30	13:50	F	100	0.00	0.00	N	
+1000	Aero Tow by Altitude	2019/05/09	Rev4	N766PW	N333TM	Al Rubin		Tim Heneghan	Doug Aldredge	2		Evergreen Sky Ranch	600	3600	14:15	14:35	F	100	0.00	0.00	N	
+1001	Aero Tow by Altitude	2019/05/09	Rev4	N766PW	N333TM	Al Rubin		Tim Heneghan	Melind Hansen	2		Evergreen Sky Ranch	600	3500	14:45	15:15	F	100	0.00	0.00	N	
+1002	Aero Tow by Altitude	2019/05/09	Rev4	N766PW	N333TM	Al Rubin		Joe Salz	Brandon Tapero	2		Evergreen Sky Ranch	600	3500	16:30	17:00	F	100	0.00	0.00	N	
+1003	Aero Tow by Altitude	2019/05/09	Rev4	N766PW	N333TM	Joe Salz		Tim Heneghan	Pam Tapero	2		Evergreen Sky Ranch	600	3500	17:15	17:45	F	100	0.00	0.00	N	
+1004	Aero Tow by Altitude	2019/05/10	Rev4	N766PW	N333TM	Joe Salz		Tim Heneghan	Leo Donlinger	2		Evergreen Sky Ranch	600	4000	12:50	13:20	F	100	0.00	0.00	N	
+1005	Aero Tow by Altitude	2019/05/10	Rev4	N766PW	N333TM	Al Rubin		Tim Heneghan	Karen Flynn	2		Evergreen Sky Ranch	600	4000	15:30	16:10	F	100	0.00	0.00	N	
+1006	Aero Tow by Altitude	2019/05/10	Rev4	N766PW	N333TM	Al Rubin		Tim Heneghan	Trevor Muma	2		Evergreen Sky Ranch	600	3500	16:30	17:00	F	100	0.00	0.00	N	
+1007	Aero Tow by Altitude	2019/05/11	Rev4	N766PW	N333TM	Benny Harwell	Scott Thiel	Jeff Huiatt		2		Bergseth	1100	4100	11:48	12:36	X	100	0.00	0.00	N	Winner of drawing at Aviation Show in Puyallup
+1008	Aero Tow by Altitude	2019/05/11	Rev4	N4TE	N333TM	Benny Harwell		Kenji Ominato		1		Bergseth	1100	6500	12:42	16:12	T	100	0.00	0.00	N	
+1009	Aero Tow by Altitude	2019/05/11	Rev4	N766PW	N333TM	Benny Harwell		Dariush Zand	Palmer Gillet	2		Bergseth	1100	4100	13:23	14:17	C	0.00	100	0.00	N	
+1010	Aero Tow by Altitude	2019/05/11	Rev4	N157AJ	N333TM	Benny Harwell		Robert Seccombe		1		Bergseth	1100	3100	13:38	14:14	F	100	0.00	0.00	N	
+1011	Aero Tow by Altitude	2019/05/11	Rev4	N766PW	N333TM	Benny Harwell	Scott Thiel	Richard McDonald		2		Bergseth	1100	4100	14:33	15:06	C	100	0.00	0.00	N	
+1012	Aero Tow by Altitude	2019/05/11	Rev4	N157AJ	N333TM	Benny Harwell		Bryan Monroe		1		Bergseth	1100	3100	14:54	15:05	F	100	0.00	0.00	N	
+1013	Aero Tow by Altitude	2019/05/11	Rev4	N766PW	N333TM	Benny Harwell		Robert Rackl	Paul Caspell	2		Bergseth	1100	3600	15:32	17:28	F	50	50	0.00	N	
+1014	Aero Tow by Altitude	2019/05/11	Rev4	N157AJ	N333TM	Benny Harwell		Robert Seccombe		1		Bergseth	1100	3100	15:50	16:37	F	100	0.00	0.00	N	
+1015	Aero Tow by Altitude	2019/05/11	Rev4	N766PW	N333TM	Benny Harwell		Tim Heneghan	Mike Latta	2		Evergreen Sky Ranch	600	3600	10:45	11:15	F	100	0.00	0.00	N	
+1016	Aero Tow by Altitude	2019/05/12	Rev4	N213TA	N333TM	Marton Kun-Szabo		Dariush Zand	Kevin Cantwell	2		Bergseth	1100	4100	13:10	13:27	C	0.00	100	0.00	N	
+1017	Aero Tow by Altitude	2019/05/12	Rev4	N766PW	N333TM	Marton Kun-Szabo		Marlene Nelson	Anita	2		Bergseth	1100	4100	13:27	13:49	F	100	0.00	0.00	N	
+1018	Aero Tow by Altitude	2019/05/12	Rev4	N213TA	N333TM	Marton Kun-Szabo		Jim Miller		1		Bergseth	1100	3500	13:42	14:00	F	100	0.00	0.00	N	
+1019	Aero Tow by Altitude	2019/05/12	Rev4	N766PW	N333TM	Marton Kun-Szabo		Dariush Zand	Joanne Treat	2		Bergseth	1100	4100	14:47	15:05	C	0.00	100	0.00	N	
+1020	Aero Tow by Altitude	2019/05/12	Rev4	N213TA	N333TM	Marton Kun-Szabo	Grant Smith	Hailee Wilson		2		Bergseth	1100	4100	15:03	15:44	F	100	0.00	0.00	N	New regular member
+1021	Aero Tow by Altitude	2019/05/12	Rev4	N766PW	N333TM	Marton Kun-Szabo		Dariush Zand	Sean Galan	2		Bergseth	1100	4300	15:23	15:54	F	100	0.00	0.00	N	
+1022	Aero Tow by Altitude	2019/05/12	Rev4	N872	N333TM	Marton Kun-Szabo		Curt Chenoweth		1		Bergseth	1100	3600	15:41	16:10	T	100	0.00	0.00	N	
+1023	Aero Tow by Altitude	2019/05/12	Rev4	N213TA	N333TM	Marton Kun-Szabo	Grant Smith	Hailee Wilson		2		Bergseth	1100	4100	15:55	16:50	F	100	0.00	0.00	N	
+1024	Aero Tow by Altitude	2019/05/12	Rev4	N766PW	N333TM	Marton Kun-Szabo		Marlene Nelson		1		Bergseth	1100	2500	17:55	18:13	X	100	0.00	0.00	N	Ferry to Evergreen Sky Ranch
+1025	Aero Tow by Altitude	2019/05/13	Rev4	N766PW	N333TM	Joe Salz		Tim Heneghan	Shane Mahoney	2		Evergreen Sky Ranch	600	3600	14:45	15:15	F	100	0.00	0.00	N	
+1026	Aero Tow by Altitude	2019/05/13	Rev4	N766PW	N333TM	Joe Salz		Tim Heneghan	Sophia	2		Evergreen Sky Ranch	600	3500	15:30	16:00	F	100	0.00	0.00	N	
+1027	Aero Tow by Altitude	2019/05/13	Rev4	N766PW	N333TM	Tim Heneghan		Joe Salz	Carol Aldredge	2		Evergreen Sky Ranch	600	3500	16:20	16:55	F	100	0.00	0.00	N	
+1028	Aero Tow by Altitude	2019/05/16	Rev4	N766PW	N333TM	Joe Salz		Tim Heneghan	Larry Kauffman	2		Evergreen Sky Ranch	600	4000	15:00	15:30	F	100	0.00	0.00	N	
+1029	Aero Tow by Altitude	2019/05/16	Rev4	N766PW	N333TM	Tim Heneghan		Joe Salz	Daniel Kauffman	2		Evergreen Sky Ranch	600	3500	16:30	16:50	F	100	0.00	0.00	N	
+1030	Aero Tow by Altitude	2019/05/18	Rev4	N300GG	N333TM	Dan Alfus		Mike Cook		1		Bergseth	1100	6600	11:44	14:30	T	100	0.00	0.00	N	
+1031	Aero Tow by Altitude	2019/05/18	Rev4	N4TE	N333TM	Dan Alfus		Kenji Ominato		1		Bergseth	1100	6300	12:15	17:30	T	100	0.00	0.00	N	
+1032	Aero Tow by Altitude	2019/05/18	Rev4	N766PW	N333TM	Dan Alfus		Mike Gowen		1		Bergseth	1100	4100	12:40	13:54	F	100	0.00	0.00	N	
+1033	Aero Tow by Altitude	2019/05/18	Rev4	N213TA	N333TM	Dan Alfus	John Miller	Curt Chenoweth		2		Bergseth	1100	4100	12:56	13:14	F	100	0.00	0.00	N	
+1034	Aero Tow by Altitude	2019/05/18	Rev4	N157AJ	N333TM	Dan Alfus		Brian Halbert		1		Bergseth	1100	4100	13:11	14:11	F	100	0.00	0.00	N	
+1035	Aero Tow by Altitude	2019/05/18	Rev4	N213TA	N333TM	Dan Alfus	John Miller	Curt Chenoweth		2		Bergseth	1100	2100	13:24	13:33	F	100	0.00	0.00	N	
+1036	Aero Tow by Altitude	2019/05/18	Rev4	N213TA	N333TM	Dan Alfus	John Miller	Curt Chenoweth		2		Bergseth	1100	2100	13:42	13:48	F	100	0.00	0.00	N	
+1037	Aero Tow by Altitude	2019/05/18	Rev4	N213TA	N333TM	Dan Alfus	John Miller	Marlene Nelson		2		Bergseth	1100	4100	14:26	14:48	F	100	0.00	0.00	N	
+1038	Aero Tow by Altitude	2019/05/18	Rev4	N766PW	N333TM	Dan Alfus		Robert Rackl	Paul Caspell	2		Bergseth	1100	3600	14:40	15:25	F	50	50	0.00	N	
+1039	Aero Tow by Altitude	2019/05/18	Rev4	N157AJ	N333TM	Dan Alfus		Robert Seccombe		1		Bergseth	1100	3100	14:50	16:00	F	100	0.00	0.00	N	
+1040	Aero Tow by Altitude	2019/05/18	Rev4	N213TA	N333TM	Dan Alfus	John Miller	Marlene Nelson		2		Bergseth	1100	2100	15:06	15:12	F	100	0.00	0.00	N	
+1041	Aero Tow by Altitude	2019/05/18	Rev4	N213TA	N333TM	Dan Alfus	John Miller	Marlene Nelson		2		Bergseth	1100	2100	15:26	15:32	F	100	0.00	0.00	N	
+1042	Aero Tow by Altitude	2019/05/18	Rev4	N766PW	N333TM	Dan Alfus		Joe Salz	Quentin	2	Bryan Monroe	Bergseth	1100	4100	15:43	16:17	F	0.00	0.00	100	N	B Monroe`s son
+1043	Aero Tow by Altitude	2019/05/18	Rev4	N213TA	N333TM	Dan Alfus	John Miller	Hannah Dahlquist		2		Bergseth	1100	4100	16:10	16:34	C	100	0.00	0.00	N	
+1044	Aero Tow by Altitude	2019/05/18	Rev4	N766PW	N333TM	Dan Alfus		Joe Salz	Sammie	2	Bryan Monroe	Bergseth	1100	4100	16:29	16:55	F	0.00	0.00	100	N	B Monroe`s daughter
+1045	Aero Tow by Altitude	2019/05/18	Rev4	N213TA	N333TM	Dan Alfus	John Miller	Nate McKay		2		Bergseth	1100	4100	16:51	17:11	C	100	0.00	0.00	N	For Hannah and Nate
+1046	Aero Tow by Altitude	2019/05/18	Rev4	N766PW	N333TM	Dan Alfus		Joe Salz	Colby	2	Bryan Monroe	Bergseth	1100	4100	17:08	17:30	F	0.00	0.00	100	N	B Monroe`s son
+1047	Aero Tow by Altitude	2019/05/18	Rev4	N766PW	N333TM	Dan Alfus		Michael Bishton		1		Bergseth	1100	4100	17:45	18:05	F	100	0.00	0.00	N	
+1048	Aero Tow by Altitude	2019/05/18	Rev4	N766PW	N333TM	Joe Salz		Tim Heneghan	Rich Aldredge	2		Evergreen Sky Ranch	600	4000	10:30	11:10	F	100	0.00	0.00	N	Landed at Bergseth Field
+1049	Aero Tow by Altitude	2019/05/27	Rev4	N4TE	N333TM	Marton Kun-Szabo		Kenji Ominato		1		Bergseth	1100	4000	11:59	17:10	T	100	0.00	0.00	N	
+1050	Aero Tow by Altitude	2019/05/27	Rev4	N157AJ	N333TM	Marton Kun-Szabo		Robert Seccombe		1		Bergseth	1100	3500	12:20	12:37	F	100	0.00	0.00	N	
+1051	Aero Tow by Altitude	2019/05/27	Rev4	N157AJ	N333TM	Bryan Monroe		Marton Kun-Szabo		1		Bergseth	1100	3500	13:00	13:22	F	100	0.00	0.00	N	
+1052	Aero Tow by Altitude	2019/05/27	Rev4	N157AJ	N333TM	Marton Kun-Szabo		Robert Seccombe		1		Bergseth	1100	3400	13:35	14:32	F	100	0.00	0.00	N	
+1053	Aero Tow by Altitude	2019/05/27	Rev4	N157AJ	N333TM	Bryan Monroe		Marton Kun-Szabo		1		Bergseth	1100	3800	14:45	15:50	F	100	0.00	0.00	N	
+1054	Aero Tow by Altitude	2019/05/27	Rev4	N157AJ	N333TM	Marton Kun-Szabo		Bryan Monroe		1		Bergseth	1100	4300	16:07	16:54	F	100	0.00	0.00	N	
+1055	Aero Tow by Altitude	2019/06/01	Rev4	N766PW	N333TM	Al Rubin		Tim Heneghan	Brian Tschabold	2		Bergseth	1100	4100	12:32	12:57	C	0.00	100	0.00	N	Gift Cert #2019127
+1056	Aero Tow by Altitude	2019/06/01	Rev4	N213TA	N333TM	John Miller		Joe Salz	Mike Grijalva	2		Bergseth	1100	4100	12:52	13:13	C	0.00	100	0.00	N	
+1057	Aero Tow by Altitude	2019/06/01	Rev4	N766PW	N333TM	Tim Heneghan	John Miller	Jim Grijalva		2		Bergseth	1100	4100	13:26	13:47	C	100	0.00	0.00	N	
+1058	Aero Tow by Altitude	2019/06/01	Rev4	N766PW	N333TM	Al Rubin		Joe Salz	Brandon Rosales	2	Al Rubin	Bergseth	1100	4100	14:10	14:35	X	0.00	0.00	100	N	r4 petitioned PSSA Board for free flight
+1059	Aero Tow by Altitude	2019/06/01	Rev4	N213TA	N333TM	Tim Heneghan	John Miller	Roberto Rosales		2	Al Rubin	Bergseth	1100	4100	14:47	15:14	X	0.00	0.00	100	N	r4 petitioned PSSA Board for free flight
+1060	Aero Tow by Altitude	2019/06/01	Rev4	N766PW	N333TM	Tim Heneghan		Brad Pattison	Julie Ferrari	2		Bergseth	1100	4100	15:10	15:35	C	0.00	100	0.00	N	
+1061	Aero Tow by Altitude	2019/06/01	Rev4	N21PT	N333TM	John Miller		Robert Rackl		1		Bergseth	1100	4400	15:36	16:34	T	100	0.00	0.00	N	
+1062	Aero Tow by Altitude	2019/06/01	Rev4	N766PW	N333TM	Tim Heneghan		Mike Gowen		1		Bergseth	1100	4100	15:51	16:31	F	100	0.00	0.00	N	
+1063	Aero Tow by Altitude	2019/06/01	Rev4	N766PW	N333TM	Tim Heneghan		Brad Pattison	Cindy Wilson	2		Bergseth	1100	4100	17:27	18:15	C	0.00	100	0.00	N	Gift Cert #2019131
+1064	Aero Tow by Altitude	2019/06/02	Rev4	N766PW	N333TM	Bryan Monroe		Brano Mikulik	Mike Cook	2		Bergseth	1100	3000	12:44	13:16	F	50	50	0.00	N	
+1065	Aero Tow by Altitude	2019/06/02	Rev4	N766PW	N333TM	Bryan Monroe		Tim Heneghan	Mike Cook	2		Bergseth	1100	4100	14:09	15:13	F	50	50	0.00	N	
+1066	Aero Tow by Altitude	2019/06/02	Rev4	N213TA	N333TM	Bryan Monroe		Marlene Nelson	Doug Bakken	2		Bergseth	1100	4000	14:54	15:22	F	100	0.00	0.00	N	
+1067	Aero Tow by Altitude	2019/06/02	Rev4	N766PW	N333TM	Bryan Monroe		Joe Salz	Victor Vodak	2		Bergseth	1100	4100	15:31	16:06	C	0.00	100	0.00	N	
+1068	Aero Tow by Altitude	2019/06/02	Rev4	N213TA	N333TM	Bryan Monroe		Brano Mikulik		1		Bergseth	1100	3600	15:57	17:05	F	100	0.00	0.00	N	
+1069	Aero Tow by Altitude	2019/06/02	Rev4	N766PW	N333TM	Bryan Monroe		Marlene Nelson	Jan Bakken	2		Bergseth	1100	4100	16:22	16:58	F	100	0.00	0.00	N	
+1070	Aero Tow by Altitude	2019/06/02	Rev4	N157AJ	N333TM	Bryan Monroe		Greg Bahnsen		1		Bergseth	1100	4200	17:23	19:26	F	100	0.00	0.00	N	
+1071	Aero Tow by Altitude	2019/06/08	Rev4	N213TA	N333TM	Benny Harwell	Scott Thiel	Eric Haupt		2		Bergseth	1100	3700	13:03	13:21	X	100	0.00	0.00	N	Instructor Currency
+1072	Aero Tow by Altitude	2019/06/08	Rev4	N213TA	N333TM	Benny Harwell		Eric Haupt		1		Bergseth	1100	2100	13:46	13:53	X	100	0.00	0.00	N	Instructor Currency
+1073	Aero Tow by Altitude	2019/06/08	Rev4	N213TA	N333TM	Benny Harwell		Eric Haupt		1		Bergseth	1100	2100	13:59	14:06	X	100	0.00	0.00	N	Instructor Currency
+1074	Aero Tow by Altitude	2019/06/08	Rev4	N157AJ	N333TM	Benny Harwell		Marton Kun-Szabo		1		Bergseth	1100	3300	14:42	15:56	F	100	0.00	0.00	N	
+1075	Aero Tow by Altitude	2019/06/08	Rev4	N213TA	N333TM	Benny Harwell	Eric Haupt	Steve Forslund		2		Bergseth	1100	3600	14:52	15:12	F	100	0.00	0.00	N	New Member
+1076	Aero Tow by Altitude	2019/06/08	Rev4	N872	N333TM	Benny Harwell		Curt Chenoweth		1		Bergseth	1100	3500	15:05	17:20	T	100	0.00	0.00	N	
+1077	Aero Tow by Altitude	2019/06/08	Rev4	N213TA	N333TM	Benny Harwell	Scott Thiel	Joe Salz		2		Bergseth	1100	1400	15:24	15:27	F	100	0.00	0.00	N	Flight Review
+1078	Aero Tow by Altitude	2019/06/08	Rev4	N213TA	N333TM	Benny Harwell	Scott Thiel	Joe Salz		2		Bergseth	1100	3600	15:33	15:47	F	100	0.00	0.00	N	Flight Review
+1079	Aero Tow by Altitude	2019/06/08	Rev4	N213TA	N333TM	Al Rubin	Scott Thiel	Joe Salz		2		Bergseth	1100	2100	15:58	16:07	F	100	0.00	0.00	N	Flight Review
+1080	Aero Tow by Altitude	2019/06/08	Rev4	N213TA	N333TM	Al Rubin	Scott Thiel	Steve Forslund		2		Bergseth	1100	3800	16:28	16:45	F	100	0.00	0.00	N	
+1081	Aero Tow by Altitude	2019/06/09	Rev4	N213TA	N333TM	Dan Alfus	John Miller	Anna Lewis		2		Bergseth	1100	4100	13:45	14:20	F	100	0.00	0.00	N	Logbook sale
+1082	Aero Tow by Altitude	2019/06/09	Rev4	N157AJ	N333TM	Dan Alfus		Rokas Cesnakauskas		1		Bergseth	1100	4100	14:03	14:30	F	100	0.00	0.00	N	
+1083	Aero Tow by Altitude	2019/06/09	Rev4	N157AJ	N333TM	Dan Alfus		Greg Bahnsen		1		Bergseth	1100	5000	14:47	16:15	F	100	0.00	0.00	N	
+1084	Aero Tow by Altitude	2019/06/09	Rev4	N213TA	N333TM	Dan Alfus		Eric Haupt	Robert Rackl	2		Bergseth	1100	4100	15:03	15:40	F	50	50	0.00	N	
+1085	Aero Tow by Altitude	2019/06/09	Rev4	N157AJ	N333TM	Dan Alfus		Bryan Monroe		1		Bergseth	1100	4500	16:37	17:03	F	100	0.00	0.00	N	
+1086	Aero Tow by Altitude	2019/06/09	Rev4	N213TA	N333TM	Dan Alfus		Brian Halbert		1		Bergseth	1100	4300	17:04	17:47	F	100	0.00	0.00	N	Check amount $307 to include payment for Anna Lewis log book
+1087	Aero Tow by Altitude	2019/06/15	Rev4	N213TA	N333TM	Marton Kun-Szabo		Joe Salz	Josh Downey	2		Bergseth	1100	3900	12:48	13:17	C	0.00	100	0.00	N	Bought a logbook
+1088	Aero Tow by Altitude	2019/06/15	Rev4	N213TA	N333TM	Marton Kun-Szabo		Dan Alfus		1		Bergseth	1100	3800	13:33	13:58	F	100	0.00	0.00	N	
+1089	Aero Tow by Altitude	2019/06/15	Rev4	N872	N333TM	Marton Kun-Szabo		Marlene Nelson		1		Bergseth	1100	3500	14:01	16:41	T	100	0.00	0.00	N	
+1090	Aero Tow by Altitude	2019/06/15	Rev4	N42DJ	N333TM	Marton Kun-Szabo		Brad Pattison		1		Bergseth	1100	2400	14:21	17:22	T	100	0.00	0.00	N	
+1091	Aero Tow by Altitude	2019/06/15	Rev4	N21PT	N333TM	Marton Kun-Szabo		Robert Rackl		1		Bergseth	1100	4500	14:45	16:49	T	100	0.00	0.00	N	
+1092	Aero Tow by Altitude	2019/06/15	Rev4	N213TA	N333TM	Marton Kun-Szabo	John Miller	Mario Padilla		2		Bergseth	1100	4100	15:09	15:35	C	100	0.00	0.00	N	
+1093	Aero Tow by Altitude	2019/06/15	Rev4	N157AJ	N333TM	Marton Kun-Szabo		Bryan Monroe		1		Bergseth	1100	4100	15:39	16:07	F	100	0.00	0.00	N	
+1094	Aero Tow by Altitude	2019/06/15	Rev4	N213TA	N333TM	Marton Kun-Szabo		Joe Salz	Steinar Engevik	2		Bergseth	1100	4100	15:52	16:15	C	0.00	100	0.00	N	
+1095	Aero Tow by Altitude	2019/06/15	Rev4	N213TA	N333TM	Marton Kun-Szabo	John Miller	Dave Jones		2		Bergseth	1100	4100	16:40	16:56	F	100	0.00	0.00	N	On Account
+1096	Aero Tow by Altitude	2019/06/15	Rev4	N157AJ	N333TM	Marton Kun-Szabo		Bryan Monroe		1		Bergseth	1100	4100	16:55	18:03	F	100	0.00	0.00	N	
+1097	Aero Tow by Altitude	2019/06/16	Rev4	N213TA	N333TM	Bryan Monroe		Mike Gowen		1		Bergseth	1100	4100	13:45	14:06	F	100	0.00	0.00	N	
+1098	Aero Tow by Altitude	2019/06/16	Rev4	N213TA	N333TM	Bryan Monroe		Jim Miller		1		Bergseth	1100	4000	15:12	15:26	F	100	0.00	0.00	N	
+1099	Aero Tow by Altitude	2019/06/16	Rev4	N213TA	N333TM	Bryan Monroe		Jim Miller		1		Bergseth	1100	4200	16:10	16:55	F	100	0.00	0.00	N	
+1100	Aero Tow by Altitude	2019/06/16	Rev4	N213TA	N333TM	Bryan Monroe		Greg Bahnsen		1		Bergseth	1100	4200	17:12	18:21	F	100	0.00	0.00	N	
+1101	Aero Tow by Altitude	2019/06/22	Rev4	N213TA	N333TM	Marton Kun-Szabo		Dan Alfus		1		Bergseth	1100	2100	14:30	14:38	F	100	0.00	0.00	N	
+1102	Aero Tow by Altitude	2019/06/22	Rev4	N213TA	N333TM	Marton Kun-Szabo	John Miller	Kenji Ominato		2		Bergseth	1100	2600	14:53	15:02	F	100	0.00	0.00	N	
+1103	Aero Tow by Altitude	2019/06/22	Rev4	N213TA	N333TM	Marton Kun-Szabo	John Miller	Kenji Ominato		2		Bergseth	1100	2100	15:10	15:17	F	100	0.00	0.00	N	
+1104	Aero Tow by Altitude	2019/06/22	Rev4	N213TA	N333TM	Marton Kun-Szabo	John Miller	Kenji Ominato		2		Bergseth	1100	2100	15:28	15:34	F	100	0.00	0.00	N	
+1105	Aero Tow by Altitude	2019/06/23	Rev4	N766PW	30Y	Unknown Pilot		Marton Kun-Szabo	Tim Heneghan	2		Methow Valley State	1706	6000	12:00	13:20	G	50	50	0.00	N	Tow altitude and takeoff time guessed
+1106	Aero Tow by Altitude	2019/06/23	Rev4	N157AJ	N333TM	Marton Kun-Szabo		Mike Cook		1		Methow Valley State	1706	6000	12:00	13:20	X	100	0.00	0.00	N	Tow altitude and takeoff time guessed
+1107	Aero Tow by Altitude	2019/06/23	Rev4	N766PW	30Y	Unknown Pilot		Brian Halbert	Joe Salz	2		Methow Valley State	1706	6000	14:00	14:50	G	50	50	0.00	N	Tow altitude and takeoff time guessed
+1108	Aero Tow by Altitude	2019/06/24	Rev4	N157AJ	N333TM	Joe Salz		Marton Kun-Szabo		1		Methow Valley State	1706	6000	11:49	14:29	G	100	0.00	0.00	N	Tow altitude guessed
+1109	Aero Tow by Altitude	2019/06/24	Rev4	N766PW	30Y	Unknown Pilot		Benny Harwell	Tim Heneghan	2		Methow Valley State	1706	6000	12:08	13:28	G	50	50	0.00	N	Tow altitude guessed
+1110	Aero Tow by Altitude	2019/06/24	Rev4	N766PW	30Y	Unknown Pilot		Brian Halbert	Mike Cook	2		Methow Valley State	1706	6000	14:40	15:40	G	50	50	0.00	N	Tow altitude guessed
+1111	Aero Tow by Altitude	2019/06/24	Rev4	N766PW	30Y	Unknown Pilot		Joe Salz	David Harris	2		Methow Valley State	1706	4706	16:03	16:25	C	0.00	100	0.00	N	
+1112	Aero Tow by Altitude	2019/06/25	Rev4	N157AJ	N333TM	Joe Salz		Benny Harwell		1		Methow Valley State	1706	4700	09:50	10:10	G	100	0.00	0.00	N	First solo in PW-5
+1113	Aero Tow by Altitude	2019/06/26	Rev4	N766PW	30Y	Unknown Pilot		Rokas Cesnakauskas	Tim Heneghan	2		Methow Valley State	1706	6000	11:45	13:33	G	50	50	0.00	N	Release altitude guessed
+1114	Aero Tow by Altitude	2019/06/26	Rev4	N766PW	30Y	Unknown Pilot		Joe Salz	Shane Ruoss	2		Methow Valley State	1706	4700	13:59	14:37	C	0.00	100	0.00	N	
+1115	Aero Tow by Altitude	2019/06/27	Rev4	N157AJ	30Y	Unknown Pilot		Rokas Cesnakauskas		1		Methow Valley State	1706	6000	12:00	12:38	G	100	0.00	0.00	N	
+1116	Aero Tow by Altitude	2019/06/30	Rev4	N213TA	N333TM	Dan Alfus	John Miller	Dave Jones		2		Bergseth	1100	4300	14:00	14:30	F	100	0.00	0.00	N	
+1117	Aero Tow by Altitude	2019/06/30	Rev4	N766PW	N333TM	Dan Alfus		Jim Miller	Harry Rector	2		Bergseth	1100	3700	14:25	14:50	F	100	0.00	0.00	N	
+1118	Aero Tow by Altitude	2019/06/30	Rev4	N213TA	N333TM	Dan Alfus		Kenji Ominato	Kazumichi Ominato	2		Bergseth	1100	4100	14:55	15:35	F	100	0.00	0.00	N	
+1119	Aero Tow by Altitude	2019/06/30	Rev4	N766PW	N333TM	Dan Alfus		John Miller	Robert Colton	2	Grant Nelson	Bergseth	1100	4100	15:20	16:00	F	0.00	0.00	100	N	
+1120	Aero Tow by Altitude	2019/06/30	Rev4	N766PW	N333TM	Dan Alfus	John Miller	Grant Nelson		2		Bergseth	1100	3500	16:21	16:52	F	100	0.00	0.00	N	
+1121	Aero Tow by Altitude	2019/06/30	Rev4	N157AJ	N333TM	Dan Alfus		Bryan Monroe		1		Bergseth	1100	3300	16:38	17:40	F	100	0.00	0.00	N	
+1122	Aero Tow by Altitude	2019/06/30	Rev4	N766PW	N333TM	Dan Alfus	John Miller	Dave Jones		2		Bergseth	1100	2200	17:06	17:15	F	100	0.00	0.00	N	
+1123	Aero Tow by Altitude	2019/07/06	Rev4	N213TA	N333TM	Benny Harwell		Joe Salz	Nolen Leavit	2		Bergseth	1100	4100	13:07	13:29	C	0.00	100	0.00	N	
+1124	Aero Tow by Altitude	2019/07/06	Rev4	N213TA	N333TM	Benny Harwell		Joe Salz	Gary Baker	2		Bergseth	1100	4100	13:41	14:02	C	0.00	100	0.00	N	
+1125	Aero Tow by Altitude	2019/07/06	Rev4	N213TA	N333TM	Benny Harwell		Joe Salz	Dennis Hicks	2		Bergseth	1100	4100	14:17	14:40	C	0.00	100	0.00	N	
+1126	Aero Tow by Altitude	2019/07/06	Rev4	N213TA	N333TM	Joe Salz		Benny Harwell		1		Bergseth	1100	3200	14:50	15:08	F	100	0.00	0.00	N	
+1127	Aero Tow by Altitude	2019/07/06	Rev4	N213TA	N333TM	Al Rubin		Kenji Ominato	Mike Cook	2		Bergseth	1100	4100	15:23	18:00	F	50	50	0.00	N	
+1128	Aero Tow by Altitude	2019/07/07	Rev4	N213TA	N333TM	Bob Stoney	John Miller	Dave Jones		2		Bergseth	1100	3000	13:38	13:52	F	100	0.00	0.00	N	
+1129	Aero Tow by Altitude	2019/07/07	Rev4	N213TA	N333TM	Bob Stoney	John Miller	Dave Jones		2		Bergseth	1100	2100	14:05	14:12	F	100	0.00	0.00	N	
+1130	Aero Tow by Altitude	2019/07/07	Rev4	N213TA	N333TM	Bob Stoney	John Miller	Dave Jones		2		Bergseth	1100	2100	14:21	14:27	F	100	0.00	0.00	N	
+1131	Aero Tow by Altitude	2019/07/07	Rev4	N213TA	N333TM	Bob Stoney	John Miller	Dave Jones		2		Bergseth	1100	2100	14:41	14:48	F	100	0.00	0.00	N	
+1132	Aero Tow by Altitude	2019/07/07	Rev4	N213TA	N333TM	Bob Stoney		Mike Gowen	Family Member	2		Bergseth	1100	2900	15:20	15:34	F	100	0.00	0.00	N	
+1133	Aero Tow by Altitude	2019/07/07	Rev4	N213TA	N333TM	Bob Stoney		Mike Gowen	Family Member	2		Bergseth	1100	3100	15:48	16:01	F	100	0.00	0.00	N	
+1134	Aero Tow by Altitude	2019/07/07	Rev4	N213TA	N333TM	Bob Stoney		Mike Gowen	Family Member	2		Bergseth	1100	3100	16:14	16:28	F	100	0.00	0.00	N	
+1135	Aero Tow by Altitude	2019/07/07	Rev4	N213TA	N333TM	Bob Stoney		Mike Gowen	Family Member	2		Bergseth	1100	3100	16:38	16:52	F	100	0.00	0.00	N	
+1136	Aero Tow by Altitude	2019/07/13	Rev4	N213TA	N333TM	Dave Allen		Dan Alfus	His Sister	2		Bergseth	1100	3100	13:04	13:20	F	100	0.00	0.00	N	
+1137	Aero Tow by Altitude	2019/07/13	Rev4	N213TA	N333TM	Dave Allen	John Miller	Ehren Brav		2		Bergseth	1100	3800	13:55	14:17	M	100	0.00	0.00	N	FAST 488898
+1138	Aero Tow by Altitude	2019/07/13	Rev4	N213TA	N333TM	Dave Allen	John Miller	Dave Jones		2		Bergseth	1100	3800	14:39	14:53	F	100	0.00	0.00	N	
+1139	Aero Tow by Altitude	2019/07/13	Rev4	N872	N333TM	Dave Allen		Marlene Nelson		1		Bergseth	1100	3400	14:56	17:27	T	100	0.00	0.00	N	
+1140	Aero Tow by Altitude	2019/07/13	Rev4	N300GG	N333TM	Dave Allen		Mike Cook		1		Bergseth	1100	3800	15:11	17:36	T	100	0.00	0.00	N	
+1141	Aero Tow by Altitude	2019/07/13	Rev4	N766PW	N333TM	Dave Allen	John Miller	Arunas Banionis		2		Bergseth	1100	4100	15:26	15:49	F	100	0.00	0.00	N	
+1142	Aero Tow by Altitude	2019/07/13	Rev4	N213TA	N333TM	Dave Allen		Joe Salz	Steve Lippard	2		Bergseth	1100	4100	15:40	16:12	M	0.00	100	0.00	N	Gift Cert #2017355
+1143	Aero Tow by Altitude	2019/07/13	Rev4	N766PW	N333TM	Dave Allen		Grant Nelson		1		Bergseth	1100	1400	16:01	16:03	F	100	0.00	0.00	N	
+1144	Aero Tow by Altitude	2019/07/13	Rev4	N766PW	N333TM	Dave Allen		Grant Nelson		1		Bergseth	1100	4100	16:08	16:58	F	100	0.00	0.00	N	
+1145	Aero Tow by Altitude	2019/07/13	Rev4	N213TA	N333TM	Dave Allen		Joe Salz	Tom Miller	2		Bergseth	1100	4100	16:30	17:00	C	0.00	100	0.00	N	Gift Cert #2019132
+1146	Aero Tow by Altitude	2019/07/13	Rev4	N766PW	N333TM	Dave Allen	John Miller	Arunas Banionis		2		Bergseth	1100	2100	17:14	17:20	F	100	0.00	0.00	N	
+1147	Aero Tow by Altitude	2019/07/13	Rev4	N213TA	N333TM	Dave Allen		Joe Salz	Beth Joswick	2		Bergseth	1100	4100	17:25	17:50	F	0.00	100	0.00	N	
+1148	Aero Tow by Altitude	2019/07/13	Rev4	N213TA	N333TM	Dave Allen		Paul Caspell	Mike Gowen	2		Bergseth	1100	4100	18:01	19:42	F	50	50	0.00	N	
+1149	Aero Tow by Altitude	2019/07/14	Rev4	N4TE	N333TM	Bryan Monroe		Kenji Ominato		1		Bergseth	1100	6100	12:31	17:54	T	100	0.00	0.00	N	
+1150	Aero Tow by Altitude	2019/07/14	Rev4	N766PW	N333TM	Bryan Monroe		Joe Salz	James Sampson	2		Bergseth	1100	4200	13:10	13:33	C	0.00	100	0.00	N	Gift Cert #2019136
+1151	Aero Tow by Altitude	2019/07/14	Rev4	N766PW	N333TM	Bryan Monroe		Joe Salz	Sidney Joswick	2		Bergseth	1100	4100	13:53	14:13	C	0.00	100	0.00	N	
+1152	Aero Tow by Altitude	2019/07/14	Rev4	N213TA	N333TM	Bryan Monroe	Brad Pattison	Nick Swanson		2		Bergseth	1100	4100	14:18	15:00	F	100	0.00	0.00	N	New Youth Member
+1153	Aero Tow by Altitude	2019/07/14	Rev4	N766PW	N333TM	Bryan Monroe		Joe Salz	Mike Joswick	2		Bergseth	1100	4100	14:32	14:58	C	0.00	100	0.00	N	
+1154	Aero Tow by Altitude	2019/07/14	Rev4	N213TA	N333TM	Bryan Monroe		Brad Pattison	Joe McHugh	2		Bergseth	1100	4200	15:30	16:20	C	0.00	100	0.00	N	Gift Cert #2019133
+1155	Aero Tow by Altitude	2019/07/14	Rev4	N766PW	N333TM	Bryan Monroe		Tim Heneghan	Cristina McHugh	2		Bergseth	1100	4100	15:46	16:25	C	0.00	100	0.00	N	
+1156	Aero Tow by Altitude	2019/07/14	Rev4	N300GG	N333TM	Bryan Monroe		Mike Cook		1		Bergseth	1100	4100	16:00	17:20	T	100	0.00	0.00	N	
+1157	Aero Tow by Altitude	2019/07/14	Rev4	N213TA	N333TM	Bryan Monroe		Jim Miller	Eric Henson	2		Bergseth	1100	4100	16:37	18:15	F	100	0.00	0.00	N	
+1158	Aero Tow by Altitude	2019/07/14	Rev4	N766PW	N333TM	Bryan Monroe		Paul Caspell	Greg Bahnsen	2		Bergseth	1100	4100	17:09	18:45	F	50	50	0.00	N	
+1159	Aero Tow by Altitude	2019/07/20	Rev4	N213TA	N333TM	Marton Kun-Szabo	Grant Smith	Debra Wilbur		2		Bergseth	1100	4100	11:50	12:16	C	100	0.00	0.00	N	
+1160	Aero Tow by Altitude	2019/07/20	Rev4	N213TA	N333TM	Marton Kun-Szabo	Grant Smith	Janet Ramos		2		Bergseth	1100	4100	12:32	13:06	M	100	0.00	0.00	N	#2018407
+1161	Aero Tow by Altitude	2019/07/20	Rev4	N213TA	N333TM	Marton Kun-Szabo	Grant Smith	Chris Kiehn		2		Bergseth	1100	4100	13:18	14:03	C	100	0.00	0.00	N	#2018408
+1162	Aero Tow by Altitude	2019/07/20	Rev4	N157AJ	N333TM	Marton Kun-Szabo		Robert Rackl		1		Bergseth	1100	4200	13:40	14:11	F	100	0.00	0.00	N	
+1163	Aero Tow by Altitude	2019/07/20	Rev4	N872	N333TM	Marton Kun-Szabo		Curt Chenoweth		1		Bergseth	1100	3600	13:53	14:42	T	100	0.00	0.00	N	
+1164	Aero Tow by Altitude	2019/07/20	Rev4	N300GG	N333TM	Marton Kun-Szabo		Mike Cook		1		Bergseth	1100	4100	14:07	17:37	T	100	0.00	0.00	N	
+1165	Aero Tow by Altitude	2019/07/20	Rev4	N157AJ	N333TM	Marton Kun-Szabo		Brian Halbert		1		Bergseth	1100	3600	14:27	15:30	F	100	0.00	0.00	N	
+1166	Aero Tow by Altitude	2019/07/20	Rev4	N213TA	N333TM	Marton Kun-Szabo	Grant Smith	Aaron Wilson		2		Bergseth	1100	4100	15:44	16:52	C	100	0.00	0.00	N	
+1167	Aero Tow by Altitude	2019/07/20	Rev4	N213TA	N333TM	Marton Kun-Szabo	Grant Smith	Josh Choate		2		Bergseth	1100	4100	17:08	17:55	C	100	0.00	0.00	N	
+1168	Aero Tow by Altitude	2019/07/20	Rev4	N213TA	N333TM	Marton Kun-Szabo	Grant Smith	Scott Dyball		2		Bergseth	1100	4100	18:08	19:03	C	100	0.00	0.00	N	#2017383
+1169	Aero Tow by Altitude	2019/07/20	Rev4	N213TA	N333TM	Marton Kun-Szabo		Paul Caspell	Robert Rackl	2		Bergseth	1100	3800	19:19	19:36	F	50	50	0.00	N	
+1170	Aero Tow by Altitude	2019/07/21	Rev4	N213TA	N333TM	Dan Alfus	John Miller	Michael Banionis		2	Arunas Banionis	Bergseth	1100	4100	12:30	12:50	C	0.00	0.00	100	N	
+1171	Aero Tow by Altitude	2019/07/21	Rev4	N213TA	N333TM	Dan Alfus		Jim Miller	Rick Miller	2		Bergseth	1100	3800	12:37	13:00	F	100	0.00	0.00	N	
+1172	Aero Tow by Altitude	2019/07/21	Rev4	N300GG	N333TM	Dan Alfus		Mike Cook		1		Bergseth	1100	4100	13:52	14:24	T	100	0.00	0.00	N	
+1173	Aero Tow by Altitude	2019/07/21	Rev4	N213TA	N333TM	Dan Alfus	John Miller	Adam Banionis		2	Arunas Banionis	Bergseth	1100	4100	14:09	14:32	C	0.00	0.00	100	N	
+1174	Aero Tow by Altitude	2019/07/21	Rev4	N157AJ	N333TM	Dan Alfus		Brano Mikulik		1		Bergseth	1100	3500	14:25	16:21	F	100	0.00	0.00	N	
+1175	Aero Tow by Altitude	2019/07/21	Rev4	N42DJ	N333TM	Dan Alfus		Brad Pattison		1		Bergseth	1100	5500	14:39	18:50	T	100	0.00	0.00	N	
+1176	Aero Tow by Altitude	2019/07/21	Rev4	N213TA	N333TM	Dan Alfus	John Miller	Arunas Banionis		2		Bergseth	1100	4100	15:04	15:25	F	100	0.00	0.00	N	
+1177	Aero Tow by Altitude	2019/07/21	Rev4	N872	N333TM	Dan Alfus		Curt Chenoweth		1		Bergseth	1100	3600	15:19	18:05	T	100	0.00	0.00	N	
+1178	Aero Tow by Altitude	2019/07/21	Rev4	N300GG	N333TM	Dan Alfus		Mike Cook		1		Bergseth	1100	4100	15:41	17:29	T	100	0.00	0.00	N	
+1179	Aero Tow by Altitude	2019/07/21	Rev4	N213TA	N333TM	Dan Alfus	John Miller	Jon Love		2		Bergseth	1100	4100	17:15	17:41	C	100	0.00	0.00	N	
+1180	Aero Tow by Altitude	2019/07/27	Rev4	N213TA	N333TM	Tim Heneghan	Scott Thiel	Nick Swanson		2		Bergseth	1100	4100	13:38	14:13	F	100	0.00	0.00	N	
+1181	Aero Tow by Altitude	2019/07/27	Rev4	N213TA	N333TM	Tim Heneghan	Scott Thiel	Nick Swanson		2		Bergseth	1100	2900	14:38	14:59	F	100	0.00	0.00	N	
+1182	Aero Tow by Altitude	2019/07/27	Rev4	N157AJ	N333TM	Bryan Monroe		Marton Kun-Szabo		1		Bergseth	1100	3500	15:30	16:50	F	100	0.00	0.00	N	
+1183	Aero Tow by Altitude	2019/07/28	Rev4	N766PW	N333TM	Dan Alfus	John Miller	Chloe Redick		2		Bergseth	1100	4100	13:07	13:37	C	100	0.00	0.00	N	Log Book Sale
+1184	Aero Tow by Altitude	2019/07/28	Rev4	N766PW	N333TM	Dan Alfus		Grant Nelson		1		Bergseth	1100	4100	13:47	14:33	F	100	0.00	0.00	N	
+1185	Aero Tow by Altitude	2019/07/28	Rev4	N300GG	N333TM	Dan Alfus		Mike Cook		1		Bergseth	1100	4500	14:03	17:27	T	100	0.00	0.00	N	
+1186	Aero Tow by Altitude	2019/07/28	Rev4	N872	N333TM	Joe Salz		Marlene Nelson		1		Bergseth	1100	3200	14:35	15:23	T	100	0.00	0.00	N	
+1187	Aero Tow by Altitude	2019/07/28	Rev4	N157AJ	N333TM	Marton Kun-Szabo		Greg Bahnsen		1		Bergseth	1100	4200	14:55	16:08	F	100	0.00	0.00	N	
+1188	Aero Tow by Altitude	2019/07/28	Rev4	N213TA	N333TM	Dan Alfus	John Miller	Dave Jones		2		Bergseth	1100	4100	15:18	15:35	F	100	0.00	0.00	N	
+1189	Aero Tow by Altitude	2019/07/28	Rev4	N766PW	N333TM	Dan Alfus		Grant Nelson	Jeff Nelson	2		Bergseth	1100	4100	15:39	17:20	F	100	0.00	0.00	N	
+1190	Aero Tow by Altitude	2019/07/28	Rev4	N213TA	N333TM	Dan Alfus		Paul Caspell	Curt Chenoweth	2		Bergseth	1100	3200	15:53	16:40	F	100	0.00	0.00	N	
+1191	Aero Tow by Altitude	2019/07/28	Rev4	N157AJ	N333TM	Dan Alfus		Marton Kun-Szabo		1		Bergseth	1100	4300	16:18	18:26	F	100	0.00	0.00	N	
+1192	Aero Tow by Altitude	2019/07/28	Rev4	N872	N333TM	Dan Alfus		Marlene Nelson		1		Bergseth	1100	3900	16:37	18:20	T	100	0.00	0.00	N	
+1193	Aero Tow by Altitude	2019/08/03	Rev4	N766PW	N333TM	Dave Allen		Joe Salz	Ruth Baines	2		Bergseth	1100	4100	11:28	11:55	M	0.00	100	0.00	N	
+1194	Aero Tow by Altitude	2019/08/03	Rev4	N213TA	N333TM	Dave Allen		Tim Heneghan	Crista Baines	2		Bergseth	1100	4100	11:45	12:10	M	0.00	100	0.00	N	
+1195	Aero Tow by Altitude	2019/08/03	Rev4	N766PW	N333TM	Dave Allen		Joe Salz	Kent Baines	2		Bergseth	1100	4100	12:07	12:34	M	0.00	100	0.00	N	
+1196	Aero Tow by Altitude	2019/08/03	Rev4	N213TA	N333TM	Dave Allen		Tim Heneghan	Don Silsbee	2		Bergseth	1100	4100	12:23	12:49	M	0.00	100	0.00	N	Gift Certif #2019103
+1197	Aero Tow by Altitude	2019/08/03	Rev4	N766PW	N333TM	Joe Salz		Dave Allen		1		Bergseth	1100	4100	13:30	16:23	F	100	0.00	0.00	N	
+1198	Aero Tow by Altitude	2019/08/03	Rev4	N300GG	N333TM	Joe Salz		Mike Cook		1		Bergseth	1100	4100	14:10	16:31	T	100	0.00	0.00	N	
+1199	Aero Tow by Altitude	2019/08/03	Rev4	N872	N333TM	Joe Salz		Curt Chenoweth		1		Bergseth	1100	4100	14:24	16:16	T	100	0.00	0.00	N	
+1200	Aero Tow by Altitude	2019/08/03	Rev4	N213TA	N333TM	Tim Heneghan		Robert Rackl	Paul Caspell	2		Bergseth	1100	4100	15:34	15:50	F	50	50	0.00	N	
+1201	Aero Tow by Altitude	2019/08/03	Rev4	N766PW	N333TM	Dave Allen		Tim Heneghan	Kevin Heaney	2		Bergseth	1100	4100	17:14	17:46	C	0.00	100	0.00	N	Gift Cert #2018412
+1202	Aero Tow by Altitude	2019/08/03	Rev4	N766PW	N333TM	Dave Allen		Tim Heneghan	Pat Davidson	2		Bergseth	1100	4100	18:02	18:40	C	0.00	100	0.00	N	Gift Cert #2018413 not presented but claim accepted
+1203	Aero Tow by Altitude	2019/08/04	Rev4	N213TA	N333TM	Bob Stoney		Dan Alfus		1		Bergseth	1100	4100	12:15	12:58	F	100	0.00	0.00	N	
+1204	Aero Tow by Altitude	2019/08/04	Rev4	N213TA	N333TM	Bob Stoney	John Miller	Nick Swanson		2		Bergseth	1100	4100	13:20	13:43	F	100	0.00	0.00	N	
+1205	Aero Tow by Altitude	2019/08/04	Rev4	N213TA	N333TM	Bob Stoney	John Miller	Atom Novacek		2		Bergseth	1100	4100	14:31	15:09	C	100	0.00	0.00	N	Log Book Sale $7
+1206	Aero Tow by Altitude	2019/08/04	Rev4	N703BE	N333TM	Bob Stoney		Robert Seccombe		1		Bergseth	1100	3700	14:49	15:44	T	100	0.00	0.00	N	
+1207	Aero Tow by Altitude	2019/08/04	Rev4	N213TA	N333TM	Bob Stoney		Dave Allen		1		Bergseth	1100	3900	15:35	16:47	F	100	0.00	0.00	N	
+1208	Aero Tow by Altitude	2019/08/11	Rev4	N213TA	N333TM	Al Rubin	John Miller	Dave Jones		2		Bergseth	1100	2100	14:40	14:45	F	100	0.00	0.00	N	
+1209	Aero Tow by Altitude	2019/08/11	Rev4	N213TA	N333TM	Al Rubin	John Miller	Dave Jones		2		Bergseth	1100	3600	15:00	15:20	F	100	0.00	0.00	N	
+1210	Aero Tow by Altitude	2019/08/11	Rev4	N213TA	N333TM	Al Rubin	John Miller	Dave Jones		2		Bergseth	1100	2100	15:40	15:48	F	100	0.00	0.00	N	
+1211	Aero Tow by Altitude	2019/08/18	Rev4	N213TA	N333TM	Marton Kun-Szabo	Scott Thiel	Lyra Young		2		Bergseth	1100	3500	14:20	14:40	F	100	0.00	0.00	N	
+1212	Aero Tow by Altitude	2019/08/18	Rev4	N766PW	N333TM	Marton Kun-Szabo		Brano Mikulik	Rokas Cesnakauskas	2		Bergseth	1100	3400	14:37	15:37	F	50	50	0.00	N	
+1213	Aero Tow by Altitude	2019/08/18	Rev4	N766PW	N333TM	Marton Kun-Szabo		Robert Rackl	Mike Cook	2		Bergseth	1100	2400	14:47	14:56	F	50	50	0.00	N	
+1214	Aero Tow by Altitude	2019/08/18	Rev4	N213TA	N333TM	Marton Kun-Szabo	Scott Thiel	Dave Jones		2		Bergseth	1100	3500	14:51	15:16	F	100	0.00	0.00	N	
+1215	Aero Tow by Altitude	2019/08/18	Rev4	N213TA	N333TM	Benny Harwell	Scott Thiel	Lyra Young		2		Bergseth	1100	3900	15:30	16:10	F	100	0.00	0.00	N	
+1216	Aero Tow by Altitude	2019/08/18	Rev4	N157AJ	N333TM	Al Rubin		Greg Bahnsen		1		Bergseth	1100	4100	16:13	17:21	F	100	0.00	0.00	N	
+1217	Aero Tow by Altitude	2019/08/18	Rev4	N766PW	N333TM	Al Rubin		Tim Heneghan	Dawn Lazo	2		Bergseth	1100	4100	16:28	16:58	C	0.00	100	0.00	N	
+1218	Aero Tow by Altitude	2019/08/18	Rev4	N213TA	N333TM	Al Rubin		Joe Salz	Mark Millbauer	2		Bergseth	1100	4100	16:40	17:05	C	0.00	100	0.00	N	
+1219	Aero Tow by Altitude	2019/08/18	Rev4	N872	N333TM	Al Rubin		Marlene Nelson		1		Bergseth	1100	3000	16:55	19:17	T	100	0.00	0.00	N	
+1220	Aero Tow by Altitude	2019/08/18	Rev4	N766PW	N333TM	Marton Kun-Szabo		Mike Gowen		1		Bergseth	1100	4100	17:18	18:20	F	100	0.00	0.00	N	
+1221	Aero Tow by Altitude	2019/08/18	Rev4	N213TA	N333TM	Marton Kun-Szabo	Scott Thiel	Dave Jones		2		Bergseth	1100	3500	17:35	17:58	F	100	0.00	0.00	N	
+1222	Aero Tow by Altitude	2019/08/18	Rev4	N157AJ	N333TM	Marton Kun-Szabo		Brad Pattison		1		Bergseth	1100	3200	17:50	18:24	F	100	0.00	0.00	N	
+1223	Aero Tow by Altitude	2019/08/18	Rev4	N157AJ	N333TM	Dan Alfus		Marton Kun-Szabo		1		Bergseth	1100	3900	18:33	19:26	F	100	0.00	0.00	N	
+1224	Aero Tow by Altitude	2019/08/24	Rev4	N766PW	N333TM	Marton Kun-Szabo		Tim Heneghan	Marlee Gibbs	2		Bergseth	1100	4100	12:09	12:42	C	0.00	100	0.00	N	
+1225	Aero Tow by Altitude	2019/08/24	Rev4	N157AJ	N333TM	Dan Alfus		Kenji Ominato		1		Bergseth	1100	4300	13:23	15:47	F	100	0.00	0.00	N	
+1226	Aero Tow by Altitude	2019/08/24	Rev4	N766PW	N333TM	Dan Alfus		Tim Heneghan	Vicki Rayl	2		Bergseth	1100	4100	13:50	14:34	C	0.00	100	0.00	N	Gift Cert #2019141
+1227	Aero Tow by Altitude	2019/08/24	Rev4	N213TA	N333TM	Dan Alfus		Marton Kun-Szabo	Erik Hildebrand	2		Bergseth	1100	4100	14:50	15:12	C	0.00	100	0.00	N	Mike Cook check #1147
+1228	Aero Tow by Altitude	2019/08/25	Rev4	N4TE	N333TM	Dan Alfus		Kenji Ominato		1		Bergseth	1100	3400	13:13	17:30	T	100	0.00	0.00	N	
+1229	Aero Tow by Altitude	2019/08/25	Rev4	N300GG	N333TM	Dan Alfus		Mike Cook		1		Bergseth	1100	4100	13:28	15:05	T	100	0.00	0.00	N	Crash landed at Burnett. Later succumbed to injuries during surgery.
+1230	Aero Tow by Altitude	2019/08/25	Rev4	N872	N333TM	Dan Alfus		Curt Chenoweth		1		Bergseth	1100	4100	13:48	17:22	T	100	0.00	0.00	N	
+1231	Aero Tow by Altitude	2019/08/25	Rev4	N766PW	N333TM	Dan Alfus		Greg Bahnsen	Pavel Bely	2		Bergseth	1100	4200	14:17	15:10	F	100	0.00	0.00	N	
+1232	Aero Tow by Altitude	2019/08/25	Rev4	N766PW	N333TM	Dan Alfus		Rokas Cesnakauskas	His Mother	2		Bergseth	1100	4100	15:30	16:00	F	100	0.00	0.00	N	Apply credit from 1st place flour bombing contest
+1233	Aero Tow by Altitude	2019/08/25	Rev4	N766PW	N333TM	Dan Alfus		Joe Salz	Jakob Ness	2		Bergseth	1100	4100	16:16	17:08	C	0.00	100	0.00	N	
+1234	Aero Tow by Altitude	2019/08/31	Rev4	N213TA	N333TM	Dan Alfus		Joe Salz	Tony	2		Bergseth	1100	4100	12:31	12:55	F	100	0.00	0.00	N	
+1235	Aero Tow by Altitude	2019/08/31	Rev4	N766PW	N333TM	Dan Alfus		Tim Heneghan	Susan	2	Joe Salz	Bergseth	1100	3900	12:48	13:17	F	0.00	0.00	100	N	
+1236	Aero Tow by Altitude	2019/08/31	Rev4	N213TA	N333TM	Dan Alfus		Joe Salz	Stan	2		Bergseth	1100	4000	13:05	13:30	F	100	0.00	0.00	N	
+1237	Aero Tow by Altitude	2019/08/31	Rev4	N766PW	N333TM	Dan Alfus		Tim Heneghan	Bob	2	Joe Salz	Bergseth	1100	4000	13:28	14:02	F	0.00	0.00	100	N	
+1238	Aero Tow by Altitude	2019/08/31	Rev4	N213TA	N333TM	Dan Alfus		Joe Salz	Jim	2		Bergseth	1100	4100	13:47	14:10	F	100	0.00	0.00	N	
+1239	Aero Tow by Altitude	2019/08/31	Rev4	N766PW	N333TM	Dan Alfus		Brad Pattison	Regan	2		Bergseth	1100	4500	14:16	15:11	F	100	0.00	0.00	N	
+1240	Aero Tow by Altitude	2019/08/31	Rev4	N157AJ	N333TM	Dan Alfus		Kenji Ominato		1		Bergseth	1100	3600	14:34	16:05	F	100	0.00	0.00	N	
+1241	Aero Tow by Altitude	2019/08/31	Rev4	N213TA	N333TM	Dan Alfus		Joe Salz	John B	2		Bergseth	1100	4000	14:49	15:10	F	100	0.00	0.00	N	
+1242	Aero Tow by Altitude	2019/08/31	Rev4	N213TA	N333TM	Dan Alfus	Brad Pattison	Nick Swanson		2		Bergseth	1100	3600	15:35	15:55	F	100	0.00	0.00	N	
+1243	Aero Tow by Altitude	2019/08/31	Rev4	N157AJ	N333TM	Dan Alfus		Kenji Ominato		1		Bergseth	1100	3100	16:25	17:20	F	100	0.00	0.00	N	
+1244	Aero Tow by Altitude	2019/09/02	Rev4	N766PW	N333TM	Al Rubin		Joe Salz	Pat Kenney	2		Bergseth	1100	4100	12:11	12:43	F	100	0.00	0.00	N	
+1245	Aero Tow by Altitude	2019/09/02	Rev4	N42DJ	N333TM	Al Rubin		Brad Pattison		1		Bergseth	1100	2500	12:27	15:27	T	100	0.00	0.00	N	Landing time guessed
+1246	Aero Tow by Altitude	2019/09/02	Rev4	N4TE	N333TM	Al Rubin		Kenji Ominato		1		Bergseth	1100	3100	12:53	15:53	T	100	0.00	0.00	N	Landing time guessed
+1247	Aero Tow by Altitude	2019/09/02	Rev4	N766PW	N333TM	Al Rubin	Grant Smith	Del Love		2		Bergseth	1100	3600	13:08	14:13	C	100	0.00	0.00	N	
+1248	Aero Tow by Altitude	2019/09/02	Rev4	N872	N333TM	Al Rubin		Marlene Nelson		1		Bergseth	1100	3200	13:49	15:57	T	100	0.00	0.00	N	
+1249	Aero Tow by Altitude	2019/09/02	Rev4	N766PW	N333TM	Al Rubin	Grant Smith	Donna		2	Al Rubin	Bergseth	1100	4100	14:28	15:07	M	0.00	0.00	100	N	Tow altitude guessed. No charge in recognition of services rendered to the club.
+1250	Aero Tow by Altitude	2019/09/02	Rev4	N766PW	N333TM	Marton Kun-Szabo	Grant Smith	Paul Caspell		2		Bergseth	1100	3200	15:26	17:05	F	100	0.00	0.00	N	
+1251	Aero Tow by Altitude	2019/09/14	Rev4	N213TA	N333TM	John Miller		Dan Alfus		1		Bergseth	1100	2100	13:13	13:29	F	100	0.00	0.00	N	
+1252	Aero Tow by Altitude	2019/09/14	Rev4	N213TA	N333TM	John Miller		Dan Alfus		1		Bergseth	1100	2100	13:37	13:44	F	100	0.00	0.00	N	
+1253	Aero Tow by Altitude	2019/09/14	Rev4	N213TA	N333TM	Dan Alfus	John Miller	Gregory Waldref		2		Bergseth	1100	2800	14:08	14:18	X	100	0.00	0.00	N	Intro flight too short therefore free
+1254	Aero Tow by Altitude	2019/09/14	Rev4	N213TA	N333TM	Dan Alfus	John Miller	Gregory Waldref		2		Bergseth	1100	4100	14:36	15:00	M	100	0.00	0.00	N	Made deal for two flights for $200
+1255	Aero Tow by Altitude	2019/09/14	Rev4	N213TA	N333TM	Dan Alfus	John Miller	Gregory Waldref		2		Bergseth	1100	4100	15:20	15:40	M	100	0.00	0.00	N	Made deal for two flights for $200
+1256	Aero Tow by Altitude	2019/09/14	Rev4	N213TA	N333TM	Dan Alfus		Marlene Nelson		1		Bergseth	1100	2800	15:57	16:07	F	100	0.00	0.00	N	
+1257	Aero Tow by Altitude	2019/09/21	Rev4	N766PW	N333TM	Dave Allen		Tim Heneghan	Ian Page	2		Bergseth	1100	4100	12:04	12:37	C	0.00	100	0.00	N	Gift Cert. #2019144
+1258	Aero Tow by Altitude	2019/09/21	Rev4	N213TA	N333TM	Dave Allen		Mike Gowen		1		Bergseth	1100	4300	12:40	13:02	F	100	0.00	0.00	N	
+1259	Aero Tow by Altitude	2019/09/21	Rev4	N766PW	N333TM	John Miller		Kenji Ominato	James Brown	2		Bergseth	1100	4100	12:57	13:56	C	0.00	100	0.00	N	
+1260	Aero Tow by Altitude	2019/09/21	Rev4	N213TA	N333TM	Dave Allen	John Miller	Stephen Bangs		2		Bergseth	1100	4100	13:23	13:46	C	100	0.00	0.00	N	Gift Cert. #2019145
+1261	Aero Tow by Altitude	2019/09/21	Rev4	N872	N333TM	Dave Allen		Curt Chenoweth		1		Bergseth	1100	3600	13:49	16:52	T	100	0.00	0.00	N	
+1262	Aero Tow by Altitude	2019/09/21	Rev4	N42DJ	N333TM	John Miller		Brad Pattison		1		Bergseth	1100	3000	14:01	16:20	T	100	0.00	0.00	N	
+1263	Aero Tow by Altitude	2019/09/21	Rev4	N4TE	N333TM	Dave Allen		Kenji Ominato		1		Bergseth	1100	3600	14:27	16:58	T	100	0.00	0.00	N	
+1264	Aero Tow by Altitude	2019/09/21	Rev4	N157AJ	N333TM	Dave Allen		Rokas Cesnakauskas		1		Bergseth	1100	3500	15:15	16:06	F	100	0.00	0.00	N	
+1265	Aero Tow by Altitude	2019/09/21	Rev4	N766PW	N333TM	Al Rubin		Jim Miller	Robert Rackl	2		Bergseth	1100	3600	15:40	16:28	F	50	50	0.00	N	
+1266	Aero Tow by Altitude	2019/09/21	Rev4	N213TA	N333TM	Al Rubin		Dave Allen		1		Bergseth	1100	3500	15:50	16:15	F	100	0.00	0.00	N	
+1267	Aero Tow by Altitude	2019/10/06	Rev4	N766PW	N333TM	Marton Kun-Szabo		Joe Salz	Mohsen Bari	2		Bergseth	1100	4100	12:45	13:06	C	0.00	100	0.00	N	
+1268	Aero Tow by Altitude	2019/10/06	Rev4	N766PW	N333TM	Marton Kun-Szabo		Paul Caspell	Jim Miller	2		Bergseth	1100	4100	13:27	13:44	F	50	50	0.00	N	
+1269	Aero Tow by Altitude	2019/10/06	Rev4	N213TA	N333TM	Marton Kun-Szabo	John Miller	Greg Bahnsen		2		Bergseth	1100	4100	13:47	14:06	F	100	0.00	0.00	N	
+1270	Aero Tow by Altitude	2019/10/06	Rev4	N703BE	N333TM	Marton Kun-Szabo		Robert Seccombe		1		Bergseth	1100	5000	14:07	14:38	T	100	0.00	0.00	N	
+1271	Aero Tow by Altitude	2019/10/06	Rev4	N157AJ	N333TM	Marton Kun-Szabo		Robert Rackl		1		Bergseth	1100	4300	14:24	15:25	F	100	0.00	0.00	N	
+1272	Aero Tow by Altitude	2019/10/06	Rev4	N213TA	N333TM	Marton Kun-Szabo		Dan Alfus		1		Bergseth	1100	4100	14:40	15:08	F	100	0.00	0.00	N	
+1273	Aero Tow by Altitude	2019/10/06	Rev4	N213TA	N333TM	Joe Salz		Rokas Cesnakauskas		1		Bergseth	1100	4100	14:42	15:11	F	100	0.00	0.00	N	
+1274	Aero Tow by Altitude	2019/10/06	Rev4	N766PW	N333TM	Marton Kun-Szabo	John Miller	Jason Waugh		2		Bergseth	1100	4100	15:15	15:35	C	100	0.00	0.00	N	Gift Cert #2019117, log book sale
+1275	Aero Tow by Altitude	2019/10/06	Rev4	N213TA	N333TM	Marton Kun-Szabo		Paul Caspell	Jim Miller	2		Bergseth	1100	4200	15:30	15:52	F	50	50	0.00	N	
+1276	Aero Tow by Altitude	2019/10/06	Rev4	N766PW	N333TM	Marton Kun-Szabo		Mike Gowen		1		Bergseth	1100	3500	15:47	16:08	F	100	0.00	0.00	N	
+1277	Aero Tow by Altitude	2019/10/06	Rev4	N213TA	N333TM	Marton Kun-Szabo	John Miller	Greg Bahnsen		2		Bergseth	1100	2100	16:13	16:19	F	100	0.00	0.00	N	
+1278	Aero Tow by Altitude	2019/10/06	Rev4	N213TA	N333TM	Marton Kun-Szabo	John Miller	Greg Bahnsen		2		Bergseth	1100	2100	16:29	16:36	F	100	0.00	0.00	N	
+1279	Aero Tow by Altitude	2019/10/09	Rev4	N4TE	N333TM	Joe Salz		Kenji Ominato		1		Evergreen Sky Ranch	580	4980	12:00	16:00	T	100	0.00	0.00	N	Release Altitude per email of 2019/10/11: actual tow altitude to 3980 plus 1000` premium. Times are only wild guesses.
+1280	Aero Tow by Altitude	2019/10/13	Rev4	N213TA	N333TM	Dan Alfus	John Miller	Mack Jarczak		2		Bergseth	1100	4100	13:30	13:50	C	100	0.00	0.00	N	
+1281	Aero Tow by Altitude	2019/10/27	Rev4	N4TE	N333TM	Dan Alfus		Kenji Ominato		1		Bergseth	1100	7000	12:27	16:16	T	100	0.00	0.00	N	
+1282	Aero Tow by Altitude	2019/10/27	Rev4	N766PW	N333TM	John Miller		Joe Salz	Derek Eairheart	2		Bergseth	1100	4100	13:13	13:33	C	0.00	100	0.00	N	Gift Certif #2019110
+1283	Aero Tow by Altitude	2019/10/27	Rev4	N213TA	N333TM	John Miller		Brano Mikulik		1		Bergseth	1100	3700	13:40	14:17	F	100	0.00	0.00	N	Give credit for winning flour bombing contest
+1284	Aero Tow by Altitude	2019/10/27	Rev4	N766PW	N333TM	Dan Alfus		Tim Heneghan	Margaret Cook	2		Bergseth	1100	4500	13:57	14:25	X	100	0.00	0.00	N	Flight with Mike Cook`s ashes
+1285	Aero Tow by Altitude	2019/10/27	Rev4	N872	N333TM	Dan Alfus		Marlene Nelson		1		Bergseth	1100	4600	14:20	15:18	T	100	0.00	0.00	N	
+1286	Aero Tow by Altitude	2019/10/27	Rev4	N213TA	N333TM	Dan Alfus	John Miller	Ken Shenkler		2		Bergseth	1100	4100	14:39	14:57	C	100	0.00	0.00	N	Payment?
+1287	Aero Tow by Altitude	2019/10/27	Rev4	N766PW	N333TM	Dan Alfus		Joe Salz	Royal Singh	2		Bergseth	1100	4100	14:55	15:15	C	0.00	100	0.00	N	Payment?
+1288	Aero Tow by Altitude	2019/10/27	Rev4	N213TA	N333TM	Dan Alfus	John Miller	Ricky Bentius		2		Bergseth	1100	4100	15:23	15:46	C	100	0.00	0.00	N	Payment?
+1289	Aero Tow by Altitude	2019/10/27	Rev4	N872	N333TM	Dan Alfus		Curt Chenoweth		1		Bergseth	1100	4700	16:00	16:32	T	100	0.00	0.00	N	
+1290	Aero Tow by Altitude	2019/10/27	Rev4	N766PW	N333TM	Al Rubin	John Miller	Greg Bahnsen		2		Bergseth	1100	4100	16:18	16:39	F	100	0.00	0.00	N	
+1291	Aero Tow by Altitude	2019/10/27	Rev4	N213TA	N333TM	Al Rubin		Paul Caspell	Brian Halbert	2		Bergseth	1100	4100	16:35	17:37	F	50	50	0.00	N	Crash landed at Bergseth runway west end; no injuries
+1292	Aero Tow by Altitude	2019/10/27	Rev4	N766PW	N333TM	Al Rubin	John Miller	Greg Bahnsen		2		Bergseth	1100	4100	16:55	17:14	F	100	0.00	0.00	N	

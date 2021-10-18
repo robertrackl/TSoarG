@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="SoarDB" Class="TEEqDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=C1325433-H\SQLSERVER2014A;Initial Catalog=SoarDB;Persist Security Info=True;User ID=SoarNP" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="SqlConn" Provider="System.Data.SqlClient" />
+  <Function Name="dbo.TEEq_Cleanup" Method="TEEq_Cleanup">
+    <Parameter Name="sStatus" Type="System.String" DbType="NVarChar(2048)" Direction="InOut" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.TEEq_DataSetup" Method="TEEq_DataSetup">
+    <Parameter Name="sWhat" Type="System.String" DbType="NVarChar(12)" />
+    <Parameter Name="sStatus" Type="System.String" DbType="NVarChar(2048)" Direction="InOut" />
+    <ElementType Name="TEEq_DataSetupResult">
+      <Column Name="" Member="Column1" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+    </ElementType>
+  </Function>
+</Database>

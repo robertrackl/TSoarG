@@ -1,0 +1,200 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="~/Default.aspx" title="Navigation-Home"  description="Home" roles="*" >
+        <siteMapNode url="~/Emergency.aspx" title="Emergency" description="Emergency Instructions" roles="*" />
+
+        <siteMapNode url="~/PublicPages/Public.aspx" title="Public Pages" description="Where the Public (non-members) is directed towards" roles="*" >
+            <siteMapNode url="~/PublicPages/About.aspx" title="About PSSA and this website" />
+            <siteMapNode url="~/PublicPages/Contact.aspx" title="How to Contact Us" />
+            <siteMapNode url="~/PublicPages/Directions.aspx" title="How to Find Us" />
+            <siteMapNode url="~/PublicPages/Fleet/Fleet.aspx" title="Fleet (PSSA Aircraft)" />
+            <siteMapNode url="~/PublicPages/ByLawsOpsRules.aspx" title="Bylaws and Operation Rules" />
+            <siteMapNode url="~/PublicPages/RateSheet.aspx" title="Rate Sheet" />
+            <siteMapNode url="~/PublicPages/GiftCerts.aspx" title="Gift Certificates" />
+            <siteMapNode url="~/PublicPages/CarouselShow.aspx" title="Slide Show" />
+            <siteMapNode url="~/PublicPages/Schedule.aspx" title="Schedule" description="The organization's schedule of operations or events" />
+            <siteMapNode url="~/PublicPages/SoaringResources.aspx" title="Soaring Resources" description="Links to other sites of interest" />
+            <siteMapNode url="~/PublicPages/ClubHistory.aspx" title="Club History" description="Significant events over the club's existence" />
+            <siteMapNode url="~/PublicPages/LiabilityWaiver.aspx" title="Liability Waiver" description="Liability Waiver Form, two pages" />
+            <siteMapNode url="~/PublicPages/PrivacyPolicy.aspx" title="Privacy Policy" description="Wording of the Club's Privacy Policy" />
+            <siteMapNode url="~/PublicPages/AcceptUsePol.aspx" title="Acceptable Use Policy" description="Wording of the Club's Acceptable Use Policy" />
+        </siteMapNode>
+
+        <siteMapNode url="~/Login.aspx" title="User Login"  description="User Login" roles="*">
+            <siteMapNode url="~/PwdRecov.aspx" title="Password Recovery" description="Have new password emailed" />
+        </siteMapNode>
+
+        <siteMapNode url="~/MemberPages/Members.aspx" title="Member Pages" description="Where the Member role is directed towards">
+            <siteMapNode url="~/MemberPages/MyMembership/MyMembership.aspx" title="My Membership Data" description="Inspection of the data for one member stored on this web site" />
+            <siteMapNode url="~/MemberPages/ChangePassword.aspx" title="Change Password" description="Where registered members can change their account password" />
+            <siteMapNode url="~/MemberPages/OpsScheduleSignup/OpsScheduleSignup.aspx" title="Signups in Operations Schedule, Large Screen" description="Signup for roles in Operations and Events" />
+            <siteMapNode url="~/MemberPages/OpsScheduleSignup/OpsSchedSigSMALL.aspx" title="Signups in Operations Schedule, Small Screen" description="Signup for roles in Operations and Events" />
+            <siteMapNode url="~/MemberPages/Roster/ClubRoster.aspx" title="Club Roster" description="Club Members' Contact Data" />
+
+            <siteMapNode url="~/MemberPages/Stats/Statistics.aspx" title="Flying Statistics" description="Flight data by aircraft and by pilot" >
+                <siteMapNode url="~/MemberPages/Stats/ClubStats.aspx" title="Club Statistics in Tree or Table View" description="Flight data by aircraft and by pilot" />
+                <siteMapNode url="~/MemberPages/Stats/StatsReports.aspx" title="Club Statistics in Report Format" description="Flight data by aircraft and by pilot" />
+            </siteMapNode>
+            <!-- SCR 218 start -->
+            <siteMapNode url="~/MemberPages/EquipMaintStat/EqMemberPages.aspx" title="Equipment">
+                <siteMapNode url="~/MemberPages/EquipMaintStat/EqMaintStatus.aspx" title="Status of Equipment Maintenance Actions" description="Display Status of Equipment Maintenance Actions" />
+                <siteMapNode url="~/MemberPages/EquipMaintStat/EqOpStat.aspx" title="Operational Status of Equipment" description="Display Operational Status of Equipment" >
+                    <siteMapNode url="~/MemberPages/EquipMaintStat/EqOperStatCompact.aspx" title="Compact List of Operational Status of Equipment" description="Display Operational Status of Equipment in Compact Format" />
+                    <siteMapNode url="~/MemberPages/EquipMaintStat/EqOperStatus.aspx" title="Detailed List of Operational Status of Equipment" description="Display Operational Status of Equipment in Detailed Format" />
+                </siteMapNode>
+            </siteMapNode>
+            <!-- SCR 218 end -->
+
+        <siteMapNode url="~/MemberPages/MRewards/MRewards.aspx" title="Towpilot/Instructor Rewards" description="Tally of reward records for one user/member" />
+            <siteMapNode url="~/MemberPages/MRewards/RewardRules.aspx" title="Towpilot/Instructor Reward Rules" description="How the towiplot/instructor rewards are administered" />
+            <siteMapNode url="~/MemberPages/TrainInstruct/TrainInstruct.aspx" title="Training and Instruction" description="Resources for Training and Instruction" />
+            <siteMapNode url="~/MemberPages/TowPilots/TowPilots.aspx" title="Tow Pilots" description="Resources for Tow Pilots" />
+            <siteMapNode url="~/MemberPages/Fin/MemberFinStat.aspx" title="Member Financial Status" description="The member's account" />
+            <siteMapNode url="~/MemberPages/Fin/EquitySharesReport.aspx" title="Listing of Equity Shares" description="Listing of the current club equity shares" /><!-- SCR 223 -->
+            <siteMapNode url="~/MemberPages/FieldManager/FieldMgr.aspx" title="Info for Field Managers" description="Information to help Field Managers doing their job" />
+            <siteMapNode url="~/MemberPages/Fin/MaintenanceReserves.aspx" title="Maintenance Reserves" description="Link to the PSSA Maintenance Reserves Excel Workbook" />
+            <siteMapNode url="~/MemberPages/ManageSettings/ManageSettings.aspx" title="Manage Settings" description="Display and modify user-selectable settings" />
+        </siteMapNode>
+
+        <siteMapNode url="~/Board/Board.aspx" title="Board Pages" description="Where the BoardMember role is directed towards">
+            <siteMapNode url="~/Board/Docs/Completed/CompletedDocs.aspx" title="Completed Board Documents" description="The Board of Directors Completed Documents"/>
+            <siteMapNode url="~/Board/Docs/Working/WorkingDocs.aspx" title="Working Documents" description="Collection of the Board's incomplete working documents"/>
+            <siteMapNode url="~/Board/Finance/Finance.aspx" title="Finance" description="To deal with the organization's money" />
+
+            <siteMapNode url="~/Board/Operations/Operations.aspx" title="Operations/Safety" description="Operations and Safety">
+                <siteMapNode url="~/Board/Operations/OpsScheduleMaint.aspx" title="SignUpGenius" description="Maintenance of the schedule of operations and events"/>
+            </siteMapNode>
+
+        </siteMapNode>
+
+        <siteMapNode url="~/Equipment/Equipmt.aspx" title="Equipment" description="All to do with Equipment" >
+            <siteMapNode url="~/Equipment/EquipmentList.aspx" title="List of Equipment" description="Working with the list of all equipment of interest" />
+            <siteMapNode url="~/Equipment/EqComponents.aspx" title="Components of Equipment" description="Working with the list of the components of each piece of equipment" />
+            <siteMapNode url="~/Equipment/EquipAging/EqAgingIntro.aspx" title="Equipment Aging [Introduction and Help]" description="History and upcoming physical maintenance and documentation" >
+                <siteMapNode url="~/Equipment/EquipAging/EqAgingParSets.aspx" title="Parameter Sets" description="Work with Equipment Aging Parameter Sets"/>
+                <siteMapNode url="~/Equipment/EquipAging/OpsCalendars.aspx" title="Operational Calendars" description="Working with calendars of equipment operation" />
+                <siteMapNode url="~/Equipment/EquipAging/EqAgingItems.aspx" title="Aging Items" description="Work with Equipment Aging Items"/>
+                <siteMapNode url="~/Equipment/EquipAging/EqAgingOperDat.aspx" title="Operating Data" description="Work with Equipment Aging - Underlying Operating Data"/>
+                <siteMapNode url="~/Equipment/EquipAging/EqAgingActionItems.aspx" title="Action Items" description="Work with Equipment Aging Action Items"/>
+            </siteMapNode>
+            <siteMapNode url="~/Equipment/EquipRolesTypes.aspx" title="Bridge between Equipment Roles and Equipment Types" description="Allowable combinations of equipment roles and types" />
+            <siteMapNode url="~/Equipment/Bridge_EqRoleLaunchMeth.aspx" title="Bridge between Launch Methods and Equipment Roles" description="Allowable combinations of launch methods and equipment roles" />
+        </siteMapNode>
+
+        <siteMapNode url="~/Operations/Operations.aspx" title="Operations" description="All to do with Operations">
+            <siteMapNode url="~/Operations/OpsSchedule.aspx" title="Schedule" description="Signups" />
+            <siteMapNode url="~/Operations/OpsSchedDates.aspx" title="Ops Schedule Dates" description="Signups" />
+        </siteMapNode>
+
+        <siteMapNode url="~/Accounting/Accounting.aspx" title="Accounting" descsription="Entry point to the accounting subsystem">
+
+            <siteMapNode url="~/Accounting/AdminFin/AdminFin.aspx" title="Administer Accounting System" description="Administer the Financial Accounting System">
+                <siteMapNode url="~/Accounting/AdminFin/ChrtOActs.aspx" title="Chart of Accounts" description="Work with the Chart of Accounts and Subledgers"/>
+                <siteMapNode url="~/Accounting/AdminFin/Banking.aspx" title="Bank Accounts" description="Work with Bank Accounts"/>
+                <siteMapNode url="~/Accounting/AdminFin/AuditTrail.aspx" title="View Audit Trail" description="Inspect the Audit Trail of Transactions"/>
+                <siteMapNode url="~/Accounting/AdminFin/Connect2QBO.aspx" title="Connect to QBO" description="Establish a Connection to QuickBooks Online via OAuth2"/>
+                <siteMapNode url="~/Accounting/AdminFin/QBO_Customers.aspx" title="QBO Customers" description="Customers in QuickBooks Online"/>
+            </siteMapNode>
+
+            <siteMapNode url="~/Accounting/FinDetails/FinDetails.aspx" title="Bookkeeping Overview" description="Choose which bookkeeping details to work with">
+
+                <siteMapNode url="~/Accounting/FinDetails/ExpVendAP/ExpVendAP.aspx" title="Expenses, Vendors, A/P" description="Work with Expenses, Vendors, and Accounts Payable">
+                    <siteMapNode url="~/Accounting/FinDetails/ExpVendAP/Vendors.aspx" title="List of Vendors" description="Work with the list of Vendors"/>
+
+                    <siteMapNode url="~/Accounting/FinDetails/ExpVendAP/Expenses.aspx" title="Expense Journal" description="Display List of Expenses">
+                        <siteMapNode url="~/Accounting/FinDetails/ExpVendAP/XactExpense.aspx" title="New Expense Transaction" description="Work with one Expense Transactions"/>
+                    </siteMapNode>
+
+                </siteMapNode>
+
+                <siteMapNode url="~/Accounting/FinDetails/SalesAR/SalesAR.aspx" title="Activities, Members, A/R" description="Work with Activities, Members, and Accounts Receivable">
+                    <siteMapNode url="~/Accounting/FinDetails/SalesAR/Members.aspx" title="List of Members" description="Work with the list of Members"/>
+
+                    <siteMapNode url="~/Accounting/FinDetails/SalesAR/Sales.aspx" title="Activities Journal" description="Display List of Sales from Activities">
+                        <siteMapNode url="~/Accounting/FinDetails/SalesAR/Rates.aspx" title="Charge Rates"
+                                   description="Display and edit the monetary rates for charging for flying activities"/>
+                        <siteMapNode url="~/Accounting/FinDetails/SalesAR/FlyActInvoice.aspx" title="Invoices Due to Flying Activities"
+                                   description="Create Invoices based upon Records of Club Members' Flying Activities"/>
+                        <siteMapNode url="~/Accounting/FinDetails/SalesAR/MinFlyChrg.aspx" title="Actual/Minimum Flying Charges" description="Generate and edit actual as well as minimum monthly flying charges" />
+                    </siteMapNode>
+
+                </siteMapNode>
+
+            </siteMapNode>
+
+            <siteMapNode url="~/Accounting/FinReports/FinReports.aspx" title="Financial Reports" description="Reports on the organization's financial status"/>
+        </siteMapNode>
+
+        <siteMapNode url="~/Statistician/Statistician.aspx" title="Statistician's Pages" description="What the club statistician can do">
+            <siteMapNode url="~/Statistician/FlightLogInput.aspx" title="Add/Edit Flights in grid view" description="Where the club statistician adds flight data in daily flight log format"/>
+            <siteMapNode url="~/Statistician/OpsDataInput.aspx" title="Add/Edit Flights in tree view" description="Where the club statistician adds and manipulates data for each flight"/>
+            <siteMapNode url="~/Statistician/BulkImport.aspx" title="Bulk Import" description="Where the club statistician imports multiple operations from a specially formatted text file"/>
+            <siteMapNode url="~/Statistician/TrackFlyingCharges.aspx" title="Track Flying Charges" description="Where the club statistician inputs flying charges for comparison with monthly minimum charges"/>
+            <siteMapNode url="~/Statistician/TiRewardsEdit.aspx" title="Rewards Journal" description="Where the club statistician works with towpilot/instructor rewards"/>
+            <siteMapNode url="~/Statistician/TiRewards1Member.aspx" title="Show Rewards for 1 Member" description="Where the club statistician can call up the rewards journal entries for one member"/>
+        </siteMapNode>
+
+        <siteMapNode url="~/Historian/Historian.aspx" title="Historian's Pages" description="Where the club historian adds and manipulates data for significant club events">
+        </siteMapNode>
+
+        <siteMapNode url="~/ClubMembership/ClubMembership.aspx" title="Club Membership" description="Manipulation of the status of club members">
+            <siteMapNode url="~/ClubMembership/CMS_BasicList.aspx" title="Club Members Basic List" description="Show list member names, Notes, Dates of Birth"/>
+            <siteMapNode url="~/ClubMembership/CMS_Contacts.aspx" title="Member Contact Information" description="Show and edit various contact data for club members"/>
+            <siteMapNode url="~/ClubMembership/CMS_ClubFromTo.aspx" title="Current and Past Club Membership" description="Show and manipulate past and current club memberships"/>
+            <siteMapNode url="~/ClubMembership/CMS_SSA_FromTo.aspx" title="Current and Past SSA Membership" description="Show and manipulate past and current memberships in the Soaring Society of America"/>
+            <siteMapNode url="~/ClubMembership/CMS_Offices.aspx" title="List of Club Officers" description="Show and manipulate past and current club officers"/>
+            <siteMapNode url="~/ClubMembership/CMS_PeopleEquipRolesTypes.aspx" title="Relate People to Equipment Roles/Types"
+                         description="Bridges between People, Aviator Roles, Equipment Roles, and Equipment Types"/>
+            <siteMapNode url="~/ClubMembership/CMS_Qualifs.aspx" title="Members' Qualifications and Ratings"
+                          description="Show and manipulate current and past qualifications and ratings held by club members"/>
+            <siteMapNode url="~/ClubMembership/CMS_EquiShJournal.aspx" title="Equity Shares Transaction Journal"
+                          description="Show and manipulate purchases, sales, and donations of members' club equity shares"/>
+        </siteMapNode>
+
+        <!--<siteMapNode url="~/Media/Media.aspx" title="Manage Media" description="Area for media administrators">
+            <siteMapNode url="~/Media/MedPictures.aspx" title="Pictures/Photos" />
+            <siteMapNode url="~/Media/MedVideos.aspx" title="Videos" />
+            <siteMapNode url="~/Media/MedAudio.aspx" title="Audio Recordings" />
+        </siteMapNode>-->
+
+        <siteMapNode url="~/AdminPages/Administrators.aspx" title="Administrator Pages" description="Area for site administrators">
+
+            <siteMapNode title="Website Security" url="~/AdminPages/Security/Security.aspx">
+                <siteMapNode url="~/AdminPages/Security/EditUsers.aspx" title="Edit Users" />
+                <siteMapNode url="~/AdminPages/Security/CreateUserWizardWithRoles.aspx" title="Create New User" />
+                <siteMapNode url="~/AdminPages/Security/UsersAndRoles.aspx" title="Users and Roles" />
+                <siteMapNode url="~/AdminPages/Security/ManageRoles.aspx" title="Manage Roles"/>
+                <siteMapNode url="~/AdminPages/Security/ResetPwd.aspx" title="Reset User Password"/>
+            </siteMapNode>
+
+            <siteMapNode title="Database Maintenance" url="~/AdminPages/DBMaint/DBMaint.aspx"/>
+            <siteMapNode title="Database Integrity Check" url="~/AdminPages/DBMaint/DBIntegrity.aspx"/>
+            <siteMapNode title="Bridge: User Roles to Settings" url="~/AdminPages/DBMaint/Bridge_UserRoles_Settings.aspx"/>
+        </siteMapNode>
+
+        <siteMapNode url="~/Developer/Developer.aspx" title="Developer's Pages" description="For the website/software developer">
+            <siteMapNode title="Debug Control" url="~/Developer/Debug/DebugControl.aspx" />
+            <siteMapNode title="Browser Properties" url="~/Developer/BrowserProperties.aspx" />
+            <siteMapNode title="Database Properties" url="~/Developer/DBProperties.aspx" />
+            <siteMapNode title="Path Root" url="~/Developer/PathRoot.aspx" />
+            <siteMapNode title="Throw an Exception" url="~/Developer/ThrowException.aspx" />
+
+            <siteMapNode title="Software Lab" url="~/Developer/SWLab/SWLab.aspx">
+                <siteMapNode title="TextBox Research" url="~/Developer/SWLab/TextBoxResearch.aspx" />
+                <siteMapNode title="Time_Date Test" url="~/Developer/SWLab/TimeAndDate.aspx" />
+                <siteMapNode title="PSSA MySQL Test" url="~/Developer/SWLab/PSSA_MySQL.aspx" />
+                <siteMapNode title="AJAX Practice" url="~/Developer/SWLab/AjaxPractice.aspx" />
+            </siteMapNode>
+       
+        </siteMapNode>
+         
+        <siteMapNode title="Test Engineer" url="~/TestEngineer/TestEngineer.aspx">
+        
+            <siteMapNode title="Equipment" url="~/TestEngineer/TE_Equipment/TE_Equipment.aspx">
+                <siteMapNode url="~/TestEngineer/TE_Equipment/TEEq_DataSetup.aspx" title="Data Setup"/>
+            </siteMapNode>
+       
+        </siteMapNode>
+       
+    </siteMapNode>
+</siteMap>

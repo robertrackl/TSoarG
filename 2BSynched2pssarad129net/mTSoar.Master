@@ -1,0 +1,148 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="mTSoar.Master.cs" Inherits="TSoar.mTSoar" %>
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="ajaxToolkit" %>
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head runat="server">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title><%: Page.Title %> - TSoar</title>
+    <script>
+        var MintoTimeOut;
+        function r4onload() {
+            var lt = luxon.DateTime.local();
+            document.getElementById('lblLastLoaded').innerHTML = lt.toFormat('yyyy/MM/dd HH:mm');
+            MintoTimeOut = document.getElementById('lblMinToTimeOut').innerHTML;
+            var tExpiry = lt.plus({ minutes: MintoTimeOut });
+            document.getElementById('lblExpiry').innerHTML = tExpiry.toFormat('yyyy/MM/dd HH:mm');
+            r4CountDown();
+        }
+        function r4CountDown() {
+            document.getElementById('Min2TimeOut').innerHTML = MintoTimeOut;
+            MintoTimeOut = MintoTimeOut - 1;
+            if (MintoTimeOut > -1) {
+              var t = setTimeout(r4CountDown, 60000);
+            }
+        }
+    </script>
+    <link rel="stylesheet" type="text/css" href="~/CSS/bootstrap.min.css" runat="server" />
+    <link rel="stylesheet" type="text/css" href="~/CSS/bootstrap-theme.min.css" runat="server" />
+    <link rel="stylesheet" type="text/css" href="~/CSS/Site.css" runat="server" />
+</head>
+<body class="master" onload="r4onload()">
+    <form id="form1" runat="server">
+        <asp:ScriptManager ID="ScriptManager1" EnablePartialRendering="True" EnableCdn="true" runat="server" AjaxFrameworkMode="Explicit">
+            <Scripts>
+                <asp:ScriptReference Path="~/Scripts/luxon.min.js" />
+                <asp:ScriptReference Path="~/Scripts/jquery-3.1.1.min.js" />
+                <asp:ScriptReference Path="~/Scripts/bootstrap.min.js" />
+                <asp:ScriptReference Path="~/Scripts/jquery-3.1.1.intellisense.js" />
+                <asp:ScriptReference Path="~/Scripts/jquery-3.1.1.slim.min.js" />
+                <asp:ScriptReference Path="~/Scripts/WebForms/WebForms.js" />
+                <asp:ScriptReference Path="~/Scripts/WebForms/WebUIValidation.js" />
+                <asp:ScriptReference Path="~/Scripts/WebForms/MenuStandards.js" />
+                <asp:ScriptReference Path="~/Scripts/WebForms/GridView.js" />
+                <asp:ScriptReference Path="~/Scripts/WebForms/DetailsView.js" />
+                <asp:ScriptReference Path="~/Scripts/WebForms/TreeView.js" />
+                <asp:ScriptReference Path="~/Scripts/WebForms/WebParts.js" />
+                <asp:ScriptReference Path="~/Scripts/WebForms/Focus.js" />
+                <asp:ScriptReference Path="~/Scripts/modernizr-2.8.3.js" />
+                <asp:ScriptReference Path="~/Scripts/respond.min.js" />
+                <asp:ScriptReference Path="~/Scripts/respond.matchmedia.addListener.min.js" />
+                <asp:ScriptReference Path="~/Scripts/WebForms/MSAjax/MicrosoftAjax.js" />
+                <asp:ScriptReference Path="~/Scripts/WebForms/MSAjax/MicrosoftAjaxApplicationServices.js" />
+                <asp:ScriptReference Path="~/Scripts/WebForms/MSAjax/MicrosoftAjaxComponentModel.js" />
+<%--                <asp:ScriptReference Path="~/Scripts/WebForms/MSAjax/MicrosoftAjaxCore.js" /> This causes Timer1 in Default.aspx not to fire its event--%>
+                <asp:ScriptReference Path="~/Scripts/WebForms/MSAjax/MicrosoftAjaxGlobalization.js" />
+                <asp:ScriptReference Path="~/Scripts/WebForms/MSAjax/MicrosoftAjaxHistory.js" />
+                <asp:ScriptReference Path="~/Scripts/WebForms/MSAjax/MicrosoftAjaxNetwork.js" />
+                <asp:ScriptReference Path="~/Scripts/WebForms/MSAjax/MicrosoftAjaxSerialization.js" />
+                <asp:ScriptReference Path="~/Scripts/WebForms/MSAjax/MicrosoftAjaxTimer.js" />
+                <asp:ScriptReference Path="~/Scripts/WebForms/MSAjax/MicrosoftAjaxWebForms.js" />
+                <asp:ScriptReference Path="~/Scripts/WebForms/MSAjax/MicrosoftAjaxWebServices.js" />
+            </Scripts>
+        </asp:ScriptManager>
+
+        <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server"  />
+        <div id="fixed-div">
+            <asp:Menu ID="Menu1" runat="server" DataSourceID="SiteMapDataSource1" Orientation="Horizontal"
+                    StaticDisplayLevels="2" MaximumDynamicDisplayLevels="5" Width="50%" BackColor="WhiteSmoke"
+                    BorderColor="#dd7711" BorderStyle="Ridge" ItemWrap="True" DisappearAfter="1500"
+                    ForeColor="Navy" StaticMenuItemStyle-HorizontalPadding="12" ClientIDMode="Static" >
+                <DataBindings>
+                    <asp:MenuItemBinding DataMember="SiteMapNode" TextField="Title" NavigateUrlField="url" />
+                </DataBindings>
+                <StaticHoverStyle BackColor="Orange" />
+                <DynamicSelectedStyle BackColor="Orange" />
+                <DynamicHoverStyle BackColor="Orange" />
+                <LevelMenuItemStyles>
+                    <asp:MenuItemStyle Font-Size="Small" BackColor="#FFFF80" Height="18"/>
+                    <asp:MenuItemStyle Font-Size="Small" BackColor="#EFEF70" Font-Italic="true" Height="18"/>
+                    <asp:MenuItemStyle Font-Size="Smaller" BackColor="#DFDF60" />
+                    <asp:MenuItemStyle Font-Size="Small" BackColor="#CFCF50" Font-Italic="true" ForeColor="Black"/>
+                    <asp:MenuItemStyle Font-Size="Smaller" BackColor="#B0B037" Font-Bold="true" />
+                    <asp:MenuItemStyle Font-Size="Smaller" BackColor="#A0A025" />
+                </LevelMenuItemStyles>
+                <StaticHoverStyle BackColor="LightYellow" />
+                <StaticMenuItemStyle BackColor="Yellow" Font-Bold="true" Height="16px" VerticalPadding="2px" />
+                <StaticSelectedStyle BackColor="Orange" />
+            </asp:Menu>
+        </div>
+        <div id="Scrolling-div" style="padding-bottom:0px; padding-top:44px;">
+            <div class="container body-content">
+                <div class="row divRowBackgr" >
+                    <div class="col-sm-3">
+                        <asp:SiteMapPath runat="server" />
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolderHeader" runat="server" >
+                        </asp:ContentPlaceHolder>
+                    </div>
+                    <div class="col-sm-3">
+                        <div style="text-align:center; vertical-align:middle;">
+                            <asp:LoginView ID="LoginView1" runat="server">
+                                <AnonymousTemplate>
+                                    You are not logged in
+                                </AnonymousTemplate>
+                                <LoggedInTemplate>
+                                    Currently logged in user:<br /><asp:LoginName ID="LoginName1" runat="server" Font-Size="Large" />
+                                </LoggedInTemplate>
+                            </asp:LoginView>
+                            &nbsp;&nbsp;&#9866;&nbsp;&nbsp;
+                            <asp:LoginStatus ID="LoginStatus1" runat="server" LoginText="Log in" LogoutText="Log out" Font-Size="Large"
+                                OnLoggedOut="LoginStatus1_LoggedOut" />
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div style="text-align:center">
+                            <asp:Image ImageUrl="~/i/PSSA_Logo.jpg" AlternateText="Generic Logo" height="112" width="269" runat="server" />
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div style="text-align:center; vertical-align:middle; font-size:xx-small; color:blue">
+                            <br /><br />
+                            This Page was last loaded at<br/>
+                            <asp:Label ID="lblLastLoaded" runat="server" Text="Date Time Offset" />.<br />
+                            Time Out interval in minutes: <asp:Label ID="lblMinToTimeOut" runat="server" Text="" /><br /> 
+                            Expected to time out at <asp:Label ID="lblExpiry" runat="server" Text="Time" Font-Bold="true" /><br />
+                            when unsaved input may get lost.<br />
+                            Approximate minutes to Time Out: <asp:Label id="Min2TimeOut" runat="server" Font-Bold="true" Font-Size="Medium" ForeColor="Red" ></asp:Label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <asp:Label ID="lblPage_Error" runat="server" Text="Page_Error() handler has been called" Font-Bold="true" ForeColor="Red" Font-Size="X-Large" Visible="false" />
+            <hr />
+            <div>
+                <asp:ContentPlaceHolder ID="ContentPlaceHolderMain" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+        </div>
+            <hr />
+        <div id="fixed-footer">
+            <% Response.WriteFile("~/MigrationLevelDevIntProd.txt"); %> TSoar Version <asp:Label ID="lblVersion" runat="server" Text="00" />,
+            <asp:ContentPlaceHolder ID="ContentPlaceHolderFooter" runat="server" />&nbsp;&mdash; &nbsp;&copy; <%: DateTime.Now.Year %>&nbsp;-&nbsp;Author:&nbsp;Rackl and Associates |
+            <a href="/PublicPages/PrivacyPolicy.aspx">PSSA&nbsp;Privacy&nbsp;Policy</a> | <a href="/PublicPages/AcceptUsePol.aspx">PSSA&nbsp;Acceptable&nbsp;Use&nbsp;Policy</a>
+        </div>
+    </form>
+</body>
+</html>
