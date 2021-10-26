@@ -1,0 +1,18 @@
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF (OBJECT_ID('iTNPF_ClosestOpInTime') IS NOT NULL) DROP FUNCTION iTNPF_ClosestOpInTime
+GO
+CREATE FUNCTION iTNPF_ClosestOpInTime()
+-- Get ID of row in table OPERATIONS with a DBegin time closest to current time
+RETURNS int
+AS
+BEGIN
+	DECLARE @iID int
+	SELECT TOP 1 @iID=ID
+		FROM OPERATIONS
+		ORDER BY ABS(DATEDIFF(minute,DBegin,GETDATE())) ASC
+	RETURN @iID	
+END
+GO

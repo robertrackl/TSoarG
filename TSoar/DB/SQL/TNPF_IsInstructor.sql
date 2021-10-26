@@ -1,0 +1,30 @@
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+USE SoarDB
+GO
+IF (OBJECT_ID('TNPF_IsInstructor') IS NOT NULL) DROP FUNCTION TNPF_IsInstructor
+GO
+CREATE FUNCTION TNPF_IsInstructor (@iPerson int)
+RETURNS bit WITH RETURNS null ON NULL INPUT
+AS
+BEGIN
+	declare @i int
+	SELECT @i = COUNT(*)
+		FROM PEOPLECERTIFICS AS PC INNER JOIN
+			PEOPLE AS P ON PC.iPerson = P.ID INNER JOIN
+			CERTIFICATIONS AS C ON PC.iCertification = C.ID
+		WHERE (P.ID = @iPerson) AND (C.sCertification = N'Instructor')
+	declare @b bit
+	IF @i = 0
+	BEGIN
+		SET @b = 0
+	END
+	ELSE
+	BEGIN
+		SET @b = 1
+	END
+	RETURN @b
+END
+GO
